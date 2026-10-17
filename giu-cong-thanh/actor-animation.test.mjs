@@ -12,7 +12,7 @@ test('stun and death cancel attack; haste fits the attack into its cooldown',()=
  actorAction(u,obj,false,1000,info);assert.ok(obj.attackDuration<=170);u.stun=1;assert.equal(actorAction(u,obj,true,1020,info),'idle');assert.equal(obj.attackUntil,0);u.hp=0;assert.equal(actorAction(u,obj,true,1030,info),'dead');
 });
 test('all guardian animation sheets share centered stable foot anchor and correct frame widths',()=>{
- for(const id of ['knight-1','knight-2','knight-3']){const a=catalog.actors.find(a=>a.id===id);assert.equal(a.originX,.5);assert.equal(a.originY,.9);assert.equal(a.frame,160);for(const info of Object.values(a.actions)){const data=readFileSync(new URL('./public'+info.url,import.meta.url));assert.equal(data.readUInt32BE(16),160*info.frames);assert.equal(data.readUInt32BE(20),160);}}
+ for(const id of ['knight-1','knight-3']){const a=catalog.actors.find(a=>a.id===id);assert.equal(a.originX,.5);assert.equal(a.originY,.9);assert.equal(a.frame,160);for(const info of Object.values(a.actions)){const data=readFileSync(new URL('./public'+info.url,import.meta.url));assert.equal(data.readUInt32BE(16),160*info.frames);assert.equal(data.readUInt32BE(20),160);}}
 });
 test('empowered art covers idle, walk and attack for all warriors and restores normal after E expires',()=>{
  assert.equal(catalog.empoweredActors.length,3);
@@ -21,3 +21,5 @@ test('empowered art covers idle, walk and attack for all warriors and restores n
  }
  assert.equal(empoweredActor({hero:'knight-1',hp:100,buffs:[{time:3,haste:.2}]},catalog),null);
 });
+
+test('paladin foot and mounted sheets have six real action rows and stable anchors',()=>{for(const id of ['knight-2','holy-paladin','holy-mounted']){const a=catalog.actors.find(a=>a.id===id);assert.ok(a.packed);assert.equal(a.sheetRows,6);assert.equal(a.originX,.5);for(const [row,action]of ['idle','walk','attack','cast','hurt','dead'].entries()){const info=a.actions[action],b=readFileSync(new URL('./public'+info.url,import.meta.url));assert.equal(info.start,row*6);assert.equal(info.frames,6);assert.ok(b.readUInt32BE(16)>=a.frame*6);assert.ok(b.readUInt32BE(20)>=a.frameHeight*6);}}});

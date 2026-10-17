@@ -1,3 +1,4 @@
+import {FOREST_LEADER_SKILLS} from './forest-leaders.js';
 const skill=(name,shape,extra={})=>({name,shape,delay:1.2,radius:115,mult:1.35,...extra});
 export const BOSS_SKILLS={
  'dragon-breath':skill('Long tức','cone',{length:290,angle:Math.PI/2,mult:1.5,dot:4}),
@@ -31,6 +32,7 @@ export const BOSS_SKILLS={
  'crystal-ring':skill('Vòng tinh thạch','ring',{radius:205,inner:100,mult:1.8}),
  'earth-shatter':skill('Địa liệt','multi',{radius:100,spread:150,slow:.4,slowType:'physical',slowTime:2,mult:1.5}),
 };
+Object.assign(BOSS_SKILLS,FOREST_LEADER_SKILLS);
 export function bossSkillCount(stage,wave=3){return Math.max(1,Math.min(5,1+Math.floor((stage-1)/2)-(wave<3?1:0)));}
 export function insideBossShape(point,cast){
  const dx=point.x-cast.x,dy=point.y-cast.y,d=Math.hypot(dx,dy);

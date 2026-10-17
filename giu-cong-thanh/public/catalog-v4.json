@@ -1994,34 +1994,48 @@
     },
     {
       "id": "knight-2",
-      "frame": 160,
+      "frame": 209,
       "group": "heroes",
       "actions": {
+        "idle": {
+          "frames": 6,
+          "start": 0,
+          "url": "/assets/paladin/foot.png"
+        },
+        "walk": {
+          "frames": 6,
+          "start": 6,
+          "url": "/assets/paladin/foot.png"
+        },
         "attack": {
-          "frames": 5,
-          "url": "/assets/guardian/knight-2-attack.png"
+          "frames": 6,
+          "start": 12,
+          "url": "/assets/paladin/foot.png"
+        },
+        "cast": {
+          "frames": 6,
+          "start": 18,
+          "url": "/assets/paladin/foot.png"
+        },
+        "hurt": {
+          "frames": 6,
+          "start": 24,
+          "url": "/assets/paladin/foot.png"
         },
         "dead": {
           "frames": 6,
-          "url": "/assets/guardian/knight-2-dead.png"
-        },
-        "idle": {
-          "frames": 4,
-          "url": "/assets/guardian/knight-2-idle.png"
-        },
-        "hurt": {
-          "frames": 2,
-          "url": "/assets/guardian/knight-2-hurt.png"
-        },
-        "walk": {
-          "frames": 7,
-          "url": "/assets/guardian/knight-2-walk.png"
+          "start": 30,
+          "url": "/assets/paladin/foot.png"
         }
       },
       "source": "D:\\the_world\\heroes\\craftpix-net-803217-free-knight-character-sprites-pixel-art\\Knight_2",
       "originX": 0.5,
-      "bodyHeight": 64,
-      "originY": 0.9
+      "bodyHeight": 167.20000000000002,
+      "originY": 0.94,
+      "frameHeight": 209,
+      "packed": true,
+      "sheetColumns": 6,
+      "sheetRows": 6
     },
     {
       "id": "knight-3",
@@ -3563,6 +3577,2205 @@
           "frames": 6,
           "start": 24,
           "url": "/assets/shadow/forest-spirit.png"
+        }
+      }
+    },
+    {
+      "id": "forest-dragon",
+      "frame": 209,
+      "frameHeight": 209,
+      "bodyHeight": 177.65,
+      "originX": 0.5,
+      "originY": 0.95,
+      "packed": true,
+      "sheetColumns": 6,
+      "sheetRows": 6,
+      "actions": {
+        "idle": {
+          "frames": 6,
+          "start": 0,
+          "url": "/assets/forest-leaders/dragon.png"
+        },
+        "walk": {
+          "frames": 6,
+          "start": 6,
+          "url": "/assets/forest-leaders/dragon.png"
+        },
+        "attack": {
+          "frames": 6,
+          "start": 12,
+          "url": "/assets/forest-leaders/dragon.png"
+        },
+        "cast": {
+          "frames": 6,
+          "start": 18,
+          "url": "/assets/forest-leaders/dragon.png"
+        },
+        "hurt": {
+          "frames": 6,
+          "start": 24,
+          "url": "/assets/forest-leaders/dragon.png"
+        },
+        "dead": {
+          "frames": 6,
+          "start": 30,
+          "url": "/assets/forest-leaders/dragon.png"
+        }
+      }
+    },
+    {
+      "id": "forest-harpy",
+      "frame": 209,
+      "frameHeight": 209,
+      "bodyHeight": 177.65,
+      "originX": 0.5,
+      "originY": 0.95,
+      "packed": true,
+      "sheetColumns": 6,
+      "sheetRows": 6,
+      "actions": {
+        "idle": {
+          "frames": 6,
+          "start": 0,
+          "url": "/assets/forest-leaders/harpy.png"
+        },
+        "walk": {
+          "frames": 6,
+          "start": 6,
+          "url": "/assets/forest-leaders/harpy.png"
+        },
+        "attack": {
+          "frames": 6,
+          "start": 12,
+          "url": "/assets/forest-leaders/harpy.png"
+        },
+        "cast": {
+          "frames": 6,
+          "start": 18,
+          "url": "/assets/forest-leaders/harpy.png"
+        },
+        "hurt": {
+          "frames": 6,
+          "start": 24,
+          "url": "/assets/forest-leaders/harpy.png"
+        },
+        "dead": {
+          "frames": 6,
+          "start": 30,
+          "url": "/assets/forest-leaders/harpy.png"
+        }
+      }
+    },
+    {
+      "id": "forest-orc",
+      "frame": 209,
+      "frameHeight": 209,
+      "bodyHeight": 177.65,
+      "originX": 0.5,
+      "originY": 0.95,
+      "packed": true,
+      "sheetColumns": 6,
+      "sheetRows": 6,
+      "actions": {
+        "idle": {
+          "frames": 6,
+          "start": 0,
+          "url": "/assets/forest-leaders/orc.png"
+        },
+        "walk": {
+          "frames": 6,
+          "start": 6,
+          "url": "/assets/forest-leaders/orc.png"
+        },
+        "attack": {
+          "frames": 6,
+          "start": 12,
+          "url": "/assets/forest-leaders/orc.png"
+        },
+        "cast": {
+          "frames": 6,
+          "start": 18,
+          "url": "/assets/forest-leaders/orc.png"
+        },
+        "hurt": {
+          "frames": 6,
+          "start": 24,
+          "url": "/assets/forest-leaders/orc.png"
+        },
+        "dead": {
+          "frames": 6,
+          "start": 30,
+          "url": "/assets/forest-leaders/orc.png"
+        }
+      }
+    },
+    {
+      "id": "forest-undead",
+      "frame": 209,
+      "frameHeight": 209,
+      "bodyHeight": 177.65,
+      "originX": 0.5,
+      "originY": 0.95,
+      "packed": true,
+      "sheetColumns": 6,
+      "sheetRows": 6,
+      "actions": {
+        "idle": {
+          "frames": 6,
+          "start": 0,
+          "url": "/assets/forest-leaders/undead.png"
+        },
+        "walk": {
+          "frames": 6,
+          "start": 6,
+          "url": "/assets/forest-leaders/undead.png"
+        },
+        "attack": {
+          "frames": 6,
+          "start": 12,
+          "url": "/assets/forest-leaders/undead.png"
+        },
+        "cast": {
+          "frames": 6,
+          "start": 18,
+          "url": "/assets/forest-leaders/undead.png"
+        },
+        "hurt": {
+          "frames": 6,
+          "start": 24,
+          "url": "/assets/forest-leaders/undead.png"
+        },
+        "dead": {
+          "frames": 6,
+          "start": 30,
+          "url": "/assets/forest-leaders/undead.png"
+        }
+      }
+    },
+    {
+      "id": "holy-paladin",
+      "frame": 209,
+      "frameHeight": 209,
+      "bodyHeight": 167.20000000000002,
+      "originX": 0.5,
+      "originY": 0.94,
+      "packed": true,
+      "sheetColumns": 6,
+      "sheetRows": 6,
+      "actions": {
+        "idle": {
+          "frames": 6,
+          "start": 0,
+          "url": "/assets/paladin/foot.png"
+        },
+        "walk": {
+          "frames": 6,
+          "start": 6,
+          "url": "/assets/paladin/foot.png"
+        },
+        "attack": {
+          "frames": 6,
+          "start": 12,
+          "url": "/assets/paladin/foot.png"
+        },
+        "cast": {
+          "frames": 6,
+          "start": 18,
+          "url": "/assets/paladin/foot.png"
+        },
+        "hurt": {
+          "frames": 6,
+          "start": 24,
+          "url": "/assets/paladin/foot.png"
+        },
+        "dead": {
+          "frames": 6,
+          "start": 30,
+          "url": "/assets/paladin/foot.png"
+        }
+      }
+    },
+    {
+      "id": "holy-mounted",
+      "frame": 209,
+      "frameHeight": 209,
+      "bodyHeight": 190,
+      "originX": 0.5,
+      "originY": 0.94,
+      "packed": true,
+      "sheetColumns": 6,
+      "sheetRows": 6,
+      "actions": {
+        "idle": {
+          "frames": 6,
+          "start": 0,
+          "url": "/assets/paladin/mounted.png",
+          "frameRects": [
+            {
+              "x": 0,
+              "y": 0,
+              "width": 209,
+              "height": 194
+            },
+            {
+              "x": 209,
+              "y": 0,
+              "width": 209,
+              "height": 194
+            },
+            {
+              "x": 418,
+              "y": 0,
+              "width": 209,
+              "height": 194
+            },
+            {
+              "x": 627,
+              "y": 0,
+              "width": 209,
+              "height": 194
+            },
+            {
+              "x": 836,
+              "y": 0,
+              "width": 209,
+              "height": 194
+            },
+            {
+              "x": 1045,
+              "y": 0,
+              "width": 209,
+              "height": 194
+            }
+          ],
+          "bodyHeight": 190,
+          "originX": 0.5,
+          "originY": 0.9587628865979382,
+          "framePivots": [
+            {
+              "y": 0.9278350515463918,
+              "x": 0.5
+            },
+            {
+              "y": 0.9484536082474226,
+              "x": 0.5
+            },
+            {
+              "y": 0.9587628865979382,
+              "x": 0.5
+            },
+            {
+              "y": 0.9639175257731959,
+              "x": 0.5
+            },
+            {
+              "y": 0.9639175257731959,
+              "x": 0.5
+            },
+            {
+              "y": 0.9536082474226805,
+              "x": 0.5
+            }
+          ]
+        },
+        "walk": {
+          "frames": 6,
+          "start": 6,
+          "url": "/assets/paladin/mounted.png",
+          "frameRects": [
+            {
+              "x": 0,
+              "y": 194,
+              "width": 209,
+              "height": 204
+            },
+            {
+              "x": 209,
+              "y": 194,
+              "width": 209,
+              "height": 204
+            },
+            {
+              "x": 418,
+              "y": 194,
+              "width": 209,
+              "height": 204
+            },
+            {
+              "x": 627,
+              "y": 194,
+              "width": 209,
+              "height": 204
+            },
+            {
+              "x": 836,
+              "y": 194,
+              "width": 209,
+              "height": 204
+            },
+            {
+              "x": 1045,
+              "y": 194,
+              "width": 209,
+              "height": 204
+            }
+          ],
+          "bodyHeight": 190,
+          "originX": 0.5,
+          "originY": 0.9754901960784313,
+          "framePivots": [
+            {
+              "y": 0.9313725490196079,
+              "x": 0.5
+            },
+            {
+              "y": 0.9558823529411765,
+              "x": 0.5
+            },
+            {
+              "y": 0.9803921568627451,
+              "x": 0.5
+            },
+            {
+              "y": 0.9754901960784313,
+              "x": 0.5
+            },
+            {
+              "y": 0.9950980392156863,
+              "x": 0.5
+            },
+            {
+              "y": 0.9803921568627451,
+              "x": 0.5
+            }
+          ]
+        },
+        "attack": {
+          "frames": 6,
+          "start": 12,
+          "url": "/assets/paladin/mounted.png",
+          "frameRects": [
+            {
+              "x": 0,
+              "y": 398,
+              "width": 209,
+              "height": 214
+            },
+            {
+              "x": 209,
+              "y": 398,
+              "width": 209,
+              "height": 214
+            },
+            {
+              "x": 418,
+              "y": 398,
+              "width": 209,
+              "height": 214
+            },
+            {
+              "x": 627,
+              "y": 398,
+              "width": 209,
+              "height": 214
+            },
+            {
+              "x": 836,
+              "y": 398,
+              "width": 209,
+              "height": 214
+            },
+            {
+              "x": 1045,
+              "y": 398,
+              "width": 209,
+              "height": 214
+            }
+          ],
+          "bodyHeight": 190,
+          "originX": 0.5,
+          "originY": 0.9719626168224299,
+          "framePivots": [
+            {
+              "y": 0.985981308411215,
+              "x": 0.5
+            },
+            {
+              "y": 0.9299065420560748,
+              "x": 0.5
+            },
+            {
+              "y": 0.9158878504672897,
+              "x": 0.5
+            },
+            {
+              "y": 0.9579439252336449,
+              "x": 0.5
+            },
+            {
+              "y": 1,
+              "x": 0.5
+            },
+            {
+              "y": 0.9719626168224299,
+              "x": 0.5
+            }
+          ]
+        },
+        "cast": {
+          "frames": 6,
+          "start": 18,
+          "url": "/assets/paladin/mounted.png",
+          "frameRects": [
+            {
+              "x": 0,
+              "y": 612,
+              "width": 209,
+              "height": 268
+            },
+            {
+              "x": 209,
+              "y": 612,
+              "width": 209,
+              "height": 268
+            },
+            {
+              "x": 418,
+              "y": 612,
+              "width": 209,
+              "height": 268
+            },
+            {
+              "x": 627,
+              "y": 612,
+              "width": 209,
+              "height": 268
+            },
+            {
+              "x": 836,
+              "y": 612,
+              "width": 209,
+              "height": 268
+            },
+            {
+              "x": 1045,
+              "y": 612,
+              "width": 209,
+              "height": 268
+            }
+          ],
+          "bodyHeight": 190,
+          "originX": 0.5,
+          "originY": 0.9477611940298507,
+          "framePivots": [
+            {
+              "y": 0.9291044776119403,
+              "x": 0.5
+            },
+            {
+              "y": 0.9291044776119403,
+              "x": 0.5
+            },
+            {
+              "y": 0.9328358208955224,
+              "x": 0.5
+            },
+            {
+              "y": 0.9626865671641791,
+              "x": 0.5
+            },
+            {
+              "y": 0.9514925373134329,
+              "x": 0.5
+            },
+            {
+              "y": 0.9291044776119403,
+              "x": 0.5
+            }
+          ]
+        },
+        "hurt": {
+          "frames": 6,
+          "start": 24,
+          "url": "/assets/paladin/mounted.png",
+          "frameRects": [
+            {
+              "x": 0,
+              "y": 880,
+              "width": 209,
+              "height": 185
+            },
+            {
+              "x": 209,
+              "y": 880,
+              "width": 209,
+              "height": 185
+            },
+            {
+              "x": 418,
+              "y": 880,
+              "width": 209,
+              "height": 185
+            },
+            {
+              "x": 627,
+              "y": 880,
+              "width": 209,
+              "height": 185
+            },
+            {
+              "x": 836,
+              "y": 880,
+              "width": 209,
+              "height": 185
+            },
+            {
+              "x": 1045,
+              "y": 880,
+              "width": 209,
+              "height": 185
+            }
+          ],
+          "bodyHeight": 190,
+          "originX": 0.5,
+          "originY": 0.8972972972972973,
+          "framePivots": [
+            {
+              "y": 0.8972972972972973,
+              "x": 0.5
+            },
+            {
+              "y": 0.8378378378378378,
+              "x": 0.5
+            },
+            {
+              "y": 0.8648648648648649,
+              "x": 0.5
+            },
+            {
+              "y": 0.8648648648648649,
+              "x": 0.5
+            },
+            {
+              "y": 0.8864864864864865,
+              "x": 0.5
+            },
+            {
+              "y": 0.8918918918918919,
+              "x": 0.5
+            }
+          ]
+        },
+        "dead": {
+          "frames": 6,
+          "start": 30,
+          "url": "/assets/paladin/mounted.png",
+          "frameRects": [
+            {
+              "x": 0,
+              "y": 1065,
+              "width": 209,
+              "height": 189
+            },
+            {
+              "x": 209,
+              "y": 1065,
+              "width": 209,
+              "height": 189
+            },
+            {
+              "x": 418,
+              "y": 1065,
+              "width": 209,
+              "height": 189
+            },
+            {
+              "x": 627,
+              "y": 1065,
+              "width": 209,
+              "height": 189
+            },
+            {
+              "x": 836,
+              "y": 1065,
+              "width": 209,
+              "height": 189
+            },
+            {
+              "x": 1045,
+              "y": 1065,
+              "width": 209,
+              "height": 189
+            }
+          ],
+          "bodyHeight": 190,
+          "originX": 0.5,
+          "originY": 0.9153439153439153,
+          "framePivots": [
+            {
+              "y": 0.8412698412698413,
+              "x": 0.5
+            },
+            {
+              "y": 0.8888888888888888,
+              "x": 0.5
+            },
+            {
+              "y": 0.9153439153439153,
+              "x": 0.5
+            },
+            {
+              "y": 0.9206349206349206,
+              "x": 0.5
+            },
+            {
+              "y": 0.9153439153439153,
+              "x": 0.5
+            },
+            {
+              "y": 0.8253968253968254,
+              "x": 0.5
+            }
+          ]
+        }
+      },
+      "preciseAtlas": true
+    },
+    {
+      "id": "fallen-knight",
+      "frame": 209,
+      "frameHeight": 209,
+      "bodyHeight": 167.20000000000002,
+      "originX": 0.5,
+      "originY": 0.94,
+      "packed": true,
+      "sheetColumns": 6,
+      "sheetRows": 6,
+      "actions": {
+        "idle": {
+          "frames": 6,
+          "start": 0,
+          "url": "/assets/fallen/foot-v1.png"
+        },
+        "walk": {
+          "frames": 6,
+          "start": 6,
+          "url": "/assets/fallen/foot-v1.png"
+        },
+        "attack": {
+          "frames": 6,
+          "start": 12,
+          "url": "/assets/fallen/foot-v1.png"
+        },
+        "cast": {
+          "frames": 6,
+          "start": 18,
+          "url": "/assets/fallen/foot-v1.png"
+        },
+        "hurt": {
+          "frames": 6,
+          "start": 24,
+          "url": "/assets/fallen/foot-v1.png"
+        },
+        "dead": {
+          "frames": 6,
+          "start": 30,
+          "url": "/assets/fallen/foot-v1.png"
+        }
+      }
+    },
+    {
+      "id": "fallen-mounted",
+      "frame": 209,
+      "frameHeight": 209,
+      "bodyHeight": 190,
+      "originX": 0.5,
+      "originY": 0.94,
+      "packed": true,
+      "sheetColumns": 6,
+      "sheetRows": 6,
+      "actions": {
+        "idle": {
+          "frames": 6,
+          "start": 0,
+          "url": "/assets/fallen/mounted-v1.png",
+          "frameRects": [
+            {
+              "x": 0,
+              "y": 0,
+              "width": 209,
+              "height": 213
+            },
+            {
+              "x": 209,
+              "y": 0,
+              "width": 209,
+              "height": 213
+            },
+            {
+              "x": 418,
+              "y": 0,
+              "width": 209,
+              "height": 213
+            },
+            {
+              "x": 627,
+              "y": 0,
+              "width": 209,
+              "height": 213
+            },
+            {
+              "x": 836,
+              "y": 0,
+              "width": 209,
+              "height": 213
+            },
+            {
+              "x": 1045,
+              "y": 0,
+              "width": 209,
+              "height": 213
+            }
+          ],
+          "bodyHeight": 190,
+          "originX": 0.5,
+          "originY": 0.9624413145539906,
+          "framePivots": [
+            {
+              "y": 0.9624413145539906,
+              "x": 0.5
+            },
+            {
+              "y": 0.9624413145539906,
+              "x": 0.5
+            },
+            {
+              "y": 0.9624413145539906,
+              "x": 0.5
+            },
+            {
+              "y": 0.9624413145539906,
+              "x": 0.5
+            },
+            {
+              "y": 0.9624413145539906,
+              "x": 0.5
+            },
+            {
+              "y": 0.9624413145539906,
+              "x": 0.5
+            }
+          ]
+        },
+        "walk": {
+          "frames": 6,
+          "start": 6,
+          "url": "/assets/fallen/mounted-v1.png",
+          "frameRects": [
+            {
+              "x": 0,
+              "y": 213,
+              "width": 209,
+              "height": 202
+            },
+            {
+              "x": 209,
+              "y": 213,
+              "width": 209,
+              "height": 202
+            },
+            {
+              "x": 418,
+              "y": 213,
+              "width": 209,
+              "height": 202
+            },
+            {
+              "x": 627,
+              "y": 213,
+              "width": 209,
+              "height": 202
+            },
+            {
+              "x": 836,
+              "y": 213,
+              "width": 209,
+              "height": 202
+            },
+            {
+              "x": 1045,
+              "y": 213,
+              "width": 209,
+              "height": 202
+            }
+          ],
+          "bodyHeight": 190,
+          "originX": 0.5,
+          "originY": 0.9752475247524752,
+          "framePivots": [
+            {
+              "y": 0.9702970297029703,
+              "x": 0.5
+            },
+            {
+              "y": 0.9702970297029703,
+              "x": 0.5
+            },
+            {
+              "y": 0.9752475247524752,
+              "x": 0.5
+            },
+            {
+              "y": 0.9752475247524752,
+              "x": 0.5
+            },
+            {
+              "y": 0.9702970297029703,
+              "x": 0.5
+            },
+            {
+              "y": 0.9752475247524752,
+              "x": 0.5
+            }
+          ]
+        },
+        "attack": {
+          "frames": 6,
+          "start": 12,
+          "url": "/assets/fallen/mounted-v1.png",
+          "frameRects": [
+            {
+              "x": 0,
+              "y": 415,
+              "width": 209,
+              "height": 210
+            },
+            {
+              "x": 209,
+              "y": 415,
+              "width": 209,
+              "height": 210
+            },
+            {
+              "x": 418,
+              "y": 415,
+              "width": 209,
+              "height": 210
+            },
+            {
+              "x": 627,
+              "y": 415,
+              "width": 209,
+              "height": 210
+            },
+            {
+              "x": 836,
+              "y": 415,
+              "width": 209,
+              "height": 210
+            },
+            {
+              "x": 1045,
+              "y": 415,
+              "width": 209,
+              "height": 210
+            }
+          ],
+          "bodyHeight": 190,
+          "originX": 0.5,
+          "originY": 0.9714285714285714,
+          "framePivots": [
+            {
+              "y": 0.9761904761904762,
+              "x": 0.5
+            },
+            {
+              "y": 0.9666666666666667,
+              "x": 0.5
+            },
+            {
+              "y": 0.9714285714285714,
+              "x": 0.5
+            },
+            {
+              "y": 0.9761904761904762,
+              "x": 0.5
+            },
+            {
+              "y": 0.9666666666666667,
+              "x": 0.5
+            },
+            {
+              "y": 0.9714285714285714,
+              "x": 0.5
+            }
+          ]
+        },
+        "cast": {
+          "frames": 6,
+          "start": 18,
+          "url": "/assets/fallen/mounted-v1.png",
+          "frameRects": [
+            {
+              "x": 0,
+              "y": 625,
+              "width": 209,
+              "height": 262
+            },
+            {
+              "x": 209,
+              "y": 625,
+              "width": 209,
+              "height": 262
+            },
+            {
+              "x": 418,
+              "y": 625,
+              "width": 209,
+              "height": 262
+            },
+            {
+              "x": 627,
+              "y": 625,
+              "width": 209,
+              "height": 262
+            },
+            {
+              "x": 836,
+              "y": 625,
+              "width": 209,
+              "height": 262
+            },
+            {
+              "x": 1045,
+              "y": 625,
+              "width": 209,
+              "height": 262
+            }
+          ],
+          "bodyHeight": 190,
+          "originX": 0.5,
+          "originY": 0.916030534351145,
+          "framePivots": [
+            {
+              "y": 0.9083969465648855,
+              "x": 0.5
+            },
+            {
+              "y": 0.9122137404580153,
+              "x": 0.5
+            },
+            {
+              "y": 0.916030534351145,
+              "x": 0.5
+            },
+            {
+              "y": 0.916030534351145,
+              "x": 0.5
+            },
+            {
+              "y": 0.916030534351145,
+              "x": 0.5
+            },
+            {
+              "y": 0.9045801526717557,
+              "x": 0.5
+            }
+          ]
+        },
+        "hurt": {
+          "frames": 6,
+          "start": 24,
+          "url": "/assets/fallen/mounted-v1.png",
+          "frameRects": [
+            {
+              "x": 0,
+              "y": 887,
+              "width": 209,
+              "height": 181
+            },
+            {
+              "x": 209,
+              "y": 887,
+              "width": 209,
+              "height": 181
+            },
+            {
+              "x": 418,
+              "y": 887,
+              "width": 209,
+              "height": 181
+            },
+            {
+              "x": 627,
+              "y": 887,
+              "width": 209,
+              "height": 181
+            },
+            {
+              "x": 836,
+              "y": 887,
+              "width": 209,
+              "height": 181
+            },
+            {
+              "x": 1045,
+              "y": 887,
+              "width": 209,
+              "height": 181
+            }
+          ],
+          "bodyHeight": 190,
+          "originX": 0.5,
+          "originY": 0.9116022099447514,
+          "framePivots": [
+            {
+              "y": 0.9116022099447514,
+              "x": 0.5
+            },
+            {
+              "y": 0.9060773480662984,
+              "x": 0.5
+            },
+            {
+              "y": 0.9116022099447514,
+              "x": 0.5
+            },
+            {
+              "y": 0.9116022099447514,
+              "x": 0.5
+            },
+            {
+              "y": 0.9116022099447514,
+              "x": 0.5
+            },
+            {
+              "y": 0.9226519337016574,
+              "x": 0.5
+            }
+          ]
+        },
+        "dead": {
+          "frames": 6,
+          "start": 30,
+          "url": "/assets/fallen/mounted-v1.png",
+          "frameRects": [
+            {
+              "x": 0,
+              "y": 1068,
+              "width": 209,
+              "height": 186
+            },
+            {
+              "x": 209,
+              "y": 1068,
+              "width": 209,
+              "height": 186
+            },
+            {
+              "x": 418,
+              "y": 1068,
+              "width": 209,
+              "height": 186
+            },
+            {
+              "x": 627,
+              "y": 1068,
+              "width": 209,
+              "height": 186
+            },
+            {
+              "x": 836,
+              "y": 1068,
+              "width": 209,
+              "height": 186
+            },
+            {
+              "x": 1045,
+              "y": 1068,
+              "width": 209,
+              "height": 186
+            }
+          ],
+          "bodyHeight": 190,
+          "originX": 0.5,
+          "originY": 0.8924731182795699,
+          "framePivots": [
+            {
+              "y": 0.8817204301075269,
+              "x": 0.5
+            },
+            {
+              "y": 0.8978494623655914,
+              "x": 0.5
+            },
+            {
+              "y": 0.8709677419354839,
+              "x": 0.5
+            },
+            {
+              "y": 0.8870967741935484,
+              "x": 0.5
+            },
+            {
+              "y": 0.8978494623655914,
+              "x": 0.5
+            },
+            {
+              "y": 0.8602150537634409,
+              "x": 0.5
+            }
+          ]
+        }
+      },
+      "preciseAtlas": true
+    },
+    {
+      "id": "vanguard-champion",
+      "frame": 216,
+      "frameHeight": 173,
+      "bodyHeight": 152,
+      "originX": 0.5,
+      "originY": 0.94,
+      "packed": true,
+      "sheetColumns": 6,
+      "sheetRows": 7,
+      "actions": {
+        "idle": {
+          "frames": 6,
+          "start": 0,
+          "url": "/assets/vanguard/foot-v2.png",
+          "frameRects": [
+            {
+              "x": 0,
+              "y": 0,
+              "width": 216,
+              "height": 210
+            },
+            {
+              "x": 216,
+              "y": 0,
+              "width": 217,
+              "height": 210
+            },
+            {
+              "x": 433,
+              "y": 0,
+              "width": 216,
+              "height": 210
+            },
+            {
+              "x": 649,
+              "y": 0,
+              "width": 216,
+              "height": 210
+            },
+            {
+              "x": 865,
+              "y": 0,
+              "width": 217,
+              "height": 210
+            },
+            {
+              "x": 1082,
+              "y": 0,
+              "width": 216,
+              "height": 210
+            }
+          ],
+          "bodyHeight": 152,
+          "originX": 0.5,
+          "originY": 0.9238095238095239,
+          "framePivots": [
+            {
+              "y": 0.9238095238095239,
+              "x": 0.5
+            },
+            {
+              "y": 0.9238095238095239,
+              "x": 0.5
+            },
+            {
+              "y": 0.9238095238095239,
+              "x": 0.5
+            },
+            {
+              "y": 0.9238095238095239,
+              "x": 0.5
+            },
+            {
+              "y": 0.9238095238095239,
+              "x": 0.5
+            },
+            {
+              "y": 0.9238095238095239,
+              "x": 0.5
+            }
+          ]
+        },
+        "walk": {
+          "frames": 6,
+          "start": 6,
+          "url": "/assets/vanguard/foot-v2.png",
+          "frameRects": [
+            {
+              "x": 0,
+              "y": 210,
+              "width": 216,
+              "height": 180
+            },
+            {
+              "x": 216,
+              "y": 210,
+              "width": 217,
+              "height": 180
+            },
+            {
+              "x": 433,
+              "y": 210,
+              "width": 216,
+              "height": 180
+            },
+            {
+              "x": 649,
+              "y": 210,
+              "width": 216,
+              "height": 180
+            },
+            {
+              "x": 865,
+              "y": 210,
+              "width": 217,
+              "height": 180
+            },
+            {
+              "x": 1082,
+              "y": 210,
+              "width": 216,
+              "height": 180
+            }
+          ],
+          "bodyHeight": 152,
+          "originX": 0.5,
+          "originY": 0.9333333333333333,
+          "framePivots": [
+            {
+              "y": 0.9222222222222223,
+              "x": 0.5
+            },
+            {
+              "y": 0.9277777777777778,
+              "x": 0.5
+            },
+            {
+              "y": 0.9222222222222223,
+              "x": 0.5
+            },
+            {
+              "y": 0.9277777777777778,
+              "x": 0.5
+            },
+            {
+              "y": 0.9277777777777778,
+              "x": 0.5
+            },
+            {
+              "y": 0.9222222222222223,
+              "x": 0.5
+            }
+          ]
+        },
+        "attack": {
+          "frames": 6,
+          "start": 12,
+          "url": "/assets/vanguard/foot-v2.png",
+          "frameRects": [
+            {
+              "x": 0,
+              "y": 390,
+              "width": 216,
+              "height": 170
+            },
+            {
+              "x": 216,
+              "y": 390,
+              "width": 217,
+              "height": 170
+            },
+            {
+              "x": 433,
+              "y": 390,
+              "width": 216,
+              "height": 170
+            },
+            {
+              "x": 649,
+              "y": 390,
+              "width": 216,
+              "height": 170
+            },
+            {
+              "x": 865,
+              "y": 390,
+              "width": 217,
+              "height": 170
+            },
+            {
+              "x": 1082,
+              "y": 390,
+              "width": 216,
+              "height": 170
+            }
+          ],
+          "bodyHeight": 152,
+          "originX": 0.5,
+          "originY": 0.9176470588235294,
+          "framePivots": [
+            {
+              "y": 0.9117647058823529,
+              "x": 0.5
+            },
+            {
+              "y": 0.9117647058823529,
+              "x": 0.5
+            },
+            {
+              "y": 0.9117647058823529,
+              "x": 0.5
+            },
+            {
+              "y": 0.9117647058823529,
+              "x": 0.5
+            },
+            {
+              "y": 0.9117647058823529,
+              "x": 0.5
+            },
+            {
+              "y": 0.9117647058823529,
+              "x": 0.5
+            }
+          ]
+        },
+        "charge": {
+          "frames": 6,
+          "start": 18,
+          "url": "/assets/vanguard/foot-v2.png",
+          "frameRects": [
+            {
+              "x": 0,
+              "y": 560,
+              "width": 216,
+              "height": 160
+            },
+            {
+              "x": 216,
+              "y": 560,
+              "width": 217,
+              "height": 160
+            },
+            {
+              "x": 433,
+              "y": 560,
+              "width": 216,
+              "height": 160
+            },
+            {
+              "x": 649,
+              "y": 560,
+              "width": 216,
+              "height": 160
+            },
+            {
+              "x": 865,
+              "y": 560,
+              "width": 217,
+              "height": 160
+            },
+            {
+              "x": 1082,
+              "y": 560,
+              "width": 216,
+              "height": 160
+            }
+          ],
+          "bodyHeight": 152,
+          "originX": 0.5,
+          "originY": 0.91875,
+          "framePivots": [
+            {
+              "y": 0.91875,
+              "x": 0.5
+            },
+            {
+              "y": 0.91875,
+              "x": 0.5
+            },
+            {
+              "y": 0.91875,
+              "x": 0.5
+            },
+            {
+              "y": 0.91875,
+              "x": 0.5
+            },
+            {
+              "y": 0.91875,
+              "x": 0.5
+            },
+            {
+              "y": 0.91875,
+              "x": 0.5
+            }
+          ]
+        },
+        "flurry": {
+          "frames": 4,
+          "start": 24,
+          "url": "/assets/vanguard/foot-v2.png",
+          "frameRects": [
+            {
+              "x": 216,
+              "y": 720,
+              "width": 217,
+              "height": 165
+            },
+            {
+              "x": 433,
+              "y": 720,
+              "width": 216,
+              "height": 165
+            },
+            {
+              "x": 649,
+              "y": 720,
+              "width": 216,
+              "height": 165
+            },
+            {
+              "x": 865,
+              "y": 720,
+              "width": 217,
+              "height": 165
+            }
+          ],
+          "bodyHeight": 152,
+          "originX": 0.5,
+          "originY": 0.9151515151515152,
+          "framePivots": [
+            {
+              "y": 0.9090909090909091,
+              "x": 0.5
+            },
+            {
+              "y": 0.9090909090909091,
+              "x": 0.5
+            },
+            {
+              "y": 0.9090909090909091,
+              "x": 0.5
+            },
+            {
+              "y": 0.9090909090909091,
+              "x": 0.5
+            }
+          ]
+        },
+        "hurt": {
+          "frames": 6,
+          "start": 30,
+          "url": "/assets/vanguard/foot-v2.png",
+          "frameRects": [
+            {
+              "x": 0,
+              "y": 885,
+              "width": 216,
+              "height": 175
+            },
+            {
+              "x": 216,
+              "y": 885,
+              "width": 217,
+              "height": 175
+            },
+            {
+              "x": 433,
+              "y": 885,
+              "width": 216,
+              "height": 175
+            },
+            {
+              "x": 649,
+              "y": 885,
+              "width": 216,
+              "height": 175
+            },
+            {
+              "x": 865,
+              "y": 885,
+              "width": 217,
+              "height": 175
+            },
+            {
+              "x": 1082,
+              "y": 885,
+              "width": 216,
+              "height": 175
+            }
+          ],
+          "bodyHeight": 152,
+          "originX": 0.5,
+          "originY": 0.9428571428571428,
+          "framePivots": [
+            {
+              "y": 0.92,
+              "x": 0.5
+            },
+            {
+              "y": 0.9371428571428572,
+              "x": 0.5
+            },
+            {
+              "y": 0.9371428571428572,
+              "x": 0.5
+            },
+            {
+              "y": 0.9371428571428572,
+              "x": 0.5
+            },
+            {
+              "y": 0.9371428571428572,
+              "x": 0.5
+            },
+            {
+              "y": 0.9371428571428572,
+              "x": 0.5
+            }
+          ]
+        },
+        "dead": {
+          "frames": 6,
+          "start": 36,
+          "url": "/assets/vanguard/foot-v2.png",
+          "frameRects": [
+            {
+              "x": 0,
+              "y": 1060,
+              "width": 216,
+              "height": 152
+            },
+            {
+              "x": 216,
+              "y": 1060,
+              "width": 217,
+              "height": 152
+            },
+            {
+              "x": 433,
+              "y": 1060,
+              "width": 216,
+              "height": 152
+            },
+            {
+              "x": 649,
+              "y": 1060,
+              "width": 216,
+              "height": 152
+            },
+            {
+              "x": 865,
+              "y": 1060,
+              "width": 217,
+              "height": 152
+            },
+            {
+              "x": 1082,
+              "y": 1060,
+              "width": 216,
+              "height": 152
+            }
+          ],
+          "bodyHeight": 152,
+          "originX": 0.5,
+          "originY": 0.8486842105263158,
+          "framePivots": [
+            {
+              "y": 0.8421052631578947,
+              "x": 0.5
+            },
+            {
+              "y": 0.8421052631578947,
+              "x": 0.5
+            },
+            {
+              "y": 0.8486842105263158,
+              "x": 0.5
+            },
+            {
+              "y": 0.8289473684210527,
+              "x": 0.5
+            },
+            {
+              "y": 0.8289473684210527,
+              "x": 0.5
+            },
+            {
+              "y": 0.8289473684210527,
+              "x": 0.5
+            }
+          ]
+        }
+      },
+      "preciseAtlas": true
+    },
+    {
+      "id": "vanguard-giant",
+      "frame": 218,
+      "frameHeight": 171,
+      "bodyHeight": 155,
+      "originX": 0.5,
+      "originY": 0.94,
+      "packed": true,
+      "sheetColumns": 6,
+      "sheetRows": 7,
+      "actions": {
+        "idle": {
+          "frames": 6,
+          "start": 0,
+          "url": "/assets/vanguard/giant-v2.png",
+          "frameRects": [
+            {
+              "x": 0,
+              "y": 0,
+              "width": 219,
+              "height": 198
+            },
+            {
+              "x": 219,
+              "y": 0,
+              "width": 218,
+              "height": 198
+            },
+            {
+              "x": 437,
+              "y": 0,
+              "width": 219,
+              "height": 198
+            },
+            {
+              "x": 656,
+              "y": 0,
+              "width": 219,
+              "height": 198
+            },
+            {
+              "x": 875,
+              "y": 0,
+              "width": 218,
+              "height": 198
+            },
+            {
+              "x": 1093,
+              "y": 0,
+              "width": 219,
+              "height": 198
+            }
+          ],
+          "bodyHeight": 155,
+          "originX": 0.5,
+          "originY": 0.9343434343434344,
+          "framePivots": [
+            {
+              "y": 0.9343434343434344,
+              "x": 0.5
+            },
+            {
+              "y": 0.9343434343434344,
+              "x": 0.5
+            },
+            {
+              "y": 0.9343434343434344,
+              "x": 0.5
+            },
+            {
+              "y": 0.9343434343434344,
+              "x": 0.5
+            },
+            {
+              "y": 0.9343434343434344,
+              "x": 0.5
+            },
+            {
+              "y": 0.9343434343434344,
+              "x": 0.5
+            }
+          ]
+        },
+        "walk": {
+          "frames": 6,
+          "start": 6,
+          "url": "/assets/vanguard/giant-v2.png",
+          "frameRects": [
+            {
+              "x": 0,
+              "y": 198,
+              "width": 219,
+              "height": 182
+            },
+            {
+              "x": 219,
+              "y": 198,
+              "width": 218,
+              "height": 182
+            },
+            {
+              "x": 437,
+              "y": 198,
+              "width": 219,
+              "height": 182
+            },
+            {
+              "x": 656,
+              "y": 198,
+              "width": 219,
+              "height": 182
+            },
+            {
+              "x": 875,
+              "y": 198,
+              "width": 218,
+              "height": 182
+            },
+            {
+              "x": 1093,
+              "y": 198,
+              "width": 219,
+              "height": 182
+            }
+          ],
+          "bodyHeight": 155,
+          "originX": 0.5,
+          "originY": 0.9285714285714286,
+          "framePivots": [
+            {
+              "y": 0.9285714285714286,
+              "x": 0.5
+            },
+            {
+              "y": 0.9230769230769231,
+              "x": 0.5
+            },
+            {
+              "y": 0.9230769230769231,
+              "x": 0.5
+            },
+            {
+              "y": 0.9230769230769231,
+              "x": 0.5
+            },
+            {
+              "y": 0.9230769230769231,
+              "x": 0.5
+            },
+            {
+              "y": 0.9285714285714286,
+              "x": 0.5
+            }
+          ]
+        },
+        "attack": {
+          "frames": 6,
+          "start": 12,
+          "url": "/assets/vanguard/giant-v2.png",
+          "frameRects": [
+            {
+              "x": 0,
+              "y": 380,
+              "width": 219,
+              "height": 168
+            },
+            {
+              "x": 219,
+              "y": 380,
+              "width": 218,
+              "height": 168
+            },
+            {
+              "x": 437,
+              "y": 380,
+              "width": 219,
+              "height": 168
+            },
+            {
+              "x": 656,
+              "y": 380,
+              "width": 219,
+              "height": 168
+            },
+            {
+              "x": 875,
+              "y": 380,
+              "width": 218,
+              "height": 168
+            },
+            {
+              "x": 1093,
+              "y": 380,
+              "width": 219,
+              "height": 168
+            }
+          ],
+          "bodyHeight": 155,
+          "originX": 0.5,
+          "originY": 0.9047619047619048,
+          "framePivots": [
+            {
+              "y": 0.8988095238095238,
+              "x": 0.5
+            },
+            {
+              "y": 0.8988095238095238,
+              "x": 0.5
+            },
+            {
+              "y": 0.8988095238095238,
+              "x": 0.5
+            },
+            {
+              "y": 0.8988095238095238,
+              "x": 0.5
+            },
+            {
+              "y": 0.8988095238095238,
+              "x": 0.5
+            },
+            {
+              "y": 0.8988095238095238,
+              "x": 0.5
+            }
+          ]
+        },
+        "charge": {
+          "frames": 6,
+          "start": 18,
+          "url": "/assets/vanguard/giant-v2.png",
+          "frameRects": [
+            {
+              "x": 0,
+              "y": 548,
+              "width": 219,
+              "height": 170
+            },
+            {
+              "x": 219,
+              "y": 548,
+              "width": 218,
+              "height": 170
+            },
+            {
+              "x": 437,
+              "y": 548,
+              "width": 219,
+              "height": 170
+            },
+            {
+              "x": 656,
+              "y": 548,
+              "width": 219,
+              "height": 170
+            },
+            {
+              "x": 875,
+              "y": 548,
+              "width": 218,
+              "height": 170
+            },
+            {
+              "x": 1093,
+              "y": 548,
+              "width": 219,
+              "height": 170
+            }
+          ],
+          "bodyHeight": 155,
+          "originX": 0.5,
+          "originY": 0.9176470588235294,
+          "framePivots": [
+            {
+              "y": 0.8941176470588236,
+              "x": 0.5
+            },
+            {
+              "y": 0.9,
+              "x": 0.5
+            },
+            {
+              "y": 0.9176470588235294,
+              "x": 0.5
+            },
+            {
+              "y": 0.9058823529411765,
+              "x": 0.5
+            },
+            {
+              "y": 0.9117647058823529,
+              "x": 0.5
+            },
+            {
+              "y": 0.9058823529411765,
+              "x": 0.5
+            }
+          ]
+        },
+        "flurry": {
+          "frames": 4,
+          "start": 24,
+          "url": "/assets/vanguard/giant-v2.png",
+          "frameRects": [
+            {
+              "x": 219,
+              "y": 718,
+              "width": 218,
+              "height": 168
+            },
+            {
+              "x": 437,
+              "y": 718,
+              "width": 219,
+              "height": 168
+            },
+            {
+              "x": 656,
+              "y": 718,
+              "width": 219,
+              "height": 168
+            },
+            {
+              "x": 875,
+              "y": 718,
+              "width": 218,
+              "height": 168
+            }
+          ],
+          "bodyHeight": 155,
+          "originX": 0.5,
+          "originY": 0.9345238095238095,
+          "framePivots": [
+            {
+              "y": 0.9166666666666666,
+              "x": 0.5
+            },
+            {
+              "y": 0.9166666666666666,
+              "x": 0.5
+            },
+            {
+              "y": 0.9285714285714286,
+              "x": 0.5
+            },
+            {
+              "y": 0.9285714285714286,
+              "x": 0.5
+            }
+          ]
+        },
+        "hurt": {
+          "frames": 6,
+          "start": 30,
+          "url": "/assets/vanguard/giant-v2.png",
+          "frameRects": [
+            {
+              "x": 0,
+              "y": 886,
+              "width": 219,
+              "height": 164
+            },
+            {
+              "x": 219,
+              "y": 886,
+              "width": 218,
+              "height": 164
+            },
+            {
+              "x": 437,
+              "y": 886,
+              "width": 219,
+              "height": 164
+            },
+            {
+              "x": 656,
+              "y": 886,
+              "width": 219,
+              "height": 164
+            },
+            {
+              "x": 875,
+              "y": 886,
+              "width": 218,
+              "height": 164
+            },
+            {
+              "x": 1093,
+              "y": 886,
+              "width": 219,
+              "height": 164
+            }
+          ],
+          "bodyHeight": 155,
+          "originX": 0.5,
+          "originY": 0.9390243902439024,
+          "framePivots": [
+            {
+              "y": 0.8963414634146342,
+              "x": 0.5
+            },
+            {
+              "y": 0.9146341463414634,
+              "x": 0.5
+            },
+            {
+              "y": 0.9390243902439024,
+              "x": 0.5
+            },
+            {
+              "y": 0.9390243902439024,
+              "x": 0.5
+            },
+            {
+              "y": 0.926829268292683,
+              "x": 0.5
+            },
+            {
+              "y": 0.926829268292683,
+              "x": 0.5
+            }
+          ]
+        },
+        "dead": {
+          "frames": 6,
+          "start": 36,
+          "url": "/assets/vanguard/giant-v2.png",
+          "frameRects": [
+            {
+              "x": 0,
+              "y": 1050,
+              "width": 219,
+              "height": 149
+            },
+            {
+              "x": 219,
+              "y": 1050,
+              "width": 218,
+              "height": 149
+            },
+            {
+              "x": 437,
+              "y": 1050,
+              "width": 219,
+              "height": 149
+            },
+            {
+              "x": 656,
+              "y": 1050,
+              "width": 219,
+              "height": 149
+            },
+            {
+              "x": 875,
+              "y": 1050,
+              "width": 218,
+              "height": 149
+            },
+            {
+              "x": 1093,
+              "y": 1050,
+              "width": 219,
+              "height": 149
+            }
+          ],
+          "bodyHeight": 155,
+          "originX": 0.5,
+          "originY": 0.8590604026845637,
+          "framePivots": [
+            {
+              "y": 0.8389261744966443,
+              "x": 0.5
+            },
+            {
+              "y": 0.8590604026845637,
+              "x": 0.5
+            },
+            {
+              "y": 0.8657718120805369,
+              "x": 0.5
+            },
+            {
+              "y": 0.8120805369127517,
+              "x": 0.5
+            },
+            {
+              "y": 0.8389261744966443,
+              "x": 0.5
+            },
+            {
+              "y": 0.8322147651006712,
+              "x": 0.5
+            }
+          ]
+        }
+      },
+      "preciseAtlas": true
+    },
+    {
+      "id": "wind-swordsman",
+      "frame": 216,
+      "frameHeight": 202,
+      "bodyHeight": 161.60000000000002,
+      "originX": 0.5,
+      "originY": 0.94,
+      "packed": true,
+      "sheetColumns": 6,
+      "sheetRows": 6,
+      "actions": {
+        "idle": {
+          "frames": 6,
+          "start": 0,
+          "url": "/assets/windblade/hero-v1.png"
+        },
+        "walk": {
+          "frames": 6,
+          "start": 6,
+          "url": "/assets/windblade/hero-v1.png"
+        },
+        "attack": {
+          "frames": 6,
+          "start": 12,
+          "url": "/assets/windblade/hero-v1.png"
+        },
+        "dash": {
+          "frames": 6,
+          "start": 18,
+          "url": "/assets/windblade/hero-v1.png"
+        },
+        "cast": {
+          "frames": 6,
+          "start": 18,
+          "url": "/assets/windblade/hero-v1.png"
+        },
+        "leap": {
+          "frames": 6,
+          "start": 24,
+          "url": "/assets/windblade/hero-v1.png"
+        },
+        "dead": {
+          "frames": 6,
+          "start": 30,
+          "url": "/assets/windblade/hero-v1.png"
+        },
+        "hurt": {
+          "frames": 2,
+          "start": 30,
+          "url": "/assets/windblade/hero-v1.png"
         }
       }
     }

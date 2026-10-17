@@ -1,1 +1,2 @@
-export const SHADOW={assassinSpeed:210,spirit:{lifetime:60,hp:250,armor:3,powerRatio:.8,speed:135,range:65,cooldown:.9,vision:320,regen:.02,root:{cooldown:8,radius:125,mult:1.1,stun:.8},leaves:{cooldown:12,range:240,targets:3,mult:.8},heal:{cooldown:16,radius:180,fraction:.16}},elf:{distanceStep:12,distanceBonus:.01,maxBonus:.3,masteryArrow:.4}};
+export const SHADOW={assassinSpeed:210,spirit:{displaySize:84,lifetime:60,hp:250,armor:3,powerRatio:.8,speed:135,range:65,cooldown:.9,vision:320,regen:.02,root:{cooldown:8,radius:125,mult:1.1,stun:.8},leaves:{cooldown:12,range:240,targets:3,mult:.8},heal:{cooldown:16,radius:180,fraction:.16}},elf:{distanceStep:12,distanceBonus:.01,maxBonus:.3,masteryArrow:.4}};
+export const BOSS_COOP={healthPerExtraPlayer:.75};

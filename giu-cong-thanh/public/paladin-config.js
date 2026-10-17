@@ -1,0 +1,1 @@
+export const PALADIN={hp:1.25,mountedHP:1.4,armor:4,mountedArmor:7,undeadBonus:.3,mountedUndeadBonus:.6,manaDrain:6,mountedSpeed:1.2,mountedQ:1.55,mountedRange:110,aura:{radius:260,armor:5,reduction:.15,duration:6,mountedRadius:330,mountedArmor:8,mountedReduction:.22,healPerSecond:.015},q:{armor:5,duration:4}};

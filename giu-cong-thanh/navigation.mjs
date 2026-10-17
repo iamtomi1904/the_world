@@ -1,7 +1,7 @@
 import {WORLD} from './public/content.js';
 const grids=new WeakMap(),routes=new WeakMap(),CELL=32;
 function gridFor(map,canStand){
- if(grids.has(map))return grids.get(map);const cols=Math.ceil(WORLD.width/CELL),rows=Math.ceil(WORLD.height/CELL),open=new Uint8Array(cols*rows);
+ if(grids.has(map))return grids.get(map);const cols=Math.ceil((map.width||WORLD.width)/CELL),rows=Math.ceil((map.height||WORLD.height)/CELL),open=new Uint8Array(cols*rows);
  for(let y=0;y<rows;y++)for(let x=0;x<cols;x++)open[y*cols+x]=Number(canStand(map,x*CELL+CELL/2,y*CELL+CELL/2));
  const g={cols,rows,open};grids.set(map,g);return g;
 }

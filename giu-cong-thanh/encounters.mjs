@@ -1,3 +1,8 @@
+import {windReduction} from './public/wind-config.js';
+import {VANGUARD,vanguardReduction} from './public/vanguard-config.js';
+import {MAPS} from './public/content.js';
+import {terrainModifiers} from './public/world-biomes.js';
+import {spawnForestLeaders} from './forest-leaders.mjs';
 import {difficultyOf} from './public/difficulty.js';
 import {BOSS_SKILLS,bossSkillCount,insideBossShape} from './public/boss-skills.js';
 import {healing} from './passives.mjs';
@@ -13,10 +18,10 @@ export function forestPopulation(r,map,canStand){
   const hp=Math.round((90+r.stage*22)*difficultyOf(r.difficulty).health);result.push({...def,id:randomUUID(),name:def.name+' · Rừng',sprite:def.id,x,y,home:{x,y},camp:camp.id,hp,maxHp:hp,power:Math.round((10+r.stage*2)*difficultyOf(r.difficulty).damage),speed:62,range:def.range,cooldown:1.3,cd:0,anim:0,reward:25+r.stage*4,neutral:true,animal:false,face:1});
  }
  for(let n=0;n<6+r.stage;n++){
-  let point;for(let attempt=0;attempt<180;attempt++){const p={x:75+random()*1770,y:400+random()*780};if(canStand(map,p.x,p.y,22)&&d(p,map.base)>360){point=p;break;}}
+  let point;for(let attempt=0;attempt<180;attempt++){const p={x:75+random()*(map.width-150),y:400+random()*(map.height-500)};if(canStand(map,p.x,p.y,22)&&d(p,map.base)>360&&map.environment.some(z=>['dense','high','low'].includes(z.type)&&Math.hypot((p.x-z.x)/z.rx,(p.y-z.y)/z.ry)<.9)){point=p;break;}}
   if(!point)continue;const sprite=['deer','fox','hare'][n%3],hp=35+r.stage*5;result.push({id:randomUUID(),name:'Thú rừng',sprite,...point,home:{...point},hp,maxHp:hp,power:0,speed:90,range:40,cooldown:1.3,cd:0,anim:0,size:30,reward:10+r.stage,neutral:true,animal:true,face:1});
  }
- r.enemies.push(...result);return result;
+ r.enemies.push(...result);result.push(...spawnForestLeaders(r,map,canStand));return result;
 }
 export function bossDefinition(stage,wave){
  const b=BOSSES[stage-1],skills=b.skills.slice(0,bossSkillCount(stage,wave));
@@ -27,12 +32,12 @@ function hurtPlayers(r,boss,cast,spec,ctx,multiplier=1){
  let drained=0;
  for(const u of [...r.players,...r.troops]){
   if(u.hp<=0||!insideBossShape(u,cast))continue;
-  const armor=u.hero?(ctx.stats?ctx.stats(u).armor:0):2,raw=Math.max(2,boss.power*spec.mult*multiplier-armor)*(u.guard?.3:1),absorbed=Math.min(u.shield||0,raw),damage=raw-absorbed;
+  const armor=u.hero?(ctx.stats?ctx.stats(u).armor:0):(u.armor??2),raw=Math.max(2,boss.power*terrainModifiers(MAPS[r.stage-1]||{},boss).power*spec.mult*multiplier-armor)*(u.guard?.3:1)*(1-(u.holyAura?.reduction||0))*(1-vanguardReduction(u))*(1-windReduction(u)),absorbed=Math.min(u.shield||0,raw),damage=raw-absorbed;
   u.shield=Math.max(0,(u.shield||0)-absorbed);drained+=Math.min(u.hp,damage);u.hp=Math.max(0,u.hp-damage);
   if(spec.poison&&u.hero){u.poisonTime=spec.poison;u.poisonClock=1;}
   if(spec.dot&&u.hero){u.bossBurn=3;u.bossBurnDamage=spec.dot;u.bossBurnClock=1;}
-  if(spec.slow){u.bossSlow=spec.slowTime||2;u.bossSlowFactor=1-spec.slow;u.slowType=spec.slowType||'physical';}
-  if(spec.knockback){const dx=u.x-cast.x,dy=u.y-cast.y,d=Math.hypot(dx,dy)||1;for(let step=0;step<spec.knockback;step+=6){const x=u.x+dx/d*6,y=u.y+dy/d*6;if(ctx.canStand&&!ctx.canStand(x,y))break;u.x=x;u.y=y;}}
+  if(spec.slow){u.bossSlow=(spec.slowTime||2)*(u.classId==='vanguard'&&u.vanguardTime>0?1-VANGUARD.giant.controlResist:1);u.bossSlowFactor=1-spec.slow;u.slowType=spec.slowType||'physical';}
+  if(spec.knockback){const dx=u.x-cast.x,dy=u.y-cast.y,d=Math.hypot(dx,dy)||1;for(let step=0;step<spec.knockback*(u.classId==='vanguard'&&u.vanguardTime>0?1-VANGUARD.giant.controlResist:1);step+=6){const x=u.x+dx/d*6,y=u.y+dy/d*6;if(ctx.canStand&&!ctx.canStand(x,y))break;u.x=x;u.y=y;}}
  }
  if(spec.drain&&drained)healing(r,boss,drained*spec.drain,boss.maxHp);
 }
@@ -64,7 +69,7 @@ export function bossTick(r,e,dt,ctx){
  const ids=e.bossSkills||[e.bossSkill],id=ids[(e.skillCursor||0)%ids.length],spec=BOSS_SKILLS[id];if(!spec)return;
  e.skillCursor=(e.skillCursor||0)+1;e.skillCd=e.hp<e.maxHp*.4?5:8;e.pulseCount++;
  const directional=['line','cone','self','ring'].includes(spec.shape),x=directional?e.x:target.x,y=directional?e.y:target.y,angle=Math.atan2(target.y-e.y,target.x-e.x);
- const c={duration:spec.delay,sourceId:e.id,sourceX:e.x,sourceY:e.y,skill:id,name:spec.name,shape:spec.shape,x,y,angle,arc:spec.angle||Math.PI/2,radius:spec.radius,length:spec.length||0,width:spec.width||0,inner:spec.inner||0,time:spec.delay,points:spec.shape==='multi'?[-1,0,1].map(n=>({x:Math.max(30,Math.min(1890,target.x+Math.cos(angle+Math.PI/2)*n*spec.spread)),y:Math.max(40,Math.min(1240,target.y+Math.sin(angle+Math.PI/2)*n*spec.spread))})):null};
+ const c={duration:spec.delay,forestLeader:e.forestLeader,sourceId:e.id,sourceX:e.x,sourceY:e.y,skill:id,name:spec.name,shape:spec.shape,x,y,angle,arc:spec.angle||Math.PI/2,radius:spec.radius,length:spec.length||0,width:spec.width||0,inner:spec.inner||0,time:spec.delay,points:spec.shape==='multi'?[-1,0,1].map(n=>({x:Math.max(30,Math.min((MAPS[r.stage-1]?.width||1920)-30,target.x+Math.cos(angle+Math.PI/2)*n*spec.spread)),y:Math.max(40,Math.min((MAPS[r.stage-1]?.height||1280)-40,target.y+Math.sin(angle+Math.PI/2)*n*spec.spread))})):null};
  e.bossCast=c;ctx.fx({type:'boss-warning',...c,duration:spec.delay,color:e.bossColor,family:e.family});
  
 }

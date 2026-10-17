@@ -1,0 +1,2 @@
+export const WIND={passive:{maxStacks:5,duration:4,speed:.025,haste:.04,cycle:3,mult:.65,radius:90},air:{duration:.5,lockout:1,height:26},q:{range:210,radius:65,mult:1.5,duration:.38,cost:20,cooldown:7},e:{duration:6,speed:.25,reduction:.18,cost:30,cooldown:16},r:{range:330,radius:180,duration:5,interval:.5,mult:.5,charge:.45,leap:.5,speed:.35,power:.2,haste:.15,cost:50,cooldown:26}};
+export const windReduction=p=>p.classId==='windblade'&&p.windGuard>0?WIND.e.reduction:0;

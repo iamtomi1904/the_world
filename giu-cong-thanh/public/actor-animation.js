@@ -1,4 +1,5 @@
-export const ATTACK_TIMING={berserker:{windupFraction:.2}};
+import {FALLEN} from './fallen-config.js';
+export const ATTACK_TIMING={fallen:FALLEN.attack,berserker:{windupFraction:.2}};
 // Keep an attack visible until its final frame, independently of snapshot cadence.
 export function actorAction(unit,obj,moving,time,info){
  if(unit.hp<=0){obj.attackUntil=0;return info.actions.dead?'dead':'idle';}

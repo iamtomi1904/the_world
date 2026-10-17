@@ -1,0 +1,10 @@
+// Shared body hit areas in projectile coordinates (projectiles render 20 px above their path).
+export const BOSS_HITBOX={animatedHeight:115,artHeight:210,radiusRatio:.52,minRadius:38,maxRadius:112,centerRatio:.42};
+export function bossPadding(e){if(!e.boss)return 0;const height=e.bossArt&&!e.animatedBoss?BOSS_HITBOX.artHeight:BOSS_HITBOX.animatedHeight;return Math.max(BOSS_HITBOX.minRadius,Math.min(BOSS_HITBOX.maxRadius,height*BOSS_HITBOX.radiusRatio));}
+export const ENEMY_HITBOX={radiusRatio:.36,minRadius:15,maxRadius:32,grace:6,centerRatio:.42};
+export function enemyPadding(e){if(e.boss)return bossPadding(e)+ENEMY_HITBOX.grace;const height=(e.size||45)*(e.elite?1.25:1);return Math.max(ENEMY_HITBOX.minRadius,Math.min(ENEMY_HITBOX.maxRadius,height*ENEMY_HITBOX.radiusRatio))+ENEMY_HITBOX.grace;}
+export function combatPoint(e){if(!e.boss){const height=(e.size||45)*(e.elite?1.25:1);return {x:e.x,y:e.y-height*ENEMY_HITBOX.centerRatio+20-(e.flying?(e.altitude||35):0)};}const height=e.bossArt&&!e.animatedBoss?BOSS_HITBOX.artHeight:BOSS_HITBOX.animatedHeight;return {x:e.x,y:e.y-height*BOSS_HITBOX.centerRatio+20-(e.flying?(e.altitude||35):0)};}
+export const targetDistance=(p,e)=>{const c=combatPoint(e);return Math.max(0,Math.hypot(p.x-c.x,p.y-c.y)-enemyPadding(e));};
+export function coneHits(p,e,aim,range,threshold=.25){const c=combatPoint(e),dx=c.x-p.x,dy=c.y-p.y,d=Math.hypot(dx,dy),r=enemyPadding(e);if(d>range+r)return false;if(d<Math.max(18,r))return true;const spread=Math.acos(threshold)+Math.asin(Math.min(1,r/d));return (dx*aim.x+dy*aim.y)/d>=Math.cos(Math.min(Math.PI,spread));}
+export function spearHits(p,e,aim,range,width){const c=combatPoint(e),dx=c.x-p.x,dy=c.y-p.y,r=enemyPadding(e),along=dx*aim.x+dy*aim.y;return along>=-8-r&&along<=range+r&&Math.abs(dx*aim.y-dy*aim.x)<=width+r;}
+export function segmentHits(e,from,to,width){const c=combatPoint(e),dx=to.x-from.x,dy=to.y-from.y,t=Math.max(0,Math.min(1,((c.x-from.x)*dx+(c.y-from.y)*dy)/(dx*dx+dy*dy||1)));return Math.hypot(c.x-from.x-dx*t,c.y-from.y-dy*t)<=width+enemyPadding(e);}

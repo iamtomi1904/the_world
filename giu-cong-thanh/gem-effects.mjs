@@ -1,10 +1,13 @@
+import {FALLEN} from './public/fallen-config.js';
+import {PALADIN} from './public/paladin-config.js';
+import {enemyFamily} from './public/enemy-visuals.js';
 import {randomUUID} from 'node:crypto';
 import {GEM_RULES as C,equippedGem} from './public/gems.js';
 import {TROOPS,MAPS} from './public/content.js';
 const dist=(a,b)=>Math.hypot(a.x-b.x,a.y-b.y);
 const emit=(r,e)=>r.events.push({id:randomUUID(),...e});
 export function effect(e,id,p,duration,extra={}){e.gemEffects||={};const old=e.gemEffects[id];return e.gemEffects[id]={id,source:p.id,target:e.id,element:id,duration,time:duration,stacks:old?.stacks||0,clock:old?.clock??1,...old,source:p.id,...extra,time:duration};}
-export function gemArmorDamage(p,e,n){const armor=Math.max(0,(e.armor||0)*(1-Math.min(C.dark.maxStacks,e.gemEffects?.dark?.stacks||0)*C.dark.armorPerStack));return Math.max(0,n-armor*(equippedGem(p)?.id==='dark'?1-C.dark.penetration:1));}
+export function gemArmorDamage(p,e,n,options={}){if(p.classId==='paladin'&&enemyFamily(e)==='undead')n*=1+(p.holyMounted?PALADIN.mountedUndeadBonus:PALADIN.undeadBonus);if(p.classId==='fallen'&&(e.statuses?.bleed?.time>0||Object.values(e.fallenMarks||{}).some(m=>m.time>0)))n*=1+(p.fallenMounted?FALLEN.mountedWoundedBonus:FALLEN.woundedBonus);if(p.fallenAura?.woundedBonus&&e.statuses?.bleed?.time>0)n*=1+p.fallenAura.woundedBonus;let armor=Math.max(0,(e.armor||0)*(e.environment?.armor||1)*(1-Math.min(C.dark.maxStacks,e.gemEffects?.dark?.stacks||0)*C.dark.armorPerStack));if(p.classId==='fallen')armor=Math.max(0,armor-(p.fallenMounted?FALLEN.mountedPenetration:FALLEN.penetration));armor*=1-(options.penetration||0);return Math.max(0,n-armor*(equippedGem(p)?.id==='dark'?1-C.dark.penetration:1));}
 export function gemHit(r,p,e,n,kind,ctx,random=Math.random){
  const g=equippedGem(p);if(!g||!['basic','skill','zone'].includes(kind))return;const basic=kind==='basic',direct=kind!=='zone';
  emit(r,{type:'gem-hit',gem:g.id,targetId:e.id,x:e.x,y:e.y-20,color:g.color});

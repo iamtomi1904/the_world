@@ -1,3 +1,4 @@
+import {combatPoint,enemyPadding} from './public/combat-geometry.js';
 import {equippedGem} from './public/gems.js';
 import {enemyFamily} from './public/enemy-visuals.js';
 import {randomUUID} from 'node:crypto';
@@ -30,7 +31,7 @@ export function advanceProjectiles(r,dt){
    let stopped=false;const travel=Math.min(p.left,p.speed*dt);
    for(let step=0;step<travel&&!stopped;step+=6){const d=Math.min(6,travel-step),x=p.x+p.dx*d,y=p.y+p.dy*d;p.left-=d;
     if(!p.walkable(x,y)){stopped=true;break;}
-    p.x=x;p.y=y;const hits=r.enemies.filter(e=>e.hp>0&&(!p.filter||p.filter(e))&&(!p.hitIds?.has(e.id))&&canHitAir(e,200)&&Math.hypot(e.x-x,e.y-y)<Math.max(12,(e.size||35)*.3)+(p.width||7)).sort((a,b)=>Math.hypot(a.x-x,a.y-y)-Math.hypot(b.x-x,b.y-y));
+    p.x=x;p.y=y;const hits=r.enemies.filter(e=>e.hp>0&&(!p.filter||p.filter(e))&&(!p.hitIds?.has(e.id))&&canHitAir(e,200)&&Math.hypot(combatPoint(e).x-x,combatPoint(e).y-y)<enemyPadding(e)+(p.width||7)).sort((a,b)=>Math.hypot(a.x-x,a.y-y)-Math.hypot(b.x-x,b.y-y));
     if(hits.length){for(const hit of p.piercing?hits:hits.slice(0,1))if(hit.hp>0){p.hitIds?.add(hit.id);p.resolve(hit);}stopped=!p.piercing;}
    }
    if(stopped||p.left<=.001)r.events.push({id:randomUUID(),type:'projectile-hit',shotId:p.id,x:p.x,y:p.y-20});else r.projectiles.push(p);continue;

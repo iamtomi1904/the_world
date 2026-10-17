@@ -1,3 +1,5 @@
+import {VANGUARD} from './vanguard-config.js';
+import {expandBattlefield} from './world-biomes.js';
 import {SHADOW} from './shadow-config.js';
 import {GEM_RULES} from './gems.js';
 import {warLayout} from './war-map.js';
@@ -6,11 +8,11 @@ import {HERO_CLASS} from './skills.js';
 export const WORLD={width:1920,height:1280};
 export const HEROES=[
  {id:'dark-elf',name:'Dạ Tiễn',role:'Hắc tinh linh',hp:140,power:36,armor:2,speed:165,range:300,cooldown:.72,color:'#bcaddf'},
- {id:'goblin-assassin',name:'Quỷ Ảnh',role:'Sát thủ',hp:170,power:32,armor:3,speed:SHADOW.assassinSpeed,range:50,cooldown:.5,color:'#a6bf82'},
+ {id:'goblin-assassin',name:'Quỷ Ảnh',role:'Sát thủ',hp:170,power:32,armor:3,speed:SHADOW.assassinSpeed,range:60,cooldown:.5,color:'#a6bf82'},
  {id:'knight-1',name:'Thiết Vệ',role:'Đỡ đòn',hp:240,power:27,armor:6,speed:145,range:66,cooldown:.62,color:'#b8c6dd'},
- {id:'knight-2',name:'Ngân Kỵ',role:'Cân bằng',hp:200,power:33,armor:4,speed:160,range:70,cooldown:.56,color:'#c9d9ea'},
- {id:'knight-3',name:'Hắc Kỵ',role:'Phá giáp',hp:180,power:43,armor:3,speed:150,range:72,cooldown:.72,color:'#b7acd3'},
- {id:'samurai',name:'Lãng Khách',role:'Đánh nhanh',hp:155,power:28,armor:2,speed:190,range:74,cooldown:.36,color:'#e6bfa1'},
+ {id:'knight-2',name:'Thánh Kỵ Sĩ',role:'Kỵ sĩ ánh sáng',hp:200,power:33,armor:4,speed:160,range:70,cooldown:.56,color:'#c9d9ea'},
+ {id:'knight-3',name:'Hắc Kỵ Sĩ',role:'Kỵ sĩ hắc ám · Phá giáp',hp:180,power:43,armor:3,speed:150,range:72,cooldown:.72,color:'#b7acd3'},
+ {id:'samurai',name:'Phong Kiếm Khách',role:'Phong hệ · Cơ động',hp:155,power:28,armor:2,speed:190,range:74,cooldown:.36,color:'#e6bfa1'},
  {id:'samurai-archer',name:'Cung Thủ',role:'Tầm xa',hp:135,power:27,armor:1,speed:175,range:230,cooldown:.62,color:'#a9d0a0'},
  {id:'samurai-commander',name:'Kiếm Chủ',role:'Sát thương',hp:185,power:40,armor:3,speed:170,range:85,cooldown:.64,color:'#d1b8db'},
  {id:'fire-wizard',name:'Hỏa Sư',role:'Pháp thuật lan',hp:130,power:40,armor:1,speed:150,range:200,cooldown:.9,splash:55,color:'#f4a86a'},
@@ -18,7 +20,7 @@ export const HEROES=[
  {id:'wanderer-magican',name:'Du Pháp',role:'Pháp thuật lan',hp:150,power:35,armor:2,speed:165,range:180,cooldown:.75,splash:40,color:'#c3a6ed'},
  {id:'warrior-1',name:'Chiến Binh',role:'Cận chiến',hp:205,power:36,armor:3,speed:160,range:72,cooldown:.58,color:'#e5b795'},
  {id:'warrior-2',name:'Cuồng Chiến',role:'Đánh mạnh',hp:175,power:49,armor:1,speed:165,range:77,cooldown:.8,color:'#e7a3a0'},
- {id:'warrior-3',name:'Tiên Phong',role:'Cơ động',hp:170,power:30,armor:2,speed:195,range:68,cooldown:.42,color:'#cfcc98'},
+ {id:'warrior-3',name:'Chiến Tướng Bất Khuất',role:'Tiên phong · Giáo và khiên',...VANGUARD.base,color:'#cfb080'},
 ];
 for(const hero of HEROES)hero.classId=HERO_CLASS[hero.id];
 export const MONSTERS=[
@@ -128,5 +130,5 @@ export const MAPS=definitions.map(([name,description,ground,road,palette,oldBase
  for(let n=0;n<120;n++)flowers.push({x:30+random()*1860,y:70+random()*1160,color:[0xe8cf82,0xe3b0a3,0x8bbacb][n%3]});
  const fortifications=Array.from({length:FORTRESSES[i].guards},(_,n)=>({x:base[0]+(n%2?-1:1)*(175+Math.floor(n/4)*35),y:base[1]-25-Math.floor(n/2)*95,radius:25})).filter(o=>!lanes.some(l=>l.some((p,k)=>k&&distanceToSegment(o.x,o.y,l[k-1],p)<65)));
  return {id:i+1,name,description:lanes.length+' cửa tiến quân, nhiều đường vòng và '+camps.length+' trại rừng.',ground,road,palette:themes,fortress:FORTRESSES[i],fortifications,camps,forestPaths,base:{x:base[0],y:base[1]},lanes,props,flowers,roadTile:`Road${i%5+1}`,grassRow:i===5?2:i===6?3:i===8?1:0,waves:3,healthScale:1+i*.17,damageScale:1+i*.13,speedScale:1+i*.025,spawnCount:13+i*3};
-});
+}).map(expandBattlefield);
 export const heroById=id=>HEROES.find(h=>h.id===id)||HEROES[0];

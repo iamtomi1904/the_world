@@ -1,0 +1,27 @@
+import {spearHits,segmentHits,targetDistance} from './public/combat-geometry.js';
+import {VANGUARD as C} from './public/vanguard-config.js';
+const dist=(a,b)=>Math.hypot(a.x-b.x,a.y-b.y);
+export function spearTargets(r,p,aim,range,width,ctx){return r.enemies.filter(e=>{if(e.hp<=0||e.flying)return false;return spearHits(p,e,aim,range,width)&&(!ctx.clearLine||ctx.clearLine(p,e));}).sort((a,b)=>dist(p,a)-dist(p,b));}
+export function endVanguard(p,ctx){if(!(p.vanguardTime>0))return;const ratio=p.hp/ctx.stats(p).hp;p.vanguardTime=0;p.hp=Math.max(0,ctx.stats(p).hp*ratio);p.cooldowns['vanguard-giant']=p.vanguardFormCooldown||C.r.cooldown;p.vanguardFormCooldown=0;ctx.fx?.({type:'vanguard-vfx',action:'shrink',sourceId:p.id,x:p.x,y:p.y,radius:80});}
+export function castVanguard(r,p,s,ctx){
+ const x=p.input?.aimX??p.face??1,y=p.input?.aimY||0,d=Math.hypot(x,y)||1,aim={x:x/d,y:y/d},giant=p.vanguardTime>0;
+ p.face=aim.x<0?-1:1;p.direction=Math.abs(aim.x)>Math.abs(aim.y)?(aim.x<0?2:3):(aim.y<0?1:0);p.castCount=(p.castCount||0)+1;
+ r.vanguardActions||=[];
+ if(s.kind==='vanguard-charge'){p.dashing=true;p.vanguardPose='charge';p.vanguardPoseTime=C.q.duration;r.vanguardActions.push({kind:'charge',stage:r.stage,owner:p.id,aim,giant,range:C.q.range,duration:C.q.duration,time:C.q.duration,hits:[],mult:s.mult});ctx.fx({type:'vanguard-vfx',action:'charge',giant,sourceId:p.id,x:p.x,y:p.y,angle:Math.atan2(aim.y,aim.x),radius:giant?105:65});}
+ if(s.kind==='vanguard-flurry'){const target=spearTargets(r,p,aim,giant?C.e.giantRange:C.e.range,giant?C.e.giantWidth:C.e.width,ctx)[0],interval=Math.max(.07,C.e.interval*Math.sqrt(ctx.stats(p).cooldown/C.base.cooldown)),hits=giant?C.e.giantHits:C.e.hits;p.vanguardPose='flurry';p.vanguardPoseTime=hits*interval;r.vanguardActions.push({kind:'flurry',stage:r.stage,owner:p.id,aim,giant,target:target?.id,remaining:hits,hits,clock:0,interval,healed:0,mult:s.mult});}
+ if(s.kind==='vanguard-form'){const ratio=p.hp/ctx.stats(p).hp;p.vanguardTime=C.giant.duration;p.vanguardFormCooldown=s.cooldown;p.cooldowns[s.id]=0;p.hp=ctx.stats(p).hp*ratio;ctx.fx({type:'vanguard-vfx',action:'grow',sourceId:p.id,x:p.x,y:p.y,radius:100});}
+}
+export function tickVanguardState(r,dt,ctx,active){for(const p of r.players){if(p.classId!=='vanguard')continue;p.vanguardPoseTime=Math.max(0,(p.vanguardPoseTime||0)-dt);if(!p.vanguardPoseTime)p.vanguardPose=null;if(p.vanguardTime>0){if(p.hp<=0||!active||p.vanguardTime<=dt)endVanguard(p,ctx);else p.vanguardTime-=dt;}}}
+export function tickVanguardActions(r,dt,ctx){const keep=[];for(const a of r.vanguardActions||[]){const p=r.players.find(p=>p.id===a.owner);if(a.stage!==r.stage||!p||p.hp<=0||p.classId!=='vanguard'){if(p){p.dashing=false;p.vanguardPose=null;p.vanguardPoseTime=0;}continue;}if(a.giant&&!(p.vanguardTime>0))a.giant=false;
+ if(a.kind==='charge'){const from={x:p.x,y:p.y},step=C.q.range/C.q.duration*Math.min(dt,a.time);ctx.move(p,p.x+a.aim.x*step,p.y+a.aim.y*step,step);a.time-=dt;p.moving=true;
+  const dx=p.x-from.x,dy=p.y-from.y,len=Math.hypot(dx,dy),width=a.giant?C.q.giantWidth:C.q.width;
+  for(const e of r.enemies){if(e.hp<=0||e.flying||a.hits.includes(e.id))continue;const vx=e.x-from.x,vy=e.y-from.y,t=Math.max(0,Math.min(1,(vx*dx+vy*dy)/(len*len||1)));if(!segmentHits(e,from,p,width))continue;const falloff=Math.max(C.q.minMultiplier,1-a.hits.length*C.q.decay);a.hits.push(e.id);ctx.damage(e,ctx.stats(p).power*a.mult*(a.giant?C.q.giantMult:1)*falloff,p);ctx.fx({type:'vanguard-vfx',action:'impact',x:e.x,y:e.y,radius:a.giant?48:27});}
+  if(a.time<=0||len<step*.5){p.dashing=false;p.vanguardPose=null;p.vanguardPoseTime=0;if(a.giant){for(const e of r.enemies)if(e.hp>0&&!e.flying&&targetDistance(p,e)<C.q.endRadius&&(!ctx.clearLine||ctx.clearLine(p,e)))ctx.damage(e,ctx.stats(p).power*C.q.endMult,p);ctx.fx({type:'vanguard-vfx',action:'stomp',x:p.x,y:p.y,radius:C.q.endRadius});}}else keep.push(a);
+ }else{a.clock-=dt;while(a.clock<=0&&a.remaining>0&&p.hp>0){a.clock+=a.interval;const target=r.enemies.find(e=>e.id===a.target&&e.hp>0&&!e.flying);if(target){const d=dist(p,target);if(d>1&&targetDistance(p,target)<=(a.giant?C.e.giantRange:C.e.range)){a.aim={x:(target.x-p.x)/d,y:(target.y-p.y)/d};p.face=a.aim.x<0?-1:1;}}
+   p.vanguardThrust=(p.vanguardThrust||0)+1;p.vanguardThrustInterval=a.interval;const final=a.remaining===1,range=a.giant?C.e.giantRange:C.e.range,targets=spearTargets(r,p,a.aim,range,a.giant?C.e.giantWidth:C.e.width,ctx).slice(0,a.giant?3:1);let actual=0;
+   for(const e of targets){const before=e.hp;ctx.damage(e,ctx.stats(p).power*(final?C.e.finalMult*a.mult/C.e.mult:a.mult)*(a.giant?C.e.giantMult:1),p);actual+=Math.max(0,before-e.hp);ctx.fx({type:'vanguard-vfx',action:'impact',x:e.x,y:e.y,radius:final?38:19});}
+   if(final&&a.giant&&targets[0])for(const e of r.enemies)if(e.hp>0&&!e.flying&&!targets.includes(e)&&dist(e,targets[0])<C.e.finalRadius&&(!ctx.clearLine||ctx.clearLine(p,e))){const before=e.hp;ctx.damage(e,ctx.stats(p).power*C.e.finalAOE,p);actual+=Math.max(0,before-e.hp);}
+   const max=ctx.stats(p).hp,heal=Math.min(actual*(a.giant?C.e.giantHeal:C.e.heal),Math.max(0,max*(a.giant?C.e.giantHealCap:C.e.healCap)-a.healed));if(heal>0){a.healed+=ctx.heal(p,heal,max,targets[0]);}
+   ctx.fx({type:'vanguard-vfx',action:final?'finisher':'thrust',skill:'vanguard-flurry',sourceId:p.id,x:p.x,y:p.y,angle:Math.atan2(a.aim.y,a.aim.x),radius:range,giant:a.giant});a.remaining--;
+  }if(a.remaining>0)keep.push(a);else{p.vanguardPose='flurry';p.vanguardPoseTime=a.interval;}
+ }}r.vanguardActions=keep;}

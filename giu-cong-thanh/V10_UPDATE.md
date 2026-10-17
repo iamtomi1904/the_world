@@ -69,3 +69,10 @@ Chỉnh: simulation.mjs, abilities.mjs, projectiles.mjs, gem-effects.mjs, server
 
 ## HUD trong suốt
 Chỉ số mốc, bản đồ, đợt, HP thành, vàng, hạ gục và phòng hiển thị nổi trên canvas; bỏ nền và không chiếm chiều cao bố cục. Chữ có viền bóng để đọc rõ, không chặn chuột. Thông báo đợt được dịch xuống để tránh chồng chữ.
+## Q Dark Elf, săn rừng giữa đợt và cân bằng co-op
+- Q Tên Xuyên Đêm: hành lang sát thương rộng 90 (trước 26), projectile lớn dài có lõi sáng và luồng bóng tím; xuyên tất cả mục tiêu hợp lệ, mỗi mục tiêu một lần. Giữ hệ số 160%, tầm 360, tốc độ 800, chậm và hồi chiêu cũ. Khi có ngọc vẫn giữ hình mũi tên lớn.
+- Tinh linh cây tăng kích thước hiển thị 56→84, cấu hình SHADOW.spirit.displaySize. Không đổi hitbox/chỉ số chiến đấu của cây.
+- Goblin Sát thủ: tầm đánh thường 50→60.
+- Boss: HP co-op = HP solo × (1 + 0.75 × (số người - 1)), chốt khi boss sinh ra; solo giữ nguyên. Giữ hệ số map/đợt/độ khó, quái thường vẫn +18%/người.
+- Prepare cho phép đánh thường, kỹ năng, projectile, pet, quái rừng phản công và loot. Không sinh quái đợt hoặc reset timer do rừng; lobby/clear không bật combat.
+- 101/101 kiểm thử đạt, gồm hành lang Q rộng, boss 1–4 người và săn rừng lúc đếm ngược. Server đã khởi động lại.

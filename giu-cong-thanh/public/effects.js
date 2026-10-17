@@ -1,3 +1,7 @@
+import {addWindVFX,updateWindVFX,clearWindVFX} from './wind-vfx.js';
+import {addVanguardVFX,updateVanguardVFX,clearVanguardVFX} from './vanguard-vfx.js';
+import {addFallenVFX,updateFallenVFX,clearFallenVFX} from './fallen-vfx.js';
+import {addHolyStrike,updateHolyStrikes,clearHolyStrikes} from './holy-vfx.js';
 import {addShadowVFX,updateShadowVFX,clearShadowVFX} from './shadow-vfx.js';
 import {drawMonsterProjectile,drawMonsterHit,drawBossBuff} from './enemy-spell-art.js';
 import {drawRelicPickup} from './relic-vfx.js';
@@ -17,16 +21,22 @@ function pulse(s,e,{duration=.75,particles=20,meteor=false}={}){
  if(e.gem){e={...e,color:{fire:0xff8b44,ice:0x91e5ff,thunder:0xe7cb67,poison:0x97d66a,dark:0xb696ed,wind:0x8be4cf}[e.gem]};}
  const skill=e.skill||'',artId=meteor?'fireburst':['cleave','earthquake','arrow-rain','thunderstrike','tempest','multishot','shield-bash','bulwark','rally','fireburst','flamefield','frostnova','blizzard','healing-tide'].includes(skill)?skill:null;
  const overlay=artId?art(s,artId,e.x,e.y,Math.min(radius*2.2,520),e.alpha??.7):null;
+ if(overlay&&skill==='cleave')overlay.setRotation((e.angle||0)+Math.PI);
  if(!overlay&&e.fx)spriteFX(s,e.fx,e.x,e.y,Math.min(radius*2.1,480),.65);
  remember(s,{kind:'pulse',age:0,duration,g,overlay,e,radius,color:e.gem?e.color:color,points,meteor,spin:skill==='blizzard'?1.2:skill==='bladestorm'?2.8:0});
 }
 export function renderEvent(s,e,seen){
  if(seen.has(e.id))return;seen.add(e.id);if(seen.size>3000)seen.delete(seen.values().next().value);
+ if(e.type==='wind-vfx'){addWindVFX(s,e);return;}
+ if(e.type==='vanguard-vfx'){addVanguardVFX(s,e);return;}
+ if(e.type==='fallen-vfx'){addFallenVFX(s,e);return;}
+ if(e.type==='holy-vfx'){if(e.action==='slash'||e.action==='strike'){addHolyStrike(s,e);return;}if(e.action==='aura'&&!e.mounted)return;addShadowVFX(s,{...e,action:'holy-'+e.action,duration:e.action==='ascend'?1.1:.7,color:0xffefbb});return;}
  if(e.type==='shadow-vfx'){addShadowVFX(s,e);return;}
- if(e.type==='boss-warning'||e.type==='boss-impact'||e.type==='enemy-summon'){addBossVFX(s,e);return;}
+ if(e.type==='forest-leader-death'){const actor=s.add.sprite(e.x,e.y,e.sprite+':idle',30).setOrigin(.5,.95).setDisplaySize(e.size*1.18,e.size*1.18).setDepth(e.y);actor.play(e.sprite+':dead');actor.once('animationcomplete',()=>actor.destroy());return;}
+ if(e.type==='boss-warning'||e.type==='boss-impact'||e.type==='enemy-summon'){if(e.forestLeader&&e.type==='boss-impact'){const points=e.points||[{x:e.x,y:e.y}];for(const point of points)addShadowVFX(s,{action:'forest-burst-'+e.family,x:point.x,y:point.y,radius:Math.min(140,e.radius||e.width||85),duration:.85,angle:e.angle,color:e.color});}addBossVFX(s,e);return;}
  if(e.type==='relic-pickup'){const label=s.add.text(e.x,e.y-48,e.text+' · VĨNH VIỄN',{fontFamily:'Segoe UI',fontSize:'12px',fontStyle:'bold',color:'#'+e.color.toString(16).padStart(6,'0'),stroke:'#15241f',strokeThickness:4}).setOrigin(.5).setDepth(3200);remember(s,{kind:'relic',g:s.add.graphics().setDepth(3000),label,e,age:0,duration:1.4});return;}
- if(e.family&&['effect','impact'].includes(e.type)){remember(s,{kind:'monster-hit',g:s.add.graphics().setDepth(2500),e,age:0,duration:.5});return;}
- if(e.type==='projectile-hit'){const v=s.liveVFX?.find(v=>v.e.id===e.shotId);if(v){v.age=v.duration;v.body?.setVisible(false);}return;}
+ if(e.family&&['effect','impact'].includes(e.type)){if(e.forestLeader)addShadowVFX(s,{action:'forest-burst-'+e.family,x:e.tx??e.x,y:e.ty??e.y,radius:32,duration:.45,color:e.color});remember(s,{kind:'monster-hit',g:s.add.graphics().setDepth(2500),e,age:0,duration:.5});return;}
+ if(e.type==='projectile-hit'){const v=s.liveVFX?.find(v=>v.e.id===e.shotId);if(v){if(v.e.skill==='elf-piercer')addShadowVFX(s,{action:'arrow-hit',x:e.x,y:e.y,radius:42,angle:Math.atan2(v.e.ty-v.e.y,v.e.tx-v.e.x),color:0xc9b8ef});v.age=v.duration;v.body?.setVisible(false);}return;}
  if(e.type==='healing'){remember(s,{kind:'healing',g:s.add.graphics().setDepth(3000),e,age:0,duration:1,points:Array.from({length:12},(_,i)=>({x:(i%4-1.5)*14,y:Math.floor(i/4)*17,phase:i*.16}))});if(e.drainFrom)renderEvent(s,{id:e.id+':drain',type:'drain',x:e.drainFrom.x,y:e.drainFrom.y,tx:e.x,ty:e.y,color:0xdf728f},seen);renderEvent(s,{id:e.id+':amount',type:'dot',x:e.x,y:e.y-30,text:'+'+e.amount,color:0x6af18c},seen);return;}
  if(e.type==='assassin-vfx'){if(e.action==='double'||e.action==='flurry')addShadowVFX(s,{...e,action:'dagger',radius:90});remember(s,{kind:'assassin',g:s.add.graphics().setDepth(2600),e,color:e.color,age:0,duration:e.action==='veil'?.8:.32});return;}
  if(e.type==='gem-hit'){pulse(s,{...e,radius:22,fx:e.gem==='fire'?'fireball':e.gem==='ice'?'waterball':e.gem==='thunder'?'lightning':'poison'},{duration:.35,particles:5});return;}
@@ -35,12 +45,14 @@ export function renderEvent(s,e,seen){
  if(e.type==='projectile'){if(e.projectileType==='leaf')addShadowVFX(s,{...e,action:'leaf-cast',radius:35,duration:.45});
   if(e.silent)return;const g=s.add.graphics().setDepth(2550),body=s.add.container(e.x,e.y).setDepth(2600),shape=s.add.graphics(),color=colorOf(e);
   if(e.family){drawMonsterProjectile(shape,e.family,0,e.element);}
-  else if(e.gem){const c=color;shape.lineStyle(4,c,.2).lineBetween(-24,0,10,0);shape.lineStyle(2,c,1);if(e.gem==='thunder'){shape.beginPath().moveTo(-20,-3).lineTo(-3,-7).lineTo(-8,1).lineTo(15,-2).lineTo(0,9).lineTo(3,2).lineTo(-20,-3).strokePath();}else if(e.gem==='ice'){shape.fillStyle(c,.9).fillTriangle(17,0,-12,-7,-12,7).lineStyle(1,0xf0ffff,1).lineBetween(-12,0,12,0);}else if(e.gem==='wind'){shape.beginPath().arc(0,0,14,-1.1,1.1).strokePath();shape.lineStyle(1,0xd5fff5,.8).beginPath().arc(-6,0,14,-1,1).strokePath();}else if(e.gem==='fire'){shape.fillStyle(c,.9).fillCircle(3,0,9).fillTriangle(-24,-7,5,0,-24,7).fillStyle(0xffe2a0).fillCircle(5,0,4);}else if(e.gem==='poison'){shape.fillStyle(c,.8).fillCircle(3,0,9).fillCircle(-11,-3,4).fillCircle(-19,3,2).fillStyle(0xd8f18c,.9).fillCircle(5,-2,3);}else{shape.fillStyle(0x261638,.9).fillCircle(0,0,11).lineStyle(2,c,.9).strokeCircle(0,0,11).fillStyle(c,.65).fillCircle(0,0,5);}body.setScale(e.enhanced?1.25:1);}
+  else if(e.gem&&e.skill!=='elf-piercer'){const c=color;shape.lineStyle(4,c,.2).lineBetween(-24,0,10,0);shape.lineStyle(2,c,1);if(e.gem==='thunder'){shape.beginPath().moveTo(-20,-3).lineTo(-3,-7).lineTo(-8,1).lineTo(15,-2).lineTo(0,9).lineTo(3,2).lineTo(-20,-3).strokePath();}else if(e.gem==='ice'){shape.fillStyle(c,.9).fillTriangle(17,0,-12,-7,-12,7).lineStyle(1,0xf0ffff,1).lineBetween(-12,0,12,0);}else if(e.gem==='wind'){shape.beginPath().arc(0,0,14,-1.1,1.1).strokePath();shape.lineStyle(1,0xd5fff5,.8).beginPath().arc(-6,0,14,-1,1).strokePath();}else if(e.gem==='fire'){shape.fillStyle(c,.9).fillCircle(3,0,9).fillTriangle(-24,-7,5,0,-24,7).fillStyle(0xffe2a0).fillCircle(5,0,4);}else if(e.gem==='poison'){shape.fillStyle(c,.8).fillCircle(3,0,9).fillCircle(-11,-3,4).fillCircle(-19,3,2).fillStyle(0xd8f18c,.9).fillCircle(5,-2,3);}else{shape.fillStyle(0x261638,.9).fillCircle(0,0,11).lineStyle(2,c,.9).strokeCircle(0,0,11).fillStyle(c,.65).fillCircle(0,0,5);}body.setScale(e.enhanced?1.25:1);}
+  else if(e.skill==='elf-piercer'){const half=(e.aoeWidth||90)/2;shape.lineStyle(half*2,color,.12).lineBetween(-90,0,22,0).lineStyle(half,color,.25).lineBetween(-65,0,30,0).fillStyle(color,.9).fillTriangle(65,0,5,-half,5,half).fillStyle(0xf5edff,1).fillTriangle(58,0,8,-10,8,10).lineStyle(5,0xe7d7ff,.9).lineBetween(-85,0,25,0).lineStyle(2,color,.7).lineBetween(-55,-half*.65,5,-half*.65).lineBetween(-55,half*.65,5,half*.65);}
   else if(['moon-arrow','leaf'].includes(e.projectileType)){shape.lineStyle(8,color,.12).lineBetween(-28,0,10,0).lineStyle(2,color,1).lineBetween(-23,0,12,0);shape.fillStyle(color,.95);if(e.projectileType==='leaf')shape.fillEllipse(0,0,25,9);else shape.fillTriangle(19,0,7,-6,7,6);shape.lineStyle(1,0xf1eaff,.9).lineBetween(-18,-4,-11,0).lineBetween(-18,4,-11,0);}
   else if(e.projectileType==='arrow'){shape.lineStyle(5,color,.18).lineBetween(-19,0,12,0);shape.lineStyle(2,color,1).lineBetween(-19,0,10,0);shape.fillStyle(color).fillTriangle(16,0,6,-4,6,4);shape.lineStyle(1,0xfff0c4,.8).lineBetween(-18,-4,-12,0).lineBetween(-18,4,-12,0);}
   else {shape.fillStyle(color,.1).fillCircle(0,0,18);shape.fillStyle(color,.25).fillCircle(0,0,12);shape.fillStyle(color,.95).fillCircle(0,0,7);shape.fillStyle(0xffffff,.9).fillCircle(-2,-2,3);}
+  let moonArrow;if(e.skill==='elf-piercer'&&s.textures.exists('moon-arrow-q')){const tx=s.textures.get('moon-arrow-q'),im=tx.getSourceImage(),cw=im.width/6,sy=Math.round(im.height*.25),sh=Math.floor(im.height*.48);for(let i=0;i<6;i++)if(!tx.has(i))tx.add(i,0,Math.round(i*cw)+4,sy,Math.floor(cw)-8,sh);moonArrow=s.add.image(-10,0,'moon-arrow-q',2).setOrigin(.88,.5).setDisplaySize(190,190*sh/(cw-8));shape.setAlpha(.22);body.add(moonArrow);}
   body.add(shape);if(e.skill==='venom'&&s.textures.exists('art:venom')){shape.setVisible(false);const arrow=s.add.image(0,0,'art:venom');arrow.setDisplaySize(66,66*arrow.height/arrow.width);body.add(arrow);}
-  remember(s,{kind:'projectile',g,body,e,color,age:0,duration:e.duration||.4,points:[],last:{x:e.x,y:e.y}});return;
+  remember(s,{kind:'projectile',g,body,e,color,age:0,duration:e.duration||.4,moonArrow,points:[],last:{x:e.x,y:e.y}});return;
  }
  if(e.type==='meteor-fall'){
   const g=s.add.graphics().setDepth(2400),rock=art(s,'meteor',e.x-180,e.y-520,115,1)||s.add.graphics().setDepth(2700);rock.setDepth(2700);if(rock.type==='Image')rock.setOrigin(.76,.76);
@@ -58,15 +70,15 @@ export function renderEvent(s,e,seen){
  if(e.type==='effect'){spriteFX(s,e.fx||'wind',e.x,e.y,e.size||90,.8);}
 }
 export function updateVFX(s,dt){
- updateShadowVFX(s,dt);updateBossVFX(s,dt);
+ updateWindVFX(s,dt);updateVanguardVFX(s,dt);updateFallenVFX(s,dt);updateHolyStrikes(s,dt);updateShadowVFX(s,dt);updateBossVFX(s,dt);
  const alive=[];for(const v of s.liveVFX||[]){v.age+=dt;const t=Math.min(1,v.age/v.duration),fade=1-t,g=v.g;g?.clear();
   if(v.kind==='assassin'){const e=v.e,g=v.g;const owner=s.actorObjects?.get(e.sourceId)?.sprite,x=e.action==='veil'?(owner?.x??e.x):e.x,y=e.action==='veil'?(owner?.y??e.y):e.y;if(e.action==='veil'){for(let i=0;i<9;i++){const a=i/9*TAU+t*2;g.fillStyle(i%2?0x647853:0xb7c790,fade*.35).fillCircle(x+Math.cos(a)*(12+t*30),y-20+Math.sin(a)*16-t*20,4+fade*7);}}else{for(let i=0;i<(e.action==='double'?2:3);i++){const a=(e.angle||0)+i*.55-1+t*2.4;g.lineStyle(4,0x8ea670,fade*.4).beginPath().arc(x,y-20,24+i*9,a-.9,a).strokePath();g.lineStyle(1,0xe8edc5,fade).beginPath().arc(x,y-20,24+i*9,a-.9,a).strokePath();}}}
   else if(v.kind==='projectile'){
    const target=s.actorObjects?.get(v.e.targetId)?.sprite,tx=target?.active?target.x:v.e.tx,ty=target?.active?target.y-20:v.e.ty;
    const bend=v.e.family||v.e.straight||v.e.projectileType==='arrow'?0:Math.min(45,Math.hypot(tx-v.e.x,ty-v.e.y)*.12),x=v.e.x+(tx-v.e.x)*t,y=v.e.y+(ty-v.e.y)*t-Math.sin(t*Math.PI)*bend;
    if(v.e.family){const shape=v.body.list[0];shape.clear();drawMonsterProjectile(shape,v.e.family,v.age,v.e.element);}
-   v.body.setPosition(x,y).setRotation(Math.atan2(y-v.last.y,x-v.last.x));v.points.push({x,y});if(v.points.length>12)v.points.shift();
-   for(let i=1;i<v.points.length;i++){const a=v.points[i-1],b=v.points[i];g.lineStyle(v.e.projectileType==='arrow'?2:2+i/3,v.color,i/v.points.length*.45).lineBetween(a.x,a.y,b.x,b.y);}v.last={x,y};
+   if(v.moonArrow)v.moonArrow.setFrame(2+Math.floor(v.age/.08)%2);v.body.setPosition(x,y).setRotation(Math.atan2(y-v.last.y,x-v.last.x));v.points.push({x,y});if(v.points.length>12)v.points.shift();
+   for(let i=1;i<v.points.length;i++){const a=v.points[i-1],b=v.points[i];g.lineStyle(v.e.skill==='elf-piercer'?5+i:v.e.projectileType==='arrow'?2:2+i/3,v.color,i/v.points.length*(v.e.skill==='elf-piercer'?.22:.45)).lineBetween(a.x,a.y,b.x,b.y);}v.last={x,y};
   }else if(v.kind==='monster-hit'){drawMonsterHit(g,v.e,t);
   }else if(v.kind==='relic'){drawRelicPickup(g,v.e,t);v.label?.setPosition(v.e.x,v.e.y-48-t*52).setAlpha(fade);
   }else if(v.kind==='healing'){
@@ -95,7 +107,7 @@ export function updateVFX(s,dt){
   if(t>=1){g?.destroy();v.body?.destroy();v.rock?.destroy();v.overlay?.destroy();v.label?.destroy();}else alive.push(v);
  }s.liveVFX=alive;
 }
-export function clearVFX(s){clearShadowVFX(s);clearBossVFX(s);s.lootGraphics?.clear();for(const v of s.liveVFX||[]){v.g?.destroy();v.body?.destroy();v.rock?.destroy();v.overlay?.destroy();v.label?.destroy();}s.liveVFX=[];}
+export function clearVFX(s){clearWindVFX(s);clearVanguardVFX(s);clearFallenVFX(s);clearHolyStrikes(s);clearShadowVFX(s);clearBossVFX(s);s.lootGraphics?.clear();for(const v of s.liveVFX||[]){v.g?.destroy();v.body?.destroy();v.rock?.destroy();v.overlay?.destroy();v.label?.destroy();}s.liveVFX=[];}
 export function unitVFX(s,u,obj,time){
  if(u.hp<=0){obj.buffArt?.destroy();obj.buffArt=null;obj.buffArtId=null;return;}
  const g=s.unitGlow,ground=s.unitGround,x=obj.sprite.x,y=obj.groundY??obj.sprite.y,pulse=.6+Math.sin(time/160)*.25;

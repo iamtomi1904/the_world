@@ -13,7 +13,7 @@ export function bossPoseFrame(unit){
  return null;
 }
 export function playBossCasting(scene,unit,obj,catalog){
- const pose=bossPoseFrame(unit),art=catalog.bossCasts?.[unit.family],sprite=obj.sprite;
+ const pose=bossPoseFrame(unit);if(unit.forestLeader&&pose){const actor=catalog.actors.find(a=>a.id===unit.sprite);if(actor){const frame=18+Math.min(5,pose.phase==='charge'?Math.floor(pose.frame/4*3):3+Math.floor((pose.frame-4)/4*3));obj.sprite.anims.stop();obj.sprite.setTexture(unit.sprite+':idle',frame).setOrigin(actor.originX,actor.originY).setScale(obj.size/actor.bodyHeight).setFlipX(unit.face<0);return true;}}const art=catalog.bossCasts?.[unit.family],sprite=obj.sprite;
  if(!pose||!art||!scene.textures.exists('boss-cast:'+unit.family)){obj.bossCasting=false;return false;}
  sprite.anims.stop();sprite.setTexture('boss-cast:'+unit.family,pose.frame).setOrigin(.5,art.originsY?.[pose.frame]??.86).setScale(obj.size/art.bodyHeight);
  sprite.setFlipX(Number.isFinite(pose.angle)?Math.cos(pose.angle)<0:unit.face<0);obj.bossCasting=true;obj.attackUntil=0;obj.wasAttacking=false;return true;

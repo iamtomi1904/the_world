@@ -2,11 +2,11 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import {createRoom,addPlayer,buy,tick,stats,spawnEnemy,MAPS} from './simulation.mjs';
 import {CLASSES,SKILLS,skillAtRank,skillById} from './public/skills.js';
-const representatives={darkelf:'dark-elf',assassin:'goblin-assassin',guardian:'knight-1',duelist:'samurai',ranger:'samurai-archer',berserker:'warrior-1',pyromancer:'fire-wizard',stormcaller:'lightning-mage',tidecaller:'wanderer-magican'};
+const representatives={paladin:'knight-2',darkelf:'dark-elf',assassin:'goblin-assassin',guardian:'knight-1',duelist:'samurai',ranger:'samurai-archer',berserker:'warrior-1',pyromancer:'fire-wizard',stormcaller:'lightning-mage',tidecaller:'wanderer-magican'};
 function setup(hero){const r=createRoom('SKILLS'),p=addPlayer(r,{hero});p.level=4;p.gold=10000;p.hp=stats(p).hp;r.phase='battle';r.wave=1;r.spawn=999;r.spawnCd=99999;return {r,p};}
 function mob(r,p,hp=10000){const e=spawnEnemy(r,()=>0);e.x=p.x+35;e.y=p.y+5;e.hp=hp;e.maxHp=hp;e.cd=99;return e;}
-test('nine classes have exactly Q/E/R and cannot buy other classes',()=>{
- assert.equal(Object.keys(CLASSES).length,9);assert.equal(SKILLS.length,27);
+test('ten classes have exactly Q/E/R and cannot buy other classes',()=>{
+ assert.equal(Object.keys(CLASSES).length,10);assert.equal(SKILLS.length,30);
  for(const [classId,hero]of Object.entries(representatives)){
   const {r,p}=setup(hero),c=CLASSES[classId];assert.equal(p.classId,classId);assert.equal(p.skills[c.skills[0]],1);
   assert.deepEqual(c.skills.map(id=>skillById(id).slot),['Q','E','R']);
@@ -16,7 +16,7 @@ test('nine classes have exactly Q/E/R and cannot buy other classes',()=>{
 for(const s of SKILLS)test(`${s.classId} / ${s.slot} ${s.id}: learned, costs energy, cooldown and real effect`,()=>{
  const {r,p}=setup(representatives[s.classId]);if(s.slot!=='Q')assert.equal(buy(r,p,'skill:'+s.id),null);
  const e=mob(r,p);p.hp=stats(p).hp*.5;const before=e.hp;
- p.input={[s.slot.toLowerCase()]:true};tick(r,.05,()=>0);assert.ok(p.cooldowns[s.id]>0);assert.ok(p.energy<stats(p).maxEnergy);assert.ok(r.events.length>0,'Visible effect');
+ p.input={[s.slot.toLowerCase()]:true};tick(r,.05,()=>0);if(s.kind==='holy-form'){assert.equal(p.cooldowns[s.id],0);assert.equal(p.holyMounted,true);}else assert.ok(p.cooldowns[s.id]>0);assert.ok(p.energy<stats(p).maxEnergy);assert.ok(r.events.length>0,'Visible effect');
  if(['target','multi','target-burst'].includes(s.kind)){p.input={};for(let i=0;i<15;i++)tick(r,.05,()=>0);}
  if(['burst','target','target-burst','multi','chain','dash'].includes(s.kind))assert.ok(e.hp<before,'Damage was applied after impact');
  if(s.kind==='shield')assert.ok(p.shield>0);

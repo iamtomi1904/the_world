@@ -1,0 +1,5 @@
+import {TERRAIN_TILE as T} from './terrain-grid.js';
+export function castleCourt(map){const b=map.base;return {left:Math.floor((b.x-256)/T)*T,right:Math.ceil((b.x+256)/T)*T,top:Math.floor((b.y-288)/T)*T,bottom:Math.ceil((b.y+224)/T)*T};}
+export function inCastleCourt(map,p){const r=castleCourt(map);return p.x>=r.left&&p.x<r.right&&p.y>=r.top&&p.y<r.bottom;}
+// One connected foundation on the same world grid as the roads, drawn last.
+export function drawCastleCourt(c,scene,map){const r=castleCourt(map),stone=scene.textures.get(map.roadTile).getSourceImage();c.save();c.globalAlpha=1;for(let y=r.top;y<r.bottom;y+=T)for(let x=r.left;x<r.right;x+=T){const edge=x===r.left||x===r.right-T||y===r.top||y===r.bottom-T,gate=Math.abs(x+T/2-map.base.x)<80&&y>=map.base.y+64;c.fillStyle=edge&&!gate?'#62695a':'#7d8170';c.fillRect(x,y,T,T);c.globalAlpha=.22;c.drawImage(stone,24,24,32,32,x,y,T,T);c.globalAlpha=1;c.fillStyle='#333f3655';c.fillRect(x,y+T-2,T,2);c.fillRect(x+T-2,y,2,T);c.fillStyle='#b9bea333';c.fillRect(x+2,y+2,T-4,2);if(gate){c.fillStyle='#c6be9655';c.fillRect(x+3,y+4,T-6,T-8);}}c.restore();}

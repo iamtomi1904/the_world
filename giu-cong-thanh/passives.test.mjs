@@ -18,10 +18,10 @@ test('shield cadence, low-health power, healing and kill buffs are server mechan
  p.hero='samurai-commander';passiveKill(r,p,stats);assert.equal(p.buffs.find(b=>b.innate).haste,.2);
 });
 test('hit-count passives activate only on hits, including fire, water and chain lightning',()=>{
- for(const [hero,hits] of [['knight-2',4],['knight-3',3],['samurai',4],['fire-wizard',3],['lightning-mage',4],['wanderer-magican',5],['samurai-archer',1]]){
+ for(const [hero,hits] of [['knight-3',3],['samurai',4],['fire-wizard',3],['lightning-mage',4],['wanderer-magican',5],['samurai-archer',1]]){
   const {r,p}=room(hero);p.hp=30;const target={id:'t',x:p.x+170,y:p.y,hp:1000,maxHp:1000},other={id:'o',x:target.x+30,y:target.y,hp:1000};r.enemies=[target,other];const hp=p.hp;
   for(let i=0;i<hits;i++)passiveHit(r,p,target,50,stats,applyStatus,()=>{});
-  if(['knight-2','wanderer-magican'].includes(hero))assert.ok(p.hp>hp,hero);
+  if(['wanderer-magican'].includes(hero))assert.ok(p.hp>hp,hero);
   if(['knight-3','samurai','samurai-archer'].includes(hero))assert.ok(target.hp<1000,hero);
   if(hero==='fire-wizard')assert.ok(target.statuses.burn);
   if(hero==='lightning-mage')assert.equal(other.hp,980);
