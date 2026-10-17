@@ -1,0 +1,9 @@
+## boss-treant
+Use case: stylized-concept. Single production game character sprite for a medieval top-down pixel art action defense RPG. Ancient forest boss: towering living oak guardian, antler branches, glowing amber eyes, mossy bark armor, huge root fists. Full body isolated centered, three quarter front view from above facing down toward player, feet near bottom, entire silhouette visible with transparent margins. Crisp pixel clusters, restrained palette, readable at 100px tall, matching classic 32-bit pixel RPG. Actual transparent background. No scenery, ground, text, UI, border or sprite sheet.
+
+## boss-golem
+Use case: stylized-concept. Single production game character sprite for a medieval top-down pixel art action defense RPG. Fortress siege boss: huge walking stone golem, jagged crystal shoulders, thick stone fists, luminous blue core, broad heavy silhouette. Full body isolated centered, three quarter front view from above facing down toward player, feet near bottom, entire silhouette visible with transparent margins. Crisp pixel clusters, restrained palette, readable at 100px tall, matching classic 32-bit pixel RPG. Actual transparent background. No scenery, ground, text, UI, border or sprite sheet.
+
+## boss-dragon
+Use case: stylized-concept. Single production game character sprite for a medieval top-down pixel art action defense RPG. Final boss: imposing winged infernal dragon standing on two hind legs, obsidian scales, orange magma cracks, curved horns, large wings partly raised, fierce mouth. Full body isolated centered, three quarter front view from above facing down toward player, feet near bottom, entire silhouette visible with transparent margins. Crisp pixel clusters, restrained palette, readable at 100px tall, matching classic 32-bit pixel RPG. Actual transparent background. No scenery, ground, text, UI, border or sprite sheet.
+

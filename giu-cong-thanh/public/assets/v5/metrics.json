@@ -1,0 +1,86 @@
+{
+  "lord-dragon": {
+    "width": 1448,
+    "height": 1086,
+    "bodyHeight": 318,
+    "originY": 0.994475138121547,
+    "alpha": "RGBA"
+  },
+  "lord-harpy": {
+    "width": 1448,
+    "height": 1086,
+    "bodyHeight": 355,
+    "originY": 1.0,
+    "alpha": "RGBA"
+  },
+  "lord-serpent": {
+    "width": 1448,
+    "height": 1086,
+    "bodyHeight": 327,
+    "originY": 0.9447513812154696,
+    "alpha": "RGBA"
+  },
+  "lord-stone": {
+    "width": 1448,
+    "height": 1086,
+    "bodyHeight": 331,
+    "originY": 0.9806629834254144,
+    "alpha": "RGBA"
+  },
+  "lord-undead": {
+    "width": 1448,
+    "height": 1086,
+    "bodyHeight": 351,
+    "originY": 0.9917127071823204,
+    "alpha": "RGBA"
+  },
+  "lord-wolf": {
+    "width": 1448,
+    "height": 1086,
+    "bodyHeight": 290,
+    "originY": 0.9502762430939227,
+    "alpha": "RGBA"
+  },
+  "mob-dragon": {
+    "width": 1448,
+    "height": 1086,
+    "bodyHeight": 343,
+    "originY": 0.9834254143646409,
+    "alpha": "RGBA"
+  },
+  "mob-harpy": {
+    "width": 1448,
+    "height": 1086,
+    "bodyHeight": 326,
+    "originY": 0.9751381215469613,
+    "alpha": "RGBA"
+  },
+  "mob-serpent": {
+    "width": 1448,
+    "height": 1086,
+    "bodyHeight": 278,
+    "originY": 0.9530386740331491,
+    "alpha": "RGBA"
+  },
+  "mob-stone": {
+    "width": 1448,
+    "height": 1086,
+    "bodyHeight": 292,
+    "originY": 0.9640883977900553,
+    "alpha": "RGBA"
+  },
+  "mob-undead": {
+    "width": 1448,
+    "height": 1086,
+    "bodyHeight": 288,
+    "originY": 1.0,
+    "alpha": "RGBA"
+  },
+  "mob-wolf": {
+    "width": 1448,
+    "height": 1086,
+    "bodyHeight": 245,
+    "originY": 0.9613259668508287,
+    "alpha": "RGBA"
+  }
+}

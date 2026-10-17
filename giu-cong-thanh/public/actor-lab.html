@@ -1,0 +1,21 @@
+<!doctype html><html lang="vi"><meta charset="utf-8"><title>Nhân vật & cường hóa</title>
+<style>body{margin:0;background:#18291f;color:#ead9ae;font:16px system-ui;text-align:center}button,select,a{padding:8px;margin:4px;background:#344a36;color:#ffe7b1;border:1px solid #9a8a60}canvas{max-width:100%;height:auto}h1{font-size:22px}p{font-size:14px}</style>
+<h1>Nhân vật, vũ khí cường hóa và động tác</h1>
+<select id="hero" aria-label="Nhân vật"><option value="warrior-1">Chiến Binh</option><option value="warrior-2">Cuồng Chiến</option><option value="warrior-3">Tiên Phong</option><option value="knight-1">Thiết Vệ</option><option value="knight-2">Ngân Kỵ</option><option value="knight-3">Hắc Kỵ</option></select>
+<select id="action" aria-label="Động tác"><option value="idle">Đứng</option><option value="walk">Chạy</option><option value="attack">Đánh thường</option></select>
+<label><input type="checkbox" id="left">Quay trái</label><button id="cast" disabled>E · Cuồng Huyết (7s)</button>
+<p>Bên trái: hình thường. Bên phải: thử E với vũ khí đỏ cam phát sáng. Hộ vệ dùng cùng điểm đặt chân khi đứng, chạy và đánh.</p><div id="stage"></div><p><a href="/">Về game</a> <a href="/effect-lab.html">Hiệu ứng kỹ năng</a></p>
+<script src="/vendor/phaser.js"></script><script type="module">
+import {actorAction} from './actor-animation.js';import {preloadEmpowered,createEmpoweredAnimations,playEmpowered} from './empowered.js';
+const catalog=await(await fetch('/catalog-v4.json')).json(),heroes=['warrior-1','warrior-2','warrior-3','knight-1','knight-2','knight-3'];let buffTime=0;
+document.querySelector('#cast').onclick=()=>buffTime=7;document.querySelector('#hero').onchange=()=>buffTime=0;
+new Phaser.Game({type:Phaser.AUTO,width:720,height:400,parent:'stage',pixelArt:true,backgroundColor:'#2b4030',scene:{
+ preload(){preloadEmpowered(this,catalog);for(const a of catalog.actors.filter(a=>heroes.includes(a.id)))for(const [action,info]of Object.entries(a.actions))this.load.spritesheet(a.id+':'+action,info.url,{frameWidth:a.frame,frameHeight:a.frame});},
+ create(){createEmpoweredAnimations(this,catalog);for(const a of catalog.actors.filter(a=>heroes.includes(a.id)))for(const [action,info]of Object.entries(a.actions))this.anims.create({key:a.id+':'+action,frames:this.anims.generateFrameNumbers(a.id+':'+action,{start:0,end:info.frames-1}),frameRate:action==='attack'?12:8,repeat:action==='attack'?0:-1});
+ this.add.grid(360,200,720,400,32,32,0x2b4030,1,0x8ba47b,.1);this.ground=this.add.graphics();this.units=[230,490].map(x=>({sprite:this.add.sprite(x,275,'warrior-1:idle'),size:100}));this.add.text(230,80,'BÌNH THƯỜNG',{fontSize:'16px',color:'#d5dcb4'}).setOrigin(.5);this.title=this.add.text(490,80,'CHƯA CƯỜNG HÓA',{fontSize:'16px',color:'#ffd393'}).setOrigin(.5);document.querySelector('#cast').disabled=false;},
+ update(time,delta){const hero=document.querySelector('#hero').value,requested=document.querySelector('#action').value,info=catalog.actors.find(a=>a.id===hero);buffTime=Math.max(0,buffTime-delta/1000);document.querySelector('#cast').disabled=!hero.startsWith('warrior');this.ground.clear();
+ for(const [i,obj]of this.units.entries()){const u={hero,hp:100,anim:requested==='attack'&&time%900<280?.28:0,attackCount:requested==='attack'?Math.floor(time/900):0,stats:{cooldown:.9},buffs:i&&buffTime>0?[{time:buffTime,lifesteal:.25}]:[]};if(obj.hero!==hero){obj.hero=hero;obj.wasAttacking=false;obj.attackUntil=0;}const action=actorAction(u,obj,requested==='walk',time,info),s=obj.sprite;s.setPosition((i?490:230)+(requested==='walk'?Math.sin(time/500)*35:0),275).setFlipX(document.querySelector('#left').checked);this.ground.lineStyle(1,0xc5d6a5,.45).strokeEllipse(s.x,275,52,15).lineBetween(s.x-5,275,s.x+5,275);
+ if(!playEmpowered(this,u,obj,action,catalog)){s.setOrigin(info.originX,info.originY).setScale(obj.size/info.bodyHeight);const key=hero+':'+action;if(obj.attackRestart&&action==='attack'){s.play(key,false);obj.attackRestart=false;}else s.play(key,true);s.anims.timeScale=action==='attack'?info.actions.attack.frames/Math.max(.12,(obj.attackDuration||300)/1000)/12:action==='walk'?1.25:1;}
+ }this.title.setText(hero.startsWith('knight')?'HỘ VỆ · ĐÃ CĂN CHÂN':buffTime>0?'CUỒNG HUYẾT · '+buffTime.toFixed(1)+'s':'CHƯA CƯỜNG HÓA');}
+}});
+</script></html>

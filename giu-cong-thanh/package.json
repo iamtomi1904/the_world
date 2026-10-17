@@ -1,0 +1,1 @@
+{"name":"giu-cong-thanh","private":true,"type":"module","scripts":{"dev":"node server.mjs","start":"node server.mjs","test":"node --test"},"dependencies":{"phaser":"^3.90.0","ws":"^8.18.0"}}

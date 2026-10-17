@@ -1,0 +1,2196 @@
+﻿{
+    "props":  [
+                  {
+                      "id":  "tree1",
+                      "source":  "D:\\the_world\\map\\craftpix-net-385863-free-top-down-trees-pixel-art\\PNG\\Assets_separately\\Trees\\Tree1.png",
+                      "width":  128,
+                      "height":  128,
+                      "url":  "/assets/v2/props/tree1.png",
+                      "group":  "trees"
+                  },
+                  {
+                      "id":  "tree2",
+                      "source":  "D:\\the_world\\map\\craftpix-net-385863-free-top-down-trees-pixel-art\\PNG\\Assets_separately\\Trees\\Tree2.png",
+                      "width":  64,
+                      "height":  64,
+                      "url":  "/assets/v2/props/tree2.png",
+                      "group":  "trees"
+                  },
+                  {
+                      "id":  "autumn_tree1",
+                      "source":  "D:\\the_world\\map\\craftpix-net-385863-free-top-down-trees-pixel-art\\PNG\\Assets_separately\\Trees\\Autumn_tree1.png",
+                      "width":  128,
+                      "height":  128,
+                      "url":  "/assets/v2/props/autumn_tree1.png",
+                      "group":  "trees"
+                  },
+                  {
+                      "id":  "burned_tree1",
+                      "source":  "D:\\the_world\\map\\craftpix-net-385863-free-top-down-trees-pixel-art\\PNG\\Assets_separately\\Trees\\Burned_tree1.png",
+                      "width":  128,
+                      "height":  128,
+                      "url":  "/assets/v2/props/burned_tree1.png",
+                      "group":  "trees"
+                  },
+                  {
+                      "id":  "snow_tree1",
+                      "source":  "D:\\the_world\\map\\craftpix-net-385863-free-top-down-trees-pixel-art\\PNG\\Assets_separately\\Trees\\Snow_tree1.png",
+                      "width":  128,
+                      "height":  128,
+                      "url":  "/assets/v2/props/snow_tree1.png",
+                      "group":  "trees"
+                  },
+                  {
+                      "id":  "moss_tree1",
+                      "source":  "D:\\the_world\\map\\craftpix-net-385863-free-top-down-trees-pixel-art\\PNG\\Assets_separately\\Trees\\Moss_tree1.png",
+                      "width":  128,
+                      "height":  128,
+                      "url":  "/assets/v2/props/moss_tree1.png",
+                      "group":  "trees"
+                  },
+                  {
+                      "id":  "palm_tree1_1",
+                      "source":  "D:\\the_world\\map\\craftpix-net-385863-free-top-down-trees-pixel-art\\PNG\\Assets_separately\\Trees\\Palm_tree1_1.png",
+                      "width":  128,
+                      "height":  128,
+                      "url":  "/assets/v2/props/palm_tree1_1.png",
+                      "group":  "trees"
+                  },
+                  {
+                      "id":  "flower_tree1",
+                      "source":  "D:\\the_world\\map\\craftpix-net-385863-free-top-down-trees-pixel-art\\PNG\\Assets_separately\\Trees\\Flower_tree1.png",
+                      "width":  128,
+                      "height":  128,
+                      "url":  "/assets/v2/props/flower_tree1.png",
+                      "group":  "trees"
+                  },
+                  {
+                      "id":  "bush_simple1_1",
+                      "source":  "D:\\the_world\\map\\craftpix-net-141354-free-top-down-bushes-pixel-art\\PNG\\Assets\\Bush_simple1_1.png",
+                      "width":  32,
+                      "height":  32,
+                      "url":  "/assets/v2/props/bush_simple1_1.png",
+                      "group":  "bushes"
+                  },
+                  {
+                      "id":  "autumn_bush1",
+                      "source":  "D:\\the_world\\map\\craftpix-net-141354-free-top-down-bushes-pixel-art\\PNG\\Assets\\Autumn_bush1.png",
+                      "width":  64,
+                      "height":  64,
+                      "url":  "/assets/v2/props/autumn_bush1.png",
+                      "group":  "bushes"
+                  },
+                  {
+                      "id":  "cactus1_1",
+                      "source":  "D:\\the_world\\map\\craftpix-net-141354-free-top-down-bushes-pixel-art\\PNG\\Assets\\Cactus1_1.png",
+                      "width":  32,
+                      "height":  32,
+                      "url":  "/assets/v2/props/cactus1_1.png",
+                      "group":  "bushes"
+                  },
+                  {
+                      "id":  "bush_blue_flowers1",
+                      "source":  "D:\\the_world\\map\\craftpix-net-141354-free-top-down-bushes-pixel-art\\PNG\\Assets\\Bush_blue_flowers1.png",
+                      "width":  64,
+                      "height":  64,
+                      "url":  "/assets/v2/props/bush_blue_flowers1.png",
+                      "group":  "bushes"
+                  },
+                  {
+                      "id":  "blue-gray_ruins1",
+                      "source":  "D:\\the_world\\map\\craftpix-net-934618-free-top-down-ruins-pixel-art\\PNG\\Assets\\Blue-gray_ruins1.png",
+                      "width":  112,
+                      "height":  128,
+                      "url":  "/assets/v2/props/blue-gray_ruins1.png",
+                      "group":  "ruins"
+                  },
+                  {
+                      "id":  "blue-gray_ruins2",
+                      "source":  "D:\\the_world\\map\\craftpix-net-934618-free-top-down-ruins-pixel-art\\PNG\\Assets\\Blue-gray_ruins2.png",
+                      "width":  80,
+                      "height":  80,
+                      "url":  "/assets/v2/props/blue-gray_ruins2.png",
+                      "group":  "ruins"
+                  },
+                  {
+                      "id":  "brown_ruins1",
+                      "source":  "D:\\the_world\\map\\craftpix-net-934618-free-top-down-ruins-pixel-art\\PNG\\Assets\\Brown_ruins1.png",
+                      "width":  112,
+                      "height":  112,
+                      "url":  "/assets/v2/props/brown_ruins1.png",
+                      "group":  "ruins"
+                  },
+                  {
+                      "id":  "brown_ruins2",
+                      "source":  "D:\\the_world\\map\\craftpix-net-934618-free-top-down-ruins-pixel-art\\PNG\\Assets\\Brown_ruins2.png",
+                      "width":  80,
+                      "height":  80,
+                      "url":  "/assets/v2/props/brown_ruins2.png",
+                      "group":  "ruins"
+                  },
+                  {
+                      "id":  "brown-gray_ruins1",
+                      "source":  "D:\\the_world\\map\\craftpix-net-934618-free-top-down-ruins-pixel-art\\PNG\\Assets\\Brown-gray_ruins1.png",
+                      "width":  112,
+                      "height":  112,
+                      "url":  "/assets/v2/props/brown-gray_ruins1.png",
+                      "group":  "ruins"
+                  },
+                  {
+                      "id":  "blue_crystal1",
+                      "source":  "D:\\the_world\\map\\craftpix-net-106469-top-down-crystals-pixel-art\\PNG\\Assets\\Blue_crystal1.png",
+                      "width":  64,
+                      "height":  64,
+                      "url":  "/assets/v2/props/blue_crystal1.png",
+                      "group":  "crystals"
+                  },
+                  {
+                      "id":  "green_crystal1",
+                      "source":  "D:\\the_world\\map\\craftpix-net-106469-top-down-crystals-pixel-art\\PNG\\Assets\\Green_crystal1.png",
+                      "width":  64,
+                      "height":  64,
+                      "url":  "/assets/v2/props/green_crystal1.png",
+                      "group":  "crystals"
+                  },
+                  {
+                      "id":  "violet_crystal1",
+                      "source":  "D:\\the_world\\map\\craftpix-net-106469-top-down-crystals-pixel-art\\PNG\\Assets\\Violet_crystal1.png",
+                      "width":  64,
+                      "height":  64,
+                      "url":  "/assets/v2/props/violet_crystal1.png",
+                      "group":  "crystals"
+                  },
+                  {
+                      "id":  "red_crystal1",
+                      "source":  "D:\\the_world\\map\\craftpix-net-106469-top-down-crystals-pixel-art\\PNG\\Assets\\Red_crystal1.png",
+                      "width":  64,
+                      "height":  64,
+                      "url":  "/assets/v2/props/red_crystal1.png",
+                      "group":  "crystals"
+                  },
+                  {
+                      "id":  "black_crystal1",
+                      "source":  "D:\\the_world\\map\\craftpix-net-106469-top-down-crystals-pixel-art\\PNG\\Assets\\Black_crystal1.png",
+                      "width":  64,
+                      "height":  64,
+                      "url":  "/assets/v2/props/black_crystal1.png",
+                      "group":  "crystals"
+                  },
+                  {
+                      "id":  "rock1_1",
+                      "source":  "D:\\the_world\\map\\craftpix-net-974061-free-rocks-and-stones-top-down-pixel-art\\PNG\\Objects_separately\\Rock1_1.png",
+                      "width":  64,
+                      "height":  64,
+                      "url":  "/assets/v2/props/rock1_1.png",
+                      "group":  "rocks"
+                  },
+                  {
+                      "id":  "rock2_1",
+                      "source":  "D:\\the_world\\map\\craftpix-net-974061-free-rocks-and-stones-top-down-pixel-art\\PNG\\Objects_separately\\Rock2_1.png",
+                      "width":  64,
+                      "height":  64,
+                      "url":  "/assets/v2/props/rock2_1.png",
+                      "group":  "rocks"
+                  },
+                  {
+                      "id":  "rock3_1",
+                      "source":  "D:\\the_world\\map\\craftpix-net-974061-free-rocks-and-stones-top-down-pixel-art\\PNG\\Objects_separately\\Rock3_1.png",
+                      "width":  64,
+                      "height":  64,
+                      "url":  "/assets/v2/props/rock3_1.png",
+                      "group":  "rocks"
+                  },
+                  {
+                      "id":  "rock4_1",
+                      "source":  "D:\\the_world\\map\\craftpix-net-974061-free-rocks-and-stones-top-down-pixel-art\\PNG\\Objects_separately\\Rock4_1.png",
+                      "width":  64,
+                      "height":  64,
+                      "url":  "/assets/v2/props/rock4_1.png",
+                      "group":  "rocks"
+                  },
+                  {
+                      "id":  "rock5_1",
+                      "source":  "D:\\the_world\\map\\craftpix-net-974061-free-rocks-and-stones-top-down-pixel-art\\PNG\\Objects_separately\\Rock5_1.png",
+                      "width":  64,
+                      "height":  64,
+                      "url":  "/assets/v2/props/rock5_1.png",
+                      "group":  "rocks"
+                  },
+                  {
+                      "id":  "rock6_1",
+                      "source":  "D:\\the_world\\map\\craftpix-net-974061-free-rocks-and-stones-top-down-pixel-art\\PNG\\Objects_separately\\Rock6_1.png",
+                      "width":  64,
+                      "height":  64,
+                      "url":  "/assets/v2/props/rock6_1.png",
+                      "group":  "rocks"
+                  },
+                  {
+                      "id":  "rock7_1",
+                      "source":  "D:\\the_world\\map\\craftpix-net-974061-free-rocks-and-stones-top-down-pixel-art\\PNG\\Objects_separately\\Rock7_1.png",
+                      "width":  64,
+                      "height":  64,
+                      "url":  "/assets/v2/props/rock7_1.png",
+                      "group":  "rocks"
+                  },
+                  {
+                      "id":  "rock8_1",
+                      "source":  "D:\\the_world\\map\\craftpix-net-974061-free-rocks-and-stones-top-down-pixel-art\\PNG\\Objects_separately\\Rock8_1.png",
+                      "width":  64,
+                      "height":  64,
+                      "url":  "/assets/v2/props/rock8_1.png",
+                      "group":  "rocks"
+                  },
+                  {
+                      "group":  "forest",
+                      "url":  "/assets/v3/beige_green_mushroom1.png",
+                      "width":  128,
+                      "id":  "beige_green_mushroom1",
+                      "height":  128
+                  },
+                  {
+                      "group":  "forest",
+                      "url":  "/assets/v3/beige_green_mushroom2.png",
+                      "width":  64,
+                      "id":  "beige_green_mushroom2",
+                      "height":  64
+                  },
+                  {
+                      "group":  "forest",
+                      "url":  "/assets/v3/beige_green_mushroom3.png",
+                      "width":  32,
+                      "id":  "beige_green_mushroom3",
+                      "height":  32
+                  },
+                  {
+                      "group":  "forest",
+                      "url":  "/assets/v3/blue-green_balls_tree1.png",
+                      "width":  128,
+                      "id":  "blue-green_balls_tree1",
+                      "height":  128
+                  },
+                  {
+                      "group":  "forest",
+                      "url":  "/assets/v3/blue-green_balls_tree2.png",
+                      "width":  64,
+                      "id":  "blue-green_balls_tree2",
+                      "height":  64
+                  },
+                  {
+                      "group":  "forest",
+                      "url":  "/assets/v3/blue-green_balls_tree3.png",
+                      "width":  32,
+                      "id":  "blue-green_balls_tree3",
+                      "height":  32
+                  },
+                  {
+                      "group":  "forest",
+                      "url":  "/assets/v3/chanterelles1.png",
+                      "width":  32,
+                      "id":  "chanterelles1",
+                      "height":  32
+                  },
+                  {
+                      "group":  "forest",
+                      "url":  "/assets/v3/chanterelles2.png",
+                      "width":  32,
+                      "id":  "chanterelles2",
+                      "height":  32
+                  },
+                  {
+                      "group":  "forest",
+                      "url":  "/assets/v3/chanterelles3.png",
+                      "width":  32,
+                      "id":  "chanterelles3",
+                      "height":  32
+                  },
+                  {
+                      "group":  "forest",
+                      "url":  "/assets/v3/curved_tree1.png",
+                      "width":  128,
+                      "id":  "curved_tree1",
+                      "height":  128
+                  },
+                  {
+                      "group":  "forest",
+                      "url":  "/assets/v3/curved_tree2.png",
+                      "width":  128,
+                      "id":  "curved_tree2",
+                      "height":  128
+                  },
+                  {
+                      "group":  "forest",
+                      "url":  "/assets/v3/curved_tree3.png",
+                      "width":  64,
+                      "id":  "curved_tree3",
+                      "height":  64
+                  },
+                  {
+                      "group":  "forest",
+                      "url":  "/assets/v3/ent_man.png",
+                      "width":  128,
+                      "id":  "ent_man",
+                      "height":  128
+                  },
+                  {
+                      "group":  "forest",
+                      "url":  "/assets/v3/ent_woman.png",
+                      "width":  128,
+                      "id":  "ent_woman",
+                      "height":  128
+                  },
+                  {
+                      "group":  "forest",
+                      "url":  "/assets/v3/light_balls_tree1.png",
+                      "width":  128,
+                      "id":  "light_balls_tree1",
+                      "height":  128
+                  },
+                  {
+                      "group":  "forest",
+                      "url":  "/assets/v3/light_balls_tree2.png",
+                      "width":  128,
+                      "id":  "light_balls_tree2",
+                      "height":  128
+                  },
+                  {
+                      "group":  "forest",
+                      "url":  "/assets/v3/light_balls_tree3.png",
+                      "width":  64,
+                      "id":  "light_balls_tree3",
+                      "height":  64
+                  },
+                  {
+                      "group":  "forest",
+                      "url":  "/assets/v3/living-gazebo1.png",
+                      "width":  128,
+                      "id":  "living-gazebo1",
+                      "height":  128
+                  },
+                  {
+                      "group":  "forest",
+                      "url":  "/assets/v3/living-gazebo2.png",
+                      "width":  128,
+                      "id":  "living-gazebo2",
+                      "height":  128
+                  },
+                  {
+                      "group":  "forest",
+                      "url":  "/assets/v3/luminous_tree1.png",
+                      "width":  128,
+                      "id":  "luminous_tree1",
+                      "height":  128
+                  },
+                  {
+                      "group":  "forest",
+                      "url":  "/assets/v3/luminous_tree2.png",
+                      "width":  128,
+                      "id":  "luminous_tree2",
+                      "height":  128
+                  },
+                  {
+                      "group":  "forest",
+                      "url":  "/assets/v3/luminous_tree3.png",
+                      "width":  64,
+                      "id":  "luminous_tree3",
+                      "height":  64
+                  },
+                  {
+                      "group":  "forest",
+                      "url":  "/assets/v3/mega_tree1.png",
+                      "width":  256,
+                      "id":  "mega_tree1",
+                      "height":  256
+                  },
+                  {
+                      "group":  "forest",
+                      "url":  "/assets/v3/mega_tree2.png",
+                      "width":  128,
+                      "id":  "mega_tree2",
+                      "height":  128
+                  },
+                  {
+                      "group":  "forest",
+                      "url":  "/assets/v3/swirling-tree1.png",
+                      "width":  128,
+                      "id":  "swirling-tree1",
+                      "height":  128
+                  },
+                  {
+                      "group":  "forest",
+                      "url":  "/assets/v3/swirling-tree2.png",
+                      "width":  128,
+                      "id":  "swirling-tree2",
+                      "height":  128
+                  },
+                  {
+                      "group":  "forest",
+                      "url":  "/assets/v3/swirling-tree3.png",
+                      "width":  64,
+                      "id":  "swirling-tree3",
+                      "height":  64
+                  },
+                  {
+                      "group":  "forest",
+                      "url":  "/assets/v3/tree_idol_deer.png",
+                      "width":  128,
+                      "id":  "tree_idol_deer",
+                      "height":  128
+                  },
+                  {
+                      "group":  "forest",
+                      "url":  "/assets/v3/tree_idol_dragon.png",
+                      "width":  256,
+                      "id":  "tree_idol_dragon",
+                      "height":  256
+                  },
+                  {
+                      "group":  "forest",
+                      "url":  "/assets/v3/tree_idol_human.png",
+                      "width":  128,
+                      "id":  "tree_idol_human",
+                      "height":  128
+                  },
+                  {
+                      "group":  "forest",
+                      "url":  "/assets/v3/tree_idol_wolf.png",
+                      "width":  128,
+                      "id":  "tree_idol_wolf",
+                      "height":  128
+                  },
+                  {
+                      "group":  "forest",
+                      "url":  "/assets/v3/white-red_mushroom1.png",
+                      "width":  128,
+                      "id":  "white-red_mushroom1",
+                      "height":  128
+                  },
+                  {
+                      "group":  "forest",
+                      "url":  "/assets/v3/white-red_mushroom2.png",
+                      "width":  64,
+                      "id":  "white-red_mushroom2",
+                      "height":  64
+                  },
+                  {
+                      "group":  "forest",
+                      "url":  "/assets/v3/white-red_mushroom3.png",
+                      "width":  64,
+                      "id":  "white-red_mushroom3",
+                      "height":  64
+                  },
+                  {
+                      "group":  "forest",
+                      "url":  "/assets/v3/white_tree1.png",
+                      "width":  128,
+                      "id":  "white_tree1",
+                      "height":  128
+                  },
+                  {
+                      "group":  "forest",
+                      "url":  "/assets/v3/white_tree2.png",
+                      "width":  64,
+                      "id":  "white_tree2",
+                      "height":  64
+                  },
+                  {
+                      "group":  "forest",
+                      "url":  "/assets/v3/willow1.png",
+                      "width":  128,
+                      "id":  "willow1",
+                      "height":  128
+                  },
+                  {
+                      "group":  "forest",
+                      "url":  "/assets/v3/willow2.png",
+                      "width":  128,
+                      "id":  "willow2",
+                      "height":  128
+                  },
+                  {
+                      "group":  "forest",
+                      "url":  "/assets/v3/willow3.png",
+                      "width":  64,
+                      "id":  "willow3",
+                      "height":  64
+                  },
+                  {
+                      "group":  "trees",
+                      "url":  "/assets/v3/autumn_tree2.png",
+                      "width":  64,
+                      "id":  "autumn_tree2",
+                      "height":  64
+                  },
+                  {
+                      "group":  "trees",
+                      "url":  "/assets/v3/autumn_tree3.png",
+                      "width":  64,
+                      "id":  "autumn_tree3",
+                      "height":  64
+                  },
+                  {
+                      "group":  "trees",
+                      "url":  "/assets/v3/broken_tree1.png",
+                      "width":  32,
+                      "id":  "broken_tree1",
+                      "height":  32
+                  },
+                  {
+                      "group":  "trees",
+                      "url":  "/assets/v3/broken_tree2.png",
+                      "width":  32,
+                      "id":  "broken_tree2",
+                      "height":  32
+                  },
+                  {
+                      "group":  "trees",
+                      "url":  "/assets/v3/broken_tree3.png",
+                      "width":  48,
+                      "id":  "broken_tree3",
+                      "height":  48
+                  },
+                  {
+                      "group":  "trees",
+                      "url":  "/assets/v3/burned_tree2.png",
+                      "width":  64,
+                      "id":  "burned_tree2",
+                      "height":  64
+                  },
+                  {
+                      "group":  "trees",
+                      "url":  "/assets/v3/burned_tree3.png",
+                      "width":  64,
+                      "id":  "burned_tree3",
+                      "height":  64
+                  },
+                  {
+                      "group":  "trees",
+                      "url":  "/assets/v3/christmas_tree1.png",
+                      "width":  128,
+                      "id":  "christmas_tree1",
+                      "height":  128
+                  },
+                  {
+                      "group":  "trees",
+                      "url":  "/assets/v3/christmas_tree2.png",
+                      "width":  64,
+                      "id":  "christmas_tree2",
+                      "height":  64
+                  },
+                  {
+                      "group":  "trees",
+                      "url":  "/assets/v3/christmas_tree3.png",
+                      "width":  32,
+                      "id":  "christmas_tree3",
+                      "height":  32
+                  },
+                  {
+                      "group":  "trees",
+                      "url":  "/assets/v3/flower_tree2.png",
+                      "width":  64,
+                      "id":  "flower_tree2",
+                      "height":  64
+                  },
+                  {
+                      "group":  "trees",
+                      "url":  "/assets/v3/flower_tree3.png",
+                      "width":  64,
+                      "id":  "flower_tree3",
+                      "height":  64
+                  },
+                  {
+                      "group":  "trees",
+                      "url":  "/assets/v3/fruit_tree1.png",
+                      "width":  128,
+                      "id":  "fruit_tree1",
+                      "height":  128
+                  },
+                  {
+                      "group":  "trees",
+                      "url":  "/assets/v3/fruit_tree2.png",
+                      "width":  128,
+                      "id":  "fruit_tree2",
+                      "height":  128
+                  },
+                  {
+                      "group":  "trees",
+                      "url":  "/assets/v3/fruit_tree3.png",
+                      "width":  64,
+                      "id":  "fruit_tree3",
+                      "height":  64
+                  },
+                  {
+                      "group":  "trees",
+                      "url":  "/assets/v3/moss_tree2.png",
+                      "width":  64,
+                      "id":  "moss_tree2",
+                      "height":  64
+                  },
+                  {
+                      "group":  "trees",
+                      "url":  "/assets/v3/moss_tree3.png",
+                      "width":  64,
+                      "id":  "moss_tree3",
+                      "height":  64
+                  },
+                  {
+                      "group":  "trees",
+                      "url":  "/assets/v3/palm_tree1_2.png",
+                      "width":  64,
+                      "id":  "palm_tree1_2",
+                      "height":  64
+                  },
+                  {
+                      "group":  "trees",
+                      "url":  "/assets/v3/palm_tree1_3.png",
+                      "width":  64,
+                      "id":  "palm_tree1_3",
+                      "height":  64
+                  },
+                  {
+                      "group":  "trees",
+                      "url":  "/assets/v3/palm_tree2_1.png",
+                      "width":  128,
+                      "id":  "palm_tree2_1",
+                      "height":  128
+                  },
+                  {
+                      "group":  "trees",
+                      "url":  "/assets/v3/palm_tree2_2.png",
+                      "width":  64,
+                      "id":  "palm_tree2_2",
+                      "height":  64
+                  },
+                  {
+                      "group":  "trees",
+                      "url":  "/assets/v3/palm_tree2_3.png",
+                      "width":  64,
+                      "id":  "palm_tree2_3",
+                      "height":  64
+                  },
+                  {
+                      "group":  "trees",
+                      "url":  "/assets/v3/snow_christmass_tree1.png",
+                      "width":  128,
+                      "id":  "snow_christmass_tree1",
+                      "height":  128
+                  },
+                  {
+                      "group":  "trees",
+                      "url":  "/assets/v3/snow_christmass_tree2.png",
+                      "width":  64,
+                      "id":  "snow_christmass_tree2",
+                      "height":  64
+                  },
+                  {
+                      "group":  "trees",
+                      "url":  "/assets/v3/snow_christmass_tree3.png",
+                      "width":  32,
+                      "id":  "snow_christmass_tree3",
+                      "height":  32
+                  },
+                  {
+                      "group":  "trees",
+                      "url":  "/assets/v3/snow_tree2.png",
+                      "width":  64,
+                      "id":  "snow_tree2",
+                      "height":  64
+                  },
+                  {
+                      "group":  "trees",
+                      "url":  "/assets/v3/snow_tree3.png",
+                      "width":  64,
+                      "id":  "snow_tree3",
+                      "height":  64
+                  },
+                  {
+                      "group":  "trees",
+                      "url":  "/assets/v3/tree3.png",
+                      "width":  64,
+                      "id":  "tree3",
+                      "height":  64
+                  },
+                  {
+                      "group":  "bushes",
+                      "url":  "/assets/v3/autumn_bush2.png",
+                      "width":  32,
+                      "id":  "autumn_bush2",
+                      "height":  32
+                  },
+                  {
+                      "group":  "bushes",
+                      "url":  "/assets/v3/autumn_bush3.png",
+                      "width":  16,
+                      "id":  "autumn_bush3",
+                      "height":  16
+                  },
+                  {
+                      "group":  "bushes",
+                      "url":  "/assets/v3/bush_blue_flowers2.png",
+                      "width":  32,
+                      "id":  "bush_blue_flowers2",
+                      "height":  32
+                  },
+                  {
+                      "group":  "bushes",
+                      "url":  "/assets/v3/bush_blue_flowers3.png",
+                      "width":  16,
+                      "id":  "bush_blue_flowers3",
+                      "height":  16
+                  },
+                  {
+                      "group":  "bushes",
+                      "url":  "/assets/v3/bush_orange_flowers1.png",
+                      "width":  64,
+                      "id":  "bush_orange_flowers1",
+                      "height":  64
+                  },
+                  {
+                      "group":  "bushes",
+                      "url":  "/assets/v3/bush_orange_flowers2.png",
+                      "width":  32,
+                      "id":  "bush_orange_flowers2",
+                      "height":  32
+                  },
+                  {
+                      "group":  "bushes",
+                      "url":  "/assets/v3/bush_orange_flowers3.png",
+                      "width":  16,
+                      "id":  "bush_orange_flowers3",
+                      "height":  16
+                  },
+                  {
+                      "group":  "bushes",
+                      "url":  "/assets/v3/bush_pink_flowers1.png",
+                      "width":  64,
+                      "id":  "bush_pink_flowers1",
+                      "height":  64
+                  },
+                  {
+                      "group":  "bushes",
+                      "url":  "/assets/v3/bush_pink_flowers2.png",
+                      "width":  32,
+                      "id":  "bush_pink_flowers2",
+                      "height":  32
+                  },
+                  {
+                      "group":  "bushes",
+                      "url":  "/assets/v3/bush_pink_flowers3.png",
+                      "width":  16,
+                      "id":  "bush_pink_flowers3",
+                      "height":  16
+                  },
+                  {
+                      "group":  "bushes",
+                      "url":  "/assets/v3/bush_red_flowers1.png",
+                      "width":  64,
+                      "id":  "bush_red_flowers1",
+                      "height":  64
+                  },
+                  {
+                      "group":  "bushes",
+                      "url":  "/assets/v3/bush_red_flowers2.png",
+                      "width":  32,
+                      "id":  "bush_red_flowers2",
+                      "height":  32
+                  },
+                  {
+                      "group":  "bushes",
+                      "url":  "/assets/v3/bush_red_flowers3.png",
+                      "width":  16,
+                      "id":  "bush_red_flowers3",
+                      "height":  16
+                  },
+                  {
+                      "group":  "bushes",
+                      "url":  "/assets/v3/bush_simple1_2.png",
+                      "width":  32,
+                      "id":  "bush_simple1_2",
+                      "height":  32
+                  },
+                  {
+                      "group":  "bushes",
+                      "url":  "/assets/v3/bush_simple1_3.png",
+                      "width":  16,
+                      "id":  "bush_simple1_3",
+                      "height":  16
+                  },
+                  {
+                      "group":  "bushes",
+                      "url":  "/assets/v3/bush_simple2_1.png",
+                      "width":  32,
+                      "id":  "bush_simple2_1",
+                      "height":  32
+                  },
+                  {
+                      "group":  "bushes",
+                      "url":  "/assets/v3/bush_simple2_2.png",
+                      "width":  32,
+                      "id":  "bush_simple2_2",
+                      "height":  32
+                  },
+                  {
+                      "group":  "bushes",
+                      "url":  "/assets/v3/bush_simple2_3.png",
+                      "width":  16,
+                      "id":  "bush_simple2_3",
+                      "height":  16
+                  },
+                  {
+                      "group":  "bushes",
+                      "url":  "/assets/v3/cactus1_2.png",
+                      "width":  32,
+                      "id":  "cactus1_2",
+                      "height":  32
+                  },
+                  {
+                      "group":  "bushes",
+                      "url":  "/assets/v3/cactus1_3.png",
+                      "width":  16,
+                      "id":  "cactus1_3",
+                      "height":  16
+                  },
+                  {
+                      "group":  "bushes",
+                      "url":  "/assets/v3/cactus2_1.png",
+                      "width":  64,
+                      "id":  "cactus2_1",
+                      "height":  64
+                  },
+                  {
+                      "group":  "bushes",
+                      "url":  "/assets/v3/cactus2_2.png",
+                      "width":  32,
+                      "id":  "cactus2_2",
+                      "height":  32
+                  },
+                  {
+                      "group":  "bushes",
+                      "url":  "/assets/v3/cactus2_3.png",
+                      "width":  16,
+                      "id":  "cactus2_3",
+                      "height":  16
+                  },
+                  {
+                      "group":  "bushes",
+                      "url":  "/assets/v3/fern1_1.png",
+                      "width":  64,
+                      "id":  "fern1_1",
+                      "height":  64
+                  },
+                  {
+                      "group":  "bushes",
+                      "url":  "/assets/v3/fern1_2.png",
+                      "width":  32,
+                      "id":  "fern1_2",
+                      "height":  32
+                  },
+                  {
+                      "group":  "bushes",
+                      "url":  "/assets/v3/fern1_3.png",
+                      "width":  16,
+                      "id":  "fern1_3",
+                      "height":  16
+                  },
+                  {
+                      "group":  "bushes",
+                      "url":  "/assets/v3/fern2_1.png",
+                      "width":  64,
+                      "id":  "fern2_1",
+                      "height":  64
+                  },
+                  {
+                      "group":  "bushes",
+                      "url":  "/assets/v3/fern2_2.png",
+                      "width":  32,
+                      "id":  "fern2_2",
+                      "height":  32
+                  },
+                  {
+                      "group":  "bushes",
+                      "url":  "/assets/v3/fern2_3.png",
+                      "width":  16,
+                      "id":  "fern2_3",
+                      "height":  16
+                  },
+                  {
+                      "group":  "bushes",
+                      "url":  "/assets/v3/snow_bush1.png",
+                      "width":  64,
+                      "id":  "snow_bush1",
+                      "height":  64
+                  },
+                  {
+                      "group":  "bushes",
+                      "url":  "/assets/v3/snow_bush2.png",
+                      "width":  32,
+                      "id":  "snow_bush2",
+                      "height":  32
+                  },
+                  {
+                      "group":  "bushes",
+                      "url":  "/assets/v3/snow_bush3.png",
+                      "width":  16,
+                      "id":  "snow_bush3",
+                      "height":  16
+                  },
+                  {
+                      "group":  "ruins",
+                      "url":  "/assets/v3/blue-gray_ruins3.png",
+                      "width":  48,
+                      "id":  "blue-gray_ruins3",
+                      "height":  64
+                  },
+                  {
+                      "group":  "ruins",
+                      "url":  "/assets/v3/brown-gray_ruins2.png",
+                      "width":  80,
+                      "id":  "brown-gray_ruins2",
+                      "height":  80
+                  },
+                  {
+                      "group":  "ruins",
+                      "url":  "/assets/v3/brown-gray_ruins3.png",
+                      "width":  64,
+                      "id":  "brown-gray_ruins3",
+                      "height":  64
+                  },
+                  {
+                      "group":  "ruins",
+                      "url":  "/assets/v3/brown_ruins3.png",
+                      "width":  64,
+                      "id":  "brown_ruins3",
+                      "height":  64
+                  },
+                  {
+                      "group":  "ruins",
+                      "url":  "/assets/v3/sand_ruins1.png",
+                      "width":  96,
+                      "id":  "sand_ruins1",
+                      "height":  96
+                  },
+                  {
+                      "group":  "ruins",
+                      "url":  "/assets/v3/sand_ruins2.png",
+                      "width":  80,
+                      "id":  "sand_ruins2",
+                      "height":  64
+                  },
+                  {
+                      "group":  "ruins",
+                      "url":  "/assets/v3/sand_ruins3.png",
+                      "width":  64,
+                      "id":  "sand_ruins3",
+                      "height":  64
+                  },
+                  {
+                      "group":  "ruins",
+                      "url":  "/assets/v3/snow_ruins1.png",
+                      "width":  112,
+                      "id":  "snow_ruins1",
+                      "height":  96
+                  },
+                  {
+                      "group":  "ruins",
+                      "url":  "/assets/v3/snow_ruins2.png",
+                      "width":  80,
+                      "id":  "snow_ruins2",
+                      "height":  80
+                  },
+                  {
+                      "group":  "ruins",
+                      "url":  "/assets/v3/snow_ruins3.png",
+                      "width":  64,
+                      "id":  "snow_ruins3",
+                      "height":  64
+                  },
+                  {
+                      "group":  "ruins",
+                      "url":  "/assets/v3/water_ruins1.png",
+                      "width":  80,
+                      "id":  "water_ruins1",
+                      "height":  96
+                  },
+                  {
+                      "group":  "ruins",
+                      "url":  "/assets/v3/water_ruins2.png",
+                      "width":  64,
+                      "id":  "water_ruins2",
+                      "height":  80
+                  },
+                  {
+                      "group":  "ruins",
+                      "url":  "/assets/v3/water_ruins3.png",
+                      "width":  48,
+                      "id":  "water_ruins3",
+                      "height":  64
+                  },
+                  {
+                      "group":  "ruins",
+                      "url":  "/assets/v3/white_ruins1.png",
+                      "width":  96,
+                      "id":  "white_ruins1",
+                      "height":  96
+                  },
+                  {
+                      "group":  "ruins",
+                      "url":  "/assets/v3/white_ruins2.png",
+                      "width":  80,
+                      "id":  "white_ruins2",
+                      "height":  64
+                  },
+                  {
+                      "group":  "ruins",
+                      "url":  "/assets/v3/white_ruins3.png",
+                      "width":  64,
+                      "id":  "white_ruins3",
+                      "height":  64
+                  },
+                  {
+                      "group":  "ruins",
+                      "url":  "/assets/v3/yellow_ruins1.png",
+                      "width":  112,
+                      "id":  "yellow_ruins1",
+                      "height":  112
+                  },
+                  {
+                      "group":  "ruins",
+                      "url":  "/assets/v3/yellow_ruins2.png",
+                      "width":  80,
+                      "id":  "yellow_ruins2",
+                      "height":  80
+                  },
+                  {
+                      "group":  "ruins",
+                      "url":  "/assets/v3/yellow_ruins3.png",
+                      "width":  64,
+                      "id":  "yellow_ruins3",
+                      "height":  64
+                  },
+                  {
+                      "group":  "crystals",
+                      "url":  "/assets/v3/black_crystal2.png",
+                      "width":  64,
+                      "id":  "black_crystal2",
+                      "height":  64
+                  },
+                  {
+                      "group":  "crystals",
+                      "url":  "/assets/v3/black_crystal3.png",
+                      "width":  32,
+                      "id":  "black_crystal3",
+                      "height":  32
+                  },
+                  {
+                      "group":  "crystals",
+                      "url":  "/assets/v3/blue_crystal2.png",
+                      "width":  64,
+                      "id":  "blue_crystal2",
+                      "height":  64
+                  },
+                  {
+                      "group":  "crystals",
+                      "url":  "/assets/v3/blue_crystal3.png",
+                      "width":  32,
+                      "id":  "blue_crystal3",
+                      "height":  32
+                  },
+                  {
+                      "group":  "crystals",
+                      "url":  "/assets/v3/dark_red_-crystal1.png",
+                      "width":  64,
+                      "id":  "dark_red_-crystal1",
+                      "height":  64
+                  },
+                  {
+                      "group":  "crystals",
+                      "url":  "/assets/v3/dark_red_-crystal2.png",
+                      "width":  64,
+                      "id":  "dark_red_-crystal2",
+                      "height":  64
+                  },
+                  {
+                      "group":  "crystals",
+                      "url":  "/assets/v3/dark_red_-crystal3.png",
+                      "width":  32,
+                      "id":  "dark_red_-crystal3",
+                      "height":  32
+                  },
+                  {
+                      "group":  "crystals",
+                      "url":  "/assets/v3/green_crystal2.png",
+                      "width":  64,
+                      "id":  "green_crystal2",
+                      "height":  64
+                  },
+                  {
+                      "group":  "crystals",
+                      "url":  "/assets/v3/green_crystal3.png",
+                      "width":  32,
+                      "id":  "green_crystal3",
+                      "height":  32
+                  },
+                  {
+                      "group":  "crystals",
+                      "url":  "/assets/v3/pink_crystal1.png",
+                      "width":  64,
+                      "id":  "pink_crystal1",
+                      "height":  64
+                  },
+                  {
+                      "group":  "crystals",
+                      "url":  "/assets/v3/pink_crystal2.png",
+                      "width":  64,
+                      "id":  "pink_crystal2",
+                      "height":  64
+                  },
+                  {
+                      "group":  "crystals",
+                      "url":  "/assets/v3/pink_crystal3.png",
+                      "width":  32,
+                      "id":  "pink_crystal3",
+                      "height":  32
+                  },
+                  {
+                      "group":  "crystals",
+                      "url":  "/assets/v3/red_crystal2.png",
+                      "width":  64,
+                      "id":  "red_crystal2",
+                      "height":  64
+                  },
+                  {
+                      "group":  "crystals",
+                      "url":  "/assets/v3/red_crystal3.png",
+                      "width":  32,
+                      "id":  "red_crystal3",
+                      "height":  32
+                  },
+                  {
+                      "group":  "crystals",
+                      "url":  "/assets/v3/violet_crystal2.png",
+                      "width":  64,
+                      "id":  "violet_crystal2",
+                      "height":  64
+                  },
+                  {
+                      "group":  "crystals",
+                      "url":  "/assets/v3/violet_crystal3.png",
+                      "width":  32,
+                      "id":  "violet_crystal3",
+                      "height":  32
+                  },
+                  {
+                      "group":  "crystals",
+                      "url":  "/assets/v3/white_crystal1.png",
+                      "width":  64,
+                      "id":  "white_crystal1",
+                      "height":  64
+                  },
+                  {
+                      "group":  "crystals",
+                      "url":  "/assets/v3/white_crystal2.png",
+                      "width":  64,
+                      "id":  "white_crystal2",
+                      "height":  64
+                  },
+                  {
+                      "group":  "crystals",
+                      "url":  "/assets/v3/white_crystal3.png",
+                      "width":  32,
+                      "id":  "white_crystal3",
+                      "height":  32
+                  },
+                  {
+                      "group":  "crystals",
+                      "url":  "/assets/v3/yellow-green_crystal1.png",
+                      "width":  64,
+                      "id":  "yellow-green_crystal1",
+                      "height":  64
+                  },
+                  {
+                      "group":  "crystals",
+                      "url":  "/assets/v3/yellow-green_crystal2.png",
+                      "width":  64,
+                      "id":  "yellow-green_crystal2",
+                      "height":  64
+                  },
+                  {
+                      "group":  "crystals",
+                      "url":  "/assets/v3/yellow-green_crystal3.png",
+                      "width":  32,
+                      "id":  "yellow-green_crystal3",
+                      "height":  32
+                  },
+                  {
+                      "group":  "crystals",
+                      "url":  "/assets/v3/yellow_crystal1.png",
+                      "width":  64,
+                      "id":  "yellow_crystal1",
+                      "height":  64
+                  },
+                  {
+                      "group":  "crystals",
+                      "url":  "/assets/v3/yellow_crystal2.png",
+                      "width":  64,
+                      "id":  "yellow_crystal2",
+                      "height":  64
+                  },
+                  {
+                      "group":  "crystals",
+                      "url":  "/assets/v3/yellow_crystal3.png",
+                      "width":  32,
+                      "id":  "yellow_crystal3",
+                      "height":  32
+                  },
+                  {
+                      "group":  "rocks",
+                      "url":  "/assets/v3/rock1_2.png",
+                      "width":  64,
+                      "id":  "rock1_2",
+                      "height":  64
+                  },
+                  {
+                      "group":  "rocks",
+                      "url":  "/assets/v3/rock1_3.png",
+                      "width":  32,
+                      "id":  "rock1_3",
+                      "height":  32
+                  },
+                  {
+                      "group":  "rocks",
+                      "url":  "/assets/v3/rock2_2.png",
+                      "width":  64,
+                      "id":  "rock2_2",
+                      "height":  64
+                  },
+                  {
+                      "group":  "rocks",
+                      "url":  "/assets/v3/rock2_3.png",
+                      "width":  32,
+                      "id":  "rock2_3",
+                      "height":  32
+                  },
+                  {
+                      "group":  "rocks",
+                      "url":  "/assets/v3/rock3_2.png",
+                      "width":  64,
+                      "id":  "rock3_2",
+                      "height":  64
+                  },
+                  {
+                      "group":  "rocks",
+                      "url":  "/assets/v3/rock3_3.png",
+                      "width":  32,
+                      "id":  "rock3_3",
+                      "height":  32
+                  },
+                  {
+                      "group":  "rocks",
+                      "url":  "/assets/v3/rock4_2.png",
+                      "width":  64,
+                      "id":  "rock4_2",
+                      "height":  64
+                  },
+                  {
+                      "group":  "rocks",
+                      "url":  "/assets/v3/rock4_3.png",
+                      "width":  32,
+                      "id":  "rock4_3",
+                      "height":  32
+                  },
+                  {
+                      "group":  "rocks",
+                      "url":  "/assets/v3/rock5_2.png",
+                      "width":  64,
+                      "id":  "rock5_2",
+                      "height":  64
+                  },
+                  {
+                      "group":  "rocks",
+                      "url":  "/assets/v3/rock5_3.png",
+                      "width":  32,
+                      "id":  "rock5_3",
+                      "height":  32
+                  },
+                  {
+                      "group":  "rocks",
+                      "url":  "/assets/v3/rock6_2.png",
+                      "width":  64,
+                      "id":  "rock6_2",
+                      "height":  64
+                  },
+                  {
+                      "group":  "rocks",
+                      "url":  "/assets/v3/rock6_3.png",
+                      "width":  32,
+                      "id":  "rock6_3",
+                      "height":  32
+                  },
+                  {
+                      "group":  "rocks",
+                      "url":  "/assets/v3/rock7_2.png",
+                      "width":  64,
+                      "id":  "rock7_2",
+                      "height":  64
+                  },
+                  {
+                      "group":  "rocks",
+                      "url":  "/assets/v3/rock7_3.png",
+                      "width":  32,
+                      "id":  "rock7_3",
+                      "height":  32
+                  },
+                  {
+                      "group":  "rocks",
+                      "url":  "/assets/v3/rock8_2.png",
+                      "width":  64,
+                      "id":  "rock8_2",
+                      "height":  64
+                  },
+                  {
+                      "group":  "rocks",
+                      "url":  "/assets/v3/rock8_3.png",
+                      "width":  32,
+                      "id":  "rock8_3",
+                      "height":  32
+                  }
+              ],
+    "terrain":  [
+                    {
+                        "id":  "Ground_grass",
+                        "url":  "/assets/v3/Ground_grass.png"
+                    },
+                    {
+                        "id":  "Road1",
+                        "url":  "/assets/v3/Road1.png"
+                    },
+                    {
+                        "id":  "Road2",
+                        "url":  "/assets/v3/Road2.png"
+                    },
+                    {
+                        "id":  "Road3",
+                        "url":  "/assets/v3/Road3.png"
+                    },
+                    {
+                        "id":  "Road4",
+                        "url":  "/assets/v3/Road4.png"
+                    },
+                    {
+                        "id":  "Road5",
+                        "url":  "/assets/v3/Road5.png"
+                    }
+                ],
+    "actors":  [
+                   {
+                       "id":  "samurai",
+                       "frame":  128,
+                       "group":  "heroes",
+                       "actions":  {
+                                       "attack":  {
+                                                      "frames":  4,
+                                                      "url":  "/assets/v2/samurai/attack.png"
+                                                  },
+                                       "dead":  {
+                                                    "frames":  6,
+                                                    "url":  "/assets/v2/samurai/dead.png"
+                                                },
+                                       "idle":  {
+                                                    "frames":  6,
+                                                    "url":  "/assets/v2/samurai/idle.png"
+                                                },
+                                       "hurt":  {
+                                                    "frames":  3,
+                                                    "url":  "/assets/v2/samurai/hurt.png"
+                                                },
+                                       "walk":  {
+                                                    "frames":  8,
+                                                    "url":  "/assets/v2/samurai/walk.png"
+                                                }
+                                   },
+                       "source":  "D:\\the_world\\heroes\\craftpix-net-123681-free-samurai-pixel-art-sprite-sheets\\Samurai",
+                       "originX":  0.21484375,
+                       "bodyHeight":  69,
+                       "originY":  0.9921875
+                   },
+                   {
+                       "id":  "samurai-archer",
+                       "frame":  128,
+                       "group":  "heroes",
+                       "actions":  {
+                                       "attack":  {
+                                                      "frames":  5,
+                                                      "url":  "/assets/v2/samurai-archer/attack.png"
+                                                  },
+                                       "dead":  {
+                                                    "frames":  5,
+                                                    "url":  "/assets/v2/samurai-archer/dead.png"
+                                                },
+                                       "idle":  {
+                                                    "frames":  9,
+                                                    "url":  "/assets/v2/samurai-archer/idle.png"
+                                                },
+                                       "hurt":  {
+                                                    "frames":  3,
+                                                    "url":  "/assets/v2/samurai-archer/hurt.png"
+                                                },
+                                       "walk":  {
+                                                    "frames":  8,
+                                                    "url":  "/assets/v2/samurai-archer/walk.png"
+                                                }
+                                   },
+                       "source":  "D:\\the_world\\heroes\\craftpix-net-123681-free-samurai-pixel-art-sprite-sheets\\Samurai_Archer",
+                       "originX":  0.4453125,
+                       "bodyHeight":  103,
+                       "originY":  0.9921875
+                   },
+                   {
+                       "id":  "samurai-commander",
+                       "frame":  128,
+                       "group":  "heroes",
+                       "actions":  {
+                                       "attack":  {
+                                                      "frames":  4,
+                                                      "url":  "/assets/v2/samurai-commander/attack.png"
+                                                  },
+                                       "dead":  {
+                                                    "frames":  6,
+                                                    "url":  "/assets/v2/samurai-commander/dead.png"
+                                                },
+                                       "idle":  {
+                                                    "frames":  5,
+                                                    "url":  "/assets/v2/samurai-commander/idle.png"
+                                                },
+                                       "hurt":  {
+                                                    "frames":  2,
+                                                    "url":  "/assets/v2/samurai-commander/hurt.png"
+                                                },
+                                       "walk":  {
+                                                    "frames":  8,
+                                                    "url":  "/assets/v2/samurai-commander/walk.png"
+                                                }
+                                   },
+                       "source":  "D:\\the_world\\heroes\\craftpix-net-123681-free-samurai-pixel-art-sprite-sheets\\Samurai_Commander",
+                       "originX":  0.42578125,
+                       "bodyHeight":  92,
+                       "originY":  0.9921875
+                   },
+                   {
+                       "id":  "fire-wizard",
+                       "frame":  128,
+                       "group":  "heroes",
+                       "actions":  {
+                                       "attack":  {
+                                                      "frames":  4,
+                                                      "url":  "/assets/v2/fire-wizard/attack.png"
+                                                  },
+                                       "dead":  {
+                                                    "frames":  6,
+                                                    "url":  "/assets/v2/fire-wizard/dead.png"
+                                                },
+                                       "idle":  {
+                                                    "frames":  7,
+                                                    "url":  "/assets/v2/fire-wizard/idle.png"
+                                                },
+                                       "hurt":  {
+                                                    "frames":  3,
+                                                    "url":  "/assets/v2/fire-wizard/hurt.png"
+                                                },
+                                       "walk":  {
+                                                    "frames":  8,
+                                                    "url":  "/assets/v2/fire-wizard/walk.png"
+                                                }
+                                   },
+                       "source":  "D:\\the_world\\heroes\\craftpix-net-529677-free-wizard-sprite-sheets-pixel-art\\Fire Wizard",
+                       "originX":  0.38671875,
+                       "bodyHeight":  66,
+                       "originY":  0.9921875
+                   },
+                   {
+                       "id":  "lightning-mage",
+                       "frame":  128,
+                       "group":  "heroes",
+                       "actions":  {
+                                       "attack":  {
+                                                      "frames":  10,
+                                                      "url":  "/assets/v2/lightning-mage/attack.png"
+                                                  },
+                                       "dead":  {
+                                                    "frames":  5,
+                                                    "url":  "/assets/v2/lightning-mage/dead.png"
+                                                },
+                                       "idle":  {
+                                                    "frames":  7,
+                                                    "url":  "/assets/v2/lightning-mage/idle.png"
+                                                },
+                                       "hurt":  {
+                                                    "frames":  3,
+                                                    "url":  "/assets/v2/lightning-mage/hurt.png"
+                                                },
+                                       "walk":  {
+                                                    "frames":  8,
+                                                    "url":  "/assets/v2/lightning-mage/walk.png"
+                                                }
+                                   },
+                       "source":  "D:\\the_world\\heroes\\craftpix-net-529677-free-wizard-sprite-sheets-pixel-art\\Lightning Mage",
+                       "originX":  0.4140625,
+                       "bodyHeight":  63,
+                       "originY":  0.9921875
+                   },
+                   {
+                       "id":  "wanderer-magican",
+                       "frame":  128,
+                       "group":  "heroes",
+                       "actions":  {
+                                       "attack":  {
+                                                      "frames":  7,
+                                                      "url":  "/assets/v2/wanderer-magican/attack.png"
+                                                  },
+                                       "dead":  {
+                                                    "frames":  4,
+                                                    "url":  "/assets/v2/wanderer-magican/dead.png"
+                                                },
+                                       "idle":  {
+                                                    "frames":  8,
+                                                    "url":  "/assets/v2/wanderer-magican/idle.png"
+                                                },
+                                       "hurt":  {
+                                                    "frames":  4,
+                                                    "url":  "/assets/v2/wanderer-magican/hurt.png"
+                                                },
+                                       "walk":  {
+                                                    "frames":  8,
+                                                    "url":  "/assets/v2/wanderer-magican/walk.png"
+                                                }
+                                   },
+                       "source":  "D:\\the_world\\heroes\\craftpix-net-529677-free-wizard-sprite-sheets-pixel-art\\Wanderer Magican",
+                       "originX":  0.49609375,
+                       "bodyHeight":  66,
+                       "originY":  0.9921875
+                   },
+                   {
+                       "id":  "warrior-1",
+                       "frame":  96,
+                       "group":  "heroes",
+                       "actions":  {
+                                       "attack":  {
+                                                      "frames":  4,
+                                                      "url":  "/assets/v2/warrior-1/attack.png"
+                                                  },
+                                       "dead":  {
+                                                    "frames":  4,
+                                                    "url":  "/assets/v2/warrior-1/dead.png"
+                                                },
+                                       "idle":  {
+                                                    "frames":  6,
+                                                    "url":  "/assets/v2/warrior-1/idle.png"
+                                                },
+                                       "hurt":  {
+                                                    "frames":  2,
+                                                    "url":  "/assets/v2/warrior-1/hurt.png"
+                                                },
+                                       "walk":  {
+                                                    "frames":  6,
+                                                    "url":  "/assets/v2/warrior-1/walk.png"
+                                                }
+                                   },
+                       "source":  "D:\\the_world\\heroes\\craftpix-net-589520-free-warrior-pixel-art-sprite-sheets\\Warrior_1",
+                       "originX":  0.48958333333333331,
+                       "bodyHeight":  45,
+                       "originY":  0.98958333333333337
+                   },
+                   {
+                       "id":  "warrior-2",
+                       "frame":  96,
+                       "group":  "heroes",
+                       "actions":  {
+                                       "attack":  {
+                                                      "frames":  4,
+                                                      "url":  "/assets/v2/warrior-2/attack.png"
+                                                  },
+                                       "dead":  {
+                                                    "frames":  4,
+                                                    "url":  "/assets/v2/warrior-2/dead.png"
+                                                },
+                                       "idle":  {
+                                                    "frames":  5,
+                                                    "url":  "/assets/v2/warrior-2/idle.png"
+                                                },
+                                       "hurt":  {
+                                                    "frames":  3,
+                                                    "url":  "/assets/v2/warrior-2/hurt.png"
+                                                },
+                                       "walk":  {
+                                                    "frames":  6,
+                                                    "url":  "/assets/v2/warrior-2/walk.png"
+                                                }
+                                   },
+                       "source":  "D:\\the_world\\heroes\\craftpix-net-589520-free-warrior-pixel-art-sprite-sheets\\Warrior_2",
+                       "originX":  0.48958333333333331,
+                       "bodyHeight":  47,
+                       "originY":  0.98958333333333337
+                   },
+                   {
+                       "id":  "warrior-3",
+                       "frame":  96,
+                       "group":  "heroes",
+                       "actions":  {
+                                       "attack":  {
+                                                      "frames":  4,
+                                                      "url":  "/assets/v2/warrior-3/attack.png"
+                                                  },
+                                       "dead":  {
+                                                    "frames":  4,
+                                                    "url":  "/assets/v2/warrior-3/dead.png"
+                                                },
+                                       "idle":  {
+                                                    "frames":  5,
+                                                    "url":  "/assets/v2/warrior-3/idle.png"
+                                                },
+                                       "hurt":  {
+                                                    "frames":  2,
+                                                    "url":  "/assets/v2/warrior-3/hurt.png"
+                                                },
+                                       "walk":  {
+                                                    "frames":  6,
+                                                    "url":  "/assets/v2/warrior-3/walk.png"
+                                                }
+                                   },
+                       "source":  "D:\\the_world\\heroes\\craftpix-net-589520-free-warrior-pixel-art-sprite-sheets\\Warrior_3",
+                       "originX":  0.58854166666666663,
+                       "bodyHeight":  66,
+                       "originY":  0.98958333333333337
+                   },
+                   {
+                       "id":  "knight-1",
+                       "frame":  128,
+                       "group":  "heroes",
+                       "actions":  {
+                                       "attack":  {
+                                                      "frames":  5,
+                                                      "url":  "/assets/v2/knight-1/attack.png"
+                                                  },
+                                       "dead":  {
+                                                    "frames":  6,
+                                                    "url":  "/assets/v2/knight-1/dead.png"
+                                                },
+                                       "idle":  {
+                                                    "frames":  4,
+                                                    "url":  "/assets/v2/knight-1/idle.png"
+                                                },
+                                       "hurt":  {
+                                                    "frames":  2,
+                                                    "url":  "/assets/v2/knight-1/hurt.png"
+                                                },
+                                       "walk":  {
+                                                    "frames":  7,
+                                                    "url":  "/assets/v2/knight-1/walk.png"
+                                                }
+                                   },
+                       "source":  "D:\\the_world\\heroes\\craftpix-net-803217-free-knight-character-sprites-pixel-art\\Knight_1",
+                       "originX":  0.2578125,
+                       "bodyHeight":  64,
+                       "originY":  0.9921875
+                   },
+                   {
+                       "id":  "knight-2",
+                       "frame":  128,
+                       "group":  "heroes",
+                       "actions":  {
+                                       "attack":  {
+                                                      "frames":  5,
+                                                      "url":  "/assets/v2/knight-2/attack.png"
+                                                  },
+                                       "dead":  {
+                                                    "frames":  6,
+                                                    "url":  "/assets/v2/knight-2/dead.png"
+                                                },
+                                       "idle":  {
+                                                    "frames":  4,
+                                                    "url":  "/assets/v2/knight-2/idle.png"
+                                                },
+                                       "hurt":  {
+                                                    "frames":  2,
+                                                    "url":  "/assets/v2/knight-2/hurt.png"
+                                                },
+                                       "walk":  {
+                                                    "frames":  7,
+                                                    "url":  "/assets/v2/knight-2/walk.png"
+                                                }
+                                   },
+                       "source":  "D:\\the_world\\heroes\\craftpix-net-803217-free-knight-character-sprites-pixel-art\\Knight_2",
+                       "originX":  0.2578125,
+                       "bodyHeight":  64,
+                       "originY":  0.9921875
+                   },
+                   {
+                       "id":  "knight-3",
+                       "frame":  128,
+                       "group":  "heroes",
+                       "actions":  {
+                                       "attack":  {
+                                                      "frames":  5,
+                                                      "url":  "/assets/v2/knight-3/attack.png"
+                                                  },
+                                       "dead":  {
+                                                    "frames":  6,
+                                                    "url":  "/assets/v2/knight-3/dead.png"
+                                                },
+                                       "idle":  {
+                                                    "frames":  4,
+                                                    "url":  "/assets/v2/knight-3/idle.png"
+                                                },
+                                       "hurt":  {
+                                                    "frames":  2,
+                                                    "url":  "/assets/v2/knight-3/hurt.png"
+                                                },
+                                       "walk":  {
+                                                    "frames":  7,
+                                                    "url":  "/assets/v2/knight-3/walk.png"
+                                                }
+                                   },
+                       "source":  "D:\\the_world\\heroes\\craftpix-net-803217-free-knight-character-sprites-pixel-art\\Knight_3",
+                       "originX":  0.2578125,
+                       "bodyHeight":  64,
+                       "originY":  0.9921875
+                   },
+                   {
+                       "id":  "orc-berserk",
+                       "frame":  96,
+                       "group":  "monster",
+                       "actions":  {
+                                       "attack":  {
+                                                      "frames":  4,
+                                                      "url":  "/assets/v2/orc-berserk/attack.png"
+                                                  },
+                                       "dead":  {
+                                                    "frames":  4,
+                                                    "url":  "/assets/v2/orc-berserk/dead.png"
+                                                },
+                                       "idle":  {
+                                                    "frames":  5,
+                                                    "url":  "/assets/v2/orc-berserk/idle.png"
+                                                },
+                                       "hurt":  {
+                                                    "frames":  2,
+                                                    "url":  "/assets/v2/orc-berserk/hurt.png"
+                                                },
+                                       "walk":  {
+                                                    "frames":  6,
+                                                    "url":  "/assets/v2/orc-berserk/walk.png"
+                                                }
+                                   },
+                       "source":  "D:\\the_world\\monster\\craftpix-net-100504-free-orc-sprite-sheets-pixel-art\\Craftpix_Orc\\Orc_Berserk",
+                       "originX":  0.5,
+                       "bodyHeight":  61,
+                       "originY":  0.98958333333333337
+                   },
+                   {
+                       "id":  "orc-shaman",
+                       "frame":  96,
+                       "group":  "monster",
+                       "actions":  {
+                                       "attack":  {
+                                                      "frames":  4,
+                                                      "url":  "/assets/v2/orc-shaman/attack.png"
+                                                  },
+                                       "dead":  {
+                                                    "frames":  5,
+                                                    "url":  "/assets/v2/orc-shaman/dead.png"
+                                                },
+                                       "idle":  {
+                                                    "frames":  5,
+                                                    "url":  "/assets/v2/orc-shaman/idle.png"
+                                                },
+                                       "hurt":  {
+                                                    "frames":  2,
+                                                    "url":  "/assets/v2/orc-shaman/hurt.png"
+                                                },
+                                       "walk":  {
+                                                    "frames":  6,
+                                                    "url":  "/assets/v2/orc-shaman/walk.png"
+                                                }
+                                   },
+                       "source":  "D:\\the_world\\monster\\craftpix-net-100504-free-orc-sprite-sheets-pixel-art\\Craftpix_Orc\\Orc_Shaman",
+                       "originX":  0.5,
+                       "bodyHeight":  63,
+                       "originY":  0.98958333333333337
+                   },
+                   {
+                       "id":  "orc-warrior",
+                       "frame":  96,
+                       "group":  "monster",
+                       "actions":  {
+                                       "attack":  {
+                                                      "frames":  4,
+                                                      "url":  "/assets/v2/orc-warrior/attack.png"
+                                                  },
+                                       "dead":  {
+                                                    "frames":  4,
+                                                    "url":  "/assets/v2/orc-warrior/dead.png"
+                                                },
+                                       "idle":  {
+                                                    "frames":  5,
+                                                    "url":  "/assets/v2/orc-warrior/idle.png"
+                                                },
+                                       "hurt":  {
+                                                    "frames":  2,
+                                                    "url":  "/assets/v2/orc-warrior/hurt.png"
+                                                },
+                                       "walk":  {
+                                                    "frames":  6,
+                                                    "url":  "/assets/v2/orc-warrior/walk.png"
+                                                }
+                                   },
+                       "source":  "D:\\the_world\\monster\\craftpix-net-100504-free-orc-sprite-sheets-pixel-art\\Craftpix_Orc\\Orc_Warrior",
+                       "originX":  0.40625,
+                       "bodyHeight":  59,
+                       "originY":  0.98958333333333337
+                   },
+                   {
+                       "id":  "fire-spirit",
+                       "frame":  128,
+                       "group":  "monster",
+                       "actions":  {
+                                       "attack":  {
+                                                      "frames":  14,
+                                                      "url":  "/assets/v2/fire-spirit/attack.png"
+                                                  },
+                                       "dead":  {
+                                                    "frames":  5,
+                                                    "url":  "/assets/v2/fire-spirit/dead.png"
+                                                },
+                                       "idle":  {
+                                                    "frames":  6,
+                                                    "url":  "/assets/v2/fire-spirit/idle.png"
+                                                },
+                                       "hurt":  {
+                                                    "frames":  3,
+                                                    "url":  "/assets/v2/fire-spirit/hurt.png"
+                                                },
+                                       "walk":  {
+                                                    "frames":  7,
+                                                    "url":  "/assets/v2/fire-spirit/walk.png"
+                                                }
+                                   },
+                       "source":  "D:\\the_world\\monster\\craftpix-net-339194-free-fantasy-enemies-pixel-art-sprite-pack\\Fire_Spirit",
+                       "originX":  0.49609375,
+                       "bodyHeight":  44,
+                       "originY":  0.75
+                   },
+                   {
+                       "id":  "plent",
+                       "frame":  128,
+                       "group":  "monster",
+                       "actions":  {
+                                       "attack":  {
+                                                      "frames":  6,
+                                                      "url":  "/assets/v2/plent/attack.png"
+                                                  },
+                                       "dead":  {
+                                                    "frames":  2,
+                                                    "url":  "/assets/v2/plent/dead.png"
+                                                },
+                                       "idle":  {
+                                                    "frames":  5,
+                                                    "url":  "/assets/v2/plent/idle.png"
+                                                },
+                                       "hurt":  {
+                                                    "frames":  3,
+                                                    "url":  "/assets/v2/plent/hurt.png"
+                                                },
+                                       "walk":  {
+                                                    "frames":  9,
+                                                    "url":  "/assets/v2/plent/walk.png"
+                                                }
+                                   },
+                       "source":  "D:\\the_world\\monster\\craftpix-net-339194-free-fantasy-enemies-pixel-art-sprite-pack\\Plent",
+                       "originX":  0.49609375,
+                       "bodyHeight":  56,
+                       "originY":  0.9921875
+                   },
+                   {
+                       "id":  "skeleton",
+                       "frame":  128,
+                       "group":  "monster",
+                       "actions":  {
+                                       "attack":  {
+                                                      "frames":  7,
+                                                      "url":  "/assets/v2/skeleton/attack.png"
+                                                  },
+                                       "dead":  {
+                                                    "frames":  3,
+                                                    "url":  "/assets/v2/skeleton/dead.png"
+                                                },
+                                       "idle":  {
+                                                    "frames":  7,
+                                                    "url":  "/assets/v2/skeleton/idle.png"
+                                                },
+                                       "hurt":  {
+                                                    "frames":  3,
+                                                    "url":  "/assets/v2/skeleton/hurt.png"
+                                                },
+                                       "walk":  {
+                                                    "frames":  7,
+                                                    "url":  "/assets/v2/skeleton/walk.png"
+                                                }
+                                   },
+                       "source":  "D:\\the_world\\monster\\craftpix-net-339194-free-fantasy-enemies-pixel-art-sprite-pack\\Skeleton",
+                       "originX":  0.4453125,
+                       "bodyHeight":  67,
+                       "originY":  0.9921875
+                   },
+                   {
+                       "id":  "blue-slime",
+                       "frame":  128,
+                       "group":  "monster",
+                       "actions":  {
+                                       "attack":  {
+                                                      "frames":  4,
+                                                      "url":  "/assets/v2/blue-slime/attack.png"
+                                                  },
+                                       "dead":  {
+                                                    "frames":  3,
+                                                    "url":  "/assets/v2/blue-slime/dead.png"
+                                                },
+                                       "idle":  {
+                                                    "frames":  8,
+                                                    "url":  "/assets/v2/blue-slime/idle.png"
+                                                },
+                                       "hurt":  {
+                                                    "frames":  6,
+                                                    "url":  "/assets/v2/blue-slime/hurt.png"
+                                                },
+                                       "walk":  {
+                                                    "frames":  7,
+                                                    "url":  "/assets/v2/blue-slime/walk.png"
+                                                }
+                                   },
+                       "source":  "D:\\the_world\\monster\\craftpix-net-424234-free-slime-sprite-sheets-pixel-art\\Blue_Slime",
+                       "originX":  0.4765625,
+                       "bodyHeight":  32,
+                       "originY":  0.9921875
+                   },
+                   {
+                       "id":  "green-slime",
+                       "frame":  128,
+                       "group":  "monster",
+                       "actions":  {
+                                       "attack":  {
+                                                      "frames":  4,
+                                                      "url":  "/assets/v2/green-slime/attack.png"
+                                                  },
+                                       "dead":  {
+                                                    "frames":  3,
+                                                    "url":  "/assets/v2/green-slime/dead.png"
+                                                },
+                                       "idle":  {
+                                                    "frames":  8,
+                                                    "url":  "/assets/v2/green-slime/idle.png"
+                                                },
+                                       "hurt":  {
+                                                    "frames":  6,
+                                                    "url":  "/assets/v2/green-slime/hurt.png"
+                                                },
+                                       "walk":  {
+                                                    "frames":  7,
+                                                    "url":  "/assets/v2/green-slime/walk.png"
+                                                }
+                                   },
+                       "source":  "D:\\the_world\\monster\\craftpix-net-424234-free-slime-sprite-sheets-pixel-art\\Green_Slime",
+                       "originX":  0.4765625,
+                       "bodyHeight":  32,
+                       "originY":  0.9921875
+                   },
+                   {
+                       "id":  "red-slime",
+                       "frame":  128,
+                       "group":  "monster",
+                       "actions":  {
+                                       "attack":  {
+                                                      "frames":  4,
+                                                      "url":  "/assets/v2/red-slime/attack.png"
+                                                  },
+                                       "dead":  {
+                                                    "frames":  3,
+                                                    "url":  "/assets/v2/red-slime/dead.png"
+                                                },
+                                       "idle":  {
+                                                    "frames":  8,
+                                                    "url":  "/assets/v2/red-slime/idle.png"
+                                                },
+                                       "hurt":  {
+                                                    "frames":  6,
+                                                    "url":  "/assets/v2/red-slime/hurt.png"
+                                                },
+                                       "walk":  {
+                                                    "frames":  7,
+                                                    "url":  "/assets/v2/red-slime/walk.png"
+                                                }
+                                   },
+                       "source":  "D:\\the_world\\monster\\craftpix-net-424234-free-slime-sprite-sheets-pixel-art\\Red_Slime",
+                       "originX":  0.4765625,
+                       "bodyHeight":  32,
+                       "originY":  0.9921875
+                   },
+                   {
+                       "id":  "soldier-1",
+                       "frame":  32,
+                       "group":  "soldiers",
+                       "actions":  {
+                                       "attack":  {
+                                                      "frames":  4,
+                                                      "url":  "/assets/v2/soldier-1/attack.png"
+                                                  },
+                                       "idle":  {
+                                                    "frames":  4,
+                                                    "url":  "/assets/v2/soldier-1/idle.png"
+                                                },
+                                       "walk":  {
+                                                    "frames":  4,
+                                                    "url":  "/assets/v2/soldier-1/walk.png"
+                                                }
+                                   },
+                       "source":  "D:\\the_world\\craftpix-net-749505-free-medieval-fortress-top-down-pixel-minigame-kit\\Characters\\Character_1",
+                       "originX":  0.5,
+                       "bodyHeight":  18,
+                       "originY":  0.8
+                   },
+                   {
+                       "id":  "soldier-3",
+                       "frame":  32,
+                       "group":  "soldiers",
+                       "actions":  {
+                                       "attack":  {
+                                                      "frames":  2,
+                                                      "url":  "/assets/v2/soldier-3/attack.png"
+                                                  },
+                                       "idle":  {
+                                                    "frames":  4,
+                                                    "url":  "/assets/v2/soldier-3/idle.png"
+                                                },
+                                       "walk":  {
+                                                    "frames":  4,
+                                                    "url":  "/assets/v2/soldier-3/walk.png"
+                                                }
+                                   },
+                       "source":  "D:\\the_world\\craftpix-net-749505-free-medieval-fortress-top-down-pixel-minigame-kit\\Characters\\Character_3",
+                       "originX":  0.5,
+                       "bodyHeight":  18,
+                       "originY":  0.8
+                   },
+                   {
+                       "id":  "soldier-6",
+                       "frame":  32,
+                       "group":  "soldiers",
+                       "actions":  {
+                                       "attack":  {
+                                                      "frames":  4,
+                                                      "url":  "/assets/v2/soldier-6/attack.png"
+                                                  },
+                                       "idle":  {
+                                                    "frames":  4,
+                                                    "url":  "/assets/v2/soldier-6/idle.png"
+                                                },
+                                       "walk":  {
+                                                    "frames":  4,
+                                                    "url":  "/assets/v2/soldier-6/walk.png"
+                                                }
+                                   },
+                       "source":  "D:\\the_world\\craftpix-net-749505-free-medieval-fortress-top-down-pixel-minigame-kit\\Characters\\Character_6",
+                       "originX":  0.5,
+                       "bodyHeight":  18,
+                       "originY":  0.8
+                   },
+                   {
+                       "id":  "soldier-9",
+                       "frame":  32,
+                       "group":  "soldiers",
+                       "actions":  {
+                                       "attack":  {
+                                                      "frames":  4,
+                                                      "url":  "/assets/v2/soldier-9/attack.png"
+                                                  },
+                                       "idle":  {
+                                                    "frames":  4,
+                                                    "url":  "/assets/v2/soldier-9/idle.png"
+                                                },
+                                       "walk":  {
+                                                    "frames":  4,
+                                                    "url":  "/assets/v2/soldier-9/walk.png"
+                                                }
+                                   },
+                       "source":  "D:\\the_world\\craftpix-net-749505-free-medieval-fortress-top-down-pixel-minigame-kit\\Characters\\Character_9",
+                       "originX":  0.5,
+                       "bodyHeight":  18,
+                       "originY":  0.8
+                   }
+               ],
+    "effects":  [
+                    {
+                        "url":  "/assets/v3/fx-wind.png",
+                        "frames":  18,
+                        "id":  "wind",
+                        "frame":  128
+                    },
+                    {
+                        "url":  "/assets/v3/fx-ultimate.png",
+                        "frames":  20,
+                        "id":  "ultimate",
+                        "frame":  128
+                    },
+                    {
+                        "url":  "/assets/v3/fx-lightning.png",
+                        "frames":  12,
+                        "id":  "lightning",
+                        "frame":  128
+                    },
+                    {
+                        "url":  "/assets/v3/fx-poison.png",
+                        "frames":  24,
+                        "id":  "poison",
+                        "frame":  128
+                    },
+                    {
+                        "url":  "/assets/v3/fx-water.png",
+                        "frames":  12,
+                        "id":  "water",
+                        "frame":  128
+                    },
+                    {
+                        "url":  "/assets/v3/fx-fireball.png",
+                        "frames":  8,
+                        "id":  "fireball",
+                        "frame":  128
+                    },
+                    {
+                        "url":  "/assets/v3/fx-fire-spell.png",
+                        "frames":  8,
+                        "id":  "fire-spell",
+                        "frame":  128
+                    },
+                    {
+                        "url":  "/assets/v3/fx-waterball.png",
+                        "frames":  12,
+                        "id":  "waterball",
+                        "frame":  128
+                    },
+                    {
+                        "url":  "/assets/v3/fx-water-spell.png",
+                        "frames":  8,
+                        "id":  "water-spell",
+                        "frame":  128
+                    },
+                    {
+                        "url":  "/assets/v3/fx-smoke.png",
+                        "frames":  10,
+                        "id":  "smoke",
+                        "frame":  128
+                    },
+                    {
+                        "url":  "/assets/v3/fx-explosion.png",
+                        "frames":  10,
+                        "id":  "explosion",
+                        "frame":  128
+                    }
+                ]
+}

@@ -1,0 +1,14 @@
+export const PASSIVES={
+ 'knight-1':{name:'Khiên Kiên Định',text:'Mỗi 12 giây tạo khiên bằng 12% máu tối đa, tồn tại 4 giây.'},
+ 'knight-2':{name:'Ý Chí Ngân Kỵ',text:'Mỗi đòn thường thứ tư trúng đích hồi 5% máu tối đa.'},
+ 'knight-3':{name:'Phá Trận',text:'Mỗi đòn thường thứ ba trúng đích gây thêm 40% Công.'},
+ samurai:{name:'Tứ Liên Trảm',text:'Mỗi đòn thường thứ tư trúng đích gây thêm 60% Công.'},
+ 'samurai-commander':{name:'Khí Thế Kiếm Chủ',text:'Hạ một mục tiêu tăng 20% tốc đánh trong 4 giây; làm mới thời gian, không cộng dồn.'},
+ 'samurai-archer':{name:'Ưng Nhãn',text:'Đòn thường trúng mục tiêu cách trên 150 đơn vị gây thêm 20% Công.'},
+ 'warrior-1':{name:'Chiến Ý',text:'Tự hạ mục tiêu hồi 5% máu tối đa.'},
+ 'warrior-2':{name:'Cuồng Nộ',text:'Dưới 40% máu, tăng 20% Công.'},
+ 'warrior-3':{name:'Truy Kích',text:'Tự hạ mục tiêu tăng 25% tốc chạy trong 4 giây; làm mới thời gian.'},
+ 'fire-wizard':{name:'Tàn Hỏa',text:'Mỗi đòn thường thứ ba trúng đích thiêu đốt 15% Công mỗi giây trong 3 giây.'},
+ 'lightning-mage':{name:'Điện Tích',text:'Mỗi đòn thường thứ tư trúng đích nảy sét sang một quái gần đó, gây 40% Công.'},
+ 'wanderer-magican':{name:'Mạch Nước',text:'Đòn thường làm chậm 15% trong 1 giây; mỗi đòn thứ năm trúng đích hồi 4% máu tối đa.'},
+};

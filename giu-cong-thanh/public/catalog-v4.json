@@ -1,0 +1,4280 @@
+{
+  "props": [
+    {
+      "id": "tree1",
+      "source": "D:\\the_world\\map\\craftpix-net-385863-free-top-down-trees-pixel-art\\PNG\\Assets_separately\\Trees\\Tree1.png",
+      "width": 128,
+      "height": 128,
+      "url": "/assets/v2/props/tree1.png",
+      "group": "trees"
+    },
+    {
+      "id": "tree2",
+      "source": "D:\\the_world\\map\\craftpix-net-385863-free-top-down-trees-pixel-art\\PNG\\Assets_separately\\Trees\\Tree2.png",
+      "width": 64,
+      "height": 64,
+      "url": "/assets/v2/props/tree2.png",
+      "group": "trees"
+    },
+    {
+      "id": "autumn_tree1",
+      "source": "D:\\the_world\\map\\craftpix-net-385863-free-top-down-trees-pixel-art\\PNG\\Assets_separately\\Trees\\Autumn_tree1.png",
+      "width": 128,
+      "height": 128,
+      "url": "/assets/v2/props/autumn_tree1.png",
+      "group": "trees"
+    },
+    {
+      "id": "burned_tree1",
+      "source": "D:\\the_world\\map\\craftpix-net-385863-free-top-down-trees-pixel-art\\PNG\\Assets_separately\\Trees\\Burned_tree1.png",
+      "width": 128,
+      "height": 128,
+      "url": "/assets/v2/props/burned_tree1.png",
+      "group": "trees"
+    },
+    {
+      "id": "snow_tree1",
+      "source": "D:\\the_world\\map\\craftpix-net-385863-free-top-down-trees-pixel-art\\PNG\\Assets_separately\\Trees\\Snow_tree1.png",
+      "width": 128,
+      "height": 128,
+      "url": "/assets/v2/props/snow_tree1.png",
+      "group": "trees"
+    },
+    {
+      "id": "moss_tree1",
+      "source": "D:\\the_world\\map\\craftpix-net-385863-free-top-down-trees-pixel-art\\PNG\\Assets_separately\\Trees\\Moss_tree1.png",
+      "width": 128,
+      "height": 128,
+      "url": "/assets/v2/props/moss_tree1.png",
+      "group": "trees"
+    },
+    {
+      "id": "palm_tree1_1",
+      "source": "D:\\the_world\\map\\craftpix-net-385863-free-top-down-trees-pixel-art\\PNG\\Assets_separately\\Trees\\Palm_tree1_1.png",
+      "width": 128,
+      "height": 128,
+      "url": "/assets/v2/props/palm_tree1_1.png",
+      "group": "trees"
+    },
+    {
+      "id": "flower_tree1",
+      "source": "D:\\the_world\\map\\craftpix-net-385863-free-top-down-trees-pixel-art\\PNG\\Assets_separately\\Trees\\Flower_tree1.png",
+      "width": 128,
+      "height": 128,
+      "url": "/assets/v2/props/flower_tree1.png",
+      "group": "trees"
+    },
+    {
+      "id": "bush_simple1_1",
+      "source": "D:\\the_world\\map\\craftpix-net-141354-free-top-down-bushes-pixel-art\\PNG\\Assets\\Bush_simple1_1.png",
+      "width": 32,
+      "height": 32,
+      "url": "/assets/v2/props/bush_simple1_1.png",
+      "group": "bushes"
+    },
+    {
+      "id": "autumn_bush1",
+      "source": "D:\\the_world\\map\\craftpix-net-141354-free-top-down-bushes-pixel-art\\PNG\\Assets\\Autumn_bush1.png",
+      "width": 64,
+      "height": 64,
+      "url": "/assets/v2/props/autumn_bush1.png",
+      "group": "bushes"
+    },
+    {
+      "id": "cactus1_1",
+      "source": "D:\\the_world\\map\\craftpix-net-141354-free-top-down-bushes-pixel-art\\PNG\\Assets\\Cactus1_1.png",
+      "width": 32,
+      "height": 32,
+      "url": "/assets/v2/props/cactus1_1.png",
+      "group": "bushes"
+    },
+    {
+      "id": "bush_blue_flowers1",
+      "source": "D:\\the_world\\map\\craftpix-net-141354-free-top-down-bushes-pixel-art\\PNG\\Assets\\Bush_blue_flowers1.png",
+      "width": 64,
+      "height": 64,
+      "url": "/assets/v2/props/bush_blue_flowers1.png",
+      "group": "bushes"
+    },
+    {
+      "id": "blue-gray_ruins1",
+      "source": "D:\\the_world\\map\\craftpix-net-934618-free-top-down-ruins-pixel-art\\PNG\\Assets\\Blue-gray_ruins1.png",
+      "width": 112,
+      "height": 128,
+      "url": "/assets/v2/props/blue-gray_ruins1.png",
+      "group": "ruins"
+    },
+    {
+      "id": "blue-gray_ruins2",
+      "source": "D:\\the_world\\map\\craftpix-net-934618-free-top-down-ruins-pixel-art\\PNG\\Assets\\Blue-gray_ruins2.png",
+      "width": 80,
+      "height": 80,
+      "url": "/assets/v2/props/blue-gray_ruins2.png",
+      "group": "ruins"
+    },
+    {
+      "id": "brown_ruins1",
+      "source": "D:\\the_world\\map\\craftpix-net-934618-free-top-down-ruins-pixel-art\\PNG\\Assets\\Brown_ruins1.png",
+      "width": 112,
+      "height": 112,
+      "url": "/assets/v2/props/brown_ruins1.png",
+      "group": "ruins"
+    },
+    {
+      "id": "brown_ruins2",
+      "source": "D:\\the_world\\map\\craftpix-net-934618-free-top-down-ruins-pixel-art\\PNG\\Assets\\Brown_ruins2.png",
+      "width": 80,
+      "height": 80,
+      "url": "/assets/v2/props/brown_ruins2.png",
+      "group": "ruins"
+    },
+    {
+      "id": "brown-gray_ruins1",
+      "source": "D:\\the_world\\map\\craftpix-net-934618-free-top-down-ruins-pixel-art\\PNG\\Assets\\Brown-gray_ruins1.png",
+      "width": 112,
+      "height": 112,
+      "url": "/assets/v2/props/brown-gray_ruins1.png",
+      "group": "ruins"
+    },
+    {
+      "id": "blue_crystal1",
+      "source": "D:\\the_world\\map\\craftpix-net-106469-top-down-crystals-pixel-art\\PNG\\Assets\\Blue_crystal1.png",
+      "width": 64,
+      "height": 64,
+      "url": "/assets/v2/props/blue_crystal1.png",
+      "group": "crystals"
+    },
+    {
+      "id": "green_crystal1",
+      "source": "D:\\the_world\\map\\craftpix-net-106469-top-down-crystals-pixel-art\\PNG\\Assets\\Green_crystal1.png",
+      "width": 64,
+      "height": 64,
+      "url": "/assets/v2/props/green_crystal1.png",
+      "group": "crystals"
+    },
+    {
+      "id": "violet_crystal1",
+      "source": "D:\\the_world\\map\\craftpix-net-106469-top-down-crystals-pixel-art\\PNG\\Assets\\Violet_crystal1.png",
+      "width": 64,
+      "height": 64,
+      "url": "/assets/v2/props/violet_crystal1.png",
+      "group": "crystals"
+    },
+    {
+      "id": "red_crystal1",
+      "source": "D:\\the_world\\map\\craftpix-net-106469-top-down-crystals-pixel-art\\PNG\\Assets\\Red_crystal1.png",
+      "width": 64,
+      "height": 64,
+      "url": "/assets/v2/props/red_crystal1.png",
+      "group": "crystals"
+    },
+    {
+      "id": "black_crystal1",
+      "source": "D:\\the_world\\map\\craftpix-net-106469-top-down-crystals-pixel-art\\PNG\\Assets\\Black_crystal1.png",
+      "width": 64,
+      "height": 64,
+      "url": "/assets/v2/props/black_crystal1.png",
+      "group": "crystals"
+    },
+    {
+      "id": "rock1_1",
+      "source": "D:\\the_world\\map\\craftpix-net-974061-free-rocks-and-stones-top-down-pixel-art\\PNG\\Objects_separately\\Rock1_1.png",
+      "width": 64,
+      "height": 64,
+      "url": "/assets/v2/props/rock1_1.png",
+      "group": "rocks"
+    },
+    {
+      "id": "rock2_1",
+      "source": "D:\\the_world\\map\\craftpix-net-974061-free-rocks-and-stones-top-down-pixel-art\\PNG\\Objects_separately\\Rock2_1.png",
+      "width": 64,
+      "height": 64,
+      "url": "/assets/v2/props/rock2_1.png",
+      "group": "rocks"
+    },
+    {
+      "id": "rock3_1",
+      "source": "D:\\the_world\\map\\craftpix-net-974061-free-rocks-and-stones-top-down-pixel-art\\PNG\\Objects_separately\\Rock3_1.png",
+      "width": 64,
+      "height": 64,
+      "url": "/assets/v2/props/rock3_1.png",
+      "group": "rocks"
+    },
+    {
+      "id": "rock4_1",
+      "source": "D:\\the_world\\map\\craftpix-net-974061-free-rocks-and-stones-top-down-pixel-art\\PNG\\Objects_separately\\Rock4_1.png",
+      "width": 64,
+      "height": 64,
+      "url": "/assets/v2/props/rock4_1.png",
+      "group": "rocks"
+    },
+    {
+      "id": "rock5_1",
+      "source": "D:\\the_world\\map\\craftpix-net-974061-free-rocks-and-stones-top-down-pixel-art\\PNG\\Objects_separately\\Rock5_1.png",
+      "width": 64,
+      "height": 64,
+      "url": "/assets/v2/props/rock5_1.png",
+      "group": "rocks"
+    },
+    {
+      "id": "rock6_1",
+      "source": "D:\\the_world\\map\\craftpix-net-974061-free-rocks-and-stones-top-down-pixel-art\\PNG\\Objects_separately\\Rock6_1.png",
+      "width": 64,
+      "height": 64,
+      "url": "/assets/v2/props/rock6_1.png",
+      "group": "rocks"
+    },
+    {
+      "id": "rock7_1",
+      "source": "D:\\the_world\\map\\craftpix-net-974061-free-rocks-and-stones-top-down-pixel-art\\PNG\\Objects_separately\\Rock7_1.png",
+      "width": 64,
+      "height": 64,
+      "url": "/assets/v2/props/rock7_1.png",
+      "group": "rocks"
+    },
+    {
+      "id": "rock8_1",
+      "source": "D:\\the_world\\map\\craftpix-net-974061-free-rocks-and-stones-top-down-pixel-art\\PNG\\Objects_separately\\Rock8_1.png",
+      "width": 64,
+      "height": 64,
+      "url": "/assets/v2/props/rock8_1.png",
+      "group": "rocks"
+    },
+    {
+      "group": "forest",
+      "url": "/assets/v3/beige_green_mushroom1.png",
+      "width": 128,
+      "id": "beige_green_mushroom1",
+      "height": 128
+    },
+    {
+      "group": "forest",
+      "url": "/assets/v3/beige_green_mushroom2.png",
+      "width": 64,
+      "id": "beige_green_mushroom2",
+      "height": 64
+    },
+    {
+      "group": "forest",
+      "url": "/assets/v3/beige_green_mushroom3.png",
+      "width": 32,
+      "id": "beige_green_mushroom3",
+      "height": 32
+    },
+    {
+      "group": "forest",
+      "url": "/assets/v3/blue-green_balls_tree1.png",
+      "width": 128,
+      "id": "blue-green_balls_tree1",
+      "height": 128
+    },
+    {
+      "group": "forest",
+      "url": "/assets/v3/blue-green_balls_tree2.png",
+      "width": 64,
+      "id": "blue-green_balls_tree2",
+      "height": 64
+    },
+    {
+      "group": "forest",
+      "url": "/assets/v3/blue-green_balls_tree3.png",
+      "width": 32,
+      "id": "blue-green_balls_tree3",
+      "height": 32
+    },
+    {
+      "group": "forest",
+      "url": "/assets/v3/chanterelles1.png",
+      "width": 32,
+      "id": "chanterelles1",
+      "height": 32
+    },
+    {
+      "group": "forest",
+      "url": "/assets/v3/chanterelles2.png",
+      "width": 32,
+      "id": "chanterelles2",
+      "height": 32
+    },
+    {
+      "group": "forest",
+      "url": "/assets/v3/chanterelles3.png",
+      "width": 32,
+      "id": "chanterelles3",
+      "height": 32
+    },
+    {
+      "group": "forest",
+      "url": "/assets/v3/curved_tree1.png",
+      "width": 128,
+      "id": "curved_tree1",
+      "height": 128
+    },
+    {
+      "group": "forest",
+      "url": "/assets/v3/curved_tree2.png",
+      "width": 128,
+      "id": "curved_tree2",
+      "height": 128
+    },
+    {
+      "group": "forest",
+      "url": "/assets/v3/curved_tree3.png",
+      "width": 64,
+      "id": "curved_tree3",
+      "height": 64
+    },
+    {
+      "group": "forest",
+      "url": "/assets/v3/ent_man.png",
+      "width": 128,
+      "id": "ent_man",
+      "height": 128
+    },
+    {
+      "group": "forest",
+      "url": "/assets/v3/ent_woman.png",
+      "width": 128,
+      "id": "ent_woman",
+      "height": 128
+    },
+    {
+      "group": "forest",
+      "url": "/assets/v3/light_balls_tree1.png",
+      "width": 128,
+      "id": "light_balls_tree1",
+      "height": 128
+    },
+    {
+      "group": "forest",
+      "url": "/assets/v3/light_balls_tree2.png",
+      "width": 128,
+      "id": "light_balls_tree2",
+      "height": 128
+    },
+    {
+      "group": "forest",
+      "url": "/assets/v3/light_balls_tree3.png",
+      "width": 64,
+      "id": "light_balls_tree3",
+      "height": 64
+    },
+    {
+      "group": "forest",
+      "url": "/assets/v3/living-gazebo1.png",
+      "width": 128,
+      "id": "living-gazebo1",
+      "height": 128
+    },
+    {
+      "group": "forest",
+      "url": "/assets/v3/living-gazebo2.png",
+      "width": 128,
+      "id": "living-gazebo2",
+      "height": 128
+    },
+    {
+      "group": "forest",
+      "url": "/assets/v3/luminous_tree1.png",
+      "width": 128,
+      "id": "luminous_tree1",
+      "height": 128
+    },
+    {
+      "group": "forest",
+      "url": "/assets/v3/luminous_tree2.png",
+      "width": 128,
+      "id": "luminous_tree2",
+      "height": 128
+    },
+    {
+      "group": "forest",
+      "url": "/assets/v3/luminous_tree3.png",
+      "width": 64,
+      "id": "luminous_tree3",
+      "height": 64
+    },
+    {
+      "group": "forest",
+      "url": "/assets/v3/mega_tree1.png",
+      "width": 256,
+      "id": "mega_tree1",
+      "height": 256
+    },
+    {
+      "group": "forest",
+      "url": "/assets/v3/mega_tree2.png",
+      "width": 128,
+      "id": "mega_tree2",
+      "height": 128
+    },
+    {
+      "group": "forest",
+      "url": "/assets/v3/swirling-tree1.png",
+      "width": 128,
+      "id": "swirling-tree1",
+      "height": 128
+    },
+    {
+      "group": "forest",
+      "url": "/assets/v3/swirling-tree2.png",
+      "width": 128,
+      "id": "swirling-tree2",
+      "height": 128
+    },
+    {
+      "group": "forest",
+      "url": "/assets/v3/swirling-tree3.png",
+      "width": 64,
+      "id": "swirling-tree3",
+      "height": 64
+    },
+    {
+      "group": "forest",
+      "url": "/assets/v3/tree_idol_deer.png",
+      "width": 128,
+      "id": "tree_idol_deer",
+      "height": 128
+    },
+    {
+      "group": "forest",
+      "url": "/assets/v3/tree_idol_dragon.png",
+      "width": 256,
+      "id": "tree_idol_dragon",
+      "height": 256
+    },
+    {
+      "group": "forest",
+      "url": "/assets/v3/tree_idol_human.png",
+      "width": 128,
+      "id": "tree_idol_human",
+      "height": 128
+    },
+    {
+      "group": "forest",
+      "url": "/assets/v3/tree_idol_wolf.png",
+      "width": 128,
+      "id": "tree_idol_wolf",
+      "height": 128
+    },
+    {
+      "group": "forest",
+      "url": "/assets/v3/white-red_mushroom1.png",
+      "width": 128,
+      "id": "white-red_mushroom1",
+      "height": 128
+    },
+    {
+      "group": "forest",
+      "url": "/assets/v3/white-red_mushroom2.png",
+      "width": 64,
+      "id": "white-red_mushroom2",
+      "height": 64
+    },
+    {
+      "group": "forest",
+      "url": "/assets/v3/white-red_mushroom3.png",
+      "width": 64,
+      "id": "white-red_mushroom3",
+      "height": 64
+    },
+    {
+      "group": "forest",
+      "url": "/assets/v3/white_tree1.png",
+      "width": 128,
+      "id": "white_tree1",
+      "height": 128
+    },
+    {
+      "group": "forest",
+      "url": "/assets/v3/white_tree2.png",
+      "width": 64,
+      "id": "white_tree2",
+      "height": 64
+    },
+    {
+      "group": "forest",
+      "url": "/assets/v3/willow1.png",
+      "width": 128,
+      "id": "willow1",
+      "height": 128
+    },
+    {
+      "group": "forest",
+      "url": "/assets/v3/willow2.png",
+      "width": 128,
+      "id": "willow2",
+      "height": 128
+    },
+    {
+      "group": "forest",
+      "url": "/assets/v3/willow3.png",
+      "width": 64,
+      "id": "willow3",
+      "height": 64
+    },
+    {
+      "group": "trees",
+      "url": "/assets/v3/autumn_tree2.png",
+      "width": 64,
+      "id": "autumn_tree2",
+      "height": 64
+    },
+    {
+      "group": "trees",
+      "url": "/assets/v3/autumn_tree3.png",
+      "width": 64,
+      "id": "autumn_tree3",
+      "height": 64
+    },
+    {
+      "group": "trees",
+      "url": "/assets/v3/broken_tree1.png",
+      "width": 32,
+      "id": "broken_tree1",
+      "height": 32
+    },
+    {
+      "group": "trees",
+      "url": "/assets/v3/broken_tree2.png",
+      "width": 32,
+      "id": "broken_tree2",
+      "height": 32
+    },
+    {
+      "group": "trees",
+      "url": "/assets/v3/broken_tree3.png",
+      "width": 48,
+      "id": "broken_tree3",
+      "height": 48
+    },
+    {
+      "group": "trees",
+      "url": "/assets/v3/burned_tree2.png",
+      "width": 64,
+      "id": "burned_tree2",
+      "height": 64
+    },
+    {
+      "group": "trees",
+      "url": "/assets/v3/burned_tree3.png",
+      "width": 64,
+      "id": "burned_tree3",
+      "height": 64
+    },
+    {
+      "group": "trees",
+      "url": "/assets/v3/christmas_tree1.png",
+      "width": 128,
+      "id": "christmas_tree1",
+      "height": 128
+    },
+    {
+      "group": "trees",
+      "url": "/assets/v3/christmas_tree2.png",
+      "width": 64,
+      "id": "christmas_tree2",
+      "height": 64
+    },
+    {
+      "group": "trees",
+      "url": "/assets/v3/christmas_tree3.png",
+      "width": 32,
+      "id": "christmas_tree3",
+      "height": 32
+    },
+    {
+      "group": "trees",
+      "url": "/assets/v3/flower_tree2.png",
+      "width": 64,
+      "id": "flower_tree2",
+      "height": 64
+    },
+    {
+      "group": "trees",
+      "url": "/assets/v3/flower_tree3.png",
+      "width": 64,
+      "id": "flower_tree3",
+      "height": 64
+    },
+    {
+      "group": "trees",
+      "url": "/assets/v3/fruit_tree1.png",
+      "width": 128,
+      "id": "fruit_tree1",
+      "height": 128
+    },
+    {
+      "group": "trees",
+      "url": "/assets/v3/fruit_tree2.png",
+      "width": 128,
+      "id": "fruit_tree2",
+      "height": 128
+    },
+    {
+      "group": "trees",
+      "url": "/assets/v3/fruit_tree3.png",
+      "width": 64,
+      "id": "fruit_tree3",
+      "height": 64
+    },
+    {
+      "group": "trees",
+      "url": "/assets/v3/moss_tree2.png",
+      "width": 64,
+      "id": "moss_tree2",
+      "height": 64
+    },
+    {
+      "group": "trees",
+      "url": "/assets/v3/moss_tree3.png",
+      "width": 64,
+      "id": "moss_tree3",
+      "height": 64
+    },
+    {
+      "group": "trees",
+      "url": "/assets/v3/palm_tree1_2.png",
+      "width": 64,
+      "id": "palm_tree1_2",
+      "height": 64
+    },
+    {
+      "group": "trees",
+      "url": "/assets/v3/palm_tree1_3.png",
+      "width": 64,
+      "id": "palm_tree1_3",
+      "height": 64
+    },
+    {
+      "group": "trees",
+      "url": "/assets/v3/palm_tree2_1.png",
+      "width": 128,
+      "id": "palm_tree2_1",
+      "height": 128
+    },
+    {
+      "group": "trees",
+      "url": "/assets/v3/palm_tree2_2.png",
+      "width": 64,
+      "id": "palm_tree2_2",
+      "height": 64
+    },
+    {
+      "group": "trees",
+      "url": "/assets/v3/palm_tree2_3.png",
+      "width": 64,
+      "id": "palm_tree2_3",
+      "height": 64
+    },
+    {
+      "group": "trees",
+      "url": "/assets/v3/snow_christmass_tree1.png",
+      "width": 128,
+      "id": "snow_christmass_tree1",
+      "height": 128
+    },
+    {
+      "group": "trees",
+      "url": "/assets/v3/snow_christmass_tree2.png",
+      "width": 64,
+      "id": "snow_christmass_tree2",
+      "height": 64
+    },
+    {
+      "group": "trees",
+      "url": "/assets/v3/snow_christmass_tree3.png",
+      "width": 32,
+      "id": "snow_christmass_tree3",
+      "height": 32
+    },
+    {
+      "group": "trees",
+      "url": "/assets/v3/snow_tree2.png",
+      "width": 64,
+      "id": "snow_tree2",
+      "height": 64
+    },
+    {
+      "group": "trees",
+      "url": "/assets/v3/snow_tree3.png",
+      "width": 64,
+      "id": "snow_tree3",
+      "height": 64
+    },
+    {
+      "group": "trees",
+      "url": "/assets/v3/tree3.png",
+      "width": 64,
+      "id": "tree3",
+      "height": 64
+    },
+    {
+      "group": "bushes",
+      "url": "/assets/v3/autumn_bush2.png",
+      "width": 32,
+      "id": "autumn_bush2",
+      "height": 32
+    },
+    {
+      "group": "bushes",
+      "url": "/assets/v3/autumn_bush3.png",
+      "width": 16,
+      "id": "autumn_bush3",
+      "height": 16
+    },
+    {
+      "group": "bushes",
+      "url": "/assets/v3/bush_blue_flowers2.png",
+      "width": 32,
+      "id": "bush_blue_flowers2",
+      "height": 32
+    },
+    {
+      "group": "bushes",
+      "url": "/assets/v3/bush_blue_flowers3.png",
+      "width": 16,
+      "id": "bush_blue_flowers3",
+      "height": 16
+    },
+    {
+      "group": "bushes",
+      "url": "/assets/v3/bush_orange_flowers1.png",
+      "width": 64,
+      "id": "bush_orange_flowers1",
+      "height": 64
+    },
+    {
+      "group": "bushes",
+      "url": "/assets/v3/bush_orange_flowers2.png",
+      "width": 32,
+      "id": "bush_orange_flowers2",
+      "height": 32
+    },
+    {
+      "group": "bushes",
+      "url": "/assets/v3/bush_orange_flowers3.png",
+      "width": 16,
+      "id": "bush_orange_flowers3",
+      "height": 16
+    },
+    {
+      "group": "bushes",
+      "url": "/assets/v3/bush_pink_flowers1.png",
+      "width": 64,
+      "id": "bush_pink_flowers1",
+      "height": 64
+    },
+    {
+      "group": "bushes",
+      "url": "/assets/v3/bush_pink_flowers2.png",
+      "width": 32,
+      "id": "bush_pink_flowers2",
+      "height": 32
+    },
+    {
+      "group": "bushes",
+      "url": "/assets/v3/bush_pink_flowers3.png",
+      "width": 16,
+      "id": "bush_pink_flowers3",
+      "height": 16
+    },
+    {
+      "group": "bushes",
+      "url": "/assets/v3/bush_red_flowers1.png",
+      "width": 64,
+      "id": "bush_red_flowers1",
+      "height": 64
+    },
+    {
+      "group": "bushes",
+      "url": "/assets/v3/bush_red_flowers2.png",
+      "width": 32,
+      "id": "bush_red_flowers2",
+      "height": 32
+    },
+    {
+      "group": "bushes",
+      "url": "/assets/v3/bush_red_flowers3.png",
+      "width": 16,
+      "id": "bush_red_flowers3",
+      "height": 16
+    },
+    {
+      "group": "bushes",
+      "url": "/assets/v3/bush_simple1_2.png",
+      "width": 32,
+      "id": "bush_simple1_2",
+      "height": 32
+    },
+    {
+      "group": "bushes",
+      "url": "/assets/v3/bush_simple1_3.png",
+      "width": 16,
+      "id": "bush_simple1_3",
+      "height": 16
+    },
+    {
+      "group": "bushes",
+      "url": "/assets/v3/bush_simple2_1.png",
+      "width": 32,
+      "id": "bush_simple2_1",
+      "height": 32
+    },
+    {
+      "group": "bushes",
+      "url": "/assets/v3/bush_simple2_2.png",
+      "width": 32,
+      "id": "bush_simple2_2",
+      "height": 32
+    },
+    {
+      "group": "bushes",
+      "url": "/assets/v3/bush_simple2_3.png",
+      "width": 16,
+      "id": "bush_simple2_3",
+      "height": 16
+    },
+    {
+      "group": "bushes",
+      "url": "/assets/v3/cactus1_2.png",
+      "width": 32,
+      "id": "cactus1_2",
+      "height": 32
+    },
+    {
+      "group": "bushes",
+      "url": "/assets/v3/cactus1_3.png",
+      "width": 16,
+      "id": "cactus1_3",
+      "height": 16
+    },
+    {
+      "group": "bushes",
+      "url": "/assets/v3/cactus2_1.png",
+      "width": 64,
+      "id": "cactus2_1",
+      "height": 64
+    },
+    {
+      "group": "bushes",
+      "url": "/assets/v3/cactus2_2.png",
+      "width": 32,
+      "id": "cactus2_2",
+      "height": 32
+    },
+    {
+      "group": "bushes",
+      "url": "/assets/v3/cactus2_3.png",
+      "width": 16,
+      "id": "cactus2_3",
+      "height": 16
+    },
+    {
+      "group": "bushes",
+      "url": "/assets/v3/fern1_1.png",
+      "width": 64,
+      "id": "fern1_1",
+      "height": 64
+    },
+    {
+      "group": "bushes",
+      "url": "/assets/v3/fern1_2.png",
+      "width": 32,
+      "id": "fern1_2",
+      "height": 32
+    },
+    {
+      "group": "bushes",
+      "url": "/assets/v3/fern1_3.png",
+      "width": 16,
+      "id": "fern1_3",
+      "height": 16
+    },
+    {
+      "group": "bushes",
+      "url": "/assets/v3/fern2_1.png",
+      "width": 64,
+      "id": "fern2_1",
+      "height": 64
+    },
+    {
+      "group": "bushes",
+      "url": "/assets/v3/fern2_2.png",
+      "width": 32,
+      "id": "fern2_2",
+      "height": 32
+    },
+    {
+      "group": "bushes",
+      "url": "/assets/v3/fern2_3.png",
+      "width": 16,
+      "id": "fern2_3",
+      "height": 16
+    },
+    {
+      "group": "bushes",
+      "url": "/assets/v3/snow_bush1.png",
+      "width": 64,
+      "id": "snow_bush1",
+      "height": 64
+    },
+    {
+      "group": "bushes",
+      "url": "/assets/v3/snow_bush2.png",
+      "width": 32,
+      "id": "snow_bush2",
+      "height": 32
+    },
+    {
+      "group": "bushes",
+      "url": "/assets/v3/snow_bush3.png",
+      "width": 16,
+      "id": "snow_bush3",
+      "height": 16
+    },
+    {
+      "group": "ruins",
+      "url": "/assets/v3/blue-gray_ruins3.png",
+      "width": 48,
+      "id": "blue-gray_ruins3",
+      "height": 64
+    },
+    {
+      "group": "ruins",
+      "url": "/assets/v3/brown-gray_ruins2.png",
+      "width": 80,
+      "id": "brown-gray_ruins2",
+      "height": 80
+    },
+    {
+      "group": "ruins",
+      "url": "/assets/v3/brown-gray_ruins3.png",
+      "width": 64,
+      "id": "brown-gray_ruins3",
+      "height": 64
+    },
+    {
+      "group": "ruins",
+      "url": "/assets/v3/brown_ruins3.png",
+      "width": 64,
+      "id": "brown_ruins3",
+      "height": 64
+    },
+    {
+      "group": "ruins",
+      "url": "/assets/v3/sand_ruins1.png",
+      "width": 96,
+      "id": "sand_ruins1",
+      "height": 96
+    },
+    {
+      "group": "ruins",
+      "url": "/assets/v3/sand_ruins2.png",
+      "width": 80,
+      "id": "sand_ruins2",
+      "height": 64
+    },
+    {
+      "group": "ruins",
+      "url": "/assets/v3/sand_ruins3.png",
+      "width": 64,
+      "id": "sand_ruins3",
+      "height": 64
+    },
+    {
+      "group": "ruins",
+      "url": "/assets/v3/snow_ruins1.png",
+      "width": 112,
+      "id": "snow_ruins1",
+      "height": 96
+    },
+    {
+      "group": "ruins",
+      "url": "/assets/v3/snow_ruins2.png",
+      "width": 80,
+      "id": "snow_ruins2",
+      "height": 80
+    },
+    {
+      "group": "ruins",
+      "url": "/assets/v3/snow_ruins3.png",
+      "width": 64,
+      "id": "snow_ruins3",
+      "height": 64
+    },
+    {
+      "group": "ruins",
+      "url": "/assets/v3/water_ruins1.png",
+      "width": 80,
+      "id": "water_ruins1",
+      "height": 96
+    },
+    {
+      "group": "ruins",
+      "url": "/assets/v3/water_ruins2.png",
+      "width": 64,
+      "id": "water_ruins2",
+      "height": 80
+    },
+    {
+      "group": "ruins",
+      "url": "/assets/v3/water_ruins3.png",
+      "width": 48,
+      "id": "water_ruins3",
+      "height": 64
+    },
+    {
+      "group": "ruins",
+      "url": "/assets/v3/white_ruins1.png",
+      "width": 96,
+      "id": "white_ruins1",
+      "height": 96
+    },
+    {
+      "group": "ruins",
+      "url": "/assets/v3/white_ruins2.png",
+      "width": 80,
+      "id": "white_ruins2",
+      "height": 64
+    },
+    {
+      "group": "ruins",
+      "url": "/assets/v3/white_ruins3.png",
+      "width": 64,
+      "id": "white_ruins3",
+      "height": 64
+    },
+    {
+      "group": "ruins",
+      "url": "/assets/v3/yellow_ruins1.png",
+      "width": 112,
+      "id": "yellow_ruins1",
+      "height": 112
+    },
+    {
+      "group": "ruins",
+      "url": "/assets/v3/yellow_ruins2.png",
+      "width": 80,
+      "id": "yellow_ruins2",
+      "height": 80
+    },
+    {
+      "group": "ruins",
+      "url": "/assets/v3/yellow_ruins3.png",
+      "width": 64,
+      "id": "yellow_ruins3",
+      "height": 64
+    },
+    {
+      "group": "crystals",
+      "url": "/assets/v3/black_crystal2.png",
+      "width": 64,
+      "id": "black_crystal2",
+      "height": 64
+    },
+    {
+      "group": "crystals",
+      "url": "/assets/v3/black_crystal3.png",
+      "width": 32,
+      "id": "black_crystal3",
+      "height": 32
+    },
+    {
+      "group": "crystals",
+      "url": "/assets/v3/blue_crystal2.png",
+      "width": 64,
+      "id": "blue_crystal2",
+      "height": 64
+    },
+    {
+      "group": "crystals",
+      "url": "/assets/v3/blue_crystal3.png",
+      "width": 32,
+      "id": "blue_crystal3",
+      "height": 32
+    },
+    {
+      "group": "crystals",
+      "url": "/assets/v3/dark_red_-crystal1.png",
+      "width": 64,
+      "id": "dark_red_-crystal1",
+      "height": 64
+    },
+    {
+      "group": "crystals",
+      "url": "/assets/v3/dark_red_-crystal2.png",
+      "width": 64,
+      "id": "dark_red_-crystal2",
+      "height": 64
+    },
+    {
+      "group": "crystals",
+      "url": "/assets/v3/dark_red_-crystal3.png",
+      "width": 32,
+      "id": "dark_red_-crystal3",
+      "height": 32
+    },
+    {
+      "group": "crystals",
+      "url": "/assets/v3/green_crystal2.png",
+      "width": 64,
+      "id": "green_crystal2",
+      "height": 64
+    },
+    {
+      "group": "crystals",
+      "url": "/assets/v3/green_crystal3.png",
+      "width": 32,
+      "id": "green_crystal3",
+      "height": 32
+    },
+    {
+      "group": "crystals",
+      "url": "/assets/v3/pink_crystal1.png",
+      "width": 64,
+      "id": "pink_crystal1",
+      "height": 64
+    },
+    {
+      "group": "crystals",
+      "url": "/assets/v3/pink_crystal2.png",
+      "width": 64,
+      "id": "pink_crystal2",
+      "height": 64
+    },
+    {
+      "group": "crystals",
+      "url": "/assets/v3/pink_crystal3.png",
+      "width": 32,
+      "id": "pink_crystal3",
+      "height": 32
+    },
+    {
+      "group": "crystals",
+      "url": "/assets/v3/red_crystal2.png",
+      "width": 64,
+      "id": "red_crystal2",
+      "height": 64
+    },
+    {
+      "group": "crystals",
+      "url": "/assets/v3/red_crystal3.png",
+      "width": 32,
+      "id": "red_crystal3",
+      "height": 32
+    },
+    {
+      "group": "crystals",
+      "url": "/assets/v3/violet_crystal2.png",
+      "width": 64,
+      "id": "violet_crystal2",
+      "height": 64
+    },
+    {
+      "group": "crystals",
+      "url": "/assets/v3/violet_crystal3.png",
+      "width": 32,
+      "id": "violet_crystal3",
+      "height": 32
+    },
+    {
+      "group": "crystals",
+      "url": "/assets/v3/white_crystal1.png",
+      "width": 64,
+      "id": "white_crystal1",
+      "height": 64
+    },
+    {
+      "group": "crystals",
+      "url": "/assets/v3/white_crystal2.png",
+      "width": 64,
+      "id": "white_crystal2",
+      "height": 64
+    },
+    {
+      "group": "crystals",
+      "url": "/assets/v3/white_crystal3.png",
+      "width": 32,
+      "id": "white_crystal3",
+      "height": 32
+    },
+    {
+      "group": "crystals",
+      "url": "/assets/v3/yellow-green_crystal1.png",
+      "width": 64,
+      "id": "yellow-green_crystal1",
+      "height": 64
+    },
+    {
+      "group": "crystals",
+      "url": "/assets/v3/yellow-green_crystal2.png",
+      "width": 64,
+      "id": "yellow-green_crystal2",
+      "height": 64
+    },
+    {
+      "group": "crystals",
+      "url": "/assets/v3/yellow-green_crystal3.png",
+      "width": 32,
+      "id": "yellow-green_crystal3",
+      "height": 32
+    },
+    {
+      "group": "crystals",
+      "url": "/assets/v3/yellow_crystal1.png",
+      "width": 64,
+      "id": "yellow_crystal1",
+      "height": 64
+    },
+    {
+      "group": "crystals",
+      "url": "/assets/v3/yellow_crystal2.png",
+      "width": 64,
+      "id": "yellow_crystal2",
+      "height": 64
+    },
+    {
+      "group": "crystals",
+      "url": "/assets/v3/yellow_crystal3.png",
+      "width": 32,
+      "id": "yellow_crystal3",
+      "height": 32
+    },
+    {
+      "group": "rocks",
+      "url": "/assets/v3/rock1_2.png",
+      "width": 64,
+      "id": "rock1_2",
+      "height": 64
+    },
+    {
+      "group": "rocks",
+      "url": "/assets/v3/rock1_3.png",
+      "width": 32,
+      "id": "rock1_3",
+      "height": 32
+    },
+    {
+      "group": "rocks",
+      "url": "/assets/v3/rock2_2.png",
+      "width": 64,
+      "id": "rock2_2",
+      "height": 64
+    },
+    {
+      "group": "rocks",
+      "url": "/assets/v3/rock2_3.png",
+      "width": 32,
+      "id": "rock2_3",
+      "height": 32
+    },
+    {
+      "group": "rocks",
+      "url": "/assets/v3/rock3_2.png",
+      "width": 64,
+      "id": "rock3_2",
+      "height": 64
+    },
+    {
+      "group": "rocks",
+      "url": "/assets/v3/rock3_3.png",
+      "width": 32,
+      "id": "rock3_3",
+      "height": 32
+    },
+    {
+      "group": "rocks",
+      "url": "/assets/v3/rock4_2.png",
+      "width": 64,
+      "id": "rock4_2",
+      "height": 64
+    },
+    {
+      "group": "rocks",
+      "url": "/assets/v3/rock4_3.png",
+      "width": 32,
+      "id": "rock4_3",
+      "height": 32
+    },
+    {
+      "group": "rocks",
+      "url": "/assets/v3/rock5_2.png",
+      "width": 64,
+      "id": "rock5_2",
+      "height": 64
+    },
+    {
+      "group": "rocks",
+      "url": "/assets/v3/rock5_3.png",
+      "width": 32,
+      "id": "rock5_3",
+      "height": 32
+    },
+    {
+      "group": "rocks",
+      "url": "/assets/v3/rock6_2.png",
+      "width": 64,
+      "id": "rock6_2",
+      "height": 64
+    },
+    {
+      "group": "rocks",
+      "url": "/assets/v3/rock6_3.png",
+      "width": 32,
+      "id": "rock6_3",
+      "height": 32
+    },
+    {
+      "group": "rocks",
+      "url": "/assets/v3/rock7_2.png",
+      "width": 64,
+      "id": "rock7_2",
+      "height": 64
+    },
+    {
+      "group": "rocks",
+      "url": "/assets/v3/rock7_3.png",
+      "width": 32,
+      "id": "rock7_3",
+      "height": 32
+    },
+    {
+      "group": "rocks",
+      "url": "/assets/v3/rock8_2.png",
+      "width": 64,
+      "id": "rock8_2",
+      "height": 64
+    },
+    {
+      "group": "rocks",
+      "url": "/assets/v3/rock8_3.png",
+      "width": 32,
+      "id": "rock8_3",
+      "height": 32
+    },
+    {
+      "group": "bushes",
+      "url": "/assets/v4/new-bush1_1.png",
+      "width": 102,
+      "id": "new-bush1_1",
+      "height": 89
+    },
+    {
+      "group": "bushes",
+      "url": "/assets/v4/new-bush1_2.png",
+      "width": 81,
+      "id": "new-bush1_2",
+      "height": 66
+    },
+    {
+      "group": "bushes",
+      "url": "/assets/v4/new-bush1_3.png",
+      "width": 57,
+      "id": "new-bush1_3",
+      "height": 40
+    },
+    {
+      "group": "bushes",
+      "url": "/assets/v4/new-bush1_4.png",
+      "width": 34,
+      "id": "new-bush1_4",
+      "height": 27
+    },
+    {
+      "group": "bushes",
+      "url": "/assets/v4/new-bush10_1.png",
+      "width": 97,
+      "id": "new-bush10_1",
+      "height": 82
+    },
+    {
+      "group": "bushes",
+      "url": "/assets/v4/new-bush10_2.png",
+      "width": 80,
+      "id": "new-bush10_2",
+      "height": 70
+    },
+    {
+      "group": "bushes",
+      "url": "/assets/v4/new-bush10_3.png",
+      "width": 64,
+      "id": "new-bush10_3",
+      "height": 46
+    },
+    {
+      "group": "bushes",
+      "url": "/assets/v4/new-bush10_4.png",
+      "width": 47,
+      "id": "new-bush10_4",
+      "height": 28
+    },
+    {
+      "group": "bushes",
+      "url": "/assets/v4/new-bush2_1.png",
+      "width": 101,
+      "id": "new-bush2_1",
+      "height": 84
+    },
+    {
+      "group": "bushes",
+      "url": "/assets/v4/new-bush2_2.png",
+      "width": 79,
+      "id": "new-bush2_2",
+      "height": 62
+    },
+    {
+      "group": "bushes",
+      "url": "/assets/v4/new-bush2_3.png",
+      "width": 65,
+      "id": "new-bush2_3",
+      "height": 44
+    },
+    {
+      "group": "bushes",
+      "url": "/assets/v4/new-bush2_4.png",
+      "width": 40,
+      "id": "new-bush2_4",
+      "height": 24
+    },
+    {
+      "group": "bushes",
+      "url": "/assets/v4/new-bush3_1.png",
+      "width": 90,
+      "id": "new-bush3_1",
+      "height": 92
+    },
+    {
+      "group": "bushes",
+      "url": "/assets/v4/new-bush3_2.png",
+      "width": 85,
+      "id": "new-bush3_2",
+      "height": 73
+    },
+    {
+      "group": "bushes",
+      "url": "/assets/v4/new-bush3_3.png",
+      "width": 66,
+      "id": "new-bush3_3",
+      "height": 54
+    },
+    {
+      "group": "bushes",
+      "url": "/assets/v4/new-bush3_4.png",
+      "width": 43,
+      "id": "new-bush3_4",
+      "height": 34
+    },
+    {
+      "group": "bushes",
+      "url": "/assets/v4/new-bush4_1.png",
+      "width": 108,
+      "id": "new-bush4_1",
+      "height": 96
+    },
+    {
+      "group": "bushes",
+      "url": "/assets/v4/new-bush4_2.png",
+      "width": 79,
+      "id": "new-bush4_2",
+      "height": 71
+    },
+    {
+      "group": "bushes",
+      "url": "/assets/v4/new-bush4_3.png",
+      "width": 59,
+      "id": "new-bush4_3",
+      "height": 58
+    },
+    {
+      "group": "bushes",
+      "url": "/assets/v4/new-bush4_4.png",
+      "width": 48,
+      "id": "new-bush4_4",
+      "height": 40
+    },
+    {
+      "group": "bushes",
+      "url": "/assets/v4/new-bush5_1.png",
+      "width": 124,
+      "id": "new-bush5_1",
+      "height": 75
+    },
+    {
+      "group": "bushes",
+      "url": "/assets/v4/new-bush5_2.png",
+      "width": 104,
+      "id": "new-bush5_2",
+      "height": 54
+    },
+    {
+      "group": "bushes",
+      "url": "/assets/v4/new-bush5_3.png",
+      "width": 75,
+      "id": "new-bush5_3",
+      "height": 38
+    },
+    {
+      "group": "bushes",
+      "url": "/assets/v4/new-bush5_4.png",
+      "width": 59,
+      "id": "new-bush5_4",
+      "height": 23
+    },
+    {
+      "group": "bushes",
+      "url": "/assets/v4/new-bush6_1.png",
+      "width": 116,
+      "id": "new-bush6_1",
+      "height": 94
+    },
+    {
+      "group": "bushes",
+      "url": "/assets/v4/new-bush6_2.png",
+      "width": 82,
+      "id": "new-bush6_2",
+      "height": 75
+    },
+    {
+      "group": "bushes",
+      "url": "/assets/v4/new-bush6_3.png",
+      "width": 59,
+      "id": "new-bush6_3",
+      "height": 42
+    },
+    {
+      "group": "bushes",
+      "url": "/assets/v4/new-bush6_4.png",
+      "width": 46,
+      "id": "new-bush6_4",
+      "height": 30
+    },
+    {
+      "group": "bushes",
+      "url": "/assets/v4/new-bush7_1.png",
+      "width": 115,
+      "id": "new-bush7_1",
+      "height": 91
+    },
+    {
+      "group": "bushes",
+      "url": "/assets/v4/new-bush7_2.png",
+      "width": 90,
+      "id": "new-bush7_2",
+      "height": 60
+    },
+    {
+      "group": "bushes",
+      "url": "/assets/v4/new-bush7_3.png",
+      "width": 62,
+      "id": "new-bush7_3",
+      "height": 38
+    },
+    {
+      "group": "bushes",
+      "url": "/assets/v4/new-bush7_4.png",
+      "width": 47,
+      "id": "new-bush7_4",
+      "height": 21
+    },
+    {
+      "group": "bushes",
+      "url": "/assets/v4/new-bush8_1.png",
+      "width": 102,
+      "id": "new-bush8_1",
+      "height": 91
+    },
+    {
+      "group": "bushes",
+      "url": "/assets/v4/new-bush8_2.png",
+      "width": 80,
+      "id": "new-bush8_2",
+      "height": 71
+    },
+    {
+      "group": "bushes",
+      "url": "/assets/v4/new-bush8_3.png",
+      "width": 61,
+      "id": "new-bush8_3",
+      "height": 43
+    },
+    {
+      "group": "bushes",
+      "url": "/assets/v4/new-bush8_4.png",
+      "width": 43,
+      "id": "new-bush8_4",
+      "height": 31
+    },
+    {
+      "group": "bushes",
+      "url": "/assets/v4/new-bush9_1.png",
+      "width": 91,
+      "id": "new-bush9_1",
+      "height": 76
+    },
+    {
+      "group": "bushes",
+      "url": "/assets/v4/new-bush9_2.png",
+      "width": 78,
+      "id": "new-bush9_2",
+      "height": 60
+    },
+    {
+      "group": "bushes",
+      "url": "/assets/v4/new-bush9_3.png",
+      "width": 61,
+      "id": "new-bush9_3",
+      "height": 38
+    },
+    {
+      "group": "bushes",
+      "url": "/assets/v4/new-bush9_4.png",
+      "width": 46,
+      "id": "new-bush9_4",
+      "height": 25
+    },
+    {
+      "group": "clouds",
+      "url": "/assets/v4/cloud-1.png",
+      "width": 161,
+      "id": "cloud-1",
+      "height": 189
+    },
+    {
+      "group": "clouds",
+      "url": "/assets/v4/cloud-2.png",
+      "width": 272,
+      "id": "cloud-2",
+      "height": 62
+    },
+    {
+      "group": "clouds",
+      "url": "/assets/v4/cloud-3.png",
+      "width": 187,
+      "id": "cloud-3",
+      "height": 128
+    }
+  ],
+  "terrain": [
+    {
+      "id": "Ground_grass",
+      "url": "/assets/v3/Ground_grass.png"
+    },
+    {
+      "id": "Road1",
+      "url": "/assets/v3/Road1.png"
+    },
+    {
+      "id": "Road2",
+      "url": "/assets/v3/Road2.png"
+    },
+    {
+      "id": "Road3",
+      "url": "/assets/v3/Road3.png"
+    },
+    {
+      "id": "Road4",
+      "url": "/assets/v3/Road4.png"
+    },
+    {
+      "id": "Road5",
+      "url": "/assets/v3/Road5.png"
+    }
+  ],
+  "actors": [
+    {
+      "id": "samurai",
+      "frame": 128,
+      "group": "heroes",
+      "actions": {
+        "attack": {
+          "frames": 4,
+          "url": "/assets/v2/samurai/attack.png"
+        },
+        "dead": {
+          "frames": 6,
+          "url": "/assets/v2/samurai/dead.png"
+        },
+        "idle": {
+          "frames": 6,
+          "url": "/assets/v2/samurai/idle.png"
+        },
+        "hurt": {
+          "frames": 3,
+          "url": "/assets/v2/samurai/hurt.png"
+        },
+        "walk": {
+          "frames": 8,
+          "url": "/assets/v2/samurai/walk.png"
+        }
+      },
+      "source": "D:\\the_world\\heroes\\craftpix-net-123681-free-samurai-pixel-art-sprite-sheets\\Samurai",
+      "originX": 0.21484375,
+      "bodyHeight": 69,
+      "originY": 0.9921875
+    },
+    {
+      "id": "samurai-archer",
+      "frame": 128,
+      "group": "heroes",
+      "actions": {
+        "attack": {
+          "frames": 5,
+          "url": "/assets/v2/samurai-archer/attack.png"
+        },
+        "dead": {
+          "frames": 5,
+          "url": "/assets/v2/samurai-archer/dead.png"
+        },
+        "idle": {
+          "frames": 9,
+          "url": "/assets/v2/samurai-archer/idle.png"
+        },
+        "hurt": {
+          "frames": 3,
+          "url": "/assets/v2/samurai-archer/hurt.png"
+        },
+        "walk": {
+          "frames": 8,
+          "url": "/assets/v2/samurai-archer/walk.png"
+        }
+      },
+      "source": "D:\\the_world\\heroes\\craftpix-net-123681-free-samurai-pixel-art-sprite-sheets\\Samurai_Archer",
+      "originX": 0.4453125,
+      "bodyHeight": 103,
+      "originY": 0.9921875
+    },
+    {
+      "id": "samurai-commander",
+      "frame": 128,
+      "group": "heroes",
+      "actions": {
+        "attack": {
+          "frames": 4,
+          "url": "/assets/v2/samurai-commander/attack.png"
+        },
+        "dead": {
+          "frames": 6,
+          "url": "/assets/v2/samurai-commander/dead.png"
+        },
+        "idle": {
+          "frames": 5,
+          "url": "/assets/v2/samurai-commander/idle.png"
+        },
+        "hurt": {
+          "frames": 2,
+          "url": "/assets/v2/samurai-commander/hurt.png"
+        },
+        "walk": {
+          "frames": 8,
+          "url": "/assets/v2/samurai-commander/walk.png"
+        }
+      },
+      "source": "D:\\the_world\\heroes\\craftpix-net-123681-free-samurai-pixel-art-sprite-sheets\\Samurai_Commander",
+      "originX": 0.42578125,
+      "bodyHeight": 92,
+      "originY": 0.9921875
+    },
+    {
+      "id": "fire-wizard",
+      "frame": 128,
+      "group": "heroes",
+      "actions": {
+        "attack": {
+          "frames": 4,
+          "url": "/assets/v2/fire-wizard/attack.png"
+        },
+        "dead": {
+          "frames": 6,
+          "url": "/assets/v2/fire-wizard/dead.png"
+        },
+        "idle": {
+          "frames": 7,
+          "url": "/assets/v2/fire-wizard/idle.png"
+        },
+        "hurt": {
+          "frames": 3,
+          "url": "/assets/v2/fire-wizard/hurt.png"
+        },
+        "walk": {
+          "frames": 8,
+          "url": "/assets/v2/fire-wizard/walk.png"
+        }
+      },
+      "source": "D:\\the_world\\heroes\\craftpix-net-529677-free-wizard-sprite-sheets-pixel-art\\Fire Wizard",
+      "originX": 0.38671875,
+      "bodyHeight": 66,
+      "originY": 0.9921875
+    },
+    {
+      "id": "lightning-mage",
+      "frame": 128,
+      "group": "heroes",
+      "actions": {
+        "attack": {
+          "frames": 10,
+          "url": "/assets/v2/lightning-mage/attack.png"
+        },
+        "dead": {
+          "frames": 5,
+          "url": "/assets/v2/lightning-mage/dead.png"
+        },
+        "idle": {
+          "frames": 7,
+          "url": "/assets/v2/lightning-mage/idle.png"
+        },
+        "hurt": {
+          "frames": 3,
+          "url": "/assets/v2/lightning-mage/hurt.png"
+        },
+        "walk": {
+          "frames": 8,
+          "url": "/assets/v2/lightning-mage/walk.png"
+        }
+      },
+      "source": "D:\\the_world\\heroes\\craftpix-net-529677-free-wizard-sprite-sheets-pixel-art\\Lightning Mage",
+      "originX": 0.4140625,
+      "bodyHeight": 63,
+      "originY": 0.9921875
+    },
+    {
+      "id": "wanderer-magican",
+      "frame": 128,
+      "group": "heroes",
+      "actions": {
+        "attack": {
+          "frames": 7,
+          "url": "/assets/v2/wanderer-magican/attack.png"
+        },
+        "dead": {
+          "frames": 4,
+          "url": "/assets/v2/wanderer-magican/dead.png"
+        },
+        "idle": {
+          "frames": 8,
+          "url": "/assets/v2/wanderer-magican/idle.png"
+        },
+        "hurt": {
+          "frames": 4,
+          "url": "/assets/v2/wanderer-magican/hurt.png"
+        },
+        "walk": {
+          "frames": 8,
+          "url": "/assets/v2/wanderer-magican/walk.png"
+        }
+      },
+      "source": "D:\\the_world\\heroes\\craftpix-net-529677-free-wizard-sprite-sheets-pixel-art\\Wanderer Magican",
+      "originX": 0.49609375,
+      "bodyHeight": 66,
+      "originY": 0.9921875
+    },
+    {
+      "id": "warrior-1",
+      "frame": 96,
+      "group": "heroes",
+      "actions": {
+        "attack": {
+          "frames": 4,
+          "url": "/assets/v2/warrior-1/attack.png"
+        },
+        "dead": {
+          "frames": 4,
+          "url": "/assets/v2/warrior-1/dead.png"
+        },
+        "idle": {
+          "frames": 6,
+          "url": "/assets/v2/warrior-1/idle.png"
+        },
+        "hurt": {
+          "frames": 2,
+          "url": "/assets/v2/warrior-1/hurt.png"
+        },
+        "walk": {
+          "frames": 6,
+          "url": "/assets/v2/warrior-1/walk.png"
+        }
+      },
+      "source": "D:\\the_world\\heroes\\craftpix-net-589520-free-warrior-pixel-art-sprite-sheets\\Warrior_1",
+      "originX": 0.4895833333333333,
+      "bodyHeight": 45,
+      "originY": 0.9895833333333334
+    },
+    {
+      "id": "warrior-2",
+      "frame": 96,
+      "group": "heroes",
+      "actions": {
+        "attack": {
+          "frames": 4,
+          "url": "/assets/v2/warrior-2/attack.png"
+        },
+        "dead": {
+          "frames": 4,
+          "url": "/assets/v2/warrior-2/dead.png"
+        },
+        "idle": {
+          "frames": 5,
+          "url": "/assets/v2/warrior-2/idle.png"
+        },
+        "hurt": {
+          "frames": 3,
+          "url": "/assets/v2/warrior-2/hurt.png"
+        },
+        "walk": {
+          "frames": 6,
+          "url": "/assets/v2/warrior-2/walk.png"
+        }
+      },
+      "source": "D:\\the_world\\heroes\\craftpix-net-589520-free-warrior-pixel-art-sprite-sheets\\Warrior_2",
+      "originX": 0.4895833333333333,
+      "bodyHeight": 47,
+      "originY": 0.9895833333333334
+    },
+    {
+      "id": "warrior-3",
+      "frame": 96,
+      "group": "heroes",
+      "actions": {
+        "attack": {
+          "frames": 4,
+          "url": "/assets/v2/warrior-3/attack.png"
+        },
+        "dead": {
+          "frames": 4,
+          "url": "/assets/v2/warrior-3/dead.png"
+        },
+        "idle": {
+          "frames": 5,
+          "url": "/assets/v2/warrior-3/idle.png"
+        },
+        "hurt": {
+          "frames": 2,
+          "url": "/assets/v2/warrior-3/hurt.png"
+        },
+        "walk": {
+          "frames": 6,
+          "url": "/assets/v2/warrior-3/walk.png"
+        }
+      },
+      "source": "D:\\the_world\\heroes\\craftpix-net-589520-free-warrior-pixel-art-sprite-sheets\\Warrior_3",
+      "originX": 0.5885416666666666,
+      "bodyHeight": 66,
+      "originY": 0.9895833333333334
+    },
+    {
+      "id": "knight-1",
+      "frame": 160,
+      "group": "heroes",
+      "actions": {
+        "attack": {
+          "frames": 5,
+          "url": "/assets/guardian/knight-1-attack.png"
+        },
+        "dead": {
+          "frames": 6,
+          "url": "/assets/guardian/knight-1-dead.png"
+        },
+        "idle": {
+          "frames": 4,
+          "url": "/assets/guardian/knight-1-idle.png"
+        },
+        "hurt": {
+          "frames": 2,
+          "url": "/assets/guardian/knight-1-hurt.png"
+        },
+        "walk": {
+          "frames": 7,
+          "url": "/assets/guardian/knight-1-walk.png"
+        }
+      },
+      "source": "D:\\the_world\\heroes\\craftpix-net-803217-free-knight-character-sprites-pixel-art\\Knight_1",
+      "originX": 0.5,
+      "bodyHeight": 64,
+      "originY": 0.9
+    },
+    {
+      "id": "knight-2",
+      "frame": 160,
+      "group": "heroes",
+      "actions": {
+        "attack": {
+          "frames": 5,
+          "url": "/assets/guardian/knight-2-attack.png"
+        },
+        "dead": {
+          "frames": 6,
+          "url": "/assets/guardian/knight-2-dead.png"
+        },
+        "idle": {
+          "frames": 4,
+          "url": "/assets/guardian/knight-2-idle.png"
+        },
+        "hurt": {
+          "frames": 2,
+          "url": "/assets/guardian/knight-2-hurt.png"
+        },
+        "walk": {
+          "frames": 7,
+          "url": "/assets/guardian/knight-2-walk.png"
+        }
+      },
+      "source": "D:\\the_world\\heroes\\craftpix-net-803217-free-knight-character-sprites-pixel-art\\Knight_2",
+      "originX": 0.5,
+      "bodyHeight": 64,
+      "originY": 0.9
+    },
+    {
+      "id": "knight-3",
+      "frame": 160,
+      "group": "heroes",
+      "actions": {
+        "attack": {
+          "frames": 5,
+          "url": "/assets/guardian/knight-3-attack.png"
+        },
+        "dead": {
+          "frames": 6,
+          "url": "/assets/guardian/knight-3-dead.png"
+        },
+        "idle": {
+          "frames": 4,
+          "url": "/assets/guardian/knight-3-idle.png"
+        },
+        "hurt": {
+          "frames": 2,
+          "url": "/assets/guardian/knight-3-hurt.png"
+        },
+        "walk": {
+          "frames": 7,
+          "url": "/assets/guardian/knight-3-walk.png"
+        }
+      },
+      "source": "D:\\the_world\\heroes\\craftpix-net-803217-free-knight-character-sprites-pixel-art\\Knight_3",
+      "originX": 0.5,
+      "bodyHeight": 64,
+      "originY": 0.9
+    },
+    {
+      "id": "orc-berserk",
+      "frame": 96,
+      "group": "monster",
+      "actions": {
+        "attack": {
+          "frames": 4,
+          "url": "/assets/v2/orc-berserk/attack.png"
+        },
+        "dead": {
+          "frames": 4,
+          "url": "/assets/v2/orc-berserk/dead.png"
+        },
+        "idle": {
+          "frames": 5,
+          "url": "/assets/v2/orc-berserk/idle.png"
+        },
+        "hurt": {
+          "frames": 2,
+          "url": "/assets/v2/orc-berserk/hurt.png"
+        },
+        "walk": {
+          "frames": 6,
+          "url": "/assets/v2/orc-berserk/walk.png"
+        }
+      },
+      "source": "D:\\the_world\\monster\\craftpix-net-100504-free-orc-sprite-sheets-pixel-art\\Craftpix_Orc\\Orc_Berserk",
+      "originX": 0.5,
+      "bodyHeight": 61,
+      "originY": 0.9895833333333334
+    },
+    {
+      "id": "orc-shaman",
+      "frame": 96,
+      "group": "monster",
+      "actions": {
+        "attack": {
+          "frames": 4,
+          "url": "/assets/v2/orc-shaman/attack.png"
+        },
+        "dead": {
+          "frames": 5,
+          "url": "/assets/v2/orc-shaman/dead.png"
+        },
+        "idle": {
+          "frames": 5,
+          "url": "/assets/v2/orc-shaman/idle.png"
+        },
+        "hurt": {
+          "frames": 2,
+          "url": "/assets/v2/orc-shaman/hurt.png"
+        },
+        "walk": {
+          "frames": 6,
+          "url": "/assets/v2/orc-shaman/walk.png"
+        }
+      },
+      "source": "D:\\the_world\\monster\\craftpix-net-100504-free-orc-sprite-sheets-pixel-art\\Craftpix_Orc\\Orc_Shaman",
+      "originX": 0.5,
+      "bodyHeight": 63,
+      "originY": 0.9895833333333334
+    },
+    {
+      "id": "orc-warrior",
+      "frame": 96,
+      "group": "monster",
+      "actions": {
+        "attack": {
+          "frames": 4,
+          "url": "/assets/v2/orc-warrior/attack.png"
+        },
+        "dead": {
+          "frames": 4,
+          "url": "/assets/v2/orc-warrior/dead.png"
+        },
+        "idle": {
+          "frames": 5,
+          "url": "/assets/v2/orc-warrior/idle.png"
+        },
+        "hurt": {
+          "frames": 2,
+          "url": "/assets/v2/orc-warrior/hurt.png"
+        },
+        "walk": {
+          "frames": 6,
+          "url": "/assets/v2/orc-warrior/walk.png"
+        }
+      },
+      "source": "D:\\the_world\\monster\\craftpix-net-100504-free-orc-sprite-sheets-pixel-art\\Craftpix_Orc\\Orc_Warrior",
+      "originX": 0.40625,
+      "bodyHeight": 59,
+      "originY": 0.9895833333333334
+    },
+    {
+      "id": "fire-spirit",
+      "frame": 128,
+      "group": "monster",
+      "actions": {
+        "attack": {
+          "frames": 14,
+          "url": "/assets/v2/fire-spirit/attack.png"
+        },
+        "dead": {
+          "frames": 5,
+          "url": "/assets/v2/fire-spirit/dead.png"
+        },
+        "idle": {
+          "frames": 6,
+          "url": "/assets/v2/fire-spirit/idle.png"
+        },
+        "hurt": {
+          "frames": 3,
+          "url": "/assets/v2/fire-spirit/hurt.png"
+        },
+        "walk": {
+          "frames": 7,
+          "url": "/assets/v2/fire-spirit/walk.png"
+        }
+      },
+      "source": "D:\\the_world\\monster\\craftpix-net-339194-free-fantasy-enemies-pixel-art-sprite-pack\\Fire_Spirit",
+      "originX": 0.49609375,
+      "bodyHeight": 44,
+      "originY": 0.75
+    },
+    {
+      "id": "plent",
+      "frame": 128,
+      "group": "monster",
+      "actions": {
+        "attack": {
+          "frames": 6,
+          "url": "/assets/v2/plent/attack.png"
+        },
+        "dead": {
+          "frames": 2,
+          "url": "/assets/v2/plent/dead.png"
+        },
+        "idle": {
+          "frames": 5,
+          "url": "/assets/v2/plent/idle.png"
+        },
+        "hurt": {
+          "frames": 3,
+          "url": "/assets/v2/plent/hurt.png"
+        },
+        "walk": {
+          "frames": 9,
+          "url": "/assets/v2/plent/walk.png"
+        }
+      },
+      "source": "D:\\the_world\\monster\\craftpix-net-339194-free-fantasy-enemies-pixel-art-sprite-pack\\Plent",
+      "originX": 0.49609375,
+      "bodyHeight": 56,
+      "originY": 0.9921875
+    },
+    {
+      "id": "skeleton",
+      "frame": 128,
+      "group": "monster",
+      "actions": {
+        "attack": {
+          "frames": 7,
+          "url": "/assets/v2/skeleton/attack.png"
+        },
+        "dead": {
+          "frames": 3,
+          "url": "/assets/v2/skeleton/dead.png"
+        },
+        "idle": {
+          "frames": 7,
+          "url": "/assets/v2/skeleton/idle.png"
+        },
+        "hurt": {
+          "frames": 3,
+          "url": "/assets/v2/skeleton/hurt.png"
+        },
+        "walk": {
+          "frames": 7,
+          "url": "/assets/v2/skeleton/walk.png"
+        }
+      },
+      "source": "D:\\the_world\\monster\\craftpix-net-339194-free-fantasy-enemies-pixel-art-sprite-pack\\Skeleton",
+      "originX": 0.4453125,
+      "bodyHeight": 67,
+      "originY": 0.9921875
+    },
+    {
+      "id": "blue-slime",
+      "frame": 128,
+      "group": "monster",
+      "actions": {
+        "attack": {
+          "frames": 4,
+          "url": "/assets/v2/blue-slime/attack.png"
+        },
+        "dead": {
+          "frames": 3,
+          "url": "/assets/v2/blue-slime/dead.png"
+        },
+        "idle": {
+          "frames": 8,
+          "url": "/assets/v2/blue-slime/idle.png"
+        },
+        "hurt": {
+          "frames": 6,
+          "url": "/assets/v2/blue-slime/hurt.png"
+        },
+        "walk": {
+          "frames": 7,
+          "url": "/assets/v2/blue-slime/walk.png"
+        }
+      },
+      "source": "D:\\the_world\\monster\\craftpix-net-424234-free-slime-sprite-sheets-pixel-art\\Blue_Slime",
+      "originX": 0.4765625,
+      "bodyHeight": 32,
+      "originY": 0.9921875
+    },
+    {
+      "id": "green-slime",
+      "frame": 128,
+      "group": "monster",
+      "actions": {
+        "attack": {
+          "frames": 4,
+          "url": "/assets/v2/green-slime/attack.png"
+        },
+        "dead": {
+          "frames": 3,
+          "url": "/assets/v2/green-slime/dead.png"
+        },
+        "idle": {
+          "frames": 8,
+          "url": "/assets/v2/green-slime/idle.png"
+        },
+        "hurt": {
+          "frames": 6,
+          "url": "/assets/v2/green-slime/hurt.png"
+        },
+        "walk": {
+          "frames": 7,
+          "url": "/assets/v2/green-slime/walk.png"
+        }
+      },
+      "source": "D:\\the_world\\monster\\craftpix-net-424234-free-slime-sprite-sheets-pixel-art\\Green_Slime",
+      "originX": 0.4765625,
+      "bodyHeight": 32,
+      "originY": 0.9921875
+    },
+    {
+      "id": "red-slime",
+      "frame": 128,
+      "group": "monster",
+      "actions": {
+        "attack": {
+          "frames": 4,
+          "url": "/assets/v2/red-slime/attack.png"
+        },
+        "dead": {
+          "frames": 3,
+          "url": "/assets/v2/red-slime/dead.png"
+        },
+        "idle": {
+          "frames": 8,
+          "url": "/assets/v2/red-slime/idle.png"
+        },
+        "hurt": {
+          "frames": 6,
+          "url": "/assets/v2/red-slime/hurt.png"
+        },
+        "walk": {
+          "frames": 7,
+          "url": "/assets/v2/red-slime/walk.png"
+        }
+      },
+      "source": "D:\\the_world\\monster\\craftpix-net-424234-free-slime-sprite-sheets-pixel-art\\Red_Slime",
+      "originX": 0.4765625,
+      "bodyHeight": 32,
+      "originY": 0.9921875
+    },
+    {
+      "id": "soldier-1",
+      "frame": 32,
+      "group": "soldiers",
+      "actions": {
+        "attack": {
+          "frames": 4,
+          "url": "/assets/v2/soldier-1/attack.png"
+        },
+        "idle": {
+          "frames": 4,
+          "url": "/assets/v2/soldier-1/idle.png"
+        },
+        "walk": {
+          "frames": 4,
+          "url": "/assets/v2/soldier-1/walk.png"
+        }
+      },
+      "source": "D:\\the_world\\craftpix-net-749505-free-medieval-fortress-top-down-pixel-minigame-kit\\Characters\\Character_1",
+      "originX": 0.5,
+      "bodyHeight": 18,
+      "originY": 0.8
+    },
+    {
+      "id": "soldier-3",
+      "frame": 32,
+      "group": "soldiers",
+      "actions": {
+        "attack": {
+          "frames": 2,
+          "url": "/assets/v2/soldier-3/attack.png"
+        },
+        "idle": {
+          "frames": 4,
+          "url": "/assets/v2/soldier-3/idle.png"
+        },
+        "walk": {
+          "frames": 4,
+          "url": "/assets/v2/soldier-3/walk.png"
+        }
+      },
+      "source": "D:\\the_world\\craftpix-net-749505-free-medieval-fortress-top-down-pixel-minigame-kit\\Characters\\Character_3",
+      "originX": 0.5,
+      "bodyHeight": 18,
+      "originY": 0.8
+    },
+    {
+      "id": "soldier-6",
+      "frame": 32,
+      "group": "soldiers",
+      "actions": {
+        "attack": {
+          "frames": 4,
+          "url": "/assets/v2/soldier-6/attack.png"
+        },
+        "idle": {
+          "frames": 4,
+          "url": "/assets/v2/soldier-6/idle.png"
+        },
+        "walk": {
+          "frames": 4,
+          "url": "/assets/v2/soldier-6/walk.png"
+        }
+      },
+      "source": "D:\\the_world\\craftpix-net-749505-free-medieval-fortress-top-down-pixel-minigame-kit\\Characters\\Character_6",
+      "originX": 0.5,
+      "bodyHeight": 18,
+      "originY": 0.8
+    },
+    {
+      "id": "soldier-9",
+      "frame": 32,
+      "group": "soldiers",
+      "actions": {
+        "attack": {
+          "frames": 4,
+          "url": "/assets/v2/soldier-9/attack.png"
+        },
+        "idle": {
+          "frames": 4,
+          "url": "/assets/v2/soldier-9/idle.png"
+        },
+        "walk": {
+          "frames": 4,
+          "url": "/assets/v2/soldier-9/walk.png"
+        }
+      },
+      "source": "D:\\the_world\\craftpix-net-749505-free-medieval-fortress-top-down-pixel-minigame-kit\\Characters\\Character_9",
+      "originX": 0.5,
+      "bodyHeight": 18,
+      "originY": 0.8
+    },
+    {
+      "id": "raven",
+      "frame": 32,
+      "group": "monster",
+      "actions": {
+        "attack": {
+          "url": "/assets/v4/raven/attack.png",
+          "frames": 6,
+          "rows": 4
+        },
+        "dead": {
+          "url": "/assets/v4/raven/dead.png",
+          "frames": 6,
+          "rows": 4
+        },
+        "idle": {
+          "url": "/assets/v4/raven/idle.png",
+          "frames": 6,
+          "rows": 4
+        },
+        "walk": {
+          "url": "/assets/v4/raven/walk.png",
+          "frames": 6,
+          "rows": 4
+        }
+      },
+      "originX": 0.46875,
+      "bodyHeight": 25,
+      "directions": 4,
+      "originY": 0.78125
+    },
+    {
+      "id": "wasp",
+      "frame": 48,
+      "group": "monster",
+      "actions": {
+        "attack": {
+          "url": "/assets/v4/wasp/attack.png",
+          "frames": 6,
+          "rows": 1
+        },
+        "dead": {
+          "url": "/assets/v4/wasp/dead.png",
+          "frames": 6,
+          "rows": 1
+        },
+        "idle": {
+          "url": "/assets/v4/wasp/idle.png",
+          "frames": 6,
+          "rows": 1
+        },
+        "walk": {
+          "url": "/assets/v4/wasp/walk.png",
+          "frames": 6,
+          "rows": 1
+        }
+      },
+      "originX": 0.4895833333333333,
+      "bodyHeight": 14,
+      "directions": 1,
+      "originY": 0.7083333333333334
+    },
+    {
+      "id": "boar",
+      "frame": 32,
+      "group": "monster",
+      "actions": {
+        "attack": {
+          "url": "/assets/v4/boar/attack.png",
+          "frames": 5,
+          "rows": 4
+        },
+        "dead": {
+          "url": "/assets/v4/boar/dead.png",
+          "frames": 6,
+          "rows": 4
+        },
+        "idle": {
+          "url": "/assets/v4/boar/idle.png",
+          "frames": 4,
+          "rows": 4
+        },
+        "walk": {
+          "url": "/assets/v4/boar/walk.png",
+          "frames": 5,
+          "rows": 4
+        }
+      },
+      "originX": 0.5,
+      "bodyHeight": 21,
+      "directions": 4,
+      "originY": 0.78125
+    },
+    {
+      "id": "vampire",
+      "frame": 64,
+      "group": "monster",
+      "actions": {
+        "attack": {
+          "url": "/assets/v4/vampire/attack.png",
+          "frames": 12,
+          "rows": 4
+        },
+        "dead": {
+          "url": "/assets/v4/vampire/dead.png",
+          "frames": 11,
+          "rows": 4
+        },
+        "idle": {
+          "url": "/assets/v4/vampire/idle.png",
+          "frames": 4,
+          "rows": 4
+        },
+        "walk": {
+          "url": "/assets/v4/vampire/walk.png",
+          "frames": 8,
+          "rows": 4
+        }
+      },
+      "originX": 0.484375,
+      "bodyHeight": 26,
+      "directions": 4,
+      "originY": 0.671875
+    },
+    {
+      "id": "orc-chief",
+      "frame": 64,
+      "group": "monster",
+      "actions": {
+        "attack": {
+          "url": "/assets/v4/orc-chief/attack.png",
+          "frames": 8,
+          "rows": 4
+        },
+        "dead": {
+          "url": "/assets/v4/orc-chief/dead.png",
+          "frames": 8,
+          "rows": 4
+        },
+        "idle": {
+          "url": "/assets/v4/orc-chief/idle.png",
+          "frames": 4,
+          "rows": 4
+        },
+        "walk": {
+          "url": "/assets/v4/orc-chief/walk.png",
+          "frames": 8,
+          "rows": 4
+        }
+      },
+      "originX": 0.4140625,
+      "bodyHeight": 28,
+      "directions": 4,
+      "originY": 0.640625
+    },
+    {
+      "id": "goblin",
+      "frame": 48,
+      "group": "monster",
+      "actions": {
+        "attack": {
+          "url": "/assets/v4/goblin/attack.png",
+          "frames": 6,
+          "rows": 1
+        },
+        "dead": {
+          "url": "/assets/v4/goblin/dead.png",
+          "frames": 6,
+          "rows": 1
+        },
+        "idle": {
+          "url": "/assets/v4/goblin/idle.png",
+          "frames": 6,
+          "rows": 1
+        },
+        "walk": {
+          "url": "/assets/v4/goblin/walk.png",
+          "frames": 6,
+          "rows": 1
+        }
+      },
+      "originX": 0.4583333333333333,
+      "bodyHeight": 22,
+      "directions": 1,
+      "originY": 0.7708333333333334
+    },
+    {
+      "id": "stone-beast",
+      "frame": 48,
+      "group": "monster",
+      "actions": {
+        "attack": {
+          "url": "/assets/v4/stone-beast/attack.png",
+          "frames": 6,
+          "rows": 1
+        },
+        "dead": {
+          "url": "/assets/v4/stone-beast/dead.png",
+          "frames": 6,
+          "rows": 1
+        },
+        "idle": {
+          "url": "/assets/v4/stone-beast/idle.png",
+          "frames": 6,
+          "rows": 1
+        },
+        "walk": {
+          "url": "/assets/v4/stone-beast/walk.png",
+          "frames": 6,
+          "rows": 1
+        }
+      },
+      "originX": 0.4895833333333333,
+      "bodyHeight": 25,
+      "directions": 1,
+      "originY": 0.7916666666666666
+    },
+    {
+      "id": "vampire-2",
+      "frame": 64,
+      "group": "monster",
+      "actions": {
+        "attack": {
+          "url": "/assets/v4/vampire-2/attack.png",
+          "frames": 12,
+          "rows": 4
+        },
+        "dead": {
+          "url": "/assets/v4/vampire-2/dead.png",
+          "frames": 11,
+          "rows": 4
+        },
+        "idle": {
+          "url": "/assets/v4/vampire-2/idle.png",
+          "frames": 4,
+          "rows": 4
+        },
+        "walk": {
+          "url": "/assets/v4/vampire-2/walk.png",
+          "frames": 8,
+          "rows": 4
+        }
+      },
+      "originX": 0.484375,
+      "bodyHeight": 28,
+      "directions": 4,
+      "originY": 0.671875
+    },
+    {
+      "id": "orc-chief-2",
+      "frame": 64,
+      "group": "monster",
+      "actions": {
+        "attack": {
+          "url": "/assets/v4/orc-chief-2/attack.png",
+          "frames": 8,
+          "rows": 4
+        },
+        "dead": {
+          "url": "/assets/v4/orc-chief-2/dead.png",
+          "frames": 8,
+          "rows": 4
+        },
+        "idle": {
+          "url": "/assets/v4/orc-chief-2/idle.png",
+          "frames": 4,
+          "rows": 4
+        },
+        "walk": {
+          "url": "/assets/v4/orc-chief-2/walk.png",
+          "frames": 8,
+          "rows": 4
+        }
+      },
+      "originX": 0.4296875,
+      "bodyHeight": 30,
+      "directions": 4,
+      "originY": 0.640625
+    },
+    {
+      "id": "vampire-3",
+      "frame": 64,
+      "group": "monster",
+      "actions": {
+        "attack": {
+          "url": "/assets/v4/vampire-3/attack.png",
+          "frames": 12,
+          "rows": 4
+        },
+        "dead": {
+          "url": "/assets/v4/vampire-3/dead.png",
+          "frames": 11,
+          "rows": 4
+        },
+        "idle": {
+          "url": "/assets/v4/vampire-3/idle.png",
+          "frames": 4,
+          "rows": 4
+        },
+        "walk": {
+          "url": "/assets/v4/vampire-3/walk.png",
+          "frames": 8,
+          "rows": 4
+        }
+      },
+      "originX": 0.484375,
+      "bodyHeight": 27,
+      "directions": 4,
+      "originY": 0.671875
+    },
+    {
+      "id": "orc-chief-3",
+      "frame": 64,
+      "group": "monster",
+      "actions": {
+        "attack": {
+          "url": "/assets/v4/orc-chief-3/attack.png",
+          "frames": 8,
+          "rows": 4
+        },
+        "dead": {
+          "url": "/assets/v4/orc-chief-3/dead.png",
+          "frames": 8,
+          "rows": 4
+        },
+        "idle": {
+          "url": "/assets/v4/orc-chief-3/idle.png",
+          "frames": 4,
+          "rows": 4
+        },
+        "walk": {
+          "url": "/assets/v4/orc-chief-3/walk.png",
+          "frames": 8,
+          "rows": 4
+        }
+      },
+      "originX": 0.4140625,
+      "bodyHeight": 35,
+      "directions": 4,
+      "originY": 0.640625
+    },
+    {
+      "id": "wild-slime-1",
+      "frame": 64,
+      "group": "monster",
+      "actions": {
+        "attack": {
+          "url": "/assets/v4/wild-slime-1/attack.png",
+          "frames": 10,
+          "rows": 4
+        },
+        "dead": {
+          "url": "/assets/v4/wild-slime-1/dead.png",
+          "frames": 10,
+          "rows": 4
+        },
+        "idle": {
+          "url": "/assets/v4/wild-slime-1/idle.png",
+          "frames": 6,
+          "rows": 4
+        },
+        "walk": {
+          "url": "/assets/v4/wild-slime-1/walk.png",
+          "frames": 8,
+          "rows": 4
+        }
+      },
+      "originX": 0.515625,
+      "bodyHeight": 20,
+      "directions": 4,
+      "originY": 0.609375
+    },
+    {
+      "id": "wild-slime-2",
+      "frame": 64,
+      "group": "monster",
+      "actions": {
+        "attack": {
+          "url": "/assets/v4/wild-slime-2/attack.png",
+          "frames": 11,
+          "rows": 4
+        },
+        "dead": {
+          "url": "/assets/v4/wild-slime-2/dead.png",
+          "frames": 10,
+          "rows": 4
+        },
+        "idle": {
+          "url": "/assets/v4/wild-slime-2/idle.png",
+          "frames": 6,
+          "rows": 4
+        },
+        "walk": {
+          "url": "/assets/v4/wild-slime-2/walk.png",
+          "frames": 8,
+          "rows": 4
+        }
+      },
+      "originX": 0.515625,
+      "bodyHeight": 21,
+      "directions": 4,
+      "originY": 0.609375
+    },
+    {
+      "id": "wild-slime-3",
+      "frame": 64,
+      "group": "monster",
+      "actions": {
+        "attack": {
+          "url": "/assets/v4/wild-slime-3/attack.png",
+          "frames": 9,
+          "rows": 4
+        },
+        "dead": {
+          "url": "/assets/v4/wild-slime-3/dead.png",
+          "frames": 10,
+          "rows": 4
+        },
+        "idle": {
+          "url": "/assets/v4/wild-slime-3/idle.png",
+          "frames": 6,
+          "rows": 4
+        },
+        "walk": {
+          "url": "/assets/v4/wild-slime-3/walk.png",
+          "frames": 8,
+          "rows": 4
+        }
+      },
+      "originX": 0.5234375,
+      "bodyHeight": 25,
+      "directions": 4,
+      "originY": 0.609375
+    },
+    {
+      "id": "fox",
+      "frame": 32,
+      "group": "ambient",
+      "actions": {
+        "attack": {
+          "url": "/assets/v4/fox/attack.png",
+          "frames": 4,
+          "rows": 4
+        },
+        "dead": {
+          "url": "/assets/v4/fox/dead.png",
+          "frames": 6,
+          "rows": 4
+        },
+        "idle": {
+          "url": "/assets/v4/fox/idle.png",
+          "frames": 4,
+          "rows": 4
+        },
+        "walk": {
+          "url": "/assets/v4/fox/walk.png",
+          "frames": 6,
+          "rows": 4
+        }
+      },
+      "originX": 0.46875,
+      "bodyHeight": 19,
+      "directions": 4,
+      "originY": 0.8125
+    },
+    {
+      "id": "deer",
+      "frame": 32,
+      "group": "ambient",
+      "actions": {
+        "attack": {
+          "url": "/assets/v4/deer/attack.png",
+          "frames": 4,
+          "rows": 4
+        },
+        "dead": {
+          "url": "/assets/v4/deer/dead.png",
+          "frames": 7,
+          "rows": 4
+        },
+        "idle": {
+          "url": "/assets/v4/deer/idle.png",
+          "frames": 4,
+          "rows": 4
+        },
+        "walk": {
+          "url": "/assets/v4/deer/walk.png",
+          "frames": 6,
+          "rows": 4
+        }
+      },
+      "originX": 0.5,
+      "bodyHeight": 24,
+      "directions": 4,
+      "originY": 0.78125
+    },
+    {
+      "id": "hare",
+      "frame": 32,
+      "group": "ambient",
+      "actions": {
+        "attack": {
+          "url": "/assets/v4/hare/attack.png",
+          "frames": 4,
+          "rows": 4
+        },
+        "dead": {
+          "url": "/assets/v4/hare/dead.png",
+          "frames": 6,
+          "rows": 4
+        },
+        "idle": {
+          "url": "/assets/v4/hare/idle.png",
+          "frames": 4,
+          "rows": 4
+        },
+        "walk": {
+          "url": "/assets/v4/hare/walk.png",
+          "frames": 6,
+          "rows": 4
+        }
+      },
+      "originX": 0.46875,
+      "bodyHeight": 21,
+      "directions": 4,
+      "originY": 0.84375
+    },
+    {
+      "id": "soldier-2",
+      "frame": 32,
+      "group": "soldiers",
+      "actions": {
+        "attack": {
+          "url": "/assets/v4/soldier-2/attack.png",
+          "frames": 4,
+          "rows": 1
+        },
+        "dead": {
+          "url": "/assets/v4/soldier-2/dead.png",
+          "frames": 2,
+          "rows": 1
+        },
+        "idle": {
+          "url": "/assets/v4/soldier-2/idle.png",
+          "frames": 4,
+          "rows": 1
+        },
+        "walk": {
+          "url": "/assets/v4/soldier-2/walk.png",
+          "frames": 4,
+          "rows": 1
+        }
+      },
+      "originX": 0.421875,
+      "bodyHeight": 18,
+      "directions": 1,
+      "originY": 0.96875
+    },
+    {
+      "id": "soldier-4",
+      "frame": 32,
+      "group": "soldiers",
+      "actions": {
+        "attack": {
+          "url": "/assets/v4/soldier-4/attack.png",
+          "frames": 3,
+          "rows": 1
+        },
+        "dead": {
+          "url": "/assets/v4/soldier-4/dead.png",
+          "frames": 2,
+          "rows": 1
+        },
+        "idle": {
+          "url": "/assets/v4/soldier-4/idle.png",
+          "frames": 4,
+          "rows": 1
+        },
+        "walk": {
+          "url": "/assets/v4/soldier-4/walk.png",
+          "frames": 4,
+          "rows": 1
+        }
+      },
+      "originX": 0.5625,
+      "bodyHeight": 22,
+      "directions": 1,
+      "originY": 0.96875
+    },
+    {
+      "id": "soldier-5",
+      "frame": 32,
+      "group": "soldiers",
+      "actions": {
+        "attack": {
+          "url": "/assets/v4/soldier-5/attack.png",
+          "frames": 4,
+          "rows": 1
+        },
+        "dead": {
+          "url": "/assets/v4/soldier-5/dead.png",
+          "frames": 2,
+          "rows": 1
+        },
+        "idle": {
+          "url": "/assets/v4/soldier-5/idle.png",
+          "frames": 4,
+          "rows": 1
+        },
+        "walk": {
+          "url": "/assets/v4/soldier-5/walk.png",
+          "frames": 4,
+          "rows": 1
+        }
+      },
+      "originX": 0.453125,
+      "bodyHeight": 27,
+      "directions": 1,
+      "originY": 0.96875
+    },
+    {
+      "id": "soldier-7",
+      "frame": 32,
+      "group": "soldiers",
+      "actions": {
+        "attack": {
+          "url": "/assets/v4/soldier-7/attack.png",
+          "frames": 4,
+          "rows": 1
+        },
+        "dead": {
+          "url": "/assets/v4/soldier-7/dead.png",
+          "frames": 2,
+          "rows": 1
+        },
+        "idle": {
+          "url": "/assets/v4/soldier-7/idle.png",
+          "frames": 4,
+          "rows": 1
+        },
+        "walk": {
+          "url": "/assets/v4/soldier-7/walk.png",
+          "frames": 4,
+          "rows": 1
+        }
+      },
+      "originX": 0.53125,
+      "bodyHeight": 17,
+      "directions": 1,
+      "originY": 0.96875
+    },
+    {
+      "id": "soldier-8",
+      "frame": 32,
+      "group": "soldiers",
+      "actions": {
+        "attack": {
+          "url": "/assets/v4/soldier-8/attack.png",
+          "frames": 4,
+          "rows": 1
+        },
+        "dead": {
+          "url": "/assets/v4/soldier-8/dead.png",
+          "frames": 2,
+          "rows": 1
+        },
+        "idle": {
+          "url": "/assets/v4/soldier-8/idle.png",
+          "frames": 4,
+          "rows": 1
+        },
+        "walk": {
+          "url": "/assets/v4/soldier-8/walk.png",
+          "frames": 4,
+          "rows": 1
+        }
+      },
+      "originX": 0.484375,
+      "bodyHeight": 17,
+      "directions": 1,
+      "originY": 0.96875
+    },
+    {
+      "id": "lord-dragon",
+      "group": "monster",
+      "packed": true,
+      "sheetRows": 3,
+      "sheetColumns": 4,
+      "frame": 362,
+      "frameHeight": 362,
+      "bodyHeight": 318,
+      "originX": 0.5,
+      "originY": 0.994475138121547,
+      "actions": {
+        "idle": {
+          "url": "/assets/v5/lord-dragon.png",
+          "frames": 4,
+          "start": 0
+        },
+        "walk": {
+          "url": "/assets/v5/lord-dragon.png",
+          "frames": 4,
+          "start": 4
+        },
+        "attack": {
+          "url": "/assets/v5/lord-dragon.png",
+          "frames": 4,
+          "start": 8
+        }
+      }
+    },
+    {
+      "id": "lord-harpy",
+      "group": "monster",
+      "packed": true,
+      "sheetRows": 3,
+      "sheetColumns": 4,
+      "frame": 362,
+      "frameHeight": 362,
+      "bodyHeight": 355,
+      "originX": 0.5,
+      "originY": 1,
+      "actions": {
+        "idle": {
+          "url": "/assets/v5/lord-harpy.png",
+          "frames": 4,
+          "start": 0
+        },
+        "walk": {
+          "url": "/assets/v5/lord-harpy.png",
+          "frames": 4,
+          "start": 4
+        },
+        "attack": {
+          "url": "/assets/v5/lord-harpy.png",
+          "frames": 4,
+          "start": 8
+        }
+      }
+    },
+    {
+      "id": "lord-serpent",
+      "group": "monster",
+      "packed": true,
+      "sheetRows": 3,
+      "sheetColumns": 4,
+      "frame": 362,
+      "frameHeight": 362,
+      "bodyHeight": 327,
+      "originX": 0.5,
+      "originY": 0.9447513812154696,
+      "actions": {
+        "idle": {
+          "url": "/assets/v5/lord-serpent.png",
+          "frames": 4,
+          "start": 0
+        },
+        "walk": {
+          "url": "/assets/v5/lord-serpent.png",
+          "frames": 4,
+          "start": 4
+        },
+        "attack": {
+          "url": "/assets/v5/lord-serpent.png",
+          "frames": 4,
+          "start": 8
+        }
+      }
+    },
+    {
+      "id": "lord-stone",
+      "group": "monster",
+      "packed": true,
+      "sheetRows": 3,
+      "sheetColumns": 4,
+      "frame": 362,
+      "frameHeight": 362,
+      "bodyHeight": 331,
+      "originX": 0.5,
+      "originY": 0.9806629834254144,
+      "actions": {
+        "idle": {
+          "url": "/assets/v5/lord-stone.png",
+          "frames": 4,
+          "start": 0
+        },
+        "walk": {
+          "url": "/assets/v5/lord-stone.png",
+          "frames": 4,
+          "start": 4
+        },
+        "attack": {
+          "url": "/assets/v5/lord-stone.png",
+          "frames": 4,
+          "start": 8
+        }
+      }
+    },
+    {
+      "id": "lord-undead",
+      "group": "monster",
+      "packed": true,
+      "sheetRows": 3,
+      "sheetColumns": 4,
+      "frame": 362,
+      "frameHeight": 362,
+      "bodyHeight": 351,
+      "originX": 0.5,
+      "originY": 0.9917127071823204,
+      "actions": {
+        "idle": {
+          "url": "/assets/v5/lord-undead.png",
+          "frames": 4,
+          "start": 0
+        },
+        "walk": {
+          "url": "/assets/v5/lord-undead.png",
+          "frames": 4,
+          "start": 4
+        },
+        "attack": {
+          "url": "/assets/v5/lord-undead.png",
+          "frames": 4,
+          "start": 8
+        }
+      }
+    },
+    {
+      "id": "lord-wolf",
+      "group": "monster",
+      "packed": true,
+      "sheetRows": 3,
+      "sheetColumns": 4,
+      "frame": 362,
+      "frameHeight": 362,
+      "bodyHeight": 290,
+      "originX": 0.5,
+      "originY": 0.9502762430939227,
+      "actions": {
+        "idle": {
+          "url": "/assets/v5/lord-wolf.png",
+          "frames": 4,
+          "start": 0
+        },
+        "walk": {
+          "url": "/assets/v5/lord-wolf.png",
+          "frames": 4,
+          "start": 4
+        },
+        "attack": {
+          "url": "/assets/v5/lord-wolf.png",
+          "frames": 4,
+          "start": 8
+        }
+      }
+    },
+    {
+      "id": "mob-dragon",
+      "group": "monster",
+      "packed": true,
+      "sheetRows": 3,
+      "sheetColumns": 4,
+      "frame": 362,
+      "frameHeight": 362,
+      "bodyHeight": 343,
+      "originX": 0.5,
+      "originY": 0.9834254143646409,
+      "actions": {
+        "idle": {
+          "url": "/assets/v5/mob-dragon.png",
+          "frames": 4,
+          "start": 0
+        },
+        "walk": {
+          "url": "/assets/v5/mob-dragon.png",
+          "frames": 4,
+          "start": 4
+        },
+        "attack": {
+          "url": "/assets/v5/mob-dragon.png",
+          "frames": 4,
+          "start": 8
+        }
+      }
+    },
+    {
+      "id": "mob-harpy",
+      "group": "monster",
+      "packed": true,
+      "sheetRows": 3,
+      "sheetColumns": 4,
+      "frame": 362,
+      "frameHeight": 362,
+      "bodyHeight": 326,
+      "originX": 0.5,
+      "originY": 0.9751381215469613,
+      "actions": {
+        "idle": {
+          "url": "/assets/v5/mob-harpy.png",
+          "frames": 4,
+          "start": 0
+        },
+        "walk": {
+          "url": "/assets/v5/mob-harpy.png",
+          "frames": 4,
+          "start": 4
+        },
+        "attack": {
+          "url": "/assets/v5/mob-harpy.png",
+          "frames": 4,
+          "start": 8
+        }
+      }
+    },
+    {
+      "id": "mob-serpent",
+      "group": "monster",
+      "packed": true,
+      "sheetRows": 3,
+      "sheetColumns": 4,
+      "frame": 362,
+      "frameHeight": 362,
+      "bodyHeight": 278,
+      "originX": 0.5,
+      "originY": 0.9530386740331491,
+      "actions": {
+        "idle": {
+          "url": "/assets/v5/mob-serpent.png",
+          "frames": 4,
+          "start": 0
+        },
+        "walk": {
+          "url": "/assets/v5/mob-serpent.png",
+          "frames": 4,
+          "start": 4
+        },
+        "attack": {
+          "url": "/assets/v5/mob-serpent.png",
+          "frames": 4,
+          "start": 8
+        }
+      }
+    },
+    {
+      "id": "mob-stone",
+      "group": "monster",
+      "packed": true,
+      "sheetRows": 3,
+      "sheetColumns": 4,
+      "frame": 362,
+      "frameHeight": 362,
+      "bodyHeight": 292,
+      "originX": 0.5,
+      "originY": 0.9640883977900553,
+      "actions": {
+        "idle": {
+          "url": "/assets/v5/mob-stone.png",
+          "frames": 4,
+          "start": 0
+        },
+        "walk": {
+          "url": "/assets/v5/mob-stone.png",
+          "frames": 4,
+          "start": 4
+        },
+        "attack": {
+          "url": "/assets/v5/mob-stone.png",
+          "frames": 4,
+          "start": 8
+        }
+      }
+    },
+    {
+      "id": "mob-undead",
+      "group": "monster",
+      "packed": true,
+      "sheetRows": 3,
+      "sheetColumns": 4,
+      "frame": 362,
+      "frameHeight": 362,
+      "bodyHeight": 288,
+      "originX": 0.5,
+      "originY": 1,
+      "actions": {
+        "idle": {
+          "url": "/assets/v5/mob-undead.png",
+          "frames": 4,
+          "start": 0
+        },
+        "walk": {
+          "url": "/assets/v5/mob-undead.png",
+          "frames": 4,
+          "start": 4
+        },
+        "attack": {
+          "url": "/assets/v5/mob-undead.png",
+          "frames": 4,
+          "start": 8
+        }
+      }
+    },
+    {
+      "id": "mob-wolf",
+      "group": "monster",
+      "packed": true,
+      "sheetRows": 3,
+      "sheetColumns": 4,
+      "frame": 362,
+      "frameHeight": 362,
+      "bodyHeight": 245,
+      "originX": 0.5,
+      "originY": 0.9613259668508287,
+      "actions": {
+        "idle": {
+          "url": "/assets/v5/mob-wolf.png",
+          "frames": 4,
+          "start": 0
+        },
+        "walk": {
+          "url": "/assets/v5/mob-wolf.png",
+          "frames": 4,
+          "start": 4
+        },
+        "attack": {
+          "url": "/assets/v5/mob-wolf.png",
+          "frames": 4,
+          "start": 8
+        }
+      }
+    }
+  ],
+  "effects": [
+    {
+      "url": "/assets/v3/fx-wind.png",
+      "frames": 18,
+      "id": "wind",
+      "frame": 128
+    },
+    {
+      "url": "/assets/v3/fx-ultimate.png",
+      "frames": 20,
+      "id": "ultimate",
+      "frame": 128
+    },
+    {
+      "url": "/assets/v3/fx-lightning.png",
+      "frames": 12,
+      "id": "lightning",
+      "frame": 128
+    },
+    {
+      "url": "/assets/v3/fx-poison.png",
+      "frames": 24,
+      "id": "poison",
+      "frame": 128
+    },
+    {
+      "url": "/assets/v3/fx-water.png",
+      "frames": 12,
+      "id": "water",
+      "frame": 128
+    },
+    {
+      "url": "/assets/v3/fx-fireball.png",
+      "frames": 8,
+      "id": "fireball",
+      "frame": 128
+    },
+    {
+      "url": "/assets/v3/fx-fire-spell.png",
+      "frames": 8,
+      "id": "fire-spell",
+      "frame": 128
+    },
+    {
+      "url": "/assets/v3/fx-waterball.png",
+      "frames": 12,
+      "id": "waterball",
+      "frame": 128
+    },
+    {
+      "url": "/assets/v3/fx-water-spell.png",
+      "frames": 8,
+      "id": "water-spell",
+      "frame": 128
+    },
+    {
+      "url": "/assets/v3/fx-smoke.png",
+      "frames": 10,
+      "id": "smoke",
+      "frame": 128
+    },
+    {
+      "url": "/assets/v3/fx-explosion.png",
+      "frames": 10,
+      "id": "explosion",
+      "frame": 128
+    },
+    {
+      "url": "/assets/v4/bolt-strike-1.png",
+      "frames": 8,
+      "id": "bolt-strike-1",
+      "frame": 128
+    },
+    {
+      "url": "/assets/v4/bolt-strike-2.png",
+      "frames": 8,
+      "id": "bolt-strike-2",
+      "frame": 128
+    },
+    {
+      "url": "/assets/v4/bolt-strike-3.png",
+      "frames": 8,
+      "id": "bolt-strike-3",
+      "frame": 128
+    },
+    {
+      "url": "/assets/v4/bolt-strike-4.png",
+      "frames": 8,
+      "id": "bolt-strike-4",
+      "frame": 128
+    },
+    {
+      "url": "/assets/v4/ground-spikes.png",
+      "frames": 6,
+      "id": "ground-spikes",
+      "frame": 32
+    },
+    {
+      "url": "/assets/v4/enemy-explosion.png",
+      "frames": 8,
+      "id": "enemy-explosion",
+      "frame": 48
+    }
+  ],
+  "spellArt": [
+    {
+      "id": "fireburst",
+      "url": "/assets/v4/fireburst.png"
+    },
+    {
+      "id": "flamefield",
+      "url": "/assets/v4/flamefield.png"
+    },
+    {
+      "id": "meteor",
+      "url": "/assets/v4/meteor.png"
+    },
+    {
+      "id": "frostnova",
+      "url": "/assets/v4/frostnova.png"
+    },
+    {
+      "id": "healing-tide",
+      "url": "/assets/v4/healing-tide.png"
+    },
+    {
+      "id": "blizzard",
+      "url": "/assets/v4/blizzard.png"
+    },
+    {
+      "id": "fury",
+      "url": "/assets/v4/fury.png"
+    },
+    {
+      "id": "shield-bash",
+      "url": "/assets/v4/shield-bash.png"
+    },
+    {
+      "id": "bulwark",
+      "url": "/assets/v4/bulwark.png"
+    },
+    {
+      "id": "rally",
+      "url": "/assets/v4/rally.png"
+    },
+    {
+      "id": "cleave",
+      "url": "/assets/v4/cleave.png"
+    },
+    {
+      "id": "earthquake",
+      "url": "/assets/v4/earthquake.png"
+    },
+    {
+      "id": "multishot",
+      "url": "/assets/v4/multishot.png"
+    },
+    {
+      "id": "venom",
+      "url": "/assets/v4/venom.png"
+    },
+    {
+      "id": "arrow-rain",
+      "url": "/assets/v4/arrow-rain.png"
+    },
+    {
+      "id": "chain-lightning",
+      "url": "/assets/v4/chain-lightning.png"
+    },
+    {
+      "id": "thunderstrike",
+      "url": "/assets/v4/thunderstrike.png"
+    },
+    {
+      "id": "tempest",
+      "url": "/assets/v4/tempest.png"
+    },
+    {
+      "id": "boss-treant",
+      "url": "/assets/v4/boss-treant.png"
+    },
+    {
+      "id": "boss-golem",
+      "url": "/assets/v4/boss-golem.png"
+    },
+    {
+      "id": "boss-dragon",
+      "url": "/assets/v4/boss-dragon.png"
+    }
+  ],
+  "empoweredActors": [
+    {
+      "hero": "warrior-1",
+      "url": "/assets/empowered/warrior-1-fury.png",
+      "width": 1774,
+      "height": 887,
+      "columns": 6,
+      "rows": 3,
+      "originX": 0.4895833333333333,
+      "originY": 0.9895833333333334,
+      "bodyHeight": 138.59375,
+      "actions": {
+        "idle": {
+          "start": 0,
+          "frames": 6
+        },
+        "walk": {
+          "start": 6,
+          "frames": 6
+        },
+        "attack": {
+          "start": 12,
+          "frames": 4
+        }
+      }
+    },
+    {
+      "hero": "warrior-2",
+      "url": "/assets/empowered/warrior-2-fury.png",
+      "width": 1774,
+      "height": 887,
+      "columns": 6,
+      "rows": 3,
+      "originX": 0.4895833333333333,
+      "originY": 0.9895833333333334,
+      "bodyHeight": 144.75347222222223,
+      "actions": {
+        "idle": {
+          "start": 0,
+          "frames": 5
+        },
+        "walk": {
+          "start": 6,
+          "frames": 6
+        },
+        "attack": {
+          "start": 12,
+          "frames": 4
+        }
+      }
+    },
+    {
+      "hero": "warrior-3",
+      "url": "/assets/empowered/warrior-3-fury.png",
+      "width": 1774,
+      "height": 887,
+      "columns": 6,
+      "rows": 3,
+      "originX": 0.5885416666666666,
+      "originY": 0.9895833333333334,
+      "bodyHeight": 203.27083333333334,
+      "actions": {
+        "idle": {
+          "start": 0,
+          "frames": 5
+        },
+        "walk": {
+          "start": 6,
+          "frames": 6
+        },
+        "attack": {
+          "start": 12,
+          "frames": 4
+        }
+      }
+    }
+  ],
+  "bossCasts": {
+    "dragon": {
+      "url": "/assets/v7/boss-dragon-cast.png",
+      "width": 1774,
+      "height": 887,
+      "frameWidth": 443.5,
+      "frameHeight": 443.5,
+      "bodyHeight": 234.06,
+      "originsY": [
+        0.9346846846846847,
+        0.9256756756756757,
+        0.9279279279279279,
+        0.9256756756756757,
+        0.7720090293453724,
+        0.7674943566591422,
+        0.7742663656884876,
+        0.7697516930022573
+      ],
+      "frames": [
+        {
+          "bbox": [
+            86,
+            245,
+            403,
+            415
+          ],
+          "originY": 0.9346846846846847
+        },
+        {
+          "bbox": [
+            64,
+            180,
+            385,
+            411
+          ],
+          "originY": 0.9256756756756757
+        },
+        {
+          "bbox": [
+            37,
+            135,
+            360,
+            412
+          ],
+          "originY": 0.9279279279279279
+        },
+        {
+          "bbox": [
+            42,
+            129,
+            388,
+            411
+          ],
+          "originY": 0.9256756756756757
+        },
+        {
+          "bbox": [
+            65,
+            102,
+            434,
+            342
+          ],
+          "originY": 0.7720090293453724
+        },
+        {
+          "bbox": [
+            82,
+            120,
+            405,
+            340
+          ],
+          "originY": 0.7674943566591422
+        },
+        {
+          "bbox": [
+            64,
+            139,
+            387,
+            343
+          ],
+          "originY": 0.7742663656884876
+        },
+        {
+          "bbox": [
+            65,
+            139,
+            381,
+            341
+          ],
+          "originY": 0.7697516930022573
+        }
+      ]
+    },
+    "undead": {
+      "url": "/assets/v7/boss-undead-cast.png",
+      "width": 1774,
+      "height": 887,
+      "frameWidth": 443.5,
+      "frameHeight": 443.5,
+      "bodyHeight": 292.15999999999997,
+      "originsY": [
+        0.9324324324324325,
+        0.9301801801801802,
+        0.9301801801801802,
+        0.9346846846846847,
+        0.8171557562076749,
+        0.8171557562076749,
+        0.8148984198645598,
+        0.8171557562076749
+      ],
+      "frames": [
+        {
+          "bbox": [
+            80,
+            128,
+            363,
+            414
+          ],
+          "originY": 0.9324324324324325
+        },
+        {
+          "bbox": [
+            74,
+            118,
+            375,
+            413
+          ],
+          "originY": 0.9301801801801802
+        },
+        {
+          "bbox": [
+            67,
+            64,
+            368,
+            413
+          ],
+          "originY": 0.9301801801801802
+        },
+        {
+          "bbox": [
+            61,
+            63,
+            376,
+            415
+          ],
+          "originY": 0.9346846846846847
+        },
+        {
+          "bbox": [
+            63,
+            112,
+            415,
+            362
+          ],
+          "originY": 0.8171557562076749
+        },
+        {
+          "bbox": [
+            61,
+            114,
+            434,
+            362
+          ],
+          "originY": 0.8171557562076749
+        },
+        {
+          "bbox": [
+            78,
+            93,
+            379,
+            361
+          ],
+          "originY": 0.8148984198645598
+        },
+        {
+          "bbox": [
+            72,
+            113,
+            358,
+            362
+          ],
+          "originY": 0.8171557562076749
+        }
+      ]
+    },
+    "serpent": {
+      "url": "/assets/v7/boss-serpent-cast.png",
+      "width": 1774,
+      "height": 887,
+      "frameWidth": 443.5,
+      "frameHeight": 443.5,
+      "bodyHeight": 264.77,
+      "originsY": [
+        0.9369369369369369,
+        0.9369369369369369,
+        0.9369369369369369,
+        0.9369369369369369,
+        0.8555304740406321,
+        0.8555304740406321,
+        0.8623024830699775,
+        0.8555304740406321
+      ],
+      "frames": [
+        {
+          "bbox": [
+            98,
+            145,
+            371,
+            416
+          ],
+          "originY": 0.9369369369369369
+        },
+        {
+          "bbox": [
+            100,
+            123,
+            354,
+            416
+          ],
+          "originY": 0.9369369369369369
+        },
+        {
+          "bbox": [
+            95,
+            116,
+            356,
+            416
+          ],
+          "originY": 0.9369369369369369
+        },
+        {
+          "bbox": [
+            87,
+            97,
+            360,
+            416
+          ],
+          "originY": 0.9369369369369369
+        },
+        {
+          "bbox": [
+            78,
+            105,
+            439,
+            379
+          ],
+          "originY": 0.8555304740406321
+        },
+        {
+          "bbox": [
+            100,
+            119,
+            418,
+            379
+          ],
+          "originY": 0.8555304740406321
+        },
+        {
+          "bbox": [
+            94,
+            104,
+            373,
+            382
+          ],
+          "originY": 0.8623024830699775
+        },
+        {
+          "bbox": [
+            87,
+            119,
+            363,
+            379
+          ],
+          "originY": 0.8555304740406321
+        }
+      ]
+    },
+    "wolf": {
+      "url": "/assets/v7/boss-wolf-cast.png",
+      "width": 1774,
+      "height": 887,
+      "frameWidth": 443.5,
+      "frameHeight": 443.5,
+      "bodyHeight": 243.19,
+      "originsY": [
+        0.9031531531531531,
+        0.9031531531531531,
+        0.9009009009009009,
+        0.8986486486486487,
+        0.7855530474040632,
+        0.8194130925507901,
+        0.8058690744920993,
+        0.801354401805869
+      ],
+      "frames": [
+        {
+          "bbox": [
+            67,
+            165,
+            398,
+            401
+          ],
+          "originY": 0.9031531531531531
+        },
+        {
+          "bbox": [
+            68,
+            172,
+            397,
+            401
+          ],
+          "originY": 0.9031531531531531
+        },
+        {
+          "bbox": [
+            56,
+            132,
+            366,
+            400
+          ],
+          "originY": 0.9009009009009009
+        },
+        {
+          "bbox": [
+            66,
+            106,
+            385,
+            399
+          ],
+          "originY": 0.8986486486486487
+        },
+        {
+          "bbox": [
+            53,
+            122,
+            427,
+            348
+          ],
+          "originY": 0.7855530474040632
+        },
+        {
+          "bbox": [
+            69,
+            139,
+            399,
+            363
+          ],
+          "originY": 0.8194130925507901
+        },
+        {
+          "bbox": [
+            65,
+            127,
+            394,
+            357
+          ],
+          "originY": 0.8058690744920993
+        },
+        {
+          "bbox": [
+            65,
+            123,
+            397,
+            355
+          ],
+          "originY": 0.801354401805869
+        }
+      ]
+    },
+    "harpy": {
+      "url": "/assets/v7/boss-harpy-cast.png",
+      "width": 1774,
+      "height": 887,
+      "frameWidth": 443.5,
+      "frameHeight": 443.5,
+      "bodyHeight": 249,
+      "originsY": [
+        0.9459459459459459,
+        0.9481981981981982,
+        0.9504504504504504,
+        0.9504504504504504,
+        0.8216704288939052,
+        0.8126410835214447,
+        0.8239277652370203,
+        0.8329571106094809
+      ],
+      "frames": [
+        {
+          "bbox": [
+            121,
+            190,
+            384,
+            420
+          ],
+          "originY": 0.9459459459459459
+        },
+        {
+          "bbox": [
+            90,
+            124,
+            367,
+            421
+          ],
+          "originY": 0.9481981981981982
+        },
+        {
+          "bbox": [
+            69,
+            122,
+            356,
+            422
+          ],
+          "originY": 0.9504504504504504
+        },
+        {
+          "bbox": [
+            59,
+            158,
+            360,
+            422
+          ],
+          "originY": 0.9504504504504504
+        },
+        {
+          "bbox": [
+            79,
+            104,
+            404,
+            364
+          ],
+          "originY": 0.8216704288939052
+        },
+        {
+          "bbox": [
+            80,
+            127,
+            421,
+            360
+          ],
+          "originY": 0.8126410835214447
+        },
+        {
+          "bbox": [
+            67,
+            105,
+            363,
+            365
+          ],
+          "originY": 0.8239277652370203
+        },
+        {
+          "bbox": [
+            54,
+            104,
+            361,
+            369
+          ],
+          "originY": 0.8329571106094809
+        }
+      ]
+    },
+    "stone": {
+      "url": "/assets/v7/boss-stone-cast.png",
+      "width": 1774,
+      "height": 887,
+      "frameWidth": 443.5,
+      "frameHeight": 443.5,
+      "bodyHeight": 253.98,
+      "originsY": [
+        0.990990990990991,
+        0.9954954954954955,
+        0.9954954954954955,
+        0.9954954954954955,
+        0.7720090293453724,
+        0.7720090293453724,
+        0.7720090293453724,
+        0.7720090293453724
+      ],
+      "frames": [
+        {
+          "bbox": [
+            90,
+            209,
+            374,
+            440
+          ],
+          "originY": 0.990990990990991
+        },
+        {
+          "bbox": [
+            103,
+            206,
+            377,
+            442
+          ],
+          "originY": 0.9954954954954955
+        },
+        {
+          "bbox": [
+            89,
+            165,
+            361,
+            442
+          ],
+          "originY": 0.9954954954954955
+        },
+        {
+          "bbox": [
+            85,
+            136,
+            339,
+            442
+          ],
+          "originY": 0.9954954954954955
+        },
+        {
+          "bbox": [
+            89,
+            130,
+            381,
+            342
+          ],
+          "originY": 0.7720090293453724
+        },
+        {
+          "bbox": [
+            100,
+            155,
+            388,
+            342
+          ],
+          "originY": 0.7720090293453724
+        },
+        {
+          "bbox": [
+            82,
+            109,
+            379,
+            342
+          ],
+          "originY": 0.7720090293453724
+        },
+        {
+          "bbox": [
+            92,
+            107,
+            373,
+            342
+          ],
+          "originY": 0.7720090293453724
+        }
+      ]
+    }
+  }
+}
