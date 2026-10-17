@@ -54,8 +54,7 @@ wss.on('connection',ws=>{
    if(r.players.length>=4||r.phase!=='lobby'){send(ws,{error:'Phòng đã đầy hoặc đang chơi.'});return;}
    const existing=typeof m.token==='string'?db.prepare('SELECT * FROM guest_progress WHERE token=?').get(m.token):null;
    const token=existing?.token||randomUUID();
-   const activeXP=[...rooms.values()].flatMap(room=>room.players).filter(p=>p.token===token).reduce((max,p)=>Math.max(max,p.xp),existing?.xp||0);
-   const p=addPlayer(r,{id:ws.id,name:m.name,hero:m.hero||existing?.hero,xp:activeXP,token,assetsReady:m.waitForAssets!==true});ws.room=r;saveProgress(p);
+   const p=addPlayer(r,{id:ws.id,name:m.name,hero:m.hero||existing?.hero,token,assetsReady:m.waitForAssets!==true});ws.room=r;saveProgress(p);
    send(ws,{type:'joined',id:ws.id,code:r.code,token});
    if(!requested&&m.solo===true){r.autoStart=true;start(r);}
   }
