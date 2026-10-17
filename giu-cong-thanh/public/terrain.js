@@ -63,7 +63,7 @@ export function updateScenery(s,time){
  }
 }
 export function drawMiniMap(s,state,map){
- const g=s.mini;g.clear();const w=174,h=116,x=772,y=13;
+ const g=s.mini;g.clear();const w=174,h=116,x=Math.max(8,s.scale.width-188),y=13;
  g.fillStyle(0x101b17,.9).fillRoundedRect(x-7,y-7,w+14,h+14,5);g.lineStyle(1,0xc3b879,.5).strokeRoundedRect(x-7,y-7,w+14,h+14,5);
  g.fillStyle(map.ground,.8).fillRect(x,y,w,h);const sx=w/WORLD.width,sy=h/WORLD.height;
  for(const lane of map.lanes){g.lineStyle(2,map.road,.8);g.beginPath();lane.forEach(([a,b],i)=>i?g.lineTo(x+a*sx,y+b*sy):g.moveTo(x+a*sx,y+b*sy));g.strokePath();}
@@ -75,3 +75,4 @@ export function drawMiniMap(s,state,map){
  for(const p of state.players)g.fillStyle(p.hp>0?0xfff1b8:0x999999).fillCircle(x+p.x*sx,y+p.y*sy,2.5);
  const cam=s.cameras.main;g.lineStyle(1,0xe6e2c7,.6).strokeRect(x+cam.scrollX*sx,y+cam.scrollY*sy,cam.width/cam.zoom*sx,cam.height/cam.zoom*sy);
 }
+

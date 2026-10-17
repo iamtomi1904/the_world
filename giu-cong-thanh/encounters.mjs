@@ -1,3 +1,4 @@
+import {difficultyOf} from './public/difficulty.js';
 import {BOSS_SKILLS,bossSkillCount,insideBossShape} from './public/boss-skills.js';
 import {healing} from './passives.mjs';
 import {FAMILY_MONSTERS} from './public/enemy-families.js';
@@ -9,7 +10,7 @@ export function forestPopulation(r,map,canStand){
  const result=[];let seed=r.stage*3571;const random=()=>{seed=seed*16807%2147483647;return seed/2147483647;};
  for(const [n,camp]of (map.camps||[]).entries())for(let guard=0;guard<2;guard++){
   const def=FAMILY_MONSTERS.find(m=>m.family===camp.family),x=camp.x+(guard?27:-27),y=camp.y+(guard?15:-15);if(!canStand(map,x,y,22))continue;
-  const hp=90+r.stage*22;result.push({...def,id:randomUUID(),name:def.name+' · Rừng',sprite:def.id,x,y,home:{x,y},camp:camp.id,hp,maxHp:hp,power:10+r.stage*2,speed:62,range:def.range,cooldown:1.3,cd:0,anim:0,reward:25+r.stage*4,neutral:true,animal:false,face:1});
+  const hp=Math.round((90+r.stage*22)*difficultyOf(r.difficulty).health);result.push({...def,id:randomUUID(),name:def.name+' · Rừng',sprite:def.id,x,y,home:{x,y},camp:camp.id,hp,maxHp:hp,power:Math.round((10+r.stage*2)*difficultyOf(r.difficulty).damage),speed:62,range:def.range,cooldown:1.3,cd:0,anim:0,reward:25+r.stage*4,neutral:true,animal:false,face:1});
  }
  for(let n=0;n<6+r.stage;n++){
   let point;for(let attempt=0;attempt<180;attempt++){const p={x:75+random()*1770,y:400+random()*780};if(canStand(map,p.x,p.y,22)&&d(p,map.base)>360){point=p;break;}}
@@ -59,7 +60,7 @@ export function bossTick(r,e,dt,ctx){
   return;
  }
  e.skillCd-=dt;if(e.skillCd>0)return;
- const target=[...r.players,...r.troops].filter(u=>u.hp>0&&d(u,e)<520).sort((a,b)=>d(a,e)-d(b,e))[0];if(!target)return;
+ const target=[...r.players,...r.troops].filter(u=>u.hp>0&&!u.buffs?.some(b=>b.time>0&&b.stealth)&&d(u,e)<520).sort((a,b)=>d(a,e)-d(b,e))[0];if(!target)return;
  const ids=e.bossSkills||[e.bossSkill],id=ids[(e.skillCursor||0)%ids.length],spec=BOSS_SKILLS[id];if(!spec)return;
  e.skillCursor=(e.skillCursor||0)+1;e.skillCd=e.hp<e.maxHp*.4?5:8;e.pulseCount++;
  const directional=['line','cone','self','ring'].includes(spec.shape),x=directional?e.x:target.x,y=directional?e.y:target.y,angle=Math.atan2(target.y-e.y,target.x-e.x);

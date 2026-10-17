@@ -16,7 +16,7 @@ export function playEmpowered(scene,unit,obj,action,catalog){
  const a=empoweredActor(unit,catalog);if(!a||!a.actions[action]){obj.empoweredId=null;return false;}
  const sprite=obj.sprite,key='empowered:'+a.hero+':'+action;
  sprite.setOrigin(a.originX,a.originY).setScale(obj.size/a.bodyHeight);
- if(obj.attackRestart&&action==='attack'){sprite.play(key,false);obj.attackRestart=false;}else sprite.play(key,true);
+ if(obj.attackRestart&&action==='attack'){sprite.play(key,false);obj.attackRestart=false;}else if(action!=='attack'||sprite.anims.currentAnim?.key!==key)sprite.play(key,true);
  sprite.anims.timeScale=action==='attack'?a.actions.attack.frames/Math.max(.12,(obj.attackDuration||300)/1000)/12:action==='walk'?1.25:1;
  obj.empoweredId=a.hero;return true;
 }

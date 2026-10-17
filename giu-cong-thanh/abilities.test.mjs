@@ -2,11 +2,11 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import {createRoom,addPlayer,buy,tick,stats,spawnEnemy,MAPS} from './simulation.mjs';
 import {CLASSES,SKILLS,skillAtRank,skillById} from './public/skills.js';
-const representatives={guardian:'knight-1',duelist:'samurai',ranger:'samurai-archer',berserker:'warrior-1',pyromancer:'fire-wizard',stormcaller:'lightning-mage',tidecaller:'wanderer-magican'};
+const representatives={darkelf:'dark-elf',assassin:'goblin-assassin',guardian:'knight-1',duelist:'samurai',ranger:'samurai-archer',berserker:'warrior-1',pyromancer:'fire-wizard',stormcaller:'lightning-mage',tidecaller:'wanderer-magican'};
 function setup(hero){const r=createRoom('SKILLS'),p=addPlayer(r,{hero});p.level=4;p.gold=10000;p.hp=stats(p).hp;r.phase='battle';r.wave=1;r.spawn=999;r.spawnCd=99999;return {r,p};}
 function mob(r,p,hp=10000){const e=spawnEnemy(r,()=>0);e.x=p.x+35;e.y=p.y+5;e.hp=hp;e.maxHp=hp;e.cd=99;return e;}
-test('seven classes have exactly Q/E/R and cannot buy other classes',()=>{
- assert.equal(Object.keys(CLASSES).length,7);assert.equal(SKILLS.length,21);
+test('nine classes have exactly Q/E/R and cannot buy other classes',()=>{
+ assert.equal(Object.keys(CLASSES).length,9);assert.equal(SKILLS.length,27);
  for(const [classId,hero]of Object.entries(representatives)){
   const {r,p}=setup(hero),c=CLASSES[classId];assert.equal(p.classId,classId);assert.equal(p.skills[c.skills[0]],1);
   assert.deepEqual(c.skills.map(id=>skillById(id).slot),['Q','E','R']);

@@ -15,7 +15,8 @@ export function passiveKill(r,p,stats){
 }
 export function passiveHit(r,p,target,power,stats,applyStatus,kill){
  p.passiveHits=(p.passiveHits||0)+1;const n=p.passiveHits,h=p.hero;
- const extra=h==='knight-3'&&n%3===0?.4:h==='samurai'&&n%4===0?.6:h==='samurai-archer'&&Math.hypot(p.x-target.x,p.y-target.y)>150?.2:0;
+ const backstab=h==='goblin-assassin'&&(p.x-target.x)*(target.face||1)<-8;
+ const extra=backstab?.5:h==='knight-3'&&n%3===0?.4:h==='samurai'&&n%4===0?.6:h==='samurai-archer'&&Math.hypot(p.x-target.x,p.y-target.y)>150?.2:0;
  if(extra){target.hp=Math.max(0,target.hp-power*extra);r.events.push({id:randomUUID(),type:'dot',x:target.x,y:target.y-45,text:'NỘI TẠI −'+Math.round(power*extra),color:0xffd787});}
  if(h==='knight-2'&&n%4===0)healing(r,p,stats(p).hp*.05,stats(p).hp);
  if(h==='wanderer-magican'){applyStatus(target,{slow:.15,statusDuration:1},p,power);if(n%5===0)healing(r,p,stats(p).hp*.04,stats(p).hp);}

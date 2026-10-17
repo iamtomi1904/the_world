@@ -1,8 +1,12 @@
+import {SHADOW} from './shadow-config.js';
+import {GEM_RULES} from './gems.js';
 import {warLayout} from './war-map.js';
 import {FAMILY_MONSTERS} from './enemy-families.js';
 import {HERO_CLASS} from './skills.js';
 export const WORLD={width:1920,height:1280};
 export const HEROES=[
+ {id:'dark-elf',name:'Dạ Tiễn',role:'Hắc tinh linh',hp:140,power:36,armor:2,speed:165,range:300,cooldown:.72,color:'#bcaddf'},
+ {id:'goblin-assassin',name:'Quỷ Ảnh',role:'Sát thủ',hp:170,power:32,armor:3,speed:SHADOW.assassinSpeed,range:50,cooldown:.5,color:'#a6bf82'},
  {id:'knight-1',name:'Thiết Vệ',role:'Đỡ đòn',hp:240,power:27,armor:6,speed:145,range:66,cooldown:.62,color:'#b8c6dd'},
  {id:'knight-2',name:'Ngân Kỵ',role:'Cân bằng',hp:200,power:33,armor:4,speed:160,range:70,cooldown:.56,color:'#c9d9ea'},
  {id:'knight-3',name:'Hắc Kỵ',role:'Phá giáp',hp:180,power:43,armor:3,speed:150,range:72,cooldown:.72,color:'#b7acd3'},
@@ -43,7 +47,10 @@ export const MONSTERS=[
  {id:'orc-chief-2',name:'Orc lôi thuật',hp:190,power:26,speed:50,range:195,cooldown:1.6,reward:38,unlock:7,size:51,special:'thunder',attackFx:'lightning'},
  {id:'orc-chief-3',name:'Orc đao phủ',hp:330,power:35,speed:55,range:62,cooldown:1.7,reward:48,unlock:8,size:56,special:'slam',attackFx:'earth'},
 ];
+const infantry={hp:130,armor:2,power:16,range:54,speed:105,cooldown:.7};
 export const TROOPS=[
+ {id:'forest-spirit',sprite:'forest-spirit',name:'Tinh linh cây',summoned:true,cost:0,hp:SHADOW.spirit.hp,power:28,armor:SHADOW.spirit.armor,speed:SHADOW.spirit.speed,range:SHADOW.spirit.range,cooldown:SHADOW.spirit.cooldown,description:'Đồng hành 60s · Rễ Trói / Lá Xoáy / Sinh Lực'},
+ {id:'gem-skeleton',sprite:'skeleton',name:'Xương đồng minh',summoned:true,cost:0,...infantry,hp:Math.round(infantry.hp*GEM_RULES.dark.skeletonHP),armor:infantry.armor*GEM_RULES.dark.skeletonArmor,description:'Triệu hồi bởi Ngọc Hắc Ám; tồn tại 30 giây'},
  {id:'militia',sprite:'soldier-1',name:'Bộ binh',cost:60,hp:130,power:16,range:54,speed:105,cooldown:.7,armor:2,description:'Chặn quái gần nhà'},
  {id:'archer',sprite:'soldier-3',name:'Xạ thủ',cost:100,hp:90,power:19,range:220,speed:88,cooldown:.85,armor:0,description:'Bắn xa hỗ trợ'},
  {id:'guard',sprite:'soldier-6',name:'Lính khiên',cost:120,hp:250,power:14,range:55,speed:85,cooldown:.85,armor:6,description:'Nhiều máu, giữ tuyến'},

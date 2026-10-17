@@ -1,7 +1,10 @@
+import {equippedGem} from './public/gems.js';
 import {enemyFamily} from './public/enemy-visuals.js';
 import {randomUUID} from 'node:crypto';
 export const canHitAir=(target,range=0)=>!target.flying||(target.altitude||0)<=14||range>100;
 export function shotStyle(attacker){
+ const gem=equippedGem(attacker);if(gem)return {color:gem.color,fx:gem.id==='fire'?'fireball':gem.id==='thunder'?'lightning':gem.id==='ice'?'waterball':'poison',projectileType:gem.id,gem:gem.id,enhanced:['pyromancer','stormcaller','tidecaller'].includes(attacker.classId)};
+ if(attacker.classId==='darkelf')return {color:0xc0adee,fx:'wind',projectileType:'moon-arrow'};
  const c=attacker.classId,empowered=attacker.buffs?.some(b=>b.time>0&&(b.haste||b.lifesteal));
  if(attacker.attackFx==='poison')return {color:0xa1e25c,fx:'poison',projectileType:'venom'};
  if(c==='ranger'||attacker.type==='archer')return {color:attacker.mastery>=2?0xa7ee6b:empowered?0xffef9c:0xe4ca8d,fx:'wind',projectileType:'arrow'};
@@ -27,17 +30,17 @@ export function advanceProjectiles(r,dt){
    let stopped=false;const travel=Math.min(p.left,p.speed*dt);
    for(let step=0;step<travel&&!stopped;step+=6){const d=Math.min(6,travel-step),x=p.x+p.dx*d,y=p.y+p.dy*d;p.left-=d;
     if(!p.walkable(x,y)){stopped=true;break;}
-    p.x=x;p.y=y;const hit=r.enemies.filter(e=>e.hp>0&&canHitAir(e,200)&&Math.hypot(e.x-x,e.y-y)<Math.max(12,(e.size||35)*.3)+7).sort((a,b)=>Math.hypot(a.x-x,a.y-y)-Math.hypot(b.x-x,b.y-y))[0];
-    if(hit){p.resolve(hit);stopped=true;}
+    p.x=x;p.y=y;const hits=r.enemies.filter(e=>e.hp>0&&(!p.filter||p.filter(e))&&(!p.hitIds?.has(e.id))&&canHitAir(e,200)&&Math.hypot(e.x-x,e.y-y)<Math.max(12,(e.size||35)*.3)+(p.width||7)).sort((a,b)=>Math.hypot(a.x-x,a.y-y)-Math.hypot(b.x-x,b.y-y));
+    if(hits.length){for(const hit of p.piercing?hits:hits.slice(0,1))if(hit.hp>0){p.hitIds?.add(hit.id);p.resolve(hit);}stopped=!p.piercing;}
    }
    if(stopped||p.left<=.001)r.events.push({id:randomUUID(),type:'projectile-hit',shotId:p.id,x:p.x,y:p.y-20});else r.projectiles.push(p);continue;
   }
   p.remaining-=dt;if(p.remaining<=0){if(p.target.hp>0)p.resolve();}else r.projectiles.push(p);
  }
 }
-export function launchAimed(r,source,aim,range,resolve,walkable){
- const length=Math.hypot(aim.x,aim.y)||1,dx=Math.hypot(aim.x,aim.y)<.001?(source.face||1):aim.x/length,dy=aim.y/length,speed=650,id=randomUUID();
- r.projectiles.push({id,ballistic:true,x:source.x,y:source.y,dx,dy,left:range,speed,resolve,walkable});
- r.events.push({id,type:'projectile',sourceId:source.id,x:source.x,y:source.y-20,tx:source.x+dx*range,ty:source.y+dy*range-20,duration:range/speed,...shotStyle(source),straight:true});
+export function launchAimed(r,source,aim,range,resolve,walkable,options={}){
+ const length=Math.hypot(aim.x,aim.y)||1,dx=Math.hypot(aim.x,aim.y)<.001?(source.face||1):aim.x/length,dy=aim.y/length,speed=options.speed||650,id=randomUUID();
+ r.projectiles.push({id,ballistic:true,x:source.x,y:source.y,dx,dy,left:range,speed,resolve,walkable,filter:options.filter,piercing:!!options.piercing,hitIds:options.piercing?new Set():null,width:options.width});
+ r.events.push({id,type:'projectile',sourceId:source.id,x:source.x,y:source.y-20,tx:source.x+dx*range,ty:source.y+dy*range-20,duration:range/speed,...shotStyle(source),...options.style,straight:true});
 }
 

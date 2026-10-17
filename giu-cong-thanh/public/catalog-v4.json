@@ -3454,6 +3454,117 @@
           "start": 8
         }
       }
+    },
+    {
+      "id": "goblin-assassin",
+      "frame": 64,
+      "group": "heroes",
+      "actions": {
+        "idle": {
+          "frames": 6,
+          "url": "/assets/v2/goblin-assassin/idle.png"
+        },
+        "walk": {
+          "frames": 8,
+          "url": "/assets/v2/goblin-assassin/walk.png"
+        },
+        "attack": {
+          "frames": 6,
+          "url": "/assets/shadow/assassin-attack-v2.png",
+          "frameWidth": 512,
+          "frameHeight": 512,
+          "bodyHeight": 270,
+          "originX": 0.5,
+          "originY": 0.89,
+          "atlasColumns": 3,
+          "atlasRows": 2
+        },
+        "hurt": {
+          "frames": 3,
+          "url": "/assets/v2/goblin-assassin/hurt.png"
+        },
+        "dead": {
+          "frames": 6,
+          "url": "/assets/v2/goblin-assassin/dead.png"
+        }
+      },
+      "originX": 0.4844,
+      "originY": 0.9375,
+      "bodyHeight": 48
+    },
+    {
+      "id": "dark-elf",
+      "frame": 64,
+      "group": "heroes",
+      "actions": {
+        "idle": {
+          "frames": 6,
+          "url": "/assets/v2/dark-elf/idle.png"
+        },
+        "walk": {
+          "frames": 8,
+          "url": "/assets/v2/dark-elf/walk.png"
+        },
+        "attack": {
+          "frames": 6,
+          "url": "/assets/shadow/elf-attack.png",
+          "frameWidth": 362,
+          "frameHeight": 724,
+          "bodyHeight": 289.6,
+          "originX": 0.5,
+          "originY": 0.75,
+          "atlasColumns": 6
+        },
+        "hurt": {
+          "frames": 3,
+          "url": "/assets/v2/dark-elf/hurt.png"
+        },
+        "dead": {
+          "frames": 6,
+          "url": "/assets/v2/dark-elf/dead.png"
+        }
+      },
+      "originX": 0.4844,
+      "originY": 0.9375,
+      "bodyHeight": 52
+    },
+    {
+      "id": "forest-spirit",
+      "frame": 229,
+      "frameHeight": 229,
+      "sheetRows": 5,
+      "packed": true,
+      "group": "ally",
+      "originX": 0.5,
+      "originY": 0.98,
+      "bodyHeight": 199.23,
+      "actions": {
+        "idle": {
+          "frames": 6,
+          "start": 0,
+          "url": "/assets/shadow/forest-spirit.png"
+        },
+        "walk": {
+          "frames": 6,
+          "start": 6,
+          "url": "/assets/shadow/forest-spirit.png"
+        },
+        "attack": {
+          "frames": 6,
+          "start": 12,
+          "url": "/assets/shadow/forest-spirit.png"
+        },
+        "hurt": {
+          "frames": 6,
+          "start": 18,
+          "url": "/assets/shadow/forest-spirit.png"
+        },
+        "dead": {
+          "frames": 6,
+          "start": 24,
+          "url": "/assets/shadow/forest-spirit.png"
+        }
+      }
     }
   ],
   "effects": [

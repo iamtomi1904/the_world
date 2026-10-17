@@ -6,8 +6,8 @@ import {healing,passiveHit,passiveKill,passiveUpkeep} from './passives.mjs';
 import {launchAimed,advanceProjectiles} from './projectiles.mjs';
 import {applyStatus} from './abilities.mjs';
 const room=hero=>{const r=createRoom('PASSIVE'),p=addPlayer(r,{hero});r.phase='battle';r.spawn=99;r.spawnCd=999;return {r,p};};
-test('all 12 heroes have unique available innate passives',()=>{
- assert.equal(Object.keys(PASSIVES).length,12);assert.equal(new Set(Object.values(PASSIVES).map(p=>p.name)).size,12);
+test('all 14 heroes have unique available innate passives',()=>{
+ assert.equal(Object.keys(PASSIVES).length,14);assert.equal(new Set(Object.values(PASSIVES).map(p=>p.name)).size,14);
  for(const hero of Object.keys(PASSIVES)){const {p}=room(hero);assert.equal(p.level,1);assert.equal(p.mastery,0);assert.ok(PASSIVES[hero].text);}
 });
 test('shield cadence, low-health power, healing and kill buffs are server mechanics',()=>{

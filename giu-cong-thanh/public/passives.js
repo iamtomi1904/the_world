@@ -1,4 +1,6 @@
 export const PASSIVES={
+ 'dark-elf':{name:'Mắt Đêm',text:'Tăng 1% sát thương đòn thường mỗi 12 khoảng cách, tối đa 30%.'},
+ 'goblin-assassin':{name:'Đâm Lưng',text:'Đòn thường từ phía sau mục tiêu gây thêm 50% Công.'},
  'knight-1':{name:'Khiên Kiên Định',text:'Mỗi 12 giây tạo khiên bằng 12% máu tối đa, tồn tại 4 giây.'},
  'knight-2':{name:'Ý Chí Ngân Kỵ',text:'Mỗi đòn thường thứ tư trúng đích hồi 5% máu tối đa.'},
  'knight-3':{name:'Phá Trận',text:'Mỗi đòn thường thứ ba trúng đích gây thêm 40% Công.'},
