@@ -1,0 +1,17 @@
+{
+  "checks": {
+    "wall": true,
+    "door": true,
+    "route": true,
+    "remote": true,
+    "near": true,
+    "open": true,
+    "recorded": true,
+    "shelter": true,
+    "outside": true,
+    "persistence": true,
+    "arrival": true,
+    "mobile": true
+  },
+  "errors": []
+}

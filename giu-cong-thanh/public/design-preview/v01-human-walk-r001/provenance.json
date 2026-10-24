@@ -1,0 +1,17 @@
+{
+  "date": "2026-10-23",
+  "tool": "image_gen built-in",
+  "source": "C:/Users/Admin/.codex/generated_images/01a14361-6033-7670-8c0e-846dfa6a69fc/exec-8517484b-bcca-40c3-a5e1-f5e01224e49a.png",
+  "reference": "../v01-novice-fit-r002/novices-body__r002.png",
+  "prompt": "Use case: stylized-concept. Create one NEW walking-keypose reference board for the adult HUMAN NOVICE in the TOP ROW of input board. Input is identity, clothing and crisp pixel style reference only; ignore elf/dwarf rows completely. Exactly FOUR fullbody figures arranged in one spacious horizontal row on plain warm ivory background, from left to right SOUTH/front walking toward viewer, WEST/left profile walking left, NORTH/back walking away, EAST/right profile walking right. SAME human in all4: short tousled darkbrown hair, mature lean proportions, offwhite rolled-sleeve shirt, short open brown leather waistcoat, plain darkbrown horizontal belt with small front-only brass buckle, darkolive trousers, brown boots. No diagonal straps, bags, pouches, weapons, cap, armor or job symbols. Hands empty. All4 represent the same PHASE of a natural WALK contact stride: anatomical left heel planted forward contacting ground, anatomical right leg back with heel lifted and toes leaving, right arm swings forward and left arm back opposite legs. Show visible purposeful but relaxed walking, not running, fighting, lunging or standing idle. Small leg separation appropriate for regular walking. Keep torso/head proportional with original, no exaggerating movement. For front/back make limb depth and foot offset clear; for profiles keep both legs separable. Light forward body intent only, no deep lean. Consistent scale and shared foot-ground baseline, whole boots/head/hands fully visible, generous gaps, no overlapping poses. Conventional top-down RPG three-quarter actor-view reference; keep same overall rendering viewpoint feel as source, profile views remain readable. Crisp stepped pixel contours and grouped pixel shades, medium detail matching source, no smooth painted gradients/blur. No text, labels, grids, timing arrows or scenery. This is FOUR directional keyposes, NOT four consecutive frames or complete walkcycle. Do not add extra figures or backgrounds.\n",
+  "width": 2172,
+  "height": 724,
+  "sha256": "8f396fa2a24d165cc1dd3748cc6a1d137977b391e28296a8ab981f01b91aa5c9",
+  "status": "4 directional concept keyposes, not sequential animation frames",
+  "review": [
+    "4 directions, no edge clipping",
+    "Head/body and stride proportions need alignment with Idle",
+    "Same anatomical phase across views not validated",
+    "No alpha, ground metadata, cap overlay or scene integration"
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "date": "2026-10-23",
+  "tool": "image_gen built-in",
+  "reference": "../mmorpg-pixel-v4/styleboard-current-races-r002.png",
+  "files": [
+    {
+      "key": "oak",
+      "source": "C:/Users/Admin/.codex/generated_images/01a14361-6033-7670-8c0e-846dfa6a69fc/exec-bcdc4864-d51b-4210-8cd1-692c03fc252d.png",
+      "projectSource": "oak-source__r001.png",
+      "width": 1774,
+      "height": 887,
+      "sha256": "423645a5fe67ce453eef5a55972ee7f833c4c2ccf0e8594af39cae9780de757c",
+      "prompt": "Create one original modular PIXEL ART TREE SOURCE for a small fantasy RPG, using reference ONLY for crisp cluster style, natural oak greens and warm trunk colors. Output TWO SEPARATE COMPONENTS side by side on genuinely transparent RGBA background, no labels or grid. LEFT half: one bare oak trunk with rooted base, bark, several short upward forks near top, NO leaves. RIGHT half: one complete broad rounded oak FOLIAGE CROWN only, layered lobes in olive/yellowgreen/darkgreen, no trunk, no branches protruding below; small central lower indentation so it can overlap a trunk. Both component silhouettes entirely inside respective half with generous transparent gaps and padding, no touching borders. These two parts are meant to assemble as ONE oak: roots at ground, crown overlaps upper trunk forks, tree around2.5times human height. Pixel fantasy medium detail like provided tree, controlled outlines, 3to5grouped shades, clearly stepped pixel edges not smooth painting. NO cast or ground shadows, scenery, grass patches, stones, labels, checkerboard or haze. Trunk root and canopy lower edge fully visible, actual alpha background. Oak not magical, no faces, creatures, flowers or floating particles.\n"
+    },
+    {
+      "key": "birch",
+      "source": "C:/Users/Admin/.codex/generated_images/01a14361-6033-7670-8c0e-846dfa6a69fc/exec-e700e454-3580-48b4-a197-997885dda273.png",
+      "projectSource": "birch-source__r001.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "3567cea68e5269378a06abba2ecf03a3437a4fdfc3ce942aa4def816c38b9511",
+      "prompt": "Create ONE original modular PIXEL ART TREE SOURCE for a beginner fantasy RPG. Reference only for crisp grouped-pixel quality, medium detail and natural palette. Species: BIRCH tree: slender pale ivory bark with restrained dark horizontal marks, narrow forked trunk rooted base; crown tall light airy small-leaf masses, fresh muted yellowgreen, visibly narrower and taller than a broad oak, not round oak recolored. Output TWO SEPARATE COMPONENTS side by side on truly transparent RGBA background: LEFT half the bare trunk/roots and short forks, NO leaves/fruits; RIGHT half foliage crown only, no trunk/roots, shaped to overlap forks of left component when assembled. Show entire components, generous transparent padding and gap between halves, no borders/labels/grid. Components form ONE tree, not two complete trees. Keep light/shadow direction upperleft like reference, 3to5grouped shades, crisp stepped pixel contours, no smooth painted gradients. NO ground/cast shadows, scenery, grass patch, stones, characters, particles, magical glow or checkerboard. Preserve species silhouette. Actual alpha outside components. Production design source for later technical alignment; no claim of native final sprite.\n"
+    },
+    {
+      "key": "willow",
+      "source": "C:/Users/Admin/.codex/generated_images/01a14361-6033-7670-8c0e-846dfa6a69fc/exec-8b41841c-2048-4278-9e05-d763cc0bb9b3.png",
+      "projectSource": "willow-source__r001.png",
+      "width": 1774,
+      "height": 887,
+      "sha256": "53c8bdccfb322becc80f9123e2312fa58dbeaa4ada24087c8d33128d1842bab6",
+      "prompt": "Create ONE original modular PIXEL ART TREE SOURCE for a beginner fantasy RPG. Reference only for crisp grouped-pixel quality, medium detail and natural palette. Species: WILLOW tree for streambank: weathered brown trunk with slightly leaning upward forks, recognizable rooted base; crown broad arching olivegreen upper mass with hanging long curtain-like slender leaf clusters, clear drooping silhouette, not a round oak recolored. Output TWO SEPARATE COMPONENTS side by side on truly transparent RGBA background: LEFT half the bare trunk/roots and short forks, NO leaves/fruits; RIGHT half foliage crown only, no trunk/roots, shaped to overlap forks of left component when assembled. Show entire components, generous transparent padding and gap between halves, no borders/labels/grid. Components form ONE tree, not two complete trees. Keep light/shadow direction upperleft like reference, 3to5grouped shades, crisp stepped pixel contours, no smooth painted gradients. NO ground/cast shadows, scenery, grass patch, stones, characters, particles, magical glow or checkerboard. Preserve species silhouette. Actual alpha outside components. Production design source for later technical alignment; no claim of native final sprite.\n"
+    },
+    {
+      "key": "orchard",
+      "source": "C:/Users/Admin/.codex/generated_images/01a14361-6033-7670-8c0e-846dfa6a69fc/exec-8ba9f335-f5ad-4131-8f8c-f797a37d0e84.png",
+      "projectSource": "orchard-source__r001.png",
+      "width": 1774,
+      "height": 887,
+      "sha256": "eba949be3ef501a432db630350a258ec789a9549b1ac2e76133c1629027d1e02",
+      "prompt": "Create ONE original modular PIXEL ART TREE SOURCE for a beginner fantasy RPG. Reference only for crisp grouped-pixel quality, medium detail and natural palette. Species: SMALL ORCHARD APPLE tree for village farmland: short sturdy brown rooted trunk with low open forks, compact rounded irregular crown with sparse small red apples embedded among leaves; modest cultivated shape, visibly smaller/quieter than a forest oak, no baskets or harvest UI. Output TWO SEPARATE COMPONENTS side by side on truly transparent RGBA background: LEFT half the bare trunk/roots and short forks, NO leaves/fruits; RIGHT half foliage crown only, no trunk/roots, shaped to overlap forks of left component when assembled. Show entire components, generous transparent padding and gap between halves, no borders/labels/grid. Components form ONE tree, not two complete trees. Keep light/shadow direction upperleft like reference, 3to5grouped shades, crisp stepped pixel contours, no smooth painted gradients. NO ground/cast shadows, scenery, grass patch, stones, characters, particles, magical glow or checkerboard. Preserve species silhouette. Actual alpha outside components. Production design source for later technical alignment; no claim of native final sprite.\n"
+    },
+    {
+      "key": "roof",
+      "source": "C:/Users/Admin/.codex/generated_images/01a14361-6033-7670-8c0e-846dfa6a69fc/exec-2c323c9b-3751-487d-a53c-011b3aa2b602.png",
+      "projectSource": "roof-source__r001.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "87815c366fc05d8adb7f55209a60b120bf1324e56cd615a41e9d6285f5bf050f",
+      "prompt": "One square original REPEATABLE PIXEL ART ROOF MATERIAL for beginner medieval refugee cottage. Reference only redbrown roof palette and grouped pixel style. Flat material texture, entire opaque square, no house, no perspective, no side faces. Modest warm terracotta/brown overlapping clay tiles, ONLY THREE broad horizontal courses, roughly3large tiles across each course with staggered seams, subtle wear, no cracks turning into holes, no moss carpet, no ornaments. Crisp square pixel clusters, low-resolution authoring feel32x32 enlarged, limited shades. Uniform brightness, no vignette/centerlight, seamless opposing edges if possible, no border, labels, lighting shadow, chimney or scenery. Medium simple style, not photoreal or smooth painterly. Quiet material for geometric sloped roof.\n"
+    },
+    {
+      "key": "wood",
+      "source": "C:/Users/Admin/.codex/generated_images/01a14361-6033-7670-8c0e-846dfa6a69fc/exec-51a0cd62-b8f7-4d22-8b01-8cca1a18c796.png",
+      "projectSource": "wood-source__r001.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "b482b156207ef0049eada7c710f3ff66e1d745cde3fe3c3cab951ad91173521c",
+      "prompt": "One square original REPEATABLE PIXEL ART TIMBER MATERIAL for a modest salvaged medieval cottage. Reference only warm wood colors and crisp pixel cluster craft. Flat material texture filling opaque square, no whole object or perspective. Four to five broad VERTICAL plain timber boards with restrained dark seams, subtle short grain marks, muted medium warmbrown, occasional small repair nail no distinctive central knot. Nearest pixel-art authoring feel32x32 enlarged, 3to4shades, no noisy fine grain, no realistic paint, no smooth gradient. Uniform brightness right to edges, repeatable both axes, no vignette/centerlight, no frame, labels, windows, doors, roofs, plants, people or shadows. Plain timber source texture, not assembled cottage.\n"
+    }
+  ],
+  "inherit": "../v01-p0-scene-r005/provenance.json",
+  "normalization": "Alpha bounds and96frames for trunk/crown,32house material drafts; source preserved",
+  "placement": "tree-species.json is authoritative for scene/library",
+  "review": [
+    "4 distinct species, not palette swaps",
+    "Thin leaves and overlap seams need manual cleanup",
+    "Fruit decorative only, no harvest system",
+    "Rigid crown sway is prototype, not per-leaf wind",
+    "House geometry/camera/native still unapproved"
+  ],
+  "status": "Tree/house production study, not final native assets"
+}

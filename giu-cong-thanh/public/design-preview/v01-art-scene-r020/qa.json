@@ -1,0 +1,11 @@
+{
+  "checks": {
+    "bridge": true,
+    "endX": 205,
+    "waterBlocked": true,
+    "spawnValid": true
+  },
+  "keyMoved": true,
+  "mobile": true,
+  "errors": []
+}

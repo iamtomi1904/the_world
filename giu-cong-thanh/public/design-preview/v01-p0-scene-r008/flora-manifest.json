@@ -1,0 +1,374 @@
+{
+  "date": "2026-10-23",
+  "status": "Technical alpha packaging draft, not hand-cleaned/native approval",
+  "items": [
+    {
+      "id": "grass-short",
+      "group": "grass",
+      "image": "grass-short-64__draft.png",
+      "source": "grass-source__r002.png",
+      "sourceRect": {
+        "x": 38,
+        "y": 309,
+        "w": 466,
+        "h": 190
+      },
+      "targetRect": {
+        "x": 15,
+        "y": 42,
+        "w": 34,
+        "h": 14
+      },
+      "pivot": {
+        "x": 32,
+        "y": 56
+      },
+      "frameSize": 64
+    },
+    {
+      "id": "grass-meadow",
+      "group": "grass",
+      "image": "grass-meadow-64__draft.png",
+      "source": "grass-source__r002.png",
+      "sourceRect": {
+        "x": 561,
+        "y": 184,
+        "w": 435,
+        "h": 316
+      },
+      "targetRect": {
+        "x": 16,
+        "y": 32,
+        "w": 33,
+        "h": 24
+      },
+      "pivot": {
+        "x": 32,
+        "y": 56
+      },
+      "frameSize": 64
+    },
+    {
+      "id": "grass-tall",
+      "group": "grass",
+      "image": "grass-tall-64__draft.png",
+      "source": "grass-source__r002.png",
+      "sourceRect": {
+        "x": 1057,
+        "y": 48,
+        "w": 436,
+        "h": 464
+      },
+      "targetRect": {
+        "x": 17,
+        "y": 24,
+        "w": 30,
+        "h": 32
+      },
+      "pivot": {
+        "x": 32,
+        "y": 56
+      },
+      "frameSize": 64
+    },
+    {
+      "id": "grass-dry",
+      "group": "grass",
+      "image": "grass-dry-64__draft.png",
+      "source": "grass-source__r002.png",
+      "sourceRect": {
+        "x": 43,
+        "y": 641,
+        "w": 469,
+        "h": 330
+      },
+      "targetRect": {
+        "x": 15,
+        "y": 32,
+        "w": 34,
+        "h": 24
+      },
+      "pivot": {
+        "x": 32,
+        "y": 56
+      },
+      "frameSize": 64
+    },
+    {
+      "id": "grass-reed",
+      "group": "grass",
+      "image": "grass-reed-64__draft.png",
+      "source": "grass-source__r002.png",
+      "sourceRect": {
+        "x": 512,
+        "y": 544,
+        "w": 478,
+        "h": 427
+      },
+      "targetRect": {
+        "x": 10,
+        "y": 16,
+        "w": 45,
+        "h": 40
+      },
+      "pivot": {
+        "x": 32,
+        "y": 56
+      },
+      "frameSize": 64
+    },
+    {
+      "id": "grass-clover",
+      "group": "grass",
+      "image": "grass-clover-64__draft.png",
+      "source": "grass-source__r002.png",
+      "sourceRect": {
+        "x": 1051,
+        "y": 769,
+        "w": 444,
+        "h": 204
+      },
+      "targetRect": {
+        "x": 21,
+        "y": 46,
+        "w": 22,
+        "h": 10
+      },
+      "pivot": {
+        "x": 32,
+        "y": 56
+      },
+      "frameSize": 64
+    },
+    {
+      "id": "flowers-white",
+      "group": "flowers",
+      "image": "flowers-white-64__draft.png",
+      "source": "flowers-source__r002.png",
+      "sourceRect": {
+        "x": 64,
+        "y": 119,
+        "w": 383,
+        "h": 393
+      },
+      "targetRect": {
+        "x": 24,
+        "y": 40,
+        "w": 16,
+        "h": 16
+      },
+      "pivot": {
+        "x": 32,
+        "y": 56
+      },
+      "frameSize": 64
+    },
+    {
+      "id": "flowers-yellow",
+      "group": "flowers",
+      "image": "flowers-yellow-64__draft.png",
+      "source": "flowers-source__r002.png",
+      "sourceRect": {
+        "x": 578,
+        "y": 104,
+        "w": 404,
+        "h": 408
+      },
+      "targetRect": {
+        "x": 24,
+        "y": 40,
+        "w": 16,
+        "h": 16
+      },
+      "pivot": {
+        "x": 32,
+        "y": 56
+      },
+      "frameSize": 64
+    },
+    {
+      "id": "flowers-purple",
+      "group": "flowers",
+      "image": "flowers-purple-64__draft.png",
+      "source": "flowers-source__r002.png",
+      "sourceRect": {
+        "x": 1103,
+        "y": 139,
+        "w": 384,
+        "h": 373
+      },
+      "targetRect": {
+        "x": 23,
+        "y": 38,
+        "w": 19,
+        "h": 18
+      },
+      "pivot": {
+        "x": 32,
+        "y": 56
+      },
+      "frameSize": 64
+    },
+    {
+      "id": "flowers-buds",
+      "group": "flowers",
+      "image": "flowers-buds-64__draft.png",
+      "source": "flowers-source__r002.png",
+      "sourceRect": {
+        "x": 81,
+        "y": 512,
+        "w": 391,
+        "h": 450
+      },
+      "targetRect": {
+        "x": 25,
+        "y": 40,
+        "w": 14,
+        "h": 16
+      },
+      "pivot": {
+        "x": 32,
+        "y": 56
+      },
+      "frameSize": 64
+    },
+    {
+      "id": "flowers-wilt",
+      "group": "flowers",
+      "image": "flowers-wilt-64__draft.png",
+      "source": "flowers-source__r002.png",
+      "sourceRect": {
+        "x": 577,
+        "y": 512,
+        "w": 407,
+        "h": 450
+      },
+      "targetRect": {
+        "x": 25,
+        "y": 40,
+        "w": 14,
+        "h": 16
+      },
+      "pivot": {
+        "x": 32,
+        "y": 56
+      },
+      "frameSize": 64
+    },
+    {
+      "id": "flowers-sparse",
+      "group": "flowers",
+      "image": "flowers-sparse-64__draft.png",
+      "source": "flowers-source__r002.png",
+      "sourceRect": {
+        "x": 1089,
+        "y": 512,
+        "w": 395,
+        "h": 440
+      },
+      "targetRect": {
+        "x": 27,
+        "y": 44,
+        "w": 11,
+        "h": 12
+      },
+      "pivot": {
+        "x": 32,
+        "y": 56
+      },
+      "frameSize": 64
+    },
+    {
+      "id": "leaves-oak",
+      "group": "leaves",
+      "image": "leaves-oak-64__draft.png",
+      "source": "leaves-source__r002.png",
+      "sourceRect": {
+        "x": 243,
+        "y": 113,
+        "w": 420,
+        "h": 399
+      },
+      "targetRect": {
+        "x": 24,
+        "y": 40,
+        "w": 17,
+        "h": 16
+      },
+      "pivot": {
+        "x": 32,
+        "y": 56
+      },
+      "frameSize": 64
+    },
+    {
+      "id": "leaves-birch",
+      "group": "leaves",
+      "image": "leaves-birch-64__draft.png",
+      "source": "leaves-source__r002.png",
+      "sourceRect": {
+        "x": 964,
+        "y": 147,
+        "w": 297,
+        "h": 365
+      },
+      "targetRect": {
+        "x": 27,
+        "y": 44,
+        "w": 10,
+        "h": 12
+      },
+      "pivot": {
+        "x": 32,
+        "y": 56
+      },
+      "frameSize": 64
+    },
+    {
+      "id": "leaves-willow",
+      "group": "leaves",
+      "image": "leaves-willow-64__draft.png",
+      "source": "leaves-source__r002.png",
+      "sourceRect": {
+        "x": 209,
+        "y": 512,
+        "w": 559,
+        "h": 434
+      },
+      "targetRect": {
+        "x": 21,
+        "y": 38,
+        "w": 23,
+        "h": 18
+      },
+      "pivot": {
+        "x": 32,
+        "y": 56
+      },
+      "frameSize": 64
+    },
+    {
+      "id": "leaves-litter",
+      "group": "leaves",
+      "image": "leaves-litter-64__draft.png",
+      "source": "leaves-source__r002.png",
+      "sourceRect": {
+        "x": 768,
+        "y": 512,
+        "w": 716,
+        "h": 424
+      },
+      "targetRect": {
+        "x": 8,
+        "y": 28,
+        "w": 48,
+        "h": 28
+      },
+      "pivot": {
+        "x": 32,
+        "y": 56
+      },
+      "frameSize": 64
+    }
+  ]
+}

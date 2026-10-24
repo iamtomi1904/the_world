@@ -1,1 +1,34 @@
-{"name":"giu-cong-thanh","private":true,"type":"module","scripts":{"dev":"node server.mjs","start":"node server.mjs","test":"node --test"},"dependencies":{"phaser":"^3.90.0","ws":"^8.18.0"}}
+{
+  "name": "giu-cong-thanh",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node scripts/start-local-game.mjs",
+    "start": "node server.mjs",
+    "test": "node --test",
+    "db:import-legacy": "node scripts/import-legacy.mjs",
+    "db:local:setup": "node scripts/postgres-local.mjs setup",
+    "db:local:start": "node scripts/postgres-local.mjs start",
+    "db:local:stop": "node scripts/postgres-local.mjs stop",
+    "client:dev": "electron desktop",
+    "client:build": "npm run mmo:build && node scripts/build-desktop.mjs",
+    "mmo:map": "node scripts/create-binh-minh-map.mjs",
+    "mmo:check": "tsc --noEmit",
+    "mmo:build": "npm run mmo:map && npm run mmo:check && tsc -p tsconfig.shared.json && vite build",
+    "client:local": "powershell.exe -NoProfile -ExecutionPolicy Bypass -File scripts/start-pc-client.ps1"
+  },
+  "dependencies": {
+    "marked": "^18.1.1",
+    "mermaid": "^12.2.0",
+    "pg": "^8.23.1",
+    "phaser": "^3.90.0",
+    "ws": "^8.18.0"
+  },
+  "devDependencies": {
+    "@electron/packager": "20.3.0",
+    "@types/node": "26.6.5",
+    "electron": "45.0.0",
+    "typescript": "7.0.2",
+    "vite": "8.3.5"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "tool": "Built-in image_gen",
+  "prompt": "Use case: precise-object-edit. Edit target: attached existing pixel-art game landscape. Keep exact full scene camera, aspect ratio, house position, foliage, river, road, bridge, palette and crisp detailed pixel aesthetic. Change ONLY the orange tiled roof of the cottage in upper left. Remove the roof tiles and chimney to reveal an architectural cutaway of the same house: dark warm timber rafters, attic plank floor, subtle supporting beams inside the original roof footprint. This is a roofless UNDERLAY for a toggleable roof layer, not a new building. Retain front wall, front door, window, surrounding trees and all scenery exactly in place. No people, no labels, no UI, no extra furniture outdoors, no new roofs. Maintain original same scene alignment; edit confined to roof footprint including chimney. Do not zoom or change perspective.",
+  "editTarget": "../v01-art-scene-r020/scene-background-r020.png",
+  "source": "C:/Users/Admin/.codex/generated_images/01a14361-6033-7670-8c0e-846dfa6a69fc/exec-e60c711d-82d7-41e9-9bbb-bbc181a5eeda.png",
+  "output": "cottage-under-roof-r001.png",
+  "use": "Only roof repair rectangle composited; original displayed at full opacity; not clean alpha roof."
+}

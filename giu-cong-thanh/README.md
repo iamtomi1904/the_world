@@ -1,3 +1,5 @@
+> **Client Windows:** mở Choi-An-Thanh.cmd để bật server local và game cùng lúc. [Hướng dẫn PC](CLIENT_PC.md) · [Trang tải ZIP](http://localhost:3000/client.html).
+
 # Giữ Cổng Thành — chiến dịch v0.3
 
 Bản mới: map 1920 × 1280, camera theo hero và minimap, tòa thành riêng được tạo bằng imagegen, 189 vật thể cảnh trong catalog, 11 hiệu ứng animated chọn lọc. Hero chia 7 class với 21 kỹ năng Q/E/R, cây học/nâng bậc bằng vàng, năng lượng, trạng thái và tinh thông đòn thường. Xem [HERO_SYSTEM.md](HERO_SYSTEM.md) để đọc đầy đủ công thức, thông số từng bậc, điều kiện học và giới hạn bản thử.
@@ -69,3 +71,11 @@ Script chỉ đọc thư mục gốc, chép PNG cần dùng vào `public/assets/
 - Đóng gói Capacitor Android/iOS và kiểm thử thiết bị thật.
 
 Asset Craftpix: giữ giấy phép trong thư mục nguồn, xem https://craftpix.net/file-licenses/ trước phát hành.
+
+
+## PostgreSQL local và tài khoản
+
+Ẩn Thành yêu cầu đăng ký/đăng nhập trước khi vào chơi. Cấu hình local và các lệnh bật/tắt PostgreSQL được ghi trong [POSTGRES_LOCAL.md](POSTGRES_LOCAL.md). `npm run dev` tự bật PostgreSQL riêng của dự án khi `.env` trỏ đến cluster local đã thiết lập. Xem [DATABASE_AUTH.md](DATABASE_AUTH.md) để kết nối PostgreSQL online.
+
+`.env` và `.local/` chứa cấu hình riêng, mật khẩu hoặc dữ liệu database, không đưa lên Git. Ván thủ thành mới luôn bắt đầu cấp 1; hồ sơ và lịch sử thuộc về tài khoản.
+

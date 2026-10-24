@@ -1,0 +1,15 @@
+{
+  "tool": "Built-in image_gen",
+  "prompt": "Game sprite layer sheet for the EXACT cottage in the attached An Thanh pixel RPG scene. Reference image is the visual authority: match the cottage geometry, front elevation, warm cream plaster, dark timber, terracotta roof, chimney upper left, wooden door left of front window, stone base and small doorstep. Same elevated orthographic 2.5D camera and pixel density, no redesign into a different fancy building. Output ONE transparent 2-column sheet, exactly equal left and right frame sizes; the columns represent components at identical local coordinates for direct overlay. LEFT frame: cottage body ONLY without roof or chimney, complete timber/plaster wall body, wooden door, glowing small front window, stone foundation and doorstep. Include full wall edges hidden by overhang. Do not invent furnished interior or cutaway contents, do not include garden, pots, barrels or surrounding foliage. RIGHT frame: roof ONLY including chimney, terracotta tiles, eaves, wooden fascia and gable surface attached to roof. Place roof at identical coordinates relative to the body frame so overlay of two frames reconstructs full cottage. Both columns have SAME ground anchor near lower center and SAME scale and camera; do not center roof vertically independently. House fills about 75% of frame width; overall assembled cottage reaches from 15% to 85% of frame height. True transparent blank outside actual components, hard pixel alpha no glow or haze, no shadow plane, no backdrop, no labels, no dividing lines. Crisp deliberate square pixel clusters, mature detailed pixel RPG style exactly like reference, moderate detail, upper-left warm light. No people, weapons, trees, flowers, fences or landscape. No isometric diamond foundation. This is an aligned body/roof layer sheet, not two finished houses.",
+  "reference": "../v01-art-upgrade-r009/scene-art-target-r009.png",
+  "source": "exec-768416b9-a8e1-41da-9b6e-49e6a47208c3.png",
+  "frameLayout": "two equal columns, body left, roof right",
+  "preview": {
+    "roofOffsetPixels": {
+      "x": 0,
+      "y": -60
+    },
+    "material": "cutout128, original alpha preserved in source file"
+  },
+  "status": "House layer candidate, not identical to r009 or production-approved; main scene unchanged"
+}

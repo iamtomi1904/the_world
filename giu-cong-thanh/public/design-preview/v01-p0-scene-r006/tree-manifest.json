@@ -1,0 +1,204 @@
+{
+  "date": "2026-10-23",
+  "status": "Component normalization draft; art seams/anchors not production-approved",
+  "frameSize": 96,
+  "ground": {
+    "x": 48,
+    "y": 80
+  },
+  "rows": [
+    {
+      "species": "oak",
+      "transparentRatio": 0.5716461883983736,
+      "parts": [
+        {
+          "part": "trunk",
+          "sourceRect": {
+            "x": 161,
+            "y": 140,
+            "w": 549,
+            "h": 664
+          },
+          "targetRect": {
+            "x": 26,
+            "y": 27,
+            "w": 44,
+            "h": 53
+          },
+          "pivot": {
+            "x": 48,
+            "y": 80
+          },
+          "scale": 0.08014571948998178,
+          "image": "oak-trunk-96__draft.png"
+        },
+        {
+          "part": "crown",
+          "sourceRect": {
+            "x": 789,
+            "y": 125,
+            "w": 918,
+            "h": 655
+          },
+          "targetRect": {
+            "x": 8,
+            "y": 23,
+            "w": 80,
+            "h": 57
+          },
+          "pivot": {
+            "x": 48,
+            "y": 80
+          },
+          "scale": 0.08714596949891068,
+          "image": "oak-crown-96__draft.png"
+        }
+      ]
+    },
+    {
+      "species": "birch",
+      "transparentRatio": 0.7377846788258444,
+      "parts": [
+        {
+          "part": "trunk",
+          "sourceRect": {
+            "x": 436,
+            "y": 272,
+            "w": 330,
+            "h": 626
+          },
+          "targetRect": {
+            "x": 31,
+            "y": 16,
+            "w": 34,
+            "h": 64
+          },
+          "pivot": {
+            "x": 48,
+            "y": 80
+          },
+          "scale": 0.10223642172523961,
+          "image": "birch-trunk-96__draft.png"
+        },
+        {
+          "part": "crown",
+          "sourceRect": {
+            "x": 856,
+            "y": 50,
+            "w": 578,
+            "h": 819
+          },
+          "targetRect": {
+            "x": 26,
+            "y": 16,
+            "w": 45,
+            "h": 64
+          },
+          "pivot": {
+            "x": 48,
+            "y": 80
+          },
+          "scale": 0.07814407814407814,
+          "image": "birch-crown-96__draft.png"
+        }
+      ]
+    },
+    {
+      "species": "willow",
+      "transparentRatio": 0.5739181386150192,
+      "parts": [
+        {
+          "part": "trunk",
+          "sourceRect": {
+            "x": 54,
+            "y": 222,
+            "w": 656,
+            "h": 632
+          },
+          "targetRect": {
+            "x": 26,
+            "y": 38,
+            "w": 44,
+            "h": 42
+          },
+          "pivot": {
+            "x": 48,
+            "y": 80
+          },
+          "scale": 0.06707317073170732,
+          "image": "willow-trunk-96__draft.png"
+        },
+        {
+          "part": "crown",
+          "sourceRect": {
+            "x": 767,
+            "y": 72,
+            "w": 958,
+            "h": 785
+          },
+          "targetRect": {
+            "x": 9,
+            "y": 16,
+            "w": 78,
+            "h": 64
+          },
+          "pivot": {
+            "x": 48,
+            "y": 80
+          },
+          "scale": 0.08152866242038216,
+          "image": "willow-crown-96__draft.png"
+        }
+      ]
+    },
+    {
+      "species": "orchard",
+      "transparentRatio": 0.6529426045001773,
+      "parts": [
+        {
+          "part": "trunk",
+          "sourceRect": {
+            "x": 113,
+            "y": 396,
+            "w": 647,
+            "h": 434
+          },
+          "targetRect": {
+            "x": 26,
+            "y": 50,
+            "w": 44,
+            "h": 30
+          },
+          "pivot": {
+            "x": 48,
+            "y": 80
+          },
+          "scale": 0.06800618238021638,
+          "image": "orchard-trunk-96__draft.png"
+        },
+        {
+          "part": "crown",
+          "sourceRect": {
+            "x": 831,
+            "y": 137,
+            "w": 868,
+            "h": 641
+          },
+          "targetRect": {
+            "x": 8,
+            "y": 21,
+            "w": 80,
+            "h": 59
+          },
+          "pivot": {
+            "x": 48,
+            "y": 80
+          },
+          "scale": 0.09216589861751152,
+          "image": "orchard-crown-96__draft.png"
+        }
+      ]
+    }
+  ],
+  "placement": "tree-species.json"
+}

@@ -1,0 +1,40 @@
+{
+  "tool": "Built-in image_gen",
+  "status": "Complete map design concepts; not tilemap/collision or production assets",
+  "references": [
+    "../v01-layout-r002/binh-minh-environment__r002.png",
+    "../v01-art-scene-r020/scene-background-r020.png"
+  ],
+  "images": [
+    {
+      "file": "binh-minh-full-map-r001.png",
+      "source": "exec-d4cb7817-b322-442b-a48f-b88db2b808e7.png",
+      "prompt": "Use case: stylized-concept / game environment design. Create a complete cohesive overview map of Binh Minh, beginner level1-10 region for a pixel-art 2.5D MMORPG. Image1 is spatial layout reference; image2 is the approved pixel-art material/detail style. Keep the overall geography of image1, improve all areas into one polished unified map, no close-up vignette. Full region visible, landscape 4:3 composition, fixed elevated orthographic RPG camera, crisp intentional pixel clusters, no smooth realistic 3D. Northern closed ruined fortress wall on ridge; dense northwest oak/birch forest with a small ranger cabin and branching walkable footpaths; a western road leaves frame at midheight. Central-west safe raised camp with six readable service spaces around an open square, several timber/plaster orange-roof cottages, tents, workshop, supply shelters, stone ramps. Southwest small peaceful village with distinct houses around a square, reed-stream crossing separating village route from camp. Southern tilled crop fields on lower ground. A shallow tributary meanders from northwest through center toward south, pale pebbles and visible bottom, footbridges crossing it. One broad deep blue river runs north-south in the eastern third, steep readable banks, ONE main stone bridge crossing near middle. East bank has broken bell courtyard and small watchhouse on stone terrace, optional side path to limestone storage cave southeast, northeast main ancient-seal dungeon entrance below cliff with safe forecourt, separate optional large rocky encounter clearing further northeast, with a bypass to dungeon avoiding clearing. A root hollow exploration cave in central-north woodland. Three cave entrances total; no additional fourth cave. Three distinct land elevations joined by ramps, no mandatory jumping. Natural shores with coves, grass, flowers, reeds, rocks, varied trees, paths with clear junctions and visual landmarks; no random empty circular biome stamps. Preserve peaceful green beginner palette, white/yellow wildflowers, warm terracotta roofs and blue-teal flowing water. No snow, lava, desert, flying creatures, characters, bosses, labels, text, grid, UI, logos or border. Environmental layout only. All required roads visible; building roofs and tree canopies do not cover every important junction. Similar detail density to approved style, not blurry painting."
+    },
+    {
+      "file": "seal-dungeon-floorplan-r001.png",
+      "source": "exec-d85724b0-908d-4127-9faf-c08f9307581a.png",
+      "prompt": "Pixel art 2.5D MMORPG dungeon environmental FLOORPLAN concept, no UI or text. Same crisp detailed earthy pixel style as attached landscape, fixed elevated orthographic camera. Underground ancient seal maintenance complex: exactly SIX visibly distinct connected spaces in a clearly readable sequential route from left to right with gentle zigzag: small maintenance entrance at far left; pressure-release chamber with pipes and a wheel valve; dry archive storage with shelves and paper crates; long inspection corridor with pillars; large gatekeeper chamber with clear broad central floor and sealed stone gateway; small transfer station with mechanical desk and exit passage at far right. Main route connects these six in that exact order; an exterior service return corridor loops along lower edge from last room to second room, visibly separate from main chambers. Cutaway dark rock surrounds room floors. Consistent scale, warm grey stone, aged bronze, dim blue-green seal lights, amber wall lamps, no fire lava. Six spaces all shown at once in landscape composition, architecture only, no characters, monsters, boss, treasure loot icons, text, numbers, labels, map pins or extra rooms. Entire floorplan, not single interior shot; no arbitrary dead ends or unrelated caves."
+    },
+    {
+      "file": "root-hollow-floorplan-r001.png",
+      "source": "exec-5858898d-596e-4e40-b2aa-c23384a9fabd.png",
+      "prompt": "Pixel art 2.5D RPG underground environment floorplan, match crisp intentional pixel clusters and warm natural colors of attached game landscape. Root Hollow under an old waterwheel: exactly THREE connected dry spaces in one whole cutaway overview, left entrance below massive roots with weathered wood sign but NO legible text; middle waterwheel/sluice chamber with old stone channel, shallow blue water safely beside a dry working platform, wheel and wood repair beams; right dry tool storeroom with shelves, rope coils and repaired planks. Two dry walkways pass around the SAME middle mechanism and reconnect, never require swimming. Show clear looping floor paths and return to entrance. Earth/rock/rich roots frame the spaces, sparse moss, amber lanterns, brown timber and grey stone. Fixed elevated orthographic game camera, no photorealistic 3D, no smooth painting. All three spaces visible together, architecture only, no characters, enemies, boss, glowing loot, UI, labels, numbers or text. Not a temple and no fourth room."
+    },
+    {
+      "file": "lime-store-floorplan-r001.png",
+      "source": "exec-ed027069-4058-467d-a58a-9305eedd3fe9.png",
+      "prompt": "Pixel art 2.5D MMORPG environmental floorplan concept, same crisp detailed earthy pixel style and fixed elevated orthographic camera as attached game landscape. Limestone supply cellar beneath an old bell courtyard: exactly THREE readable connected dry spaces shown in one whole cutaway overview: left low stone entrance chamber with wheelbarrow and old workbench; upper-central lime storage chamber with pale sacks and weathered barrels along walls; lower-right side maintenance passage with arches and wooden supports. Connect them as a simple triangular loop with two routes home, broad unobstructed walking floor. Cool chalk grey walls, dusty pale cream ground, dark brown timber, sparse moss and small warm amber lamps. It is a civilian maintenance store, no holy altar, no magic temple. All rooms shown at once, architecture only. No water pit, traps, characters, enemies, boss, loot icons, labels, numbers, text or UI. No fourth room, no isometric diamond tile grid, no smooth rendered3D.",
+      "selected": false
+    },
+    {
+      "file": "lime-store-floorplan-r002.png",
+      "source": "exec-44ef0cbe-03dc-4f6a-ae21-4cf8a25a736e.png",
+      "prompt": "Precise object edit of this attached pixel-art limestone cellar cutaway. Preserve the exact three rooms, camera, walls, props, lighting, canvas and pixel style. Add ONLY a narrow dry stone maintenance passage connecting the LOWER EDGE of the LEFT entrance/workbench room to the LOWER EDGE of the RIGHT foreground side room, running along the bottom outside edge and reconnecting through visible doorways. This must create a clearly visible triangular loop between the existing three rooms, so there are two routes back to the left entrance. No fourth room: the added structure is only a connecting corridor, empty of props, with simple low stone boundary and a small lantern. Preserve existing middle connections. No characters, enemies, labels, text, UI, no new main room, no water. Keep the whole existing composition aligned; expand into existing black empty area below the rooms if needed without moving them.",
+      "editTarget": "lime-store-floorplan-r001.png",
+      "selected": true
+    }
+  ],
+  "sourceRoot": "C:/Users/Admin/.codex/generated_images/01a14361-6033-7670-8c0e-846dfa6a69fc",
+  "mapping": "Art pins approximate percentages; layout graph retains original1000x760 design units; neither is authoritative engine collision."
+}

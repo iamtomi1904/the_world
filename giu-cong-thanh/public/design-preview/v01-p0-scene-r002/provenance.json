@@ -1,0 +1,18 @@
+{
+  "date": "2026-10-23",
+  "tool": "image_gen built-in",
+  "source": "C:/Users/Admin/.codex/generated_images/01a14361-6033-7670-8c0e-846dfa6a69fc/exec-f0275b30-5ce3-4a3e-99ac-41f885415ac0.png",
+  "prompt": "EDIT supplied board into a NEW source sprite strip. Keep ONLY the HUMAN character from its TOP ROW, four directions front,leftprofile,back,rightprofile, same short brown hair and mature adult identity, offwhite rolled-sleeve shirt, short open plain brown leather vest, darkolive trousers, brown boots, horizontal brown belt with small brass buckle front only; no diagonal straps, no bags, no hats, no weapons. REMOVE the elf and dwarf entirely. Output EXACTLY FOUR fullbody IDLE figures in ONE horizontal row on a genuinely TRANSPARENT RGBA background. Each figure in its own equal-width cell with generous transparent padding on all sides; all human figures same height, shared baseline; entire boots and hair visible and not touching edges. Match pixel contours and grouped shades of source, don't repaint into smooth illustration. Arms relaxed, no walk poses. Remove ALL ivory background AND all ground shadows: only body pixels with transparent space around and beneath, no grey halo, no checkerboard pattern, no floor. Preserve4directions and wardrobe consistency; do not mirror front/back buckles. Source for technical frame normalization, not a claimed native96x96 finished sprite sheet. Keep sprites comfortably separated so per-cell alpha bounds can be measured, no labels or text or extra visual marks.\n",
+  "reference": "../v01-novice-fit-r002/novices-body__r002.png",
+  "width": 2172,
+  "height": 724,
+  "sha256": "3f83ef2f40485f165ea9ba3a6b67481e307f9e5744b40788e516f6913b8bbebe",
+  "derivative": "human-idle-atlas__draft.png",
+  "derivativeProcess": "Measured alpha bounds, common scale nearest-neighbor into96frames, ground48,80; build-human-idle-draft.cjs",
+  "status": "Technical normalization draft, not hand-cleaned pixel production",
+  "review": [
+    "Four idle views with alpha",
+    "Some source fringe/detail and source angle need manual review",
+    "No cap or walk animation"
+  ]
+}

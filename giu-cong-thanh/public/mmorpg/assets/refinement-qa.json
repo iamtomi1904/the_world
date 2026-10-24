@@ -1,0 +1,20 @@
+{
+  "checks": {
+    "invalidDuration": true,
+    "timeCheatRejected": true,
+    "ack": true,
+    "replayedPacketNoDoubleMovement": true,
+    "campCorrectMap": true,
+    "campTilemap": true,
+    "sealCorrectMap": true,
+    "sealTilemap": true,
+    "sealMovementSaved": true,
+    "rootsCorrectMap": true,
+    "rootsTilemap": true,
+    "rootsMovementSaved": true,
+    "limeCorrectMap": true,
+    "limeTilemap": true,
+    "limeMovementSaved": true
+  },
+  "errors": []
+}

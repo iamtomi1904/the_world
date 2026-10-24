@@ -1,0 +1,14 @@
+{
+  "checks": {
+    "schema": true,
+    "layers": true,
+    "anchor": true,
+    "localDoor": true,
+    "navigation": true,
+    "missingRecorded": true,
+    "moveLocked": true,
+    "export": true,
+    "mobile": true
+  },
+  "errors": []
+}

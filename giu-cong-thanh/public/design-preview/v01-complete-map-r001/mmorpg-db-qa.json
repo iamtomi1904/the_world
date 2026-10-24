@@ -1,0 +1,21 @@
+{
+  "checks": {
+    "postgres": true,
+    "create": true,
+    "oldLeaseRejected": true,
+    "invalidDirectionRejected": true,
+    "devWarpDisabled": true,
+    "enterDungeon": true,
+    "dungeonPersists": true,
+    "returnToPortal": true,
+    "unauthorized": true,
+    "phaser": true,
+    "movement": true,
+    "reloadPersists": true,
+    "dbLevelOne": true,
+    "dbPosition": true,
+    "mobile": true
+  },
+  "errors": [],
+  "scope": "Real temporary PostgreSQL account/character; removed after QA"
+}

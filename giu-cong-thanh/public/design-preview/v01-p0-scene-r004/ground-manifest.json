@@ -1,0 +1,37 @@
+{
+  "date": "2026-10-23",
+  "version": "draft-r001",
+  "tileSize": 32,
+  "worldRepeatSpan": 1.6,
+  "status": "Technical downsample, not hand-cleaned/native-art approval",
+  "materials": [
+    {
+      "id": "grass",
+      "source": {
+        "w": 1254,
+        "h": 1254
+      },
+      "minAlpha": 255,
+      "edgeMeanAbsRGB": {
+        "x": 12.9375,
+        "y": 11.989583333333334
+      }
+    },
+    {
+      "id": "dirt",
+      "source": {
+        "w": 1254,
+        "h": 1254
+      },
+      "minAlpha": 255,
+      "edgeMeanAbsRGB": {
+        "x": 3.1979166666666665,
+        "y": 3.9375
+      }
+    }
+  ],
+  "limits": [
+    "Edge metrics do not establish seamless visual tiling",
+    "Two base materials; pixel transition is scene mask, not artist-authored blob47set"
+  ]
+}

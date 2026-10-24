@@ -1,0 +1,34 @@
+{
+  "checks": {
+    "assetTextures": true,
+    "transparentAtlases": true,
+    "processedVegetationBackground": true,
+    "waterCuts": true,
+    "threeEntrances": true,
+    "multipleBuildings": true,
+    "farm": true,
+    "heightLevels": true,
+    "comparisonPage": true,
+    "closeupSelector": true,
+    "togglePins": true
+  },
+  "alpha": [
+    {
+      "key": "settlement",
+      "alpha": 0
+    },
+    {
+      "key": "terrain",
+      "alpha": 0
+    },
+    {
+      "key": "fort-river",
+      "alpha": 0
+    },
+    {
+      "key": "vegetation",
+      "alpha": 1
+    }
+  ],
+  "errors": []
+}

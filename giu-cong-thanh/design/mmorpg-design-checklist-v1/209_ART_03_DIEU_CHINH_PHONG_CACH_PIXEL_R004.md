@@ -1,0 +1,15 @@
+# ART-03 — Điều chỉnh phong cách pixel r004
+
+22/10/2026. Người dùng phản hồi r003 chưa đúng phong cách. Đã vẽ lại bằng image_gen tích hợp, lấy r003 làm tham chiếu nội dung và bảng cảnh quan V4 làm tham chiếu phong cách: khối pixel rõ, hình dáng gọn, mảng màu lớn, giảm độ mịn và trang trí nhỏ. Giữ toàn bộ thay đổi vũ khí và trang phục theo hồ sơ208.
+
+![Bảng 19 nhánh r004](/design-preview/art03-current-tree-v2/branches-19__r004.png)
+
+Trang thư viện và trang cây nghề đã dùng ảnh mới. R003 giữ lịch sử, không coi là mẫu phong cách được chấp thuận. R004 vẫn là concept phóng lớn, chưa phải sprite native hoặc animation đã nghiệm thu; cần phản hồi người dùng về phong cách. Bảng nghề r003 chưa vẽ lại trong lượt này. Không thay gameplay, class hoặc tiến độ 525=127/12/386.
+
+## Prompt đầy đủ
+
+```text
+Redraw image1's nineteen-branch character board from scratch in image2's SMALL IN-GAME SPRITE style. Image1 is ONLY content/grid reference and its detailed illustration style MUST BE REJECTED. Image2 is the approved STYLE reference: copy proportions of the small human standing in village, chunky square pixel clusters, compact body, large head, tiny 1pixel eyes, few large flat shaded blocks, earthy greens and warm colors. Make true low-resolution looking 2D pixel sprites at approximately40-48 logical pixels tall for standing people, enlarged with hard nearest-neighbor edges. Only3tones per material, dark1logicalpixel outlines, no antialias, no gradients, no smooth metal, no fine filigree, no individual fingers, no anime illustration, no thin long legs. Readable simple equipment; moderate detail consistent with village novice. Dark green solid backing. Same5columns4rows with lastcellblank, exact code labels same order: PAL DKN HGD VAN BER / WND ASN HSW THU FIR / WAT NEC LGT DRK EAR / ARC SPI PRI WOD blank.
+PAL human whitegold armor/helmet on simplified horse, greatsword; DKN darkpurple armor/helmet on darkhorse greatsword. HGD WALKING human heavy fullarmor helmet sacred simple emblem, HUGE shield and onehanded WARHAMMER. VAN human spear onehand andshield,helmet. BER dwarf axe. WND human windswordsman sword andsheath. ASN ELF slim agile fitted hood/lightleather andtwo daggers shortcape. HSW dwarf heavy greatswordhelmet. THU human purple mage wizardhat lightningstaff. FIR elf orange firerobe flame staff. WAT human blue waterstaff. NEC human darkrobe spellbook. LGT elf whitegold lightprism staff. DRK elf darkpurple crescentstaff. EAR dwarf brown stone staff. ARC DWARF lightweight compact leather, CROSSBOW held twohands, small mechanical trap besideboots. SPI elf tealrobe ringstaff andtiny spirit perched onshoulder. PRI human cleric hat whitegoldrobe holyBOOK onehand and clear CROSSSTAFF otherhand. WOD elf naturehealer simple greenrobe leafy hair and a few flowers, branchstaff. Fullbody all fit cells with margins, no clipping. Every standing sprite shares chunky small sprite scale, dwarves shorter/broader, mounted silhouettes bigger but same pixel density. Prefer clean broad blocks and readability over decoration. This is a restrained 2D pixel game roster, NOT polished high-resolution fantasy concept illustration.
+```
+

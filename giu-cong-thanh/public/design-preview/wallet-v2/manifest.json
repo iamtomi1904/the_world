@@ -1,0 +1,178 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-10-22",
+  "taskId": "CUR-08",
+  "packageId": "AT-UI-WALLET-001",
+  "revision": "r002",
+  "status": "design_mockup_reviewed",
+  "source": "index.html",
+  "method": "New image_gen pixel2.5D environment concept plus code-native pixel-fantasy UI; exact native currencyPNG; Chrome/Playwright screenshot export",
+  "currencyAssets": "../../assets/mmorpg/currency/r002/manifest.json",
+  "walletBackendImplemented": false,
+  "mockups": [
+    {
+      "scene": "overview",
+      "filename": "a_overview__r002.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "0b54e9ea1a88a97b8eea40df878c59ffd36b0ebdf7307f8256cf07d0241121e3",
+      "metrics": {
+        "width": 640,
+        "height": 540,
+        "scroll": 384,
+        "client": 384,
+        "images": [
+          {
+            "loaded": true,
+            "width": 32,
+            "height": 32
+          },
+          {
+            "loaded": true,
+            "width": 32,
+            "height": 32
+          },
+          {
+            "loaded": true,
+            "width": 32,
+            "height": 32
+          }
+        ],
+        "overflow": false
+      }
+    },
+    {
+      "scene": "history",
+      "filename": "b_history_receipt__r002.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "523f016646e9e855f2ffb7dca37e771e4fa63a9ccc0b36b74b286ebed762106e",
+      "metrics": {
+        "width": 640,
+        "height": 540,
+        "scroll": 384,
+        "client": 384,
+        "images": [],
+        "overflow": false
+      }
+    },
+    {
+      "scene": "pending",
+      "filename": "c_held_pending_shortage__r002.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "02ff866f727c38a9051e654f4a1928f7137b65be14e678dc193b38e1f7c8714b",
+      "metrics": {
+        "width": 640,
+        "height": 540,
+        "scroll": 384,
+        "client": 384,
+        "images": [],
+        "overflow": false
+      }
+    },
+    {
+      "scene": "scope",
+      "filename": "d_scope_network_error__r002.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "bada65f865a7a3e4bc896a714b5bb57e58a9f24aed1fee7e32d935143fcfaddb",
+      "metrics": {
+        "width": 640,
+        "height": 540,
+        "scroll": 384,
+        "client": 384,
+        "images": [
+          {
+            "loaded": true,
+            "width": 32,
+            "height": 32
+          },
+          {
+            "loaded": true,
+            "width": 32,
+            "height": 32
+          },
+          {
+            "loaded": true,
+            "width": 32,
+            "height": 32
+          }
+        ],
+        "overflow": false
+      }
+    }
+  ],
+  "review": [
+    "Four states: viewport1280x720, panel640x540, no unwanted main scroll, native32pxPNGicons loaded.",
+    "Escape dismisses top modal then wallet; reopen works; shortage payment disabled.",
+    "Tabs switch; receipt search acceptsWASD/numbers as text; no game input handlers.",
+    "Scope failure hides previous-server gameplay balances; retry displays loading, not fakezero.",
+    "Loading, empty, restricted, maximum-balance variants fit without clipped amounts.",
+    "Overview also checked at1024x768."
+  ],
+  "consoleErrors": [],
+  "notVerified": [
+    "real wallet backend",
+    "server permission enforcement",
+    "transactions",
+    "gameplay input integration",
+    "all monitors and UI scales"
+  ],
+  "sourceSha256": "8eae01ff8bb42a3a01c8d9a685ed0503888b0553589ede7781d23e3136c2fc9d",
+  "supersedes": "../wallet-v1/manifest.json",
+  "presentation": "In-game pixel fantasy frame over original pixel2.5D environment concept",
+  "background": {
+    "assetId": "AT-AST-100005",
+    "revision": "r001",
+    "filename": "outpost_pixel25d__concept_r001.png",
+    "width": 1672,
+    "height": 941,
+    "sha256": "aecd3401504b4be736d18136999cefaae83c14ec8b421121cf5b2057cff59ac1",
+    "role": "new generated environment concept for mockup context only",
+    "generator": "built-in image_gen",
+    "promptFile": "background_prompt.txt",
+    "styleReference": "../mmorpg-pixel-v4/styleboard-refined-v4.png",
+    "runtime3DMapImplemented": false,
+    "cameraGateVerified": false
+  },
+  "currencyReferences": [
+    {
+      "assetId": "AT-AST-100001",
+      "revision": "r002",
+      "publicUrl": "/assets/mmorpg/currency/r002/currency_premium_crystal_32__r002.png",
+      "sha256": "221b2e424d7ecdde6daea738f2aaf64474a698e754bf68da714111bd56ce45a6"
+    },
+    {
+      "assetId": "AT-AST-100002",
+      "revision": "r002",
+      "publicUrl": "/assets/mmorpg/currency/r002/currency_bound_seal_32__r002.png",
+      "sha256": "cf774889a4b0d4c1ddfedcee13024e8618bb2137aa31003b95dfacf828b6b438"
+    },
+    {
+      "assetId": "AT-AST-100003",
+      "revision": "r002",
+      "publicUrl": "/assets/mmorpg/currency/r002/currency_elarion_coin_32__r002.png",
+      "sha256": "1704c5019c4d267ee503e15686a16e398461ab4b9eb6e9bfeff1e1bd4d0cf0ed"
+    }
+  ],
+  "visualInspection": {
+    "date": "2026-10-22",
+    "reviewedStates": [
+      "overview",
+      "history",
+      "pending",
+      "scope"
+    ],
+    "result": "Pixel-beveled wood/brass frame, visible world depth/context, native icons and readable Vietnamese labels; no content clipping at1280x720.",
+    "defaultPanelPositionAt1280": {
+      "left": 420,
+      "top": 90,
+      "width": 640,
+      "height": 540
+    },
+    "contextHUD": "illustrative HP/MP and13empty hotbar slots, no gameplay actions",
+    "walletMechanicsChanged": false,
+    "designControlsHiddenInCaptures": true
+  }
+}

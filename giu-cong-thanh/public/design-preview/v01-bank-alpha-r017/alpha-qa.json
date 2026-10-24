@@ -1,0 +1,24 @@
+{
+  "metrics": {
+    "straight": {
+      "removed": 16400,
+      "kept": 149148,
+      "semiPromoted": 149148,
+      "cutoff": 128
+    },
+    "convex": {
+      "removed": 16282,
+      "kept": 152234,
+      "semiPromoted": 152234,
+      "cutoff": 128
+    },
+    "concave": {
+      "removed": 17757,
+      "kept": 151597,
+      "semiPromoted": 151597,
+      "cutoff": 128
+    }
+  },
+  "rawSwitch": true,
+  "changed": true
+}

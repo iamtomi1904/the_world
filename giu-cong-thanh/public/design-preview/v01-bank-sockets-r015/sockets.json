@@ -1,0 +1,46 @@
+{
+  "version": 1,
+  "status": "Draft connection anchors; visual seams not approved",
+  "coordinateSpace": "source image pixels, origin top-left",
+  "modules": [
+    {
+      "id": "straight",
+      "name": "Bờ thẳng",
+      "image": "../v01-bank-art-r014/straight-source-r001.png",
+      "start": [
+        118,
+        382
+      ],
+      "end": [
+        2053,
+        382
+      ]
+    },
+    {
+      "id": "convex",
+      "name": "Góc lồi",
+      "image": "../v01-bank-art-r014/convex-source-r001.png",
+      "start": [
+        62,
+        365
+      ],
+      "end": [
+        1525,
+        365
+      ]
+    },
+    {
+      "id": "concave",
+      "name": "Góc lõm",
+      "image": "../v01-bank-art-r014/concave-source-r001.png",
+      "start": [
+        76,
+        485
+      ],
+      "end": [
+        1515,
+        485
+      ]
+    }
+  ]
+}

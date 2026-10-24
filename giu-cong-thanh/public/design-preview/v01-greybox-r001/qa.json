@@ -1,0 +1,45 @@
+{
+  "date": "2026-10-22",
+  "model": {
+    "deepBlocked": true,
+    "bridgeWalkable": true,
+    "houseBlocked": true,
+    "shallow": 0.8,
+    "bridgeCrossed": true,
+    "noTunnel": true,
+    "reachability": [
+      {
+        "race": "human",
+        "goals": 28,
+        "miss": []
+      },
+      {
+        "race": "elf",
+        "goals": 28,
+        "miss": []
+      },
+      {
+        "race": "dwarf",
+        "goals": 28,
+        "miss": []
+      }
+    ]
+  },
+  "checks": [
+    "keyboard movement",
+    "deepwater/house collision and bridge crossing",
+    "shallow slowdown",
+    "physical collision-grid reachability for3radii",
+    "2 sample state",
+    "enter/exit2caves and6room dungeon",
+    "copy/proxy gate state and intro transition",
+    "390px layout"
+  ],
+  "limits": [
+    "No real boss combat, AI leashing, loot or auth",
+    "No multiplayer/save test",
+    "Prototype dimensions/speed do not validate production timings",
+    "Grid reachability is not a full human playtest"
+  ],
+  "errors": []
+}

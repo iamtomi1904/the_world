@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "source": "cottage-roof-alpha-r002.png",
+  "status": "Generated candidate roof; not pixel-identical extraction",
+  "sceneSize": [
+    800,
+    500
+  ],
+  "placement": {
+    "x": 86,
+    "y": 12,
+    "width": 224
+  },
+  "pivotNormalized": [
+    0.43,
+    0.95
+  ],
+  "pixelPolicy": "nearest-neighbor; preserve original PNG alpha; no threshold cutout",
+  "approval": "candidate only; original roof stays default"
+}

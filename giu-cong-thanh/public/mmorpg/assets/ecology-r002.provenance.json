@@ -1,0 +1,18 @@
+{
+  "date": "2026-10-24",
+  "tool": "image_gen.imagegen built-in",
+  "reference": "public/design-preview/v01-art-upgrade-r009/scene-art-target-r009.png",
+  "assets": [
+    {
+      "file": "vegetation-r002.png",
+      "source": "exec-50d17ba7-64c3-41f1-94a8-a9100b7aac43.png",
+      "prompt": "Game sprite atlas for An Thanh, a 2D pixel-art fantasy RPG rendered in a 2.5D scene. Supplied image is STYLE REFERENCE ONLY. Produce exactly six SMALL ground vegetation sprites in a strict 3 columns by 2 rows evenly spaced grid, on genuinely transparent background, no labels, no lines, no floor tiles, no soil discs, no UI. Each cell has ONE isolated coherent patch with plenty of transparent padding; patches do not cross cell boundaries. Top row left to right: low irregular wild grass tuft, broad woodland fern cluster, dense rounded small leafy shrub. Bottom row: slender river reeds, a compact patch of many tiny white/yellow daisies embedded among low leaves, patch of subtle tiny yellow wildflowers among grassy leaves. Muted natural woodland greens, warm sunlit tops, dark forest green undersides; crisp pixel clusters at an apparent native 32-48 pixels per patch enlarged nearest-neighbor. Match the reference's rich but readable classic RPG pixel style. Plants have coherent roots/contact points, believable modest height, not huge single flowers. No pot, no tall tree, no antialias haze, no photorealism, no brushy blur. Three-quarter top-down ground-view matching the cottage scene. Entire atlas square format with exact equal grid cells. Transparent alpha outside the plants."
+    },
+    {
+      "file": "meadow-ground-r002.png",
+      "source": "exec-f689deef-5da5-455d-9c45-c599bab6c75a.png",
+      "prompt": "A seamless tileable grass ground material for the 2D pixel fantasy RPG An Thanh, matching the supplied STYLE REFERENCE ONLY. Output only a square, uniformly lit, edge-to-edge swatch of short meadow turf. Medium muted olive/moss greens with broad calm organic mottled patches and sparse readable pixel clusters of tiny grass blades. Visually quiet enough to place characters and flowers above it. Clearly deliberate pixel art, apparent native 96 by 96 pixels enlarged cleanly, sharp square pixel clusters. No white dot noise, no fine random TV static, no bright yellow checkerboard, no flowers, no stones, no shrubs, no trees, no path, no border, no grid, no text, no UI. Avoid smooth gradients, photorealism, bevels or directional shadows. All four edges should repeat naturally. Keep contrast low; painted pixel clusters similar to the grassy resting areas of the reference, not a scene illustration."
+    }
+  ],
+  "notes": "Runtime trims/crops cells; source PNGs preserved. No native pixel cleanup or mathematically seamless certification."
+}

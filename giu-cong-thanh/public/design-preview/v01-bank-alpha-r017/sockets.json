@@ -1,0 +1,64 @@
+{
+  "version": 2,
+  "status": "Alpha material preview; original source preserved",
+  "coordinateSpace": "pixels inside explicit frame",
+  "modules": [
+    {
+      "id": "straight",
+      "name": "Bờ thẳng",
+      "image": "bank-kit-source-r004.png",
+      "frame": {
+        "x": 0,
+        "y": 250,
+        "w": 1024,
+        "h": 350
+      },
+      "start": [
+        42,
+        160
+      ],
+      "end": [
+        982,
+        160
+      ]
+    },
+    {
+      "id": "convex",
+      "name": "Góc lồi",
+      "image": "bank-kit-source-r004.png",
+      "frame": {
+        "x": 0,
+        "y": 650,
+        "w": 1024,
+        "h": 350
+      },
+      "start": [
+        42,
+        110
+      ],
+      "end": [
+        982,
+        110
+      ]
+    },
+    {
+      "id": "concave",
+      "name": "Góc lõm",
+      "image": "bank-kit-source-r004.png",
+      "frame": {
+        "x": 0,
+        "y": 970,
+        "w": 1024,
+        "h": 420
+      },
+      "start": [
+        42,
+        210
+      ],
+      "end": [
+        982,
+        210
+      ]
+    }
+  ]
+}

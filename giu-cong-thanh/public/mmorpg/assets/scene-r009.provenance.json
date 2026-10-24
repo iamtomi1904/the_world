@@ -1,0 +1,13 @@
+{
+  "tool": "image_gen",
+  "date": "2026-10-24",
+  "prompts": [
+    "Create a production modular sprite atlas for the attached medieval top-down 2.5D PIXEL ART map. Exactly 4 columns and 3 rows, each asset fully isolated in its own equal cell, generous transparent gutters and truly transparent background. No text, no labels, no baked landscape. Consistent elevated 3/4 camera, crisp pixel clusters not smooth painting. Row1: dense green river reeds with brown cattails; low wet marsh grass and tiny white flowers; irregular moss-covered stream pebbles with tiny rushes; flat dry grass tufts with daisies and buttercups. Row2: rustic wooden bench; small two-wheel wooden handcart with grain sacks; tied golden hay bundles; wooden chopping stump with axe and neatly stacked firewood. Row3: narrow vegetable garden with wooden edging and a few cabbages; old stone roadside shrine with cracked rune and moss; wooden training dummy with straw torso; rustic work table with clay jugs and tools. Match the lush natural greens, warm orange wood, grey stone and readable pixel scale of supplied map. Not chibi, not glossy, no outlines around grid cells.",
+    "Create a precise transparent pixel-art walk sprite sheet matching attached existing beginner human character: brown spiky hair, cream shirt, brown sleeveless vest, dark olive trousers, brown boots, no weapon. EXACTLY four columns and two rows, equal cells, full-body same scale and foot baseline inside every cell with generous margins. Top row FOUR sequential walking frames facing directly SOUTH/front: left foot forward, passing pose, right foot forward, passing pose. Bottom row FOUR sequential walking frames facing directly NORTH/back with corresponding opposite legs. Keep same head/torso size, same body placement and frame dimensions across all eight sprites, no drift, no shadows, no text, transparent background. Crisp small-scale game pixel art, logical resolution around 48x64 per actor, same top-down elevated angle and proportions as reference; not rendered illustration."
+  ],
+  "files": [
+    "scene-details-r009.png",
+    "human-walk-vertical-r009.png"
+  ],
+  "usage": "12 modular props trimmed at runtime; 8 vertical walking frames normalized to the existing 96px canvas and 80px foot anchor."
+}

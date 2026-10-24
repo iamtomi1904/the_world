@@ -1,0 +1,46 @@
+{
+  "version": 1,
+  "space": "scene 800x500",
+  "sourceOriginal": "../v01-art-scene-r020/scene-background-r020.png",
+  "sourceUnderlay": "cottage-under-roof-r001.png",
+  "roofPolygon": [
+    [
+      86,
+      10
+    ],
+    [
+      310,
+      10
+    ],
+    [
+      310,
+      140
+    ],
+    [
+      86,
+      140
+    ]
+  ],
+  "chimneyPolygon": [
+    [
+      120,
+      14
+    ],
+    [
+      143,
+      14
+    ],
+    [
+      143,
+      69
+    ],
+    [
+      120,
+      84
+    ]
+  ],
+  "autoRadius": 22,
+  "fadeAlpha": 0.25,
+  "fadeRate": 5,
+  "status": "Roof-region cutaway; rectangular repair boundary includes adjacent scenery, not clean transparent roof sprite"
+}

@@ -1,0 +1,24 @@
+{
+  "checks": {
+    "offlineScreen": true,
+    "isolatedProfile": true,
+    "localBridge": true,
+    "version": true,
+    "rejectRemoteHTTP": true,
+    "rejectWrongServer": true,
+    "retryConnect": true,
+    "noBridgeOnLogin": true,
+    "gameStarts": true,
+    "noBridgeOnGame": true,
+    "movement": true,
+    "persistedMovement": true,
+    "modularMap": true,
+    "sandbox": true,
+    "blockExternalNavigation": true,
+    "f8Registered": true,
+    "f8Settings": true,
+    "rememberServer": true
+  },
+  "errors": [],
+  "scope": "Packaged Windows v0.2.0; offline/retry/security/game/PostgreSQL; isolated profile, temporary account removed"
+}

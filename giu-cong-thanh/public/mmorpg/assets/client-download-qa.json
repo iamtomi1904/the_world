@@ -1,0 +1,11 @@
+{
+  "checks": {
+    "downloadButton": true,
+    "manifest": true,
+    "zipHeaders": true,
+    "zipBytes": true,
+    "mobile": true
+  },
+  "errors": [],
+  "scope": "Download page and streaming ZIP headers/first bytes; archive listing checked separately"
+}

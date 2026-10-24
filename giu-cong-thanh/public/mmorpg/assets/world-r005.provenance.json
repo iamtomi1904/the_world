@@ -1,0 +1,22 @@
+{
+  "tool": "built-in image_gen",
+  "reference": "User reference codex-clipboard-3a300886-24a5-47d8-97c5-bbaeb2d1382d.png",
+  "assets": [
+    {
+      "file": "settlement-kit-r001.png",
+      "source": "C:/Users/Admin/.codex/generated_images/01a14361-6033-7670-8c0e-846dfa6a69fc/exec-6c476621-859f-4cdf-a20d-fad1de8397fd.png",
+      "prompt": "Production modular sprite atlas for medieval pixel 2.5D top-down RPG, match reference crisp natural pixel art. Exactly 4 columns by 3 rows with large transparent gutters, individual fully contained props, no scene no text. Row1 four DIFFERENT buildings: cozy plaster cottage orange tile roof; small timber barn straw roof; tall village inn two storeys orange roof; small timber mill with blue-grey shingle roof (no wheel). Row2: canvas refugee tent; open-sided blacksmith workshop dark roof; small stone well; campfire stone ring. Row3: ancient sealed stone dungeon entrance embedded in freestanding rocky outcrop with teal seal and dark doorway; ancient large tree-root hollow cave entrance; timber mine entrance with pale limestone outcrop. Fourth object in row3: cracked bronze bell on ancient stone plinth. All props single game sprites with visible front and roof from elevated camera, coherent scale, rich but readable pixel clusters. Truly transparent background including holes; no landscape/backdrop, no people, no baked ground planes. Reference is style only, not image to copy wholesale."
+    },
+    {
+      "file": "terrain-kit-r001.png",
+      "source": "C:/Users/Admin/.codex/generated_images/01a14361-6033-7670-8c0e-846dfa6a69fc/exec-436325bb-b601-4e09-ab8f-ff9c41df12b1.png",
+      "prompt": "Production modular terrain asset atlas for pixel 2.5D medieval top-down RPG, match reference natural crisp pixel clusters. Exactly 3 columns by 3 rows with transparent gutters, no labels no text. Row1: long horizontal grass-topped rugged grey rock cliff face seamless side-to-side, straight front-facing lip, no trees; a left curved grass-topped cliff end; a right curved grass-topped cliff end. Row2: broad stone staircase rising towards north with 7 steps and grassy side edges; large irregular craggy grey rocky mountain outcrop with moss (single isolated rock mass); group of grey river boulders and pebbles. Row3: square cultivated plot of golden wheat neat rows; square cultivated plot of green cabbages and corn rows; square plowed brown soil furrows with little seedlings. Three crop plots have NO fence and NO massive raised border. All isolated modular game assets with genuine transparent background outside assets, natural earthy palette, perspective matches reference. No characters, no complete map."
+    },
+    {
+      "file": "fort-river-kit-r001.png",
+      "source": "C:/Users/Admin/.codex/generated_images/01a14361-6033-7670-8c0e-846dfa6a69fc/exec-5fd49a83-e1bd-4e8a-a1ca-6ca6c154d739.png",
+      "prompt": "Production modular pixel art sprite atlas for same medieval top-down 2.5D RPG as reference, medium detail crisp pixels, natural mossy stone and warm timber. Four separate sprites in 2 columns by 2 rows, large transparent gutters, no labels. Top-left: a narrow wooden footbridge running north-south, straight walkable center with rope/wood railings on sides, elevated three-quarter view, no water. Top-right: straight long horizontal defensive stone rampart wall with battlements, damaged mossy masonry, no landscape. Bottom-left: closed large fortress gate in a short stone wall section, tall wooden double doors, small defensive towers; no scene. Bottom-right: small wooden water-survey station shelter with measuring post and buckets, no water or ground. Each asset isolated, full silhouette inside own cell, genuinely transparent background. Match reference style, do not copy entire map."
+    }
+  ],
+  "frames": "world-r005.frames.json; hand-authored regions follow actual gutters, not assumed uniform cells."
+}

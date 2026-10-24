@@ -1,0 +1,118 @@
+{
+  "version": "walk-east-draft-r001",
+  "source": "../v01-p0-scene-r003/human-walk-east-source__r001.png",
+  "image": "human-walk-east-atlas__draft.png",
+  "direction": "east",
+  "frames": [
+    {
+      "index": 0,
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      "sourceRect": {
+        "x": 200,
+        "y": 79,
+        "w": 379,
+        "h": 584,
+        "torsoCenter": 355.9669721385079
+      },
+      "targetBody": {
+        "x": 37,
+        "y": 40,
+        "w": 26,
+        "h": 40
+      },
+      "pivot": {
+        "x": 48,
+        "y": 80
+      }
+    },
+    {
+      "index": 1,
+      "rect": {
+        "x": 96,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      "sourceRect": {
+        "x": 742,
+        "y": 76,
+        "w": 206,
+        "h": 587,
+        "torsoCenter": 823.2776002191581
+      },
+      "targetBody": {
+        "x": 42,
+        "y": 40,
+        "w": 14,
+        "h": 40
+      },
+      "pivot": {
+        "x": 48,
+        "y": 80
+      }
+    },
+    {
+      "index": 2,
+      "rect": {
+        "x": 192,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      "sourceRect": {
+        "x": 1132,
+        "y": 76,
+        "w": 399,
+        "h": 590,
+        "torsoCenter": 1345.0436565364207
+      },
+      "targetBody": {
+        "x": 34,
+        "y": 40,
+        "w": 27,
+        "h": 40
+      },
+      "pivot": {
+        "x": 48,
+        "y": 80
+      }
+    },
+    {
+      "index": 3,
+      "rect": {
+        "x": 288,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      "sourceRect": {
+        "x": 1735,
+        "y": 76,
+        "w": 278,
+        "h": 584,
+        "torsoCenter": 1843.9228315884352
+      },
+      "targetBody": {
+        "x": 41,
+        "y": 40,
+        "w": 19,
+        "h": 40
+      },
+      "pivot": {
+        "x": 48,
+        "y": 80
+      }
+    }
+  ],
+  "uniformScale": 0.06779661016949153,
+  "bodyReferenceHeight": 40,
+  "frameSize": 96,
+  "transparentRatio": 0.7356988238047272,
+  "alignment": "alpha baseline + torso centroid heuristic, requires manual verification",
+  "status": "AI-source normalized animation trial, not hand-cleaned native"
+}

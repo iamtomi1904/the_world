@@ -1,0 +1,5 @@
+import {readFileSync,writeFileSync} from 'node:fs';import {polygon} from './binh-minh-geography.mjs';
+const d=new URL('../public/mmorpg/maps/',import.meta.url),gf=new URL('binh-minh-geology.json',d),mf=new URL('binh-minh.tmj',d),g=JSON.parse(readFileSync(gf)),m=JSON.parse(readFileSync(mf));let changes=0;
+for(let y=9;y<891;y++)for(let x=9;x<1191;x++){const px=x*5+2.5,py=y*5+2.5,i=y*1200+x,wet=g.hydrology.filter(h=>px>=h.bounds[0]&&px<=h.bounds[2]&&py>=h.bounds[1]&&py<=h.bounds[3]&&polygon(px,py,h.water));if(!wet.length)continue;let tile=wet.some(h=>h.deep)?3:5;if(g.decks.some(d=>px>=d.rect[0]&&px<=d.rect[0]+d.rect[2]&&py>=d.rect[1]&&py<=d.rect[1]+d.rect[3]))tile=4;if(g.navigation.data[i]!==tile){changes++;g.navigation.data[i]=tile;}}
+const ground=m.layers.find(l=>l.name==='Ground');for(let y=0;y<300;y++)for(let x=0;x<400;x++)ground.data[y*400+x]=g.navigation.data[(y*3+1)*1200+x*3+1];
+writeFileSync(gf,JSON.stringify(g)+'\n');writeFileSync(mf,JSON.stringify(m,null,2)+'\n');console.log({waterMeshCellsCorrected:changes});

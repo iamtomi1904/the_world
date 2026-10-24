@@ -1,0 +1,57 @@
+{
+  "date": "2026-10-22",
+  "revision": "r002",
+  "assetId": "AT-AST-100009",
+  "source": "C:\\Users\\Admin\\.codex\\generated_images\\01a14361-6033-7670-8c0e-846dfa6a69fc\\exec-54c92aeb-c476-423d-901c-cbc864c16a2f.png",
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "sha256": "290efaeef7e4108a84fac2890434409ad20d352f3dc460c79bfbcb7e55d5d480",
+  "method": "built-in image_gen expansion; SVG grayscale/clip UI",
+  "runtimeReady": false,
+  "status": "concept-preview",
+  "notes": [
+    "r001 central geography retained as authoritative reference; central illustration redrawn in expansion",
+    "future lands not released maps",
+    "UI simulates level/story/faction access, no backend",
+    "polygons illustrative, not runtime boundaries"
+  ],
+  "captures": [
+    {
+      "file": "a_level10__r002.png",
+      "sha256": "ce6490e9bb754c2d4a241066950935a8c4c8b0b5ca0d320d6ee999243b70f0cc"
+    },
+    {
+      "file": "b_level30__r002.png",
+      "sha256": "4bec05e2d3005fdf6052c9eafb8d59c3c47b5959539f76d7fd0983d01c33a9ff"
+    },
+    {
+      "file": "c_level60__r002.png",
+      "sha256": "af7e5689aaa8559f415cb7067f700c71fb962216c2070a3dfebabb7dd26986e8"
+    },
+    {
+      "file": "d_all_concept__r002.png",
+      "sha256": "3b63757cccde9bced2eb30c9f9ed6e21fa391dbd36d915e4446bd4168deab515"
+    }
+  ],
+  "prototypeQA": [
+    "Level10/30/60states;10futurelandsalwaysunreleased; faction/storygates;selection/keyboard",
+    "No horizontal overflow1440/1024/390; previewresponsiveonly"
+  ],
+  "consoleErrors": [],
+  "files": [
+    {
+      "file": "index.html",
+      "sha256": "409020dd309b8455b46505b22d389e3c474ff26525363fe857b3d375f8e8456d"
+    },
+    {
+      "file": "map-data.json",
+      "sha256": "42f8949f399e2003d5e2748359846f63d719bb782298324eb1b254d407c58f1f"
+    },
+    {
+      "file": "prompt.txt",
+      "sha256": "dac296bcf6cdae44cd2201a8a9f56bc73371c5d2403556a8ebb1790ba1ec65cb"
+    }
+  ]
+}

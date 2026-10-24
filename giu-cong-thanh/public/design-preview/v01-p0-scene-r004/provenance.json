@@ -1,0 +1,35 @@
+{
+  "date": "2026-10-23",
+  "tool": "image_gen built-in",
+  "reference": "../mmorpg-pixel-v4/styleboard-current-races-r002.png",
+  "files": [
+    {
+      "key": "grass",
+      "source": "C:/Users/Admin/.codex/generated_images/01a14361-6033-7670-8c0e-846dfa6a69fc/exec-c1454dd4-8214-4abd-a563-dcf2ae7af78d.png",
+      "projectSource": "grass-source__r001.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "120898b1f416b5c97762ce2d55765afba271b99aae810511ac9da5cb995d9b53",
+      "prompt": "Create ONE new square seamless repeatable GROUND TEXTURE, flat top-down orthographic, opaque. Use input image ONLY for muted green palette and grouped-pixel style, do not copy any scene. Grass base for beginner fantasy RPG Binh Minh. Design as a low-resolution 32x32 pixel-authoring tile enlarged for viewing, clear square pixel clusters without drawn grid lines. Restrained olive and yellow-green, small grouped turf marks, generous quiet midtone areas, no big distinctive center feature. At most a few subtle short grass clusters, no flowers, trees, rocks, dirt patches, paths, water, shadows, outlines, borders, labels, objects or perspective. Even material detail and brightness right to all four edges, no vignette, no center light, no cloudy gradients. Opposite edges should repeat seamlessly horizontally and vertically; no edge bands. Flat texture only fills whole square. Crisp pixel-art material, NOT photograph, brush painting, noisy per-pixel random static or smooth illustration. This is an original texture source, not a full map.\n",
+      "draft": "grass-32__draft.png"
+    },
+    {
+      "key": "dirt",
+      "source": "C:/Users/Admin/.codex/generated_images/01a14361-6033-7670-8c0e-846dfa6a69fc/exec-e67ffe10-14b2-4583-9e7d-764cc3595716.png",
+      "projectSource": "dirt-source__r001.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "908aff4347a8f7ed52828d8863a61c4cbccda2ecbb2881803c8f7018caae35b4",
+      "prompt": "Create ONE new square seamless repeatable GROUND TEXTURE, flat top-down orthographic, opaque. Use input image ONLY for ochre footpath palette and restrained grouped-pixel material style. Dry compacted earthen path fill for beginner fantasy RPG Binh Minh. Design as a low-resolution 32x32 pixel-authoring tile enlarged for viewing, square pixel clusters without grid lines. Warm desaturated ochre/light-brown, subtle compacted dirt flecks, only a few tiny darker soil marks; broad quiet areas so characters and telegraphs stay readable. Not orange sand or cracked desert. NO grass, pebbles with shadows, rocks, footprints, road borders, track lines, bevel, center feature, perspective, labels or objects. Even brightness/detail right to all four edges, no vignette or center highlight. Opposite edges should repeat seamlessly both directions. Fills whole square with same material. Crisp pixel art, NOT photo or painting, no smooth gradients or fine random noise. Original texture source only, not a whole path or map.\n",
+      "draft": "dirt-32__draft.png"
+    }
+  ],
+  "normalization": "nearest-neighbor32px technical sample; build-ground-drafts.cjs",
+  "review": [
+    "Grass raw source is busy and repeat rhythm needs review",
+    "Edges measured, not approved as seamless",
+    "Scene applies adjustable flat-color mix, defaults35%texture",
+    "Transition is scene shader mask, not artist-authored47tile set"
+  ],
+  "status": "Material drafts, not production-native approval"
+}

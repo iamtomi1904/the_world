@@ -1,0 +1,606 @@
+{
+  "version": "r001",
+  "date": "2026-10-23",
+  "scope": "Map 1 cấp 1–10; danh mục họ asset, không phải số sprite/file đã sản xuất",
+  "rows": [
+    {
+      "id": "BM-G01",
+      "group": "Nền",
+      "name": "Cỏ và đất",
+      "priority": "P0",
+      "areas": [
+        "Dùng chung"
+      ],
+      "form": "Tile",
+      "parts": "Nền; mép chuyển; góc lồi/lõm",
+      "rule": "Không collision; biến thể seed cố định, không nhiễu mỗi frame",
+      "variants": "Cỏ sạch/thưa; đất khô; vệt giẫm",
+      "status": "Chưa sản xuất native",
+      "pipeline": "Texture/decal trên surface; nước thêm lớp trình bày, gameplay độc lập"
+    },
+    {
+      "id": "BM-G02",
+      "group": "Nền",
+      "name": "Đường mòn",
+      "priority": "P0",
+      "areas": [
+        "Dùng chung"
+      ],
+      "form": "Tile + decal",
+      "parts": "Lòng đường; mép; dấu bánh xe",
+      "rule": "Giữ bề rộng theo 217; không tự thêm buff chạy",
+      "variants": "Thẳng; cong; T; giao bốn; cụt",
+      "status": "Chưa sản xuất native",
+      "pipeline": "Texture/decal trên surface; nước thêm lớp trình bày, gameplay độc lập"
+    },
+    {
+      "id": "BM-G03",
+      "group": "Nền",
+      "name": "Ruộng và mương",
+      "priority": "P1",
+      "areas": [
+        "Ruộng"
+      ],
+      "form": "Tile + cụm",
+      "parts": "Luống; bờ; đầu mương; đất ẩm",
+      "rule": "Không biến luống trang trí thành vật cản vô hình",
+      "variants": "Luống trồng/bỏ dở; bờ giẫm",
+      "status": "Chưa sản xuất native",
+      "pipeline": "Texture/decal trên surface; nước thêm lớp trình bày, gameplay độc lập"
+    },
+    {
+      "id": "BM-G04",
+      "group": "Nền",
+      "name": "Đá sân và nền hầm",
+      "priority": "P1",
+      "areas": [
+        "Sân chuông",
+        "Phó bản",
+        "Kho Vôi"
+      ],
+      "form": "Tile",
+      "parts": "Nền; cạnh vật liệu; decal mẻ/rêu",
+      "rule": "Ký hiệu cơ chế tách vết nứt thường",
+      "variants": "Đá sửa mới; đá cổ; đá vôi",
+      "status": "Chưa sản xuất native",
+      "pipeline": "Texture/decal trên surface; nước thêm lớp trình bày, gameplay độc lập"
+    },
+    {
+      "id": "BM-H01",
+      "group": "Cao độ",
+      "name": "Vách đất và đá",
+      "priority": "P1",
+      "areas": [
+        "Dùng chung"
+      ],
+      "form": "Mô-đun",
+      "parts": "Đỉnh; mặt vách; chân; góc",
+      "rule": "Footprint vách riêng, không đổi collision theo bóng",
+      "variants": "Vách thấp/cao; đất/đá",
+      "status": "Chưa sản xuất native",
+      "pipeline": "Geometry mô-đun + texture pixel; tách thành phần theo 223, không ảnh phẳng toàn vật"
+    },
+    {
+      "id": "BM-H02",
+      "group": "Cao độ",
+      "name": "Dốc và bậc nối tầng",
+      "priority": "P1",
+      "areas": [
+        "Sân chuông",
+        "Phó bản"
+      ],
+      "form": "Mô-đun",
+      "parts": "Mặt dốc; hai mép; đầu nối",
+      "rule": "Khai báo surface/link; không chỉ vẽ dốc lên tường",
+      "variants": "Dốc đất; bậc đá",
+      "status": "Chưa sản xuất native",
+      "pipeline": "Geometry mô-đun + texture pixel; tách thành phần theo 223, không ảnh phẳng toàn vật"
+    },
+    {
+      "id": "BM-W01",
+      "group": "Nước",
+      "name": "Sông sâu và bờ",
+      "priority": "P0",
+      "areas": [
+        "Sông",
+        "Cầu Sỏi"
+      ],
+      "form": "Tile + lớp động",
+      "parts": "Lõi; bờ; góc; bọt; bóng bờ",
+      "rule": "Vùng chặn đi độc lập art; chỉ cầu đã định nghĩa cho qua",
+      "variants": "Bờ đất; bờ đá; mép lau",
+      "status": "Chưa sản xuất native",
+      "pipeline": "Texture/decal trên surface; nước thêm lớp trình bày, gameplay độc lập"
+    },
+    {
+      "id": "BM-W02",
+      "group": "Nước",
+      "name": "Suối cạn và chỗ xuống",
+      "priority": "P0",
+      "areas": [
+        "Trạm Suối",
+        "Cầu Lau"
+      ],
+      "form": "Tile + lớp động",
+      "parts": "Đáy sỏi; mặt nước; bờ thoải; gợn chân",
+      "rule": "Làm rõ điểm xuống; hệ số chậm lấy cấu hình gameplay",
+      "variants": "Đáy sáng; bờ thoải; dòng hẹp",
+      "status": "Chưa sản xuất native",
+      "pipeline": "Texture/decal trên surface; nước thêm lớp trình bày, gameplay độc lập"
+    },
+    {
+      "id": "BM-V01",
+      "group": "Thực vật",
+      "name": "Cây lá rộng",
+      "priority": "P0",
+      "areas": [
+        "Dùng chung"
+      ],
+      "form": "Sprite tách lớp",
+      "parts": "Gốc/rễ; thân; tán; bóng",
+      "rule": "Chặn bằng gốc; tán có che khuất và điểm bám gió",
+      "variants": "Dáng thẳng; lệch; tán mở; cây non",
+      "status": "Chưa sản xuất native",
+      "pipeline": "Gốc/khối chân + thân/tán sprite dựng hoặc geometry đơn giản; chọn qua scene thử"
+    },
+    {
+      "id": "BM-V02",
+      "group": "Thực vật",
+      "name": "Cây khô và dấu khai thác",
+      "priority": "P1",
+      "areas": [
+        "Rừng"
+      ],
+      "form": "Sprite + cụm",
+      "parts": "Gốc chặt; thân đổ; đống củi",
+      "rule": "Phân biệt khúc chặn với cành trang trí",
+      "variants": "Gốc cưa; cây khô; thân gãy",
+      "status": "Chưa sản xuất native",
+      "pipeline": "Sprite/decal/mesh nhẹ hoặc media theo vai trò; không bắt mọi vật thành mesh"
+    },
+    {
+      "id": "BM-V03",
+      "group": "Thực vật",
+      "name": "Bụi, cỏ và hoa",
+      "priority": "P0",
+      "areas": [
+        "Dùng chung"
+      ],
+      "form": "Cụm sprite",
+      "parts": "Cụm thấp; điểm bám gió",
+      "rule": "Mật độ thấp sát đường; không che mẫu nhiệm vụ",
+      "variants": "Cỏ ngắn; bụi; hoa; nấm",
+      "status": "Chưa sản xuất native",
+      "pipeline": "Sprite/decal/mesh nhẹ hoặc media theo vai trò; không bắt mọi vật thành mesh"
+    },
+    {
+      "id": "BM-V04",
+      "group": "Thực vật",
+      "name": "Lau, rễ và lá rụng",
+      "priority": "P1",
+      "areas": [
+        "Trạm Suối",
+        "Sông",
+        "Hốc Rễ",
+        "Rừng"
+      ],
+      "form": "Cụm + decal",
+      "parts": "Lau bờ; rễ; lá nền",
+      "rule": "Không ngụy trang vật cản hoặc lối ra hầm",
+      "variants": "Lau thấp/cao; rễ bò; lá khô",
+      "status": "Chưa sản xuất native",
+      "pipeline": "Sprite/decal/mesh nhẹ hoặc media theo vai trò; không bắt mọi vật thành mesh"
+    },
+    {
+      "id": "BM-R01",
+      "group": "Đá và vật cản",
+      "name": "Sỏi và cụm đá",
+      "priority": "P0",
+      "areas": [
+        "Dùng chung"
+      ],
+      "form": "Sprite + cụm",
+      "parts": "Sỏi decal; đá nhỏ; tảng",
+      "rule": "Sỏi không chặn, tảng có footprint; không thêm đá bước qua sông",
+      "variants": "Đá đất; đá rêu; đá bờ",
+      "status": "Chưa sản xuất native",
+      "pipeline": "Sprite/decal/mesh nhẹ hoặc media theo vai trò; không bắt mọi vật thành mesh"
+    },
+    {
+      "id": "BM-B01",
+      "group": "Kiến trúc",
+      "name": "Nhà tạm và quầy thuốc",
+      "priority": "P0",
+      "areas": [
+        "Trại"
+      ],
+      "form": "Prefab tách lớp",
+      "parts": "Móng; tường; cửa; mái vá; quầy",
+      "rule": "Mái che được xử lý riêng; vùng F không bị thùng chặn",
+      "variants": "Nhà gỗ vá; mái bạt; mặt quầy",
+      "status": "Chưa sản xuất native",
+      "pipeline": "Geometry mô-đun + texture pixel; tách thành phần theo 223, không ảnh phẳng toàn vật"
+    },
+    {
+      "id": "BM-B02",
+      "group": "Kiến trúc",
+      "name": "Bộ nhà dân và lán nghề",
+      "priority": "P1",
+      "areas": [
+        "Nhà Đèn",
+        "Rừng",
+        "Sân chuông"
+      ],
+      "form": "Mô-đun + prefab",
+      "parts": "Tường; góc; cửa sổ; mái; ống khói",
+      "rule": "Không phóng nhà để đổi công năng; kiểm cửa khi lật",
+      "variants": "Nhà Đèn; lán rừng; nhà trực",
+      "status": "Chưa sản xuất native",
+      "pipeline": "Geometry mô-đun + texture pixel; tách thành phần theo 223, không ảnh phẳng toàn vật"
+    },
+    {
+      "id": "BM-B03",
+      "group": "Kiến trúc",
+      "name": "Hàng rào và cổng",
+      "priority": "P1",
+      "areas": [
+        "Trại",
+        "Ruộng",
+        "Rừng"
+      ],
+      "form": "Mô-đun",
+      "parts": "Cọc; nhịp; góc; đầu; cổng",
+      "rule": "Cổng có state và collider rõ; không cản lối chính",
+      "variants": "Gỗ vá; dây; cổng mở/đóng",
+      "status": "Chưa sản xuất native",
+      "pipeline": "Geometry mô-đun + texture pixel; tách thành phần theo 223, không ảnh phẳng toàn vật"
+    },
+    {
+      "id": "BM-B04",
+      "group": "Kiến trúc",
+      "name": "Cầu Sỏi và bờ kè",
+      "priority": "P0",
+      "areas": [
+        "Cầu Sỏi"
+      ],
+      "form": "Mô-đun tách lớp",
+      "parts": "Đầu cầu; deck; lan can; trụ; bóng",
+      "rule": "Deck rộng theo greybox; trụ/bóng không quyết định walkable",
+      "variants": "Nhịp; đầu Tây/Đông; đoạn sửa",
+      "status": "Chưa sản xuất native",
+      "pipeline": "Geometry mô-đun + texture pixel; tách thành phần theo 223, không ảnh phẳng toàn vật"
+    },
+    {
+      "id": "BM-B05",
+      "group": "Kiến trúc",
+      "name": "Cầu Lau",
+      "priority": "P1",
+      "areas": [
+        "Cầu Lau"
+      ],
+      "form": "Prefab tách lớp",
+      "parts": "Mặt gỗ; đầu cầu; cọc; dây",
+      "rule": "Chỉ nối suối intro đã định nghĩa; không thay Cầu Sỏi",
+      "variants": "Ván cũ; đoạn vá",
+      "status": "Chưa sản xuất native",
+      "pipeline": "Geometry mô-đun + texture pixel; tách thành phần theo 223, không ảnh phẳng toàn vật"
+    },
+    {
+      "id": "BM-P01",
+      "group": "Sinh hoạt",
+      "name": "Bộ đồ dùng dân cư",
+      "priority": "P0",
+      "areas": [
+        "Trại",
+        "Nhà Đèn"
+      ],
+      "form": "Sprite + prefab cụm",
+      "parts": "Bàn; ghế; thùng; chum; bao; giỏ",
+      "rule": "Cụm giữ một vùng lối trống; đồ nhỏ không có collider mặc định",
+      "variants": "Gỗ cũ; vải vá; gốm",
+      "status": "Chưa sản xuất native",
+      "pipeline": "Sprite/decal/mesh nhẹ hoặc media theo vai trò; không bắt mọi vật thành mesh"
+    },
+    {
+      "id": "BM-P02",
+      "group": "Sinh hoạt",
+      "name": "Bếp, đèn và kho",
+      "priority": "P1",
+      "areas": [
+        "Trại",
+        "Nhà Đèn"
+      ],
+      "form": "Sprite + lớp FX",
+      "parts": "Bếp; nồi; đèn; dây phơi; giá kho",
+      "rule": "Lửa sinh hoạt không tự gây damage; nguồn sáng có ngân sách",
+      "variants": "Bếp; đèn tường/treo; giá hàng",
+      "status": "Chưa sản xuất native",
+      "pipeline": "Sprite/decal/mesh nhẹ hoặc media theo vai trò; không bắt mọi vật thành mesh"
+    },
+    {
+      "id": "BM-P03",
+      "group": "Sinh hoạt",
+      "name": "Xe kéo và dấu cứu trợ",
+      "priority": "P1",
+      "areas": [
+        "Ruộng",
+        "Trại",
+        "Cầu Lau"
+      ],
+      "form": "Prefab + decal",
+      "parts": "Xe; bánh; dây; dấu xe",
+      "rule": "Xe hỏng chặn phải đọc được; không chặn chặng cứu trợ",
+      "variants": "Xe dùng được/hỏng; hàng cứu trợ",
+      "status": "Chưa sản xuất native",
+      "pipeline": "Sprite/decal/mesh nhẹ hoặc media theo vai trò; không bắt mọi vật thành mesh"
+    },
+    {
+      "id": "BM-O01",
+      "group": "Đạo cụ nghề",
+      "name": "Trạm lấy mẫu và guồng nước",
+      "priority": "P0",
+      "areas": [
+        "Trạm Suối"
+      ],
+      "form": "Prefab tách lớp",
+      "parts": "Guồng gãy; máng; cọc đo; thùng; bộ mẫu",
+      "rule": "Tách guồng hỏng khỏi guồng quay; mẫu M06 có interaction riêng",
+      "variants": "Bánh gãy; dụng cụ lấy mẫu; điểm thao tác",
+      "status": "Chưa sản xuất native",
+      "pipeline": "Sprite/decal/mesh nhẹ hoặc media theo vai trò; không bắt mọi vật thành mesh"
+    },
+    {
+      "id": "BM-O02",
+      "group": "Đạo cụ nghề",
+      "name": "Bộ nghề và dịch vụ",
+      "priority": "P1",
+      "areas": [
+        "Trại",
+        "Rừng"
+      ],
+      "form": "Sprite + prefab",
+      "parts": "Bàn ghi danh; rèn; dụng cụ; quầy hàng",
+      "rule": "Vai trò theo 12 NPC đã chốt; không phát minh dịch vụ mới",
+      "variants": "Chỉ huy; thợ; thuốc; kho/bếp",
+      "status": "Chưa sản xuất native",
+      "pipeline": "Sprite/decal/mesh nhẹ hoặc media theo vai trò; không bắt mọi vật thành mesh"
+    },
+    {
+      "id": "BM-L01",
+      "group": "Lore",
+      "name": "Đồ vật gia đình và đường cũ",
+      "priority": "P1",
+      "areas": [
+        "Nhà Đèn",
+        "Rừng",
+        "Trại"
+      ],
+      "form": "Sprite + decal",
+      "parts": "Dụng cụ cha; đèn cũ; ký hiệu đường",
+      "rule": "Theo hồ sơ truyện; không đặt toàn bộ bí mật vào một decal",
+      "variants": "Đồ dùng lại; vết khắc; biển cũ",
+      "status": "Chưa sản xuất native",
+      "pipeline": "Sprite/decal/mesh nhẹ hoặc media theo vai trò; không bắt mọi vật thành mesh"
+    },
+    {
+      "id": "BM-L02",
+      "group": "Lore",
+      "name": "Chuông nứt và bệ",
+      "priority": "P1",
+      "areas": [
+        "Sân chuông"
+      ],
+      "form": "Prefab tách lớp",
+      "parts": "Chuông; bệ; dây kéo; mảnh sửa",
+      "rule": "Landmark nhìn xa; mảnh đá không lấn sân giao chiến",
+      "variants": "Bệ nứt; đá vá; dây chùng",
+      "status": "Chưa sản xuất native",
+      "pipeline": "Geometry mô-đun + texture pixel; tách thành phần theo 223, không ảnh phẳng toàn vật"
+    },
+    {
+      "id": "BM-D01",
+      "group": "Hầm",
+      "name": "Cửa và bộ Hốc Rễ",
+      "priority": "P1",
+      "areas": [
+        "Hốc Rễ"
+      ],
+      "form": "Mô-đun + prefab",
+      "parts": "Cửa; nền; vách; rễ; chống gỗ",
+      "rule": "Ba khoang, không boss; cửa có điểm quay về",
+      "variants": "Lối vào; khoang đất; rễ lớn",
+      "status": "Chưa sản xuất native",
+      "pipeline": "Geometry mô-đun + texture pixel; tách thành phần theo 223, không ảnh phẳng toàn vật"
+    },
+    {
+      "id": "BM-D02",
+      "group": "Hầm",
+      "name": "Cửa và bộ Kho Vôi",
+      "priority": "P1",
+      "areas": [
+        "Kho Vôi"
+      ],
+      "form": "Mô-đun + prefab",
+      "parts": "Cửa; tường; bao vôi; giàn; rãnh xe",
+      "rule": "Ba khoang, không boss; bao không che lối nối",
+      "variants": "Vôi sáng; gỗ cũ; dấu ghi sổ",
+      "status": "Chưa sản xuất native",
+      "pipeline": "Geometry mô-đun + texture pixel; tách thành phần theo 223, không ảnh phẳng toàn vật"
+    },
+    {
+      "id": "BM-D03",
+      "group": "Hầm",
+      "name": "Bộ phó bản phong ấn",
+      "priority": "P1",
+      "areas": [
+        "Phó bản"
+      ],
+      "form": "Mô-đun + lớp state",
+      "parts": "Sáu phòng; mạch ấn; ổ khóa; hồ sơ P3; cổng",
+      "rule": "Một Oren; cơ chế đọc bằng hình/trạng thái, không chỉ màu",
+      "variants": "Nguyên; mất năng lượng; tương tác xong",
+      "status": "Chưa sản xuất native",
+      "pipeline": "Geometry mô-đun + texture pixel; tách thành phần theo 223, không ảnh phẳng toàn vật"
+    },
+    {
+      "id": "BM-I01",
+      "group": "Tương tác",
+      "name": "Rương và vật nhiệm vụ",
+      "priority": "P1",
+      "areas": [
+        "Dùng chung"
+      ],
+      "form": "Sprite + state",
+      "parts": "Rương đóng/mở; điểm mẫu; vật truyện",
+      "rule": "Giữ 8 rương: 6 ngoài + 2 hầm nhỏ; không nhân loot theo số hình",
+      "variants": "Trạng thái chưa dùng/đã dùng/khóa",
+      "status": "Chưa sản xuất native",
+      "pipeline": "Sprite/decal/mesh nhẹ hoặc media theo vai trò; không bắt mọi vật thành mesh"
+    },
+    {
+      "id": "BM-I02",
+      "group": "Tương tác",
+      "name": "Biển đường và điểm dịch chuyển",
+      "priority": "P1",
+      "areas": [
+        "Trại",
+        "Rừng",
+        "Sân chuông"
+      ],
+      "form": "Sprite + ký hiệu",
+      "parts": "Biển; mốc hồi sinh; cửa chuyển cảnh",
+      "rule": "Ký hiệu gắn điểm đã thiết kế; không tạo waypoint mới",
+      "variants": "Biển hướng; mốc an toàn; cửa hầm",
+      "status": "Chưa sản xuất native",
+      "pipeline": "Sprite/decal/mesh nhẹ hoặc media theo vai trò; không bắt mọi vật thành mesh"
+    },
+    {
+      "id": "BM-C01",
+      "group": "Nhân vật",
+      "name": "Ba thân tân binh",
+      "priority": "P0",
+      "areas": [
+        "Dùng chung"
+      ],
+      "form": "Sprite sheet + layer đồ",
+      "parts": "Con Người; Elf; Người Lùn; bóng; mũ/trang bị",
+      "rule": "Dáng trưởng thành; đầu–thân theo mẫu; novice chưa có nghề",
+      "variants": "Idle; đi; tương tác; hurt; death; chiến đấu theo bộ kỹ năng",
+      "status": "Chưa sản xuất native",
+      "pipeline": "Sprite 2D dựng đứng hướng camera, ground neo thế giới"
+    },
+    {
+      "id": "BM-C02",
+      "group": "Nhân vật",
+      "name": "12 cư dân Bình Minh",
+      "priority": "P1",
+      "areas": [
+        "Trại",
+        "Rừng",
+        "Ruộng",
+        "Trạm Suối",
+        "Sân chuông"
+      ],
+      "form": "Sprite sheet + portrait",
+      "parts": "Sprite thế giới; portrait; pose nghề",
+      "rule": "Tái dùng hồ sơ 214/215; concept không tính là sheet native",
+      "variants": "Idle; đi khi lịch cần; làm việc; biểu cảm hội thoại",
+      "status": "Chưa sản xuất native",
+      "pipeline": "Sprite 2D dựng đứng hướng camera, ground neo thế giới"
+    },
+    {
+      "id": "BM-C03",
+      "group": "Quái",
+      "name": "Quái đất và hai tinh anh",
+      "priority": "P1",
+      "areas": [
+        "Rừng",
+        "Ruộng",
+        "Trạm Suối",
+        "Sân chuông"
+      ],
+      "form": "Sprite sheet + FX",
+      "parts": "18 template đất; hai tinh anh theo roster hiện hành",
+      "rule": "Lập lại roster nguồn trước vẽ; dùng chung rig nếu silhouette cho phép",
+      "variants": "Idle; move; attack; telegraph; hurt; death",
+      "status": "Chưa sản xuất native",
+      "pipeline": "Sprite 2D dựng đứng hướng camera, ground neo thế giới"
+    },
+    {
+      "id": "BM-C04",
+      "group": "Boss",
+      "name": "Boss map và Oren",
+      "priority": "P1",
+      "areas": [
+        "Sân chuông",
+        "Phó bản"
+      ],
+      "form": "Sprite sheet + FX riêng",
+      "parts": "Boss ngoài map; Oren; dấu đánh và chết",
+      "rule": "Hai danh tính khác nhau; telegraph khớp vùng logic; không quái bay",
+      "variants": "Niệm; đánh; chuyển state; chết/giải quyết theo truyện",
+      "status": "Chưa sản xuất native",
+      "pipeline": "Sprite 2D dựng đứng hướng camera, ground neo thế giới"
+    },
+    {
+      "id": "BM-F01",
+      "group": "Môi trường động",
+      "name": "Gió, nước và sinh hoạt",
+      "priority": "P2",
+      "areas": [
+        "Dùng chung"
+      ],
+      "form": "Loop + lớp FX",
+      "parts": "Tán; cỏ; gợn; khói; lửa đèn",
+      "rule": "Gốc đứng yên; lệch pha; giảm chuyển động; không chim bay",
+      "variants": "Gió nhẹ; nước; khói bếp",
+      "status": "Chưa sản xuất native",
+      "pipeline": "Sprite/decal/mesh nhẹ hoặc media theo vai trò; không bắt mọi vật thành mesh"
+    },
+    {
+      "id": "BM-F02",
+      "group": "Môi trường động",
+      "name": "Mưa, sương và thời gian",
+      "priority": "P2",
+      "areas": [
+        "Dùng chung"
+      ],
+      "form": "FX + lighting profile",
+      "parts": "Mưa; sương; ánh sáng ngày/đêm",
+      "rule": "Theo hệ thời gian đã thiết kế; không tự đổi collision; chế độ nhẹ",
+      "variants": "Ngày; tối; mưa; giảm FX",
+      "status": "Chưa sản xuất native",
+      "pipeline": "Sprite/decal/mesh nhẹ hoặc media theo vai trò; không bắt mọi vật thành mesh"
+    },
+    {
+      "id": "BM-F03",
+      "group": "Combat và phản hồi",
+      "name": "Báo đòn và trạng thái",
+      "priority": "P1",
+      "areas": [
+        "Dùng chung"
+      ],
+      "form": "Sprite sheet + ground decal",
+      "parts": "Đòn; impact; telegraph; debuff; tương tác; nhặt đồ",
+      "rule": "Không lấy vùng hình làm hitbox; ưu tiên thấy boss telegraph",
+      "variants": "Theo bộ kỹ năng/hiệu ứng hiện hành, không thêm skill",
+      "status": "Chưa sản xuất native",
+      "pipeline": "Sprite/decal/mesh nhẹ hoặc media theo vai trò; không bắt mọi vật thành mesh"
+    },
+    {
+      "id": "BM-U01",
+      "group": "UI và âm thanh",
+      "name": "Icon, chân dung và tín hiệu âm",
+      "priority": "P1",
+      "areas": [
+        "Dùng chung"
+      ],
+      "form": "UI atlas + audio riêng",
+      "parts": "Icon; prompt F; minimap; chân dung; bước chân; nước; chuông",
+      "rule": "Âm thanh là deliverable riêng, không ảnh; mức âm/giảm FX có tùy chọn",
+      "variants": "Theo vật liệu chân; tương tác; môi trường; chiến đấu",
+      "status": "Chưa sản xuất native",
+      "pipeline": "Sprite/decal/mesh nhẹ hoặc media theo vai trò; không bắt mọi vật thành mesh"
+    }
+  ]
+}

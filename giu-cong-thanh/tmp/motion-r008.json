@@ -1,0 +1,9 @@
+{
+  "frames": 121,
+  "p95FrameMs": 18.32000000000007,
+  "backwardFrames": 0,
+  "largestBackward": 2.4589999999998327,
+  "distance": 305.69899999999916,
+  "nodes": 4086,
+  "errors": []
+}

@@ -1,0 +1,13 @@
+{
+  "date": "2026-10-23",
+  "checks": [
+    "image decode",
+    "original/fit toggle",
+    "390px layout",
+    "gallery35cards"
+  ],
+  "errors": [],
+  "limits": [
+    "Visual concept only; no native/animation/integration"
+  ]
+}

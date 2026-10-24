@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "status": "Bridge layer study; posts still duplicated / alignment not approved",
+  "source": "bridge-layers-source-r002.png",
+  "frames": {
+    "body": {
+      "x": 0,
+      "y": 0,
+      "w": 1024,
+      "h": 768
+    },
+    "front": {
+      "x": 1100,
+      "y": 0,
+      "w": 948,
+      "h": 768,
+      "canvasWidth": 1024,
+      "destX": 76
+    }
+  },
+  "frontOffsetSource": {
+    "x": 0,
+    "y": 30
+  },
+  "preview": {
+    "span": 320,
+    "left": 240,
+    "right": 560,
+    "deckY": 220,
+    "archRise": 12,
+    "deckAnchorYSource": 340
+  },
+  "material": {
+    "alphaCutoff": 128
+  }
+}

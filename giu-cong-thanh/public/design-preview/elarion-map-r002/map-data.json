@@ -1,0 +1,246 @@
+{
+  "revision": "r002",
+  "previewOnly": true,
+  "regions": [
+    {
+      "id": "V01",
+      "name": "Thung Lũng Bình Minh",
+      "minLevel": 1,
+      "maxLevel": 10,
+      "label": [
+        813,
+        533
+      ],
+      "polygon": "738,442 869,435 930,484 901,530 805,555 730,515",
+      "summary": "Ngoại vi Ẩn Thành, cứu trợ và dấu người cha; không quái bay.",
+      "available": true,
+      "needsFaction": false
+    },
+    {
+      "id": "V02",
+      "name": "Valedorn – Hạ Lưu Merrowen",
+      "minLevel": 11,
+      "maxLevel": 20,
+      "label": [
+        560,
+        603
+      ],
+      "polygon": "485,399 590,400 644,475 637,561 559,593 447,547 426,475",
+      "summary": "Đường hàng, kho, đê và bến cứu trợ.",
+      "available": true,
+      "needsFaction": false
+    },
+    {
+      "id": "V03",
+      "name": "Biên Rừng Sylvaris",
+      "minLevel": 21,
+      "maxLevel": 30,
+      "label": [
+        535,
+        300
+      ],
+      "polygon": "419,285 606,286 676,345 621,391 450,420 397,367",
+      "summary": "Rừng cổ, nguồn nước và xung đột khai thác.",
+      "available": true,
+      "needsFaction": false
+    },
+    {
+      "id": "V03",
+      "name": "Đường Hành Hương Aurelia",
+      "minLevel": 21,
+      "maxLevel": 30,
+      "label": [
+        730,
+        370
+      ],
+      "polygon": "631,375 751,365 794,407 769,443 685,452 624,416",
+      "summary": "Sector hành hương của V03; đường đi qua Valedorn, không nối tắt rừng.",
+      "available": true,
+      "needsFaction": false
+    },
+    {
+      "id": "V04",
+      "name": "Nocthollow – Astravelle",
+      "minLevel": 31,
+      "maxLevel": 40,
+      "label": [
+        1071,
+        271
+      ],
+      "polygon": "993,281 1168,267 1234,338 1212,494 1084,522 934,416",
+      "summary": "Vùng trũng phía Đông và cao địa Đông Bắc, điều tra thí nghiệm.",
+      "available": true,
+      "needsFaction": false
+    },
+    {
+      "id": "V05",
+      "name": "Tiền Tuyến Ấn Cổ",
+      "minLevel": 41,
+      "maxLevel": 45,
+      "label": [
+        889,
+        706
+      ],
+      "polygon": "738,562 976,550 1080,640 1114,704 1003,747 843,720 685,635",
+      "summary": "Lối Sahr Kareth; truyện chính tới45, chưa toàn bộ Vực Rỗng.",
+      "available": true,
+      "needsFaction": false
+    },
+    {
+      "id": "W06",
+      "name": "Vành Đai Tranh Chấp",
+      "minLevel": 40,
+      "maxLevel": 60,
+      "label": [
+        1091,
+        603
+      ],
+      "polygon": "975,518 1135,499 1211,555 1202,608 1112,643 981,601",
+      "summary": "Chiến trường hai phe40–60; cần có phe; cùng phe không PK.",
+      "available": true,
+      "needsFaction": true
+    },
+    {
+      "id": "H01",
+      "name": "Hàn Uyên Băng Vực",
+      "minLevel": null,
+      "maxLevel": null,
+      "label": [
+        205,
+        153
+      ],
+      "polygon": "0,0 425,0 438,187 355,275 125,287 0,264",
+      "summary": "Băng lam, khe nứt, bia đá; dấu đoàn canh phòng thất lạc.",
+      "available": false,
+      "needsFaction": false
+    },
+    {
+      "id": "H02",
+      "name": "Cao Nguyên Thiên Thạch",
+      "minLevel": null,
+      "maxLevel": null,
+      "label": [
+        685,
+        89
+      ],
+      "polygon": "432,0 899,0 925,192 751,217 468,205",
+      "summary": "Đá tím, hố va chạm và khoáng lạ; điều tra tín hiệu ngoài trời.",
+      "available": false,
+      "needsFaction": false
+    },
+    {
+      "id": "H03",
+      "name": "Rừng Mộng Nguyệt",
+      "minLevel": null,
+      "maxLevel": null,
+      "label": [
+        1108,
+        139
+      ],
+      "polygon": "932,0 1257,0 1283,234 1130,280 925,190",
+      "summary": "Tán bạc, hồ lưỡi liềm; ký ức lưu trong rừng cần được kiểm chứng.",
+      "available": false,
+      "needsFaction": false
+    },
+    {
+      "id": "H04",
+      "name": "Quần Đảo Sương Bạc",
+      "minLevel": null,
+      "maxLevel": null,
+      "label": [
+        1387,
+        202
+      ],
+      "polygon": "1261,0 1536,0 1536,329 1262,315 1223,250",
+      "summary": "Đảo nhỏ, sương và hải đăng đổ; tuyến biển bị quên, khác Hải Đăng hiện có.",
+      "available": false,
+      "needsFaction": false
+    },
+    {
+      "id": "H05",
+      "name": "Thảo Nguyên Cự Thú",
+      "minLevel": null,
+      "maxLevel": null,
+      "label": [
+        184,
+        458
+      ],
+      "polygon": "0,289 343,282 391,352 359,613 91,635 0,571",
+      "summary": "Đồng cỏ, xương cổ và cây tán thấp; chuyện di cư và nguồn sống.",
+      "available": false,
+      "needsFaction": false
+    },
+    {
+      "id": "H06",
+      "name": "Đầm Hắc Liên",
+      "minLevel": null,
+      "maxLevel": null,
+      "label": [
+        167,
+        820
+      ],
+      "polygon": "0,637 310,608 426,679 362,800 294,992 0,993",
+      "summary": "Sen tím, đường đá ngập; nguồn nước biến đổi, không mặc định cư dân tà ác.",
+      "available": false,
+      "needsFaction": false
+    },
+    {
+      "id": "H07",
+      "name": "Hoang Mạc Lưu Ly",
+      "minLevel": null,
+      "maxLevel": null,
+      "label": [
+        1385,
+        479
+      ],
+      "polygon": "1240,342 1536,325 1536,642 1281,650 1185,532",
+      "summary": "Cát hổ phách và đá thủy tinh xanh; hệ quả khai thác khoáng.",
+      "available": false,
+      "needsFaction": false
+    },
+    {
+      "id": "H08",
+      "name": "Dãy Núi Hỏa Tâm",
+      "minLevel": null,
+      "maxLevel": null,
+      "label": [
+        1389,
+        831
+      ],
+      "polygon": "1200,661 1536,651 1536,1024 1271,1024 1171,914",
+      "summary": "Núi lửa, đá đen và rừng chịu tro; cơ chế thoát nhiệt bị can thiệp.",
+      "available": false,
+      "needsFaction": false
+    },
+    {
+      "id": "H09",
+      "name": "Bồn Địa Tinh Sa",
+      "minLevel": null,
+      "maxLevel": null,
+      "label": [
+        1011,
+        931
+      ],
+      "polygon": "822,770 1130,752 1252,871 1211,1024 761,1024 721,941",
+      "summary": "Bờ khoáng sáng và vòng đá; lịch đo trời, không phải Vực Rỗng.",
+      "available": false,
+      "needsFaction": false
+    },
+    {
+      "id": "H10",
+      "name": "Cổ Lục Vân Mộc",
+      "minLevel": null,
+      "maxLevel": null,
+      "label": [
+        556,
+        906
+      ],
+      "polygon": "350,759 520,701 798,780 791,958 690,1024 300,1024 272,950",
+      "summary": "Rừng nhiều tầng, thác và di tích rêu; di sản cộng đồng giữ rừng.",
+      "available": false,
+      "needsFaction": false
+    }
+  ],
+  "unlockPolicy": "published AND minLevel AND story access; W06 also faction; discovery/claim/warp separate",
+  "coordinates": "1536x1024 illustrative image anchors, not game coordinates"
+}

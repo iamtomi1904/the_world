@@ -1,0 +1,39 @@
+{
+  "state": {
+    "ready": true,
+    "items": [
+      {
+        "key": "straight",
+        "bounds": {
+          "x": 116,
+          "y": 273,
+          "w": 1941,
+          "h": 280
+        },
+        "transparentRatio": 0.6560659015292574
+      },
+      {
+        "key": "convex",
+        "bounds": {
+          "x": 50,
+          "y": 273,
+          "w": 1492,
+          "h": 489
+        },
+        "transparentRatio": 0.6873091991452122
+      },
+      {
+        "key": "concave",
+        "bounds": {
+          "x": 64,
+          "y": 352,
+          "w": 1460,
+          "h": 331
+        },
+        "transparentRatio": 0.7614385112445303
+      }
+    ]
+  },
+  "mobile": true,
+  "errors": []
+}

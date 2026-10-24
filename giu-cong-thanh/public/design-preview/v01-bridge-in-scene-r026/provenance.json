@@ -1,0 +1,9 @@
+{
+  "tool": "Built-in image_gen",
+  "prompt": "Precise object removal edit of this exact pixel RPG scene. Remove ONLY the stone bridge crossing river at right-center, approximately image x51%-82%, y46%-68%, including its bridge deck, parapets, arch and bridge end posts. Reconstruct the missing blue-teal river flowing continuously between the two existing riverbanks, and the small shoreline portions that the bridge had obscured. Keep road ends on west and east banks leading to former bridge, do not add alternate crossing or ford. Preserve composition, canvas dimensions, house, all trees, riverbanks, road away from bridge, fences, lanterns, flowers, lighting, colors and pixel style as closely as possible. Do not redesign the scene. No people, no replacement bridge, no stepping stones across river, no new props. The river underneath will be covered by an independently drawn bridge. No cropping, no camera shift. Preserve the surrounding pixel art; single localized removal.",
+  "editTarget": "../v01-art-scene-r020/scene-background-r020.png",
+  "source": "exec-7bae9b10-f2eb-4ff8-88af-2c11fd5cd49b.png",
+  "use": "Only localized river repair polygon is composited; original r020 remains elsewhere.",
+  "bridge": "Existing r025 complementary mask asset, not newly generated.",
+  "status": "Art-based independent bridge placement study, not full 3D map approval"
+}

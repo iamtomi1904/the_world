@@ -1,0 +1,13 @@
+{
+  "date": "2026-10-23",
+  "families": 38,
+  "checks": [
+    "accent-insensitive search",
+    "group and priority combined",
+    "area includes shared assets",
+    "empty state/reset/details",
+    "390px layout",
+    "Markdown available"
+  ],
+  "errors": []
+}

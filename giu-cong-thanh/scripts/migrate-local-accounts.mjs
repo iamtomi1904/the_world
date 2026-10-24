@@ -1,0 +1,10 @@
+import {existsSync} from 'node:fs';
+import {resolve} from 'node:path';
+import {fileURLToPath} from 'node:url';
+import {DatabaseSync} from 'node:sqlite';
+import {Pool} from 'pg';
+import {createStorage} from '../storage.mjs';
+import {localSettings,activateEnv} from './postgres-local.mjs';
+const root=fileURLToPath(new URL('../',import.meta.url)),config=localSettings();process.env.DATABASE_URL=config.appUrl;
+const store=await createStorage(root);await store.close();const pool=new Pool({connectionString:config.appUrl}),client=await pool.connect();let source;
+try{const file=resolve(root,'data','game.sqlite');if(existsSync(file)){source=new DatabaseSync(file,{readOnly:true});const tables=new Set(source.prepare("SELECT name FROM sqlite_master WHERE type='table'").all().map(t=>t.name));await client.query('BEGIN');const specs={accounts:['id','username','password_hash','display_name','created_at'],account_profiles:['account_id','hero','best_xp','updated_at'],account_sessions:['token_hash','account_id','expires_at','created_at'],matches:['id','room','result','wave','kills','players','stage','difficulty','ended_at'],match_players:['match_id','player_id','name','hero','gold','kills','level','account_id']};let total=0;for(const [table,columns]of Object.entries(specs)){if(!tables.has(table))continue;const available=new Set(source.prepare('PRAGMA table_info('+table+')').all().map(c=>c.name)),selected=columns.filter(c=>available.has(c));for(const row of source.prepare('SELECT '+selected.join(',')+' FROM '+table).all()){await client.query('INSERT INTO '+table+'('+selected.join(',')+') VALUES('+selected.map((_,i)=>'$'+(i+1)).join(',')+') ON CONFLICT DO NOTHING',selected.map(c=>row[c]));total++;}}await client.query('COMMIT');console.log('Đã chuyển',total,'bản ghi tài khoản/hồ sơ/phiên/lịch sử từ SQLite; không xóa dữ liệu nguồn.');}activateEnv();}catch(e){await client.query('ROLLBACK').catch(()=>{});console.error('Chưa kích hoạt PostgreSQL: quá trình chuyển dữ liệu chưa thành công.');throw e;}finally{source?.close();client.release();await pool.end();}

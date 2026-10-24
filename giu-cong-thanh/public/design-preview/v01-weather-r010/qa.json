@@ -1,0 +1,26 @@
+{
+  "rain": {
+    "ready": true,
+    "time": 2.5823999999999976,
+    "paused": false,
+    "weather": "rain",
+    "leaves": 4,
+    "rain": 71,
+    "lite": false,
+    "wet": 0.9886987465525714
+  },
+  "pause": true,
+  "lite": {
+    "ready": true,
+    "time": 2.8656999999999977,
+    "paused": false,
+    "weather": "rain",
+    "leaves": 4,
+    "rain": 21,
+    "lite": true,
+    "wet": 0.9932660041869896
+  },
+  "off": true,
+  "mobile": true,
+  "errors": []
+}

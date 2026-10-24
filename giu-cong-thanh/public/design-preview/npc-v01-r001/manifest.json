@@ -1,0 +1,153 @@
+{
+  "date": "2026-10-22",
+  "tool": "image_gen built-in",
+  "reference": "style-reference.png",
+  "correction": "CRITICAL pixel-density spec: Draw this board AS IF at native480x320px enlarged exactly3x NEAREST NEIGHBOR, everyedge has large visible square stairsteps. Fullbody standing sprite only80-100logicalpixels tall; bust portraits32-40logicalpixels high. Flat pixelclusters, 3shades per material, pixel dot eyes, no eyelashes/cheekpaint, NO brushtexture, NO smoothrendered faces. Pixelart comparable to the supplied small classsprites when viewed atsame size. Do not draw a highresolution animeillustration with pixelnoise. Dwarf short legs/broad torso ageappropriate wrinkles just a few pixels, clear adultfemale, notchild. ",
+  "status": "Concept sheets: standing, 3 portrait expressions, 2 occupational keyposes. Not native engine sprites or animation loops.",
+  "files": [
+    {
+      "id": "N02",
+      "slug": "sella",
+      "source": "C:\\Users\\Admin\\.codex\\generated_images\\01a14361-6033-7670-8c0e-846dfa6a69fc\\exec-876af3e2-d60b-484e-9a76-25793d5df884.png",
+      "name": "Sella Venn",
+      "role": "Chăm sóc Nhà Đèn · Người Lùn",
+      "file": "n02-sella__r001.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "d3569c720c31ac3fb57e35c641c42062aff1094ede38cd86bb30cd342e37d397",
+      "bytes": 1550576
+    },
+    {
+      "id": "N03",
+      "slug": "mira",
+      "source": "C:\\Users\\Admin\\.codex\\generated_images\\01a14361-6033-7670-8c0e-846dfa6a69fc\\exec-3935894c-fd5c-42cd-8af9-526ec5e0daa5.png",
+      "name": "Mira Vale",
+      "role": "Ghi danh người mất tích · Goblin",
+      "file": "n03-mira__r001.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "ab65180511a3a346a30d64c07efe55886c770c9f9b75460bc7583967d933353f",
+      "bytes": 1521844
+    },
+    {
+      "id": "N04",
+      "slug": "maera",
+      "source": "C:\\Users\\Admin\\.codex\\generated_images\\01a14361-6033-7670-8c0e-846dfa6a69fc\\exec-7d4ffaa3-71b8-44b6-808b-8cd31c95bc89.png",
+      "name": "Maera Holt",
+      "role": "Chỉ huy dân quân · Con Người",
+      "file": "n04-maera__r001.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "46d7a9701865536203d0d3df982de60bd060781f96db04d87bb27879f19e0be3",
+      "bytes": 1687439
+    },
+    {
+      "id": "N05",
+      "slug": "neris",
+      "source": "C:\\Users\\Admin\\.codex\\generated_images\\01a14361-6033-7670-8c0e-846dfa6a69fc\\exec-d2b4a717-f67c-480a-91e8-a4e0a0d75ad7.png",
+      "name": "Neris Avel",
+      "role": "Thợ kiểm ấn · Hắc Tiên",
+      "file": "n05-neris__r001.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "e6f26182dee9f33e581a8911ede503ce4b702fa0c23171ffcb50f5db5161bec3",
+      "bytes": 1705398
+    },
+    {
+      "id": "N07",
+      "slug": "ilan",
+      "source": "C:\\Users\\Admin\\.codex\\generated_images\\01a14361-6033-7670-8c0e-846dfa6a69fc\\exec-1cf925f3-5759-44be-968f-efd3fadf3efa.png",
+      "name": "Ilan Reed",
+      "role": "Kiểm tiếp nhận · Elf",
+      "file": "n07-ilan__r001.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "c3a24ea0e2a444bd9c82fae6435999361a659b37314ff6308f5aecfe506b1952",
+      "bytes": 1518803
+    },
+    {
+      "id": "N09",
+      "slug": "borin",
+      "source": "C:\\Users\\Admin\\.codex\\generated_images\\01a14361-6033-7670-8c0e-846dfa6a69fc\\exec-41ed3ee3-32a3-4a70-835a-10f5d4ed012a.png",
+      "name": "Borin Dael",
+      "role": "Thợ công xưởng · Người Lùn",
+      "file": "n09-borin__r001.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "93492932e85643075ccd321d523dd5faeaf5cb7afa0deddb16cca777631fdffe",
+      "bytes": 1613188
+    },
+    {
+      "id": "N10",
+      "slug": "dara",
+      "source": "C:\\Users\\Admin\\.codex\\generated_images\\01a14361-6033-7670-8c0e-846dfa6a69fc\\exec-c473539e-80a2-441a-a644-1564d99a4c4c.png",
+      "name": "Dara Eln",
+      "role": "Chăm sóc và thuốc · Elf",
+      "file": "n10-dara__r001.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "1504b0abca3f0689feffff4c09a466100a8dca07d716058cbb641e65dc074692",
+      "bytes": 1624812
+    },
+    {
+      "id": "N25",
+      "slug": "edda",
+      "source": "C:\\Users\\Admin\\.codex\\generated_images\\01a14361-6033-7670-8c0e-846dfa6a69fc\\exec-85bbfd7c-f347-4acc-9601-0c3eb6620adc.png",
+      "name": "Edda Row",
+      "role": "Nông dân · Con Người",
+      "file": "n25-edda__r001.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "26a4cf524b507284ae8aff5df925bfb13a9dc13e74b3a09d744ce9e5a1a8c587",
+      "bytes": 1502512
+    },
+    {
+      "id": "N26",
+      "slug": "rurik",
+      "source": "C:\\Users\\Admin\\.codex\\generated_images\\01a14361-6033-7670-8c0e-846dfa6a69fc\\exec-cefa7182-f638-44f8-87c3-5c586c79fe7e.png",
+      "name": "Rurik Moss",
+      "role": "Thợ mộc cầu · Người Lùn",
+      "file": "n26-rurik__r001.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "96093955d440d72ad738170eefaf131444e41dbe88e124232c6ae97c6ff17d64",
+      "bytes": 1544512
+    },
+    {
+      "id": "N27",
+      "slug": "vaela",
+      "source": "C:\\Users\\Admin\\.codex\\generated_images\\01a14361-6033-7670-8c0e-846dfa6a69fc\\exec-f508ca74-e26f-47be-b543-fe3638743966.png",
+      "name": "Vaela Reed",
+      "role": "Trinh sát đường rừng · Elf",
+      "file": "n27-vaela__r001.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "ed564fcbd6a18f087064d9c1e39dc38b733e416e34c16be8011e82737ef11664",
+      "bytes": 1564316
+    },
+    {
+      "id": "N28",
+      "slug": "halen",
+      "source": "C:\\Users\\Admin\\.codex\\generated_images\\01a14361-6033-7670-8c0e-846dfa6a69fc\\exec-92f1db28-3b6c-40dd-af60-f13c6c592a0b.png",
+      "name": "Halen Brek",
+      "role": "Chăm chuông · Con Người",
+      "file": "n28-halen__r001.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "6ba8e1fbc59d1d705fe46153364cbf321bf10f3d2d36569ee69bc26665f26b32",
+      "bytes": 1603998
+    },
+    {
+      "id": "N29",
+      "slug": "pella",
+      "source": "C:\\Users\\Admin\\.codex\\generated_images\\01a14361-6033-7670-8c0e-846dfa6a69fc\\exec-d4e3b734-6693-4747-b1a8-a8ba571fd200.png",
+      "name": "Pella Norr",
+      "role": "Thủ kho và bếp · Người Lùn",
+      "file": "n29-pella__r001.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "4d50e596282ad721390659cc38ce06b2b3a93278cde48bab793380283f38797e",
+      "bytes": 1554174
+    }
+  ]
+}

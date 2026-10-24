@@ -1,0 +1,20 @@
+{
+  "tool": "Built-in image_gen",
+  "reference": "../v01-art-scene-r020/scene-background-r020.png",
+  "assets": [
+    {
+      "output": "cottage-body-alpha-r003.png",
+      "source": "C:/Users/Admin/.codex/generated_images/01a14361-6033-7670-8c0e-846dfa6a69fc/exec-1550cb27-ae6b-4f11-9e58-7579b882d5c9.png",
+      "prompt": "Use case: background-extraction. Edit target attached exact pixel art landscape. Create a single isolated cottage BODY sprite with genuine transparent background. Match the upper-left cottage: cream plaster front facade, dark warm wooden beams, central brown wooden door, lit square window to its right, stone doorstep and short stone foundation, small front triangular timber gable. Remove ALL terracotta roof tiles and stone chimney. Remove trees, grass, flowers, barrels, fences, lantern posts, landscape, ground outside foundation. Keep complete coherent wall silhouette from timber gable apex to foundation. Same front three-quarter/topdown RPG camera and crisp colorful pixel aesthetic; not isometric, not 3D render. Warm detailed pixel clusters like source. No roof, no props, no labels, no characters, no checkerboard painted in. Small transparent padding. One body asset only, not multiple variations.",
+      "transparent": true
+    },
+    {
+      "output": "cottage-empty-site-r001.png",
+      "source": "C:/Users/Admin/.codex/generated_images/01a14361-6033-7670-8c0e-846dfa6a69fc/exec-a112d4ad-b71e-4f65-a7c9-ebffb00c4342.png",
+      "prompt": "Use case: precise-object-edit. Edit the attached exact landscape. Remove ONLY the cottage at upper left, including terracotta roof, chimney, walls, door, window and doorstep/foundation. Fill its former footprint with a coherent empty grassy clearing: small green grass, exposed earth, low vegetation; reconstruct foliage of trees formerly hidden behind roof. Keep the foreground fence, lantern, barrels, flowers, orchard tree, large tree on right of cottage, river, bridge, path, lighting, camera, palette and full scene canvas positions unchanged. Do not replace with another building, ruins, furniture, people or new road. Same crisp detailed pixel RPG style. This is a background repair for a removable building, so there must be NO remaining roof fragments, chimney, walls or stone steps in the former cottage area. No cropping or camera movement. Full scene aligned to source.",
+      "transparent": false
+    }
+  ],
+  "use": "Localized background repair rectangle in art assembly only; original scene remains unchanged. Runtime alpha cutoff128 preserves raw PNGs.",
+  "status": "Candidate art assembly, not movable gameplay prefab."
+}

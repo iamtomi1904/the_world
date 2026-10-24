@@ -1,0 +1,81 @@
+{
+  "active": {
+    "ready": true,
+    "items": [
+      "grass-short",
+      "grass-meadow",
+      "grass-tall",
+      "grass-dry",
+      "grass-reed",
+      "grass-clover",
+      "flowers-white",
+      "flowers-yellow",
+      "flowers-purple",
+      "flowers-buds",
+      "flowers-wilt",
+      "flowers-sparse",
+      "leaves-oak",
+      "leaves-birch",
+      "leaves-willow",
+      "leaves-litter"
+    ],
+    "particles": 6,
+    "limit": 12,
+    "shakeAge": 0.26630000000000015,
+    "shakeOffset": 0.06685943863627614,
+    "canShake": false
+  },
+  "lite": {
+    "ready": true,
+    "items": [
+      "grass-short",
+      "grass-meadow",
+      "grass-tall",
+      "grass-dry",
+      "grass-reed",
+      "grass-clover",
+      "flowers-white",
+      "flowers-yellow",
+      "flowers-purple",
+      "flowers-buds",
+      "flowers-wilt",
+      "flowers-sparse",
+      "leaves-oak",
+      "leaves-birch",
+      "leaves-willow",
+      "leaves-litter"
+    ],
+    "particles": 4,
+    "limit": 4,
+    "shakeAge": 0.6661000000000002,
+    "shakeOffset": 0.018420842114174937,
+    "canShake": true
+  },
+  "expired": {
+    "ready": true,
+    "items": [
+      "grass-short",
+      "grass-meadow",
+      "grass-tall",
+      "grass-dry",
+      "grass-reed",
+      "grass-clover",
+      "flowers-white",
+      "flowers-yellow",
+      "flowers-purple",
+      "flowers-buds",
+      "flowers-wilt",
+      "flowers-sparse",
+      "leaves-oak",
+      "leaves-birch",
+      "leaves-willow",
+      "leaves-litter"
+    ],
+    "particles": 0,
+    "limit": 4,
+    "shakeAge": 5.981000000000017,
+    "shakeOffset": 0,
+    "canShake": true
+  },
+  "errors": []
+}

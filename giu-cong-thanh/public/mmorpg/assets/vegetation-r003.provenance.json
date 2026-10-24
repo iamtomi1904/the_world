@@ -1,0 +1,7 @@
+{
+  "tool": "built-in image_gen",
+  "file": "vegetation-r003.png",
+  "source": "C:/Users/Admin/.codex/generated_images/01a14361-6033-7670-8c0e-846dfa6a69fc/exec-7911b653-5e1c-4ec1-b077-ce480d32f4dd.png",
+  "prompt": "Production pixel-art game vegetation atlas, matching the lush natural medieval 2.5D top-down map reference. 3 columns by 2 rows, six separated low ground plant clusters, generous transparent gutters. Row1: airy short meadow grass and clover patch with visible ground gaps, cluster of small white daisies with yellow flowers, mixed low ferns and broad leaves. Row2: mossy forest shrub with warm green leaves, wild pink and blue tiny flowers with tall grass, dry leaf litter twigs and scattered mossy pebbles. Deliberate crisp pixel clusters, medium detail, readable at 50-80 pixel width, no photographic texture, no shiny giant leaves, no text, genuinely transparent background. Consistent elevated top-down view. Each patch isolated, avoid circular stamp-shaped borders. Reference is style guide.",
+  "reference": "public/design-preview/v01-complete-map-r001/binh-minh-full-map-r001.png"
+}

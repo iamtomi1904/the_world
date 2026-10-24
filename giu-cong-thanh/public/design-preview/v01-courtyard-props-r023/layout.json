@@ -1,0 +1,86 @@
+{
+  "version": 1,
+  "status": "Prop layout study, not production art approval",
+  "source": "courtyard-props-source-r001.png",
+  "actorBodyHeight": 40,
+  "props": [
+    {
+      "id": "barrel",
+      "name": "Thùng gỗ",
+      "cell": [
+        0,
+        0
+      ],
+      "displayHeight": 22,
+      "role": "Sát tường, ngoài lối cửa"
+    },
+    {
+      "id": "pot",
+      "name": "Chậu hoa",
+      "cell": [
+        1,
+        0
+      ],
+      "displayHeight": 18,
+      "role": "Hai bên bậc cửa, không che chân"
+    },
+    {
+      "id": "fence",
+      "name": "Đoạn hàng rào",
+      "cell": [
+        0,
+        1
+      ],
+      "displayHeight": 26,
+      "role": "Định ranh sân, để cửa đi đủ rộng"
+    },
+    {
+      "id": "lamp",
+      "name": "Đèn đứng",
+      "cell": [
+        1,
+        1
+      ],
+      "displayHeight": 60,
+      "role": "Đánh dấu lối vào, không chồng báo đòn"
+    }
+  ],
+  "instances": [
+    {
+      "id": "barrel-1",
+      "type": "barrel",
+      "x": 510,
+      "y": 270
+    },
+    {
+      "id": "pot-1",
+      "type": "pot",
+      "x": 345,
+      "y": 275
+    },
+    {
+      "id": "fence-1",
+      "type": "fence",
+      "x": 300,
+      "y": 340
+    },
+    {
+      "id": "fence-2",
+      "type": "fence",
+      "x": 490,
+      "y": 340
+    },
+    {
+      "id": "lamp-1",
+      "type": "lamp",
+      "x": 545,
+      "y": 325
+    }
+  ],
+  "doorCorridor": {
+    "x": 380,
+    "y": 260,
+    "w": 40,
+    "h": 150
+  }
+}

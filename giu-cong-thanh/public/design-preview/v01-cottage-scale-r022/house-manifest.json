@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "status": "Source-coordinate anchor study, not art approved",
+  "source": "../v01-cottage-kit-r021/cottage-layers-source-r001.png",
+  "frames": {
+    "body": {
+      "x": 0,
+      "y": 0,
+      "w": 971,
+      "h": 809
+    },
+    "roof": {
+      "x": 971,
+      "y": 0,
+      "w": 971,
+      "h": 809
+    }
+  },
+  "anchorSource": {
+    "x": 365,
+    "y": 735
+  },
+  "roofOffsetSource": {
+    "x": 0,
+    "y": -129.4666666667
+  },
+  "preview": {
+    "scale": 0.2,
+    "anchor": {
+      "x": 175,
+      "y": 175
+    },
+    "footprint": {
+      "x": 107,
+      "y": 112,
+      "w": 136,
+      "h": 60
+    },
+    "roofFadeZone": {
+      "x": 85,
+      "y": 25,
+      "w": 200,
+      "h": 90
+    },
+    "roofFadeAlpha": 0.28
+  },
+  "material": {
+    "alphaCutoff": 128
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "date": "2026-10-23",
+  "checks": {
+    "house": true,
+    "deep": true,
+    "shallow": true,
+    "bridge": true,
+    "ramp": true,
+    "noSideDrop": true
+  },
+  "errors": [],
+  "limits": [
+    "Software WebGL, not GPU performance",
+    "Idle sprites move without walk animation",
+    "Resample draft, no hand pixel cleanup or hats"
+  ],
+  "spriteChecks": [
+    "4textures loaded",
+    "keyboard changes position",
+    "east direction chosen moving right"
+  ]
+}

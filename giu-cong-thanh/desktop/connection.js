@@ -1,0 +1,4 @@
+const form=document.getElementById('connect-form'),button=document.getElementById('connect'),server=document.getElementById('server'),status=document.getElementById('status');
+window.anThanhClient.onStatus(message=>{status.textContent=message;});
+window.anThanhClient.settings().then(s=>{server.value=s.serverOrigin;document.getElementById('version').textContent='v'+s.version;status.textContent=s.error||'Nhập máy chủ hoặc thử kết nối lại.';}).catch(()=>{status.textContent='Chưa đọc được cấu hình. Hãy mở lại client.';});
+form.addEventListener('submit',async event=>{event.preventDefault();button.disabled=true;status.textContent='Đang kết nối…';try{const result=await window.anThanhClient.connect(server.value);if(!result.ok)status.textContent=result.message;}catch{status.textContent='Không kết nối được. Hãy thử lại.';}finally{button.disabled=false;}});

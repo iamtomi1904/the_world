@@ -1,0 +1,13 @@
+{
+  "date": "2026-10-22",
+  "entries": 195,
+  "checks": [
+    "19 branches /7 professions /3 races /5 regions",
+    "combined profession/race filters",
+    "single section reader, reload deep link, full source",
+    "search within Markdown content",
+    "light theme and390px responsive",
+    "visual gallery regression"
+  ],
+  "errors": []
+}

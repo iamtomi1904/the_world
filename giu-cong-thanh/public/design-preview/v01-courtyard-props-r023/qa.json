@@ -1,0 +1,50 @@
+{
+  "initial": {
+    "ready": true,
+    "instances": [
+      {
+        "id": "barrel-1",
+        "type": "barrel",
+        "x": 510,
+        "y": 270
+      },
+      {
+        "id": "pot-1",
+        "type": "pot",
+        "x": 345,
+        "y": 275
+      },
+      {
+        "id": "fence-1",
+        "type": "fence",
+        "x": 300,
+        "y": 340
+      },
+      {
+        "id": "fence-2",
+        "type": "fence",
+        "x": 490,
+        "y": 340
+      },
+      {
+        "id": "lamp-1",
+        "type": "lamp",
+        "x": 545,
+        "y": 325
+      }
+    ],
+    "warnings": [],
+    "props": [
+      "barrel",
+      "pot",
+      "fence",
+      "lamp"
+    ]
+  },
+  "warning": true,
+  "dragged": true,
+  "reset": true,
+  "filename": "an-thanh-courtyard-r023.json",
+  "mobile": true,
+  "errors": []
+}

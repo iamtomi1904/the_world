@@ -1,0 +1,69 @@
+{
+  "checks": {
+    "east": true,
+    "waterBlocked": true,
+    "bridge": {
+      "placement": {
+        "version": 1,
+        "status": "Independent bridge in art-based scene, not 3D map approval",
+        "bridgeMask": "../v01-bridge-mask-r025/bridge-mask.json",
+        "scale": 0.22727272727272727,
+        "anchorSource": {
+          "x": 535,
+          "y": 340
+        },
+        "anchorScreen": {
+          "x": 530,
+          "y": 275
+        },
+        "connectors": {
+          "west": [
+            426,
+            275
+          ],
+          "east": [
+            630,
+            280
+          ]
+        },
+        "backgroundRepairPolygon": [
+          [
+            400,
+            222
+          ],
+          [
+            651,
+            222
+          ],
+          [
+            651,
+            345
+          ],
+          [
+            400,
+            345
+          ]
+        ],
+        "renderOrder": [
+          "originalBackground",
+          "localizedRiverRepair",
+          "bridgeRemainder",
+          "actor",
+          "bridgeForeground",
+          "weather"
+        ]
+      },
+      "stats": {
+        "back": 185915,
+        "front": 152599,
+        "total": 338514
+      }
+    }
+  },
+  "westValid": true,
+  "eastValid": true,
+  "disabledBlocks": true,
+  "outsidePatchMismatch": 0,
+  "mobile": true,
+  "errors": []
+}

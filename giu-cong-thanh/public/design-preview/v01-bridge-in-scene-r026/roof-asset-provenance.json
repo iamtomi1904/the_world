@@ -1,0 +1,9 @@
+{
+  "tool": "Built-in image_gen",
+  "prompt": "Use case: background-extraction. Input image is the edit target and style reference. Extract ONLY the orange terracotta tiled cottage roof with its stone chimney from the upper left of this exact pixel-art scene. Output one isolated roof sprite, tightly framed with small transparent padding. Retain roof silhouette, pitch, front eaves, terracotta tile pattern, orange/brown pixel palette and chimney on the left. Remove all trees, sky, walls, front door, window, timber gable under the eaves, landscape, cast ground shadow and background. Genuine transparent alpha everywhere outside roof/chimney, no checkerboard painted in, no glow, no stray floating pixels, no labels. Preserve crisp pixel-art details and the same camera angle. Do not include the full house. The output will be positioned by an anchor over the original front wall. Clean separated game roof asset, not a sheet of variants.",
+  "reference": "../v01-art-scene-r020/scene-background-r020.png",
+  "source": "C:/Users/Admin/.codex/generated_images/01a14361-6033-7670-8c0e-846dfa6a69fc/exec-dcfa7412-a13a-4ac1-9254-edfe08e0433c.png",
+  "output": "cottage-roof-alpha-r002.png",
+  "processing": "Original PNG unmodified. Optional runtime material uses alpha cutoff 128; raw alpha available in inspector.",
+  "status": "Candidate redraw; not pixel identical to original roof."
+}

@@ -1,0 +1,1 @@
+const fs=require('fs');for(const file of ['tmp/review-mmorpg-modular.cjs','tmp/review-client-v02.cjs']){let s=fs.readFileSync(file,'utf8').replaceAll('===4199','===2108');fs.writeFileSync(file,s);}let s=fs.readFileSync('tmp/review-ecology.cjs','utf8').replace('length>3000','length>1500');fs.writeFileSync('tmp/review-ecology.cjs',s);

@@ -1,0 +1,18 @@
+{
+  "checks": {
+    "typeScriptBuild": true,
+    "noConceptExterior": true,
+    "groundGrid": true,
+    "separateObjects": true,
+    "realTilemap": true,
+    "footDepth": true,
+    "bridgeWalkable": true,
+    "deepWaterBlocked": true,
+    "enterViaKeyboard": true,
+    "returnViaKeyboard": true,
+    "noSceneNodeGrowth": true,
+    "debugDraw": true
+  },
+  "errors": [],
+  "scope": "Modular exterior and actual F enter/return; temporary PostgreSQL account removed"
+}

@@ -1,0 +1,704 @@
+{
+  "version": 1,
+  "id": "V01",
+  "name": "Bình Minh",
+  "scope": "Thiết kế toàn bản đồ cấp1–10, chỉ map",
+  "units": "Sơ đồ1000×760; ảnh concept có pin theo phần trăm, không tọa độ engine",
+  "regions": [
+    {
+      "id": "village",
+      "name": "Làng Đá Đèn",
+      "level": "1–3",
+      "artX": 17,
+      "artY": 84,
+      "location": "southwest",
+      "layout": "Nhà Đèn, quảng trường, kho dân cư và đường sơ tán; cùng một vị trí địa lý, biến thể intro/hậu biến cố tách trạng thái.",
+      "terrain": "Gò thấp, đất nện, nhà gỗ/vữa, cây ăn quả; cửa nhà hướng vào sân và đường chung."
+    },
+    {
+      "id": "reed",
+      "name": "Cầu Lau",
+      "level": "2–4",
+      "artX": 21,
+      "artY": 69,
+      "location": "southwest",
+      "layout": "Cầu gỗ qua nhánh lau, nối làng với trại; có khoảng quay đầu trước hai mố.",
+      "terrain": "Bãi trũng, lau và nước cạn; đường cầu khô không bắt buộc lội."
+    },
+    {
+      "id": "camp",
+      "name": "Trại Bình Minh",
+      "level": "3–10",
+      "artX": 36,
+      "artY": 51,
+      "location": "centerwest",
+      "layout": "Hub an toàn với sáu điểm công việc, sân chung, nhà đèn tạm, xưởng, kho/bếp và khu thuốc.",
+      "terrain": "Gò cao, đường dốc rõ; chừa đường xe và lối thoát, không lấp sân bằng prop."
+    },
+    {
+      "id": "west",
+      "name": "Ngã ba Tây",
+      "level": "3–10",
+      "artX": 7,
+      "artY": 45,
+      "location": "west",
+      "layout": "Nối trại, rừng và lối đi bộ tới Valedorn; chỉ đánh dấu cửa vùng, không thiết kế Map 2.",
+      "terrain": "Đường chính rộng, cọc hướng; cành cây không che giao lộ."
+    },
+    {
+      "id": "forest",
+      "name": "Bìa Rừng Cũ",
+      "level": "4–7",
+      "artX": 12,
+      "artY": 20,
+      "location": "northwest",
+      "layout": "Lán an toàn, đường cọc, vòng khám phá và nhánh lãnh địa tự chọn.",
+      "terrain": "Sồi/dương xen bụi, rễ, gốc chết và đá; có đường tránh khu nguy hiểm."
+    },
+    {
+      "id": "stream",
+      "name": "Suối Sỏi Trắng",
+      "level": "4–7",
+      "artX": 46,
+      "artY": 35,
+      "location": "center",
+      "layout": "Hai bờ khảo sát khô, trạm nước và cửa Hốc Rễ; suối có đáy và đường vòng qua cầu.",
+      "terrain": "Suối cạn xanh nhạt, sỏi nhỏ; nước sâu không bị ngầm gọi thành đường lội."
+    },
+    {
+      "id": "farm",
+      "name": "Đồng Ruộng Gãy Bờ",
+      "level": "4–7",
+      "artX": 52,
+      "artY": 77,
+      "location": "south",
+      "layout": "Ruộng trũng nối vòng về trại, mương và đường nông dân; các luống không cắt đứt trục đi.",
+      "terrain": "Ngô/rau/ngũ cốc, rào hở cửa, bờ ruộng và vũng nông."
+    },
+    {
+      "id": "bridge",
+      "name": "Cầu Sỏi và sông Đông",
+      "level": "5–10",
+      "artX": 68,
+      "artY": 53,
+      "location": "eastcenter",
+      "layout": "Một cầu đá chính qua sông sâu; hai đầu đủ rộng, có bờ khô xuống quan sát nước.",
+      "terrain": "Sông xanh đậm, vách/bờ cao; không bơi hoặc nhảy đá bắt buộc."
+    },
+    {
+      "id": "bell",
+      "name": "Sân Chuông Nứt",
+      "level": "7–10",
+      "artX": 85,
+      "artY": 35,
+      "location": "east",
+      "layout": "Nền chuông, nhà trực, sân nghỉ an toàn và nhánh Kho Vôi; lối đọc cảnh quan tách khu đối đầu.",
+      "terrain": "Nền đá cổ, cỏ mọc khe, bụi thấp; cầu thang trang trí có dốc đi thật thay thế."
+    },
+    {
+      "id": "seal",
+      "name": "Thềm Hầm Phong Ấn",
+      "level": "8–10",
+      "artX": 83,
+      "artY": 22,
+      "location": "northeast",
+      "layout": "Tiền sảnh chờ cửa phó bản; có đường từ sân nghỉ tránh bãi đối đầu Đông Bắc.",
+      "terrain": "Vách đá cổ, cổng phong ấn, dấu canh ấn; không mở lối vào lõi thành."
+    },
+    {
+      "id": "wall",
+      "name": "Vành lũy phía Bắc",
+      "level": "biên giới",
+      "artX": 46,
+      "artY": 5,
+      "location": "north",
+      "layout": "Mốc định hướng lớn, cổng lõi đóng; là ranh giới V01 chứ không phó bản thứ hai.",
+      "terrain": "Thành đá hư một phần, vách nối tự nhiên; không đường xuyên collider."
+    },
+    {
+      "id": "clearing",
+      "name": "Bãi đá Đông Bắc",
+      "level": "tự chọn",
+      "artX": 93,
+      "artY": 10,
+      "location": "northeast",
+      "layout": "Không gian dự trữ đối đầu ngoài trời; không nằm trên trục vào phó bản hoặc đường dân cư.",
+      "terrain": "Khoảng né rộng, ranh đá/cọc rõ và đường vòng; không thiết kế kỹ năng/quái trong gói map."
+    }
+  ],
+  "nodes": [
+    {
+      "id": "L01",
+      "label": "Nhà Đèn",
+      "x": 155,
+      "y": 650,
+      "kind": "intro"
+    },
+    {
+      "id": "L02",
+      "label": "Quảng trường",
+      "x": 205,
+      "y": 610,
+      "kind": "intro"
+    },
+    {
+      "id": "L03",
+      "label": "Ngã rẽ làng",
+      "x": 255,
+      "y": 575,
+      "kind": "intro"
+    },
+    {
+      "id": "AID-A",
+      "label": "Kho dụng cụ cũ",
+      "x": 215,
+      "y": 560,
+      "kind": "intro"
+    },
+    {
+      "id": "AID-B",
+      "label": "Kho thuốc cũ",
+      "x": 280,
+      "y": 600,
+      "kind": "intro"
+    },
+    {
+      "id": "L04",
+      "label": "Cầu Lau",
+      "x": 320,
+      "y": 540,
+      "kind": "safe"
+    },
+    {
+      "id": "L05",
+      "label": "Trại Bình Minh",
+      "x": 410,
+      "y": 505,
+      "kind": "safe"
+    },
+    {
+      "id": "L06A",
+      "label": "Trạm suối",
+      "x": 535,
+      "y": 420,
+      "kind": "safe"
+    },
+    {
+      "id": "L06B",
+      "label": "Đồng Ruộng",
+      "x": 405,
+      "y": 650,
+      "kind": "poi"
+    },
+    {
+      "id": "L07",
+      "label": "Cửa phó bản",
+      "x": 735,
+      "y": 145,
+      "kind": "dungeon"
+    },
+    {
+      "id": "L09",
+      "label": "Ngã ba Tây",
+      "x": 140,
+      "y": 440,
+      "kind": "safe"
+    },
+    {
+      "id": "WEST",
+      "label": "Đi Valedorn",
+      "x": 35,
+      "y": 440,
+      "kind": "exit"
+    },
+    {
+      "id": "FOREST",
+      "label": "Lán rừng",
+      "x": 265,
+      "y": 285,
+      "kind": "safe"
+    },
+    {
+      "id": "TRAIL",
+      "label": "Đường cọc",
+      "x": 390,
+      "y": 320,
+      "kind": "poi"
+    },
+    {
+      "id": "BRIDGE",
+      "label": "Cầu Sỏi",
+      "x": 665,
+      "y": 405,
+      "kind": "safe"
+    },
+    {
+      "id": "BELL",
+      "label": "Sân Chuông Nứt",
+      "x": 810,
+      "y": 255,
+      "kind": "poi"
+    },
+    {
+      "id": "REST",
+      "label": "Sân nghỉ",
+      "x": 755,
+      "y": 345,
+      "kind": "safe"
+    },
+    {
+      "id": "ECO01",
+      "label": "Hốc Rễ Dưới Guồng",
+      "x": 565,
+      "y": 365,
+      "kind": "cave"
+    },
+    {
+      "id": "ECO02",
+      "label": "Kho Vôi",
+      "x": 845,
+      "y": 295,
+      "kind": "cave"
+    },
+    {
+      "id": "ELITE01",
+      "label": "Đầu đàn",
+      "x": 145,
+      "y": 240,
+      "kind": "reserved"
+    },
+    {
+      "id": "ELITE02",
+      "label": "Canh đá lỗi",
+      "x": 815,
+      "y": 390,
+      "kind": "reserved"
+    },
+    {
+      "id": "BOSS",
+      "label": "Boss canh ấn",
+      "x": 915,
+      "y": 130,
+      "kind": "reserved"
+    }
+  ],
+  "routes": [
+    {
+      "a": "L01",
+      "b": "L02",
+      "kind": "intro",
+      "via": []
+    },
+    {
+      "a": "L02",
+      "b": "L03",
+      "kind": "intro",
+      "via": []
+    },
+    {
+      "a": "L03",
+      "b": "AID-A",
+      "kind": "intro",
+      "via": []
+    },
+    {
+      "a": "L03",
+      "b": "AID-B",
+      "kind": "intro",
+      "via": []
+    },
+    {
+      "a": "AID-A",
+      "b": "L04",
+      "kind": "intro",
+      "via": [
+        [
+          265,
+          535
+        ]
+      ]
+    },
+    {
+      "a": "AID-B",
+      "b": "L04",
+      "kind": "intro",
+      "via": []
+    },
+    {
+      "a": "L04",
+      "b": "L05",
+      "kind": "intro",
+      "via": []
+    },
+    {
+      "a": "WEST",
+      "b": "L09",
+      "kind": "main",
+      "via": []
+    },
+    {
+      "a": "L09",
+      "b": "L05",
+      "kind": "main",
+      "via": [
+        [
+          250,
+          435
+        ],
+        [
+          320,
+          465
+        ]
+      ]
+    },
+    {
+      "a": "L05",
+      "b": "L06A",
+      "kind": "main",
+      "via": [
+        [
+          465,
+          460
+        ]
+      ]
+    },
+    {
+      "a": "L06A",
+      "b": "BRIDGE",
+      "kind": "main",
+      "via": [
+        [
+          600,
+          420
+        ]
+      ]
+    },
+    {
+      "a": "BRIDGE",
+      "b": "REST",
+      "kind": "main",
+      "via": [
+        [
+          710,
+          385
+        ]
+      ]
+    },
+    {
+      "a": "REST",
+      "b": "BELL",
+      "kind": "main",
+      "via": [
+        [
+          770,
+          300
+        ]
+      ]
+    },
+    {
+      "a": "BELL",
+      "b": "L07",
+      "kind": "main",
+      "via": [
+        [
+          750,
+          230
+        ],
+        [
+          720,
+          180
+        ]
+      ]
+    },
+    {
+      "a": "L05",
+      "b": "L06B",
+      "kind": "loop",
+      "via": [
+        [
+          425,
+          580
+        ]
+      ]
+    },
+    {
+      "a": "L06B",
+      "b": "L06A",
+      "kind": "loop",
+      "via": [
+        [
+          525,
+          625
+        ],
+        [
+          570,
+          520
+        ]
+      ]
+    },
+    {
+      "a": "L05",
+      "b": "FOREST",
+      "kind": "loop",
+      "via": [
+        [
+          320,
+          410
+        ],
+        [
+          275,
+          350
+        ]
+      ]
+    },
+    {
+      "a": "FOREST",
+      "b": "TRAIL",
+      "kind": "loop",
+      "via": []
+    },
+    {
+      "a": "TRAIL",
+      "b": "L06A",
+      "kind": "loop",
+      "via": [
+        [
+          470,
+          350
+        ]
+      ]
+    },
+    {
+      "a": "L06A",
+      "b": "ECO01",
+      "kind": "explore",
+      "via": []
+    },
+    {
+      "a": "BELL",
+      "b": "ECO02",
+      "kind": "explore",
+      "via": []
+    },
+    {
+      "a": "REST",
+      "b": "ECO02",
+      "kind": "explore",
+      "via": [
+        [
+          815,
+          325
+        ]
+      ]
+    },
+    {
+      "a": "FOREST",
+      "b": "ELITE01",
+      "kind": "danger",
+      "via": [
+        [
+          205,
+          270
+        ]
+      ]
+    },
+    {
+      "a": "REST",
+      "b": "ELITE02",
+      "kind": "danger",
+      "via": []
+    },
+    {
+      "a": "BELL",
+      "b": "BOSS",
+      "kind": "danger",
+      "via": [
+        [
+          865,
+          220
+        ]
+      ]
+    }
+  ],
+  "underground": [
+    {
+      "id": "DG-V01-01",
+      "name": "Hầm Phong Ấn Cổ",
+      "type": "Phó bản",
+      "entrance": "L07",
+      "art": [
+        82,
+        20
+      ],
+      "rooms": [
+        "P1 · Cửa bảo dưỡng",
+        "P2 · Buồng thoát áp",
+        "P3 · Kho sổ lệnh",
+        "P4 · Hành lang kiểm nhận",
+        "P5 · Buồng gác",
+        "P6 · Trạm chuyển phiếu"
+      ],
+      "positions": [
+        [
+          65,
+          180
+        ],
+        [
+          175,
+          180
+        ],
+        [
+          285,
+          180
+        ],
+        [
+          395,
+          180
+        ],
+        [
+          505,
+          180
+        ],
+        [
+          615,
+          180
+        ]
+      ],
+      "links": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "rule": "Giữ tuyến P1→P2→P3→P4→P5→P6 theo hồ sơ08/18; lối ra P6→P2→P1 sau kết. Chỉ mặt bằng, không đổi nội dung phòng.",
+      "exitLink": [
+        5,
+        1
+      ],
+      "artSource": "seal-dungeon-floorplan-r001.png"
+    },
+    {
+      "id": "ECO-V01-01",
+      "name": "Hốc Rễ Dưới Guồng",
+      "type": "Hầm khám phá",
+      "entrance": "ECO01",
+      "art": [
+        54,
+        27
+      ],
+      "rooms": [
+        "Cửa dưới rễ",
+        "Buồng guồng",
+        "Ngăn kho khô"
+      ],
+      "positions": [
+        [
+          100,
+          170
+        ],
+        [
+          330,
+          170
+        ],
+        [
+          560,
+          170
+        ]
+      ],
+      "links": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "rule": "Ba khoảng khô, hai lối tiếp cận quanh guồng; không boss, không cần bơi.",
+      "artSource": "root-hollow-floorplan-r001.png"
+    },
+    {
+      "id": "ECO-V01-02",
+      "name": "Kho Vôi Bên Sân Chuông",
+      "type": "Hầm khám phá",
+      "entrance": "ECO02",
+      "art": [
+        93,
+        53
+      ],
+      "rooms": [
+        "Cửa kho",
+        "Buồng chứa",
+        "Hành lang bên"
+      ],
+      "positions": [
+        [
+          100,
+          170
+        ],
+        [
+          330,
+          100
+        ],
+        [
+          550,
+          170
+        ]
+      ],
+      "links": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "rule": "Ba khoảng nối vòng, đường về luôn có; cửa tránh bãi đối đầu ngoài trời, không boss.",
+      "artSource": "lime-store-floorplan-r002.png"
+    }
+  ],
+  "weather": [
+    "Nắng",
+    "Mây",
+    "Mưa nhẹ",
+    "Sương sáng"
+  ],
+  "traversal": {
+    "deepWater": "blocked",
+    "shallowWater": "slightSlow; dry bypass required",
+    "cliffs": "blocked except explicit ramps",
+    "flying": "none in V01",
+    "mainRoadMinD": 5,
+    "sideRoadMinD": 3,
+    "explorePathMinD": 2,
+    "stoneBridgeMinD": 4
+  },
+  "productionStatus": "Full map design package; not engine tilemap, collision mesh or playable MMORPG map"
+}

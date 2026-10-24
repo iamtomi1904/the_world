@@ -1,0 +1,42 @@
+{
+  "date": "2026-10-23",
+  "status": "Placement/scale fixture only; not world units locked",
+  "species": [
+    {
+      "id": "oak",
+      "name": "Sồi",
+      "habitat": "Rừng và vành cây quanh trại",
+      "scale": 1,
+      "crownY": 2,
+      "x": 0,
+      "description": "Thân nâu phân nhánh, tán rộng thành các khối lá lớn."
+    },
+    {
+      "id": "birch",
+      "name": "Bạch dương",
+      "habitat": "Bìa rừng và dọc đường mòn",
+      "scale": 1.1,
+      "crownY": 2,
+      "x": 0,
+      "description": "Thân sáng có vệt sẫm, tán cao và hẹp hơn sồi."
+    },
+    {
+      "id": "willow",
+      "name": "Liễu",
+      "habitat": "Bờ suối và vùng đất ẩm",
+      "scale": 1,
+      "crownY": 1.35,
+      "x": 0.3,
+      "description": "Thân hơi nghiêng, tán rủ thành rèm; không chặn đầu cầu."
+    },
+    {
+      "id": "orchard",
+      "name": "Cây ăn quả",
+      "habitat": "Ruộng và khu dân cư",
+      "scale": 0.75,
+      "crownY": 0.9,
+      "x": 0,
+      "description": "Dáng thấp, tán gọn và quả đỏ; hiện chỉ trang trí, chưa thu hoạch."
+    }
+  ]
+}

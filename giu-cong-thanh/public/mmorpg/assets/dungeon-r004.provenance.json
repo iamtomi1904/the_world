@@ -1,0 +1,17 @@
+{
+  "tool": "built-in image_gen",
+  "reference": "public/design-preview/v01-art-upgrade-r009/scene-art-target-r009.png",
+  "assets": [
+    {
+      "file": "dungeon-kit-r001.png",
+      "source": "C:/Users/Admin/.codex/generated_images/01a14361-6033-7670-8c0e-846dfa6a69fc/exec-1ecdcd37-b031-4842-86f7-456877d4a89a.png",
+      "prompt": "Use case: stylized-concept. Production pixel-art asset atlas for a top-down 2.5D medieval MMORPG, matching the attached reference's crisp pixel clusters, medium detail, warm stone, moss, natural earthy palette. Exactly a 3 by 3 regular grid of nine separate assets, each fully contained with generous transparent gutter, no text no labels no borders. Row1: square seamless ancient grey flagstone floor material swatch; square seamless brown cavern earth floor swatch; square seamless pale limestone floor swatch. Row2: a short ancient stone dungeon wall module front view with visible top rim and moss; a low broken stone pillar; a cluster of mossy grey rocks. Row3: small wooden signpost; a gnarled exposed tree-root arch; ancient small rune obelisk with subtle teal glow. Consistent overhead three-quarter game perspective for props. Entire atlas transparent background except the three fully opaque square floor swatches. No scene, no characters, no huge shadows. Clean readable game sprites, pixel art rather than painterly rendering."
+    },
+    {
+      "file": "dungeon-kit-alpha-r002.png",
+      "source": "C:/Users/Admin/.codex/generated_images/01a14361-6033-7670-8c0e-846dfa6a69fc/exec-afc8bb56-a3bc-4d9f-abef-f3cfe69cbccd.png",
+      "prompt": "Edit the attached asset atlas: remove ALL the dark blurred green/brown background and make background genuinely transparent alpha. Keep the nine assets and their exact positions and sizes unchanged. Keep the three top-row square floor swatches opaque, with exact square edges. Every area outside the six lower-row props must be transparent, including holes between roots and rocks. No background shadows or backdrop. Preserve pixel art."
+    }
+  ],
+  "validation": "PNG RGBA, browser sampled background alpha=0; frames follow actual gutters, runtime opacity threshold preserves existing sprite pipeline."
+}

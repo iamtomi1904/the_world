@@ -1,0 +1,74 @@
+{
+  "version": 1,
+  "coordinateSpace": "scene pixels 800x500",
+  "status": "Courtyard interaction fixture, not production collider",
+  "id": "cottage",
+  "name": "Nhà ven cầu",
+  "wall": {
+    "x": 103,
+    "y": 112,
+    "w": 159,
+    "h": 50
+  },
+  "door": {
+    "x": 175,
+    "y": 173,
+    "radius": 18
+  },
+  "approach": [
+    175,
+    173
+  ],
+  "shelter": [
+    [
+      154,
+      158
+    ],
+    [
+      188,
+      158
+    ],
+    [
+      191,
+      179
+    ],
+    [
+      153,
+      179
+    ]
+  ],
+  "roof": [
+    [
+      88,
+      87
+    ],
+    [
+      169,
+      22
+    ],
+    [
+      265,
+      84
+    ],
+    [
+      259,
+      109
+    ],
+    [
+      176,
+      73
+    ],
+    [
+      99,
+      112
+    ]
+  ],
+  "lamp": {
+    "x": 260,
+    "y": 188,
+    "radius": 19,
+    "opacity": 0.22
+  },
+  "description": "Căn nhà nằm bên đường làng, gần cầu đá. Cửa quay ra lối đất; bậc cửa là điểm tiếp cận, tường và phần mái không phải lối đi. Chức năng NPC và nội dung bên trong chưa được gán cho căn nhà này.",
+  "storageKey": "an-thanh-r026-exploration-v1"
+}

@@ -1,0 +1,287 @@
+{
+  "towns": [
+    [
+      "I",
+      "Vương Miện Băng Giá",
+      695,
+      74,
+      "Núi tuyết phía Bắc. Qua Đèo Xương tới Khaz Drumm; chưa duyệt dựng cả thành."
+    ],
+    [
+      "II",
+      "Sylvaris",
+      321,
+      278,
+      "Rừng cổ Tây Bắc; V03 dựng biên rừng. Nhánh hành hương đi qua đầu mối Valedorn."
+    ],
+    [
+      "III",
+      "Khaz Drumm",
+      686,
+      190,
+      "Cửa núi và đường rèn phía Bắc; thuộc nền thế giới, chưa là vùng gameplay thứ bảy."
+    ],
+    [
+      "IV",
+      "Valedorn",
+      331,
+      465,
+      "Đồng bằng sông phía Tây, thượng lưu Merrowen. Dấu thành này được bổ sung ở lần chỉnh nền."
+    ],
+    [
+      "V",
+      "Aurelia",
+      629,
+      381,
+      "Cao nguyên trên nhánh Hoàng Gia. Tro Trắng nằm dọc tuyến hành hương, chưa có icon công trình chính thức."
+    ],
+    [
+      "VI",
+      "Merrowen",
+      322,
+      642,
+      "Cảng cửa sông Tây Nam. Tuyến Hải Đăng đi qua các đảo tới miền Nam."
+    ],
+    [
+      "VII",
+      "Nocthollow",
+      1331,
+      449,
+      "Vùng trũng phía Đông, khác cao địa Astravelle. Khu cư dân Bất Tử Giả không mặc định thù địch."
+    ],
+    [
+      "VIII",
+      "Astravelle",
+      1333,
+      196,
+      "Cao địa Đông Bắc. Đường từ đầm lên cần kiểm lối dốc khi dựng, không đi xuyên vách."
+    ],
+    [
+      "IX",
+      "Ẩn Thành",
+      832,
+      498,
+      "Thung lũng trung tâm, lõi bị phá một phần nhưng ngoại vi vẫn sống. V01 không có quái bay."
+    ],
+    [
+      "X",
+      "Sahr Kareth",
+      954,
+      790,
+      "Miền khô phía Nam, tiếp cận theo hải trình. Không mở đường kiểm ấn IX–X hoặc Vực Rỗng trên bản này."
+    ]
+  ],
+  "routes": [
+    [
+      "Đường Hoàng Gia",
+      "land",
+      "M832 498 Q800 605 650 602 Q490 640 420 560 L331 465 M331 465 Q380 365 500 340 Q565 335 629 381"
+    ],
+    [
+      "Đường Rễ Cổ",
+      "forest",
+      "M331 465 Q250 386 321 278 Q435 215 560 220 L686 190"
+    ],
+    [
+      "Đèo Xương",
+      "mountain",
+      "M686 190 L720 148 L695 74"
+    ],
+    [
+      "Hạ lưu Tây · đường xe",
+      "land",
+      "M331 465 Q220 530 286 580 L322 642"
+    ],
+    [
+      "Đường Vọng Linh",
+      "east",
+      "M832 498 Q1080 450 1331 449 Q1460 432 1472 340 L1440 265 L1333 196"
+    ],
+    [
+      "Tuyến Hải Đăng",
+      "sea",
+      "M322 642 Q240 725 150 800 Q170 920 390 974 Q570 1030 760 993 Q932 970 954 790"
+    ]
+  ],
+  "zones": [
+    [
+      "V01 · 1–10",
+      "#f3d77c",
+      "675,455 785,426 978,455 1016,542 893,585 696,550"
+    ],
+    [
+      "V02 · 11–20",
+      "#9fd6ed",
+      "215,423 370,413 407,528 440,657 290,711 161,636"
+    ],
+    [
+      "V03 · biên rừng",
+      "#a9d991",
+      "210,209 420,200 475,308 357,361 197,331"
+    ],
+    [
+      "V03 · hành hương",
+      "#a9d991",
+      "443,315 617,310 722,370 690,420 516,433"
+    ],
+    [
+      "V04 · 31–40",
+      "#d0c1e4",
+      "1190,158 1422,128 1510,240 1491,494 1250,548 1140,425"
+    ],
+    [
+      "V05 · 41–45",
+      "#efbf83",
+      "800,741 1030,706 1100,826 1040,900 827,895"
+    ],
+    [
+      "W06 · 40–60 PK",
+      "#ee8d80",
+      "1060,573 1211,548 1436,594 1473,727 1288,781 1060,735"
+    ]
+  ],
+  "faction": [
+    [
+      "FM-HM",
+      "Hòa Minh · vị trí đề xuất",
+      659,
+      557,
+      "Đại bản doanh trên hành lang phía Tây IX; không thay thành Valedorn. Đây là pin địa lý đề xuất."
+    ],
+    [
+      "FM-TT",
+      "Thiết Thệ · vị trí đề xuất",
+      1071,
+      476,
+      "Đại bản doanh trên hành lang phía Đông IX. Chưa có layout hay ngân sách NPC mới."
+    ],
+    [
+      "TR-HM",
+      "Trạm Hòa Minh",
+      1079,
+      611,
+      "Một trong hai tiền trạm bảo hộ W06; tọa độ ở concept chỉ là bố cục đề xuất."
+    ],
+    [
+      "TR-TT",
+      "Trạm Thiết Thệ",
+      1418,
+      668,
+      "Tiền trạm đối phe không chiếm được; đường ra/camp chưa kiểm bằng gameplay."
+    ]
+  ],
+  "resourcePoints": [
+    [
+      "R1",
+      "Bìa Rừng Đứt Mạch",
+      1134,
+      593
+    ],
+    [
+      "R2",
+      "Bãi Đá Dẫn Nước",
+      1360,
+      711
+    ],
+    [
+      "R3",
+      "Mỏ Sườn Xám",
+      1196,
+      623
+    ],
+    [
+      "R4",
+      "Rừng Gỗ Cứng",
+      1275,
+      616
+    ],
+    [
+      "R5",
+      "Nguồn Mạch Sâu",
+      1250,
+      710
+    ],
+    [
+      "R6",
+      "Đài Cộng Hưởng",
+      1290,
+      667
+    ]
+  ],
+  "services": [
+    [
+      "S1",
+      758,
+      548,
+      "V01 · hub/checkpoint cần đối chiếu alias Cầu Lau/ngoại thành; chưa là tọa độ respawn."
+    ],
+    [
+      "S2",
+      292,
+      671,
+      "V02 · bến cứu trợ, điểm tiếp nhận cần layout riêng."
+    ],
+    [
+      "S3a",
+      280,
+      313,
+      "V03 · điểm trú nhánh rừng, deathscope riêng."
+    ],
+    [
+      "S3b",
+      490,
+      403,
+      "V03 · điểm trú hành hương, không hồi thẳng sang rừng."
+    ],
+    [
+      "S4a",
+      1240,
+      492,
+      "V04 · tiếp nhận vùng trũng, không dùng checkpoint trên núi chưa tới."
+    ],
+    [
+      "S4b",
+      1420,
+      248,
+      "V04 · điểm trú cao địa, kiểm surface/đường ngựa."
+    ],
+    [
+      "S5",
+      1010,
+      816,
+      "V05 · hậu cần/điểm trở về dự kiến, không sát điểm neo."
+    ]
+  ],
+  "coordinateSystem": "image pixels1536x1024; concept anchors only, NOT runtime coordinates",
+  "scale": "relative visual reference; no kilometer or gameplay area measurements",
+  "zoneLabelAnchors": {
+    "V01 · 1–10": [
+      690,
+      430
+    ],
+    "V02 · 11–20": [
+      75,
+      560
+    ],
+    "V03 · biên rừng": [
+      136,
+      190
+    ],
+    "V03 · hành hương": [
+      470,
+      307
+    ],
+    "V04 · 31–40": [
+      1170,
+      112
+    ],
+    "V05 · 41–45": [
+      690,
+      731
+    ],
+    "W06 · 40–60 PK": [
+      1090,
+      780
+    ]
+  }
+}

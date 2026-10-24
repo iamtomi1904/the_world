@@ -1,0 +1,12 @@
+{
+  "date": "2026-10-22",
+  "checks": [
+    "graph references and main/loop connections",
+    "12 NPC /6 hub /6 outside and outside drawn spawn pools",
+    "8 chests /2 caves /2 elites /1 world boss",
+    "inspector, mission highlight, layer toggles",
+    "SVG export and390px layout"
+  ],
+  "limits": "Graph checks do not prove collision/navmesh/travel time.",
+  "errors": []
+}

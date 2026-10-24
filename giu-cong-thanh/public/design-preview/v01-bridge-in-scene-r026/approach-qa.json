@@ -1,0 +1,51 @@
+{
+  "checks": {
+    "east": true,
+    "west": true,
+    "pillars": [
+      {
+        "id": "west-far",
+        "centerBlocked": true,
+        "reason": "Trụ xa phía Tây"
+      },
+      {
+        "id": "east-far",
+        "centerBlocked": true,
+        "reason": "Trụ xa phía Đông"
+      },
+      {
+        "id": "west-near",
+        "centerBlocked": true,
+        "reason": "Trụ gần phía Tây"
+      },
+      {
+        "id": "east-near",
+        "centerBlocked": true,
+        "reason": "Trụ gần phía Đông"
+      }
+    ],
+    "approaches": [
+      {
+        "id": "west-near",
+        "startValid": true,
+        "stoppedAbove": true,
+        "reason": "Trụ gần phía Tây"
+      },
+      {
+        "id": "east-near",
+        "startValid": true,
+        "stoppedAbove": true,
+        "reason": "Trụ gần phía Đông"
+      }
+    ],
+    "waterBlocked": true,
+    "edgeBlocked": true,
+    "followsAnchor": true,
+    "speed": 58
+  },
+  "westPoint": true,
+  "eastPoint": true,
+  "noBridge": true,
+  "mobile": true,
+  "errors": []
+}

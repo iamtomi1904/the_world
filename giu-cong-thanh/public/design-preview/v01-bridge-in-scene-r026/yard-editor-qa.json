@@ -1,0 +1,15 @@
+{
+  "checks": {
+    "catalogue": true,
+    "drag": true,
+    "corridor": true,
+    "undo": true,
+    "transform": true,
+    "invalid": true,
+    "persist": true,
+    "export": true,
+    "import": true,
+    "mobile": true
+  },
+  "errors": []
+}

@@ -1,0 +1,9 @@
+{
+  "name": "an-thanh-client",
+  "version": "0.2.0",
+  "private": true,
+  "description": "Ẩn Thành MMORPG PC client",
+  "main": "main.cjs",
+  "author": "An Thanh",
+  "license": "UNLICENSED"
+}

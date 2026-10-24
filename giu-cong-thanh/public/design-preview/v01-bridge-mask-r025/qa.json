@@ -1,0 +1,41 @@
+{
+  "stats": {
+    "total": 338514,
+    "back": 185915,
+    "front": 152599,
+    "overlap": 0,
+    "missing": 0,
+    "reconstructionMismatch": 0
+  },
+  "offsets": [
+    {
+      "total": 338514,
+      "back": 167073,
+      "front": 171441,
+      "overlap": 0,
+      "missing": 0,
+      "reconstructionMismatch": 0
+    },
+    {
+      "total": 338514,
+      "back": 185915,
+      "front": 152599,
+      "overlap": 0,
+      "missing": 0,
+      "reconstructionMismatch": 0
+    },
+    {
+      "total": 338514,
+      "back": 204903,
+      "front": 133611,
+      "overlap": 0,
+      "missing": 0,
+      "reconstructionMismatch": 0
+    }
+  ],
+  "frontToggle": true,
+  "moved": true,
+  "filename": "an-thanh-bridge-mask-r025.json",
+  "mobile": true,
+  "errors": []
+}

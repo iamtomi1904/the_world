@@ -1,0 +1,37 @@
+{
+  "date": "2026-10-23",
+  "version": "draft-r001",
+  "tileSize": 32,
+  "worldRepeatSpan": 1.6,
+  "status": "Technical downsample, not hand-cleaned/native-art approval",
+  "materials": [
+    {
+      "id": "stone",
+      "source": {
+        "w": 1254,
+        "h": 1254
+      },
+      "minAlpha": 255,
+      "edgeMeanAbsRGB": {
+        "x": 20.416666666666668,
+        "y": 26.802083333333332
+      }
+    },
+    {
+      "id": "pebbles",
+      "source": {
+        "w": 1254,
+        "h": 1254
+      },
+      "minAlpha": 255,
+      "edgeMeanAbsRGB": {
+        "x": 13.947916666666666,
+        "y": 11.166666666666666
+      }
+    }
+  ],
+  "limits": [
+    "Edge metrics do not establish seamless visual tiling",
+    "Bridge/stream-bed drafts, not complete bank prefab set"
+  ]
+}

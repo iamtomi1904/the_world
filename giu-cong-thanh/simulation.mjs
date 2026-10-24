@@ -234,7 +234,7 @@ export function tick(r,dt=.05,random=Math.random){
  }
  if(!combatActive){r.pendingMelee=[];r.combatActions=[];r.shadowDashes=[];for(const p of r.players)p.dashing=false;}if(['defeat','victory'].includes(r.phase)){r.poisonPools=[];r.projectiles=[];for(const e of r.enemies)e.gemEffects={};}
 }
-export function snapshot(r){return {type:'state',code:r.code,difficulty:r.difficulty||'easy',phase:r.phase,stage:r.stage,wave:r.wave,gate:r.gate,maxGate:r.maxGate,kills:r.kills,timer:Math.max(0,Math.ceil(r.timer)),remaining:r.spawn+r.enemies.filter(e=>!e.neutral).length,host:r.players[0]?.id,troops:r.troops,loot:r.loot,shadowZones:r.shadowZones||[],poisonPools:(r.poisonPools||[]).map(({touched,...pool})=>pool),hostileZones:r.hostileZones,zones:r.zones,windFields:r.windFields||[],events:r.events,enemies:r.enemies,players:r.players.map(({token,input,...p})=>({...p,stats:stats(p)}))};}
+export function snapshot(r){return {type:'state',code:r.code,difficulty:r.difficulty||'easy',phase:r.phase,stage:r.stage,wave:r.wave,gate:r.gate,maxGate:r.maxGate,kills:r.kills,timer:Math.max(0,Math.ceil(r.timer)),remaining:r.spawn+r.enemies.filter(e=>!e.neutral).length,host:r.players[0]?.id,troops:r.troops,loot:r.loot,shadowZones:r.shadowZones||[],poisonPools:(r.poisonPools||[]).map(({touched,...pool})=>pool),hostileZones:r.hostileZones,zones:r.zones,windFields:r.windFields||[],events:r.events,enemies:r.enemies,players:r.players.map(({token,input,accountId,...p})=>({...p,stats:stats(p)}))};}
 
 
 

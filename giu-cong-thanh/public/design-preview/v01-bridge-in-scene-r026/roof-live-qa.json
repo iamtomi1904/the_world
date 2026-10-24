@@ -1,0 +1,17 @@
+{
+  "checks": {
+    "active": true,
+    "roofBlocksRain": true,
+    "outsideClear": true,
+    "doorValid": true,
+    "wallBlocked": true,
+    "livePlacement": true,
+    "restored": true,
+    "invalidRejected": true,
+    "fade": true,
+    "restoreRoof": true,
+    "revert": true,
+    "mobile": true
+  },
+  "errors": []
+}

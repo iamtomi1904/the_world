@@ -1,0 +1,222 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-10-21",
+  "collection": "an_thanh_mmorpg_currency_native",
+  "style": "pixel_v4",
+  "revision": "r002",
+  "method": "User-authorized deterministic pixel processing of image_gen concepts; Pillow, no new API generation",
+  "assets": [
+    {
+      "assetId": "AT-AST-100001",
+      "currencyId": "PREMIUM_CRYSTAL",
+      "iconKey": "currency_premium_crystal_32",
+      "revision": "r002",
+      "status": "native_export_validated",
+      "runtimeReady": true,
+      "integratedInGameplay": false,
+      "filename": "currency_premium_crystal_32__r002.png",
+      "publicUrl": "/assets/mmorpg/currency/r002/currency_premium_crystal_32__r002.png",
+      "width": 32,
+      "height": 32,
+      "mode": "RGBA",
+      "alphaValues": [
+        0,
+        255
+      ],
+      "contentBounds": [
+        8,
+        2,
+        23,
+        30
+      ],
+      "opaqueColorCount": 5,
+      "palette": [
+        [
+          18,
+          43,
+          44
+        ],
+        [
+          15,
+          90,
+          104
+        ],
+        [
+          32,
+          151,
+          166
+        ],
+        [
+          94,
+          205,
+          218
+        ],
+        [
+          209,
+          251,
+          249
+        ]
+      ],
+      "sourceConcept": "/assets/mmorpg-concepts/currency/r001/currency_premium_crystal__concept_r001.png",
+      "sourceSha256": "5781feca7b63db57504952c9674b381d5e43e4f7296dc96043e20aff3eb5e79f",
+      "sha256": "221b2e424d7ecdde6daea738f2aaf64474a698e754bf68da714111bd56ce45a6"
+    },
+    {
+      "assetId": "AT-AST-100002",
+      "currencyId": "BOUND_SEAL",
+      "iconKey": "currency_bound_seal_32",
+      "revision": "r002",
+      "status": "native_export_validated",
+      "runtimeReady": true,
+      "integratedInGameplay": false,
+      "filename": "currency_bound_seal_32__r002.png",
+      "publicUrl": "/assets/mmorpg/currency/r002/currency_bound_seal_32__r002.png",
+      "width": 32,
+      "height": 32,
+      "mode": "RGBA",
+      "alphaValues": [
+        0,
+        255
+      ],
+      "contentBounds": [
+        2,
+        2,
+        29,
+        30
+      ],
+      "opaqueColorCount": 5,
+      "palette": [
+        [
+          43,
+          49,
+          37
+        ],
+        [
+          91,
+          96,
+          77
+        ],
+        [
+          145,
+          148,
+          123
+        ],
+        [
+          202,
+          205,
+          178
+        ],
+        [
+          246,
+          246,
+          216
+        ]
+      ],
+      "sourceConcept": "/assets/mmorpg-concepts/currency/r001/currency_bound_seal__concept_r001.png",
+      "sourceSha256": "bc7b00f9d2a7345fa1829453e9313cbb556545294a0f243b6de0b7619707566c",
+      "sha256": "cf774889a4b0d4c1ddfedcee13024e8618bb2137aa31003b95dfacf828b6b438"
+    },
+    {
+      "assetId": "AT-AST-100003",
+      "currencyId": "ELARION_COIN",
+      "iconKey": "currency_elarion_coin_32",
+      "revision": "r002",
+      "status": "native_export_validated",
+      "runtimeReady": true,
+      "integratedInGameplay": false,
+      "filename": "currency_elarion_coin_32__r002.png",
+      "publicUrl": "/assets/mmorpg/currency/r002/currency_elarion_coin_32__r002.png",
+      "width": 32,
+      "height": 32,
+      "mode": "RGBA",
+      "alphaValues": [
+        0,
+        255
+      ],
+      "contentBounds": [
+        2,
+        2,
+        30,
+        30
+      ],
+      "opaqueColorCount": 5,
+      "palette": [
+        [
+          48,
+          43,
+          27
+        ],
+        [
+          124,
+          74,
+          40
+        ],
+        [
+          184,
+          120,
+          58
+        ],
+        [
+          227,
+          166,
+          82
+        ],
+        [
+          255,
+          222,
+          143
+        ]
+      ],
+      "sourceConcept": "/assets/mmorpg-concepts/currency/r001/currency_elarion_coin__concept_r001.png",
+      "sourceSha256": "64b6773f6576b70a2e00ffb8cc4f34da0c7c663e207c5827c57d669bace701d7",
+      "sha256": "1704c5019c4d267ee503e15686a16e398461ab4b9eb6e9bfeff1e1bd4d0cf0ed"
+    }
+  ],
+  "preview": {
+    "filename": "currency_native_contact_sheet__r002.png",
+    "publicUrl": "/assets/mmorpg/currency/r002/currency_native_contact_sheet__r002.png",
+    "size": [
+      1296,
+      864
+    ],
+    "scales": [
+      1,
+      2,
+      8
+    ],
+    "resampling": "NEAREST",
+    "sha256": "a47cb5ac52693882c4c583d41c55f0f1e7d5147b043758429dff750dbf82b6c8"
+  },
+  "validated": [
+    "32x32 RGBA",
+    "binary alpha",
+    "at least two-pixel content margin",
+    "no more than five opaque colors",
+    "single 4-connected visible component",
+    "coin center hole transparent"
+  ],
+  "limitations": [
+    "Not wired into gameplay or wallet backend",
+    "No runtime performance or browser screenshot QA"
+  ],
+  "visualReview": {
+    "reviewedBy": "assistant",
+    "reviewType": "static contact sheet inspection",
+    "nativeScale": true,
+    "scales": [
+      1,
+      2,
+      8
+    ],
+    "backgrounds": [
+      "dark moss",
+      "light ivory"
+    ],
+    "grayscale": true,
+    "result": "three silhouettes distinguishable; no clipping observed",
+    "notPerformed": [
+      "live browser screenshot",
+      "gameplay integration"
+    ]
+  }
+}

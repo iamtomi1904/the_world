@@ -1,0 +1,1 @@
+const fs=require('fs'),p='scripts/recompose-binh-minh-r006.mjs',s=fs.readFileSync(p,'utf8'),start=s.indexOf('const distance='),end=s.indexOf('for(let y=0;y<H;y++)');fs.writeFileSync('scripts/binh-minh-geography.mjs',s.slice(start,end)+'\nexport {distance,curve,path,roads,river,streams,on,road,polygon,terraces};\n');

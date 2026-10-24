@@ -1,0 +1,43 @@
+{
+  "date": "2026-10-23",
+  "tool": "image_gen built-in",
+  "reference": "../mmorpg-pixel-v4/styleboard-current-races-r002.png",
+  "files": [
+    {
+      "key": "stone",
+      "source": "C:/Users/Admin/.codex/generated_images/01a14361-6033-7670-8c0e-846dfa6a69fc/exec-fe40b0c3-3854-4124-aaa4-5d7750068403.png",
+      "projectSource": "stone-source__r001.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "c8fd58e696e9314431023a801b4a7ef874a6170b4596423f04ee8215a0f37611",
+      "prompt": "Create ONE original square repeatable PIXEL ART MATERIAL TEXTURE for a modest medieval stone bridge in a beginner fantasy RPG. Input image only for pixel style and warm grey stone palette. Texture fills entire opaque square, flat top-down material view, no perspective or depicted bridge. Weathered medium-sized grey-beige rectangular dressed stones with modest irregularity, staggered joints, subtle darker grout; restrained3to4tone clusters and only occasional tiny moss in joints. Quiet readable surface, not tiny rubble, not cobblestone sphere texture. Concept authoring grid around32x32 enlarged; visible square stepped pixels, not smooth painting. Uniform brightness across image, no top-down cast shadow, center highlight, vignette, bevel border or frame. Repeat on all4edges; no masonry border, no labels, no props, no water, grass or characters. Bridge stone source texture only, not a whole object or scene.\n",
+      "draft": "stone-32__draft.png"
+    },
+    {
+      "key": "pebbles",
+      "source": "C:/Users/Admin/.codex/generated_images/01a14361-6033-7670-8c0e-846dfa6a69fc/exec-b3abe40e-ed2a-41fa-9c56-19415327e237.png",
+      "projectSource": "pebbles-source__r001.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "78e6a2c38a33faba7c70d94693c915f01f06149d821165fc9d10abffbd6305c2",
+      "prompt": "Create ONE original square repeatable PIXEL ART MATERIAL TEXTURE of a SHALLOW STREAM BED for a beginner fantasy RPG. Input only for palette and crisp grouped pixel style. Flat top-down opaque square, evenly distributed few small flat warmgrey/ochre pebbles sitting in quiet light-brown sandy sediment; ample clear sediment between stones. Sparse subtle clusters, no big distinctive central stone, no dramatic deep shadows or outlines. NO WATER painted on top: just the dry bed material to be tinted beneath water in engine. No large boulders, algae, foam, banks, plants, borders, labels, characters, perspective, vignette or central lighting. Suggested lowresolution authoring around32x32 enlarged, crisp square pixel groups, limited shades, no realistic/photo/brush look or smooth gradients. Repeatable edges both directions, whole square filled. Not a whole river scene.\n",
+      "draft": "pebbles-32__draft.png"
+    }
+  ],
+  "inherit": [
+    "../v01-p0-scene-r004/provenance.json",
+    "../v01-p0-scene-r003/provenance.json"
+  ],
+  "normalization": "Nearest-neighbor32 draft; build-water-material-drafts.cjs",
+  "codeNativeVisuals": [
+    "Water surface shader/ripples",
+    "Low bank strips and bridge geometry"
+  ],
+  "review": [
+    "Stone edge and mortar rhythm not seamless approved",
+    "Pebble repeat/density needs cleanup",
+    "Bank strips are fixture, not full terrain bank kit",
+    "Stone contrast reduced at runtime, not source repaint"
+  ],
+  "status": "Water/bridge material trial, not production approval"
+}

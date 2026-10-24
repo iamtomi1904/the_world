@@ -1,0 +1,24 @@
+{
+  "tool": "Built-in image_gen",
+  "prompts": [
+    {
+      "key": "straight",
+      "prompt": "Pixel art game environment asset for An Thanh 2.5D fantasy RPG. Reference is palette and material style only. Create ONE isolated riverbank module centered, truly transparent background. Elevated orthographic camera looking down at about 45 degrees, front facing south toward viewer; horizontal screen axes, no isometric diamond. Turf on top, exposed warm ochre compact soil and embedded gray stones on vertical front face, a few small stones at foot, grass fringe along top edge. Moderate controlled pixel detail with sharp square pixel clusters, no blur, NO GLOW or hazy aura. Light upper left, shadows lower right. Small modular asset rather than a landscape. No water whatsoever, no foam, no ground plane outside module, no trees, buildings, people, flowers, labels, border, vignette or cast shadow on transparent canvas. All opaque pixels belong to bank itself. Same thickness of turf and same height soil face across module. Keep plenty of empty transparent margin. Shape: a straight narrow horizontal strip of riverbank, approximately width 3 times its front soil face height, straight left and right vertical cut ends for connecting another module, level turf top; NOT a floating grassy island or rectangular block with side walls. The module continues beyond its left and right cut edges."
+    },
+    {
+      "key": "convex",
+      "prompt": "Pixel art game environment asset for An Thanh 2.5D fantasy RPG. Reference is palette and material style only. Create ONE isolated riverbank module centered, truly transparent background. Elevated orthographic camera looking down at about 45 degrees, front facing south toward viewer; horizontal screen axes, no isometric diamond. Turf on top, exposed warm ochre compact soil and embedded gray stones on vertical front face, a few small stones at foot, grass fringe along top edge. Moderate controlled pixel detail with sharp square pixel clusters, no blur, NO GLOW or hazy aura. Light upper left, shadows lower right. Small modular asset rather than a landscape. No water whatsoever, no foam, no ground plane outside module, no trees, buildings, people, flowers, labels, border, vignette or cast shadow on transparent canvas. All opaque pixels belong to bank itself. Same thickness of turf and same height soil face across module. Keep plenty of empty transparent margin. Shape: convex outward rounded riverbank corner, land behind bank at upper side, front edge bulges toward viewer smoothly. A broad gently convex front soil face with two short horizontal connecting ends at equal height. Not a cylindrical island; do not close the rear into an isolated circular disk. Clearly show outward curve."
+    },
+    {
+      "key": "concave",
+      "prompt": "Pixel art game environment asset for An Thanh 2.5D fantasy RPG. Reference is palette and material style only. Create ONE isolated riverbank module centered, truly transparent background. Elevated orthographic camera looking down at about 45 degrees, front facing south toward viewer; horizontal screen axes, no isometric diamond. Turf on top, exposed warm ochre compact soil and embedded gray stones on vertical front face, a few small stones at foot, grass fringe along top edge. Moderate controlled pixel detail with sharp square pixel clusters, no blur, NO GLOW or hazy aura. Light upper left, shadows lower right. Small modular asset rather than a landscape. No water whatsoever, no foam, no ground plane outside module, no trees, buildings, people, flowers, labels, border, vignette or cast shadow on transparent canvas. All opaque pixels belong to bank itself. Same thickness of turf and same height soil face across module. Keep plenty of empty transparent margin. Shape: concave inward riverbank corner, small U-shaped inlet cut into grass land. Front soil face recedes into land near middle, both horizontal connecting ends at equal height. Water space inside U must be fully transparent. Not a floating island; no water or foam. Clearly show inward curve."
+    }
+  ],
+  "sources": {
+    "straight": "exec-d4436d27-e2b0-40b9-b955-71c2028a993a.png",
+    "convex": "exec-f59647a3-d57e-46f3-b3e1-0073a900688d.png",
+    "concave": "exec-ca726c5a-dd6c-4069-a172-f8883cfbc3b8.png"
+  },
+  "reference": "../v01-art-upgrade-r009/scene-art-target-r009.png",
+  "status": "Transparent draft bank sources; sockets, scale and alpha cleanup not approved"
+}

@@ -1,0 +1,23 @@
+{
+  "stats": {
+    "width": 1585,
+    "height": 992,
+    "opaque": 311,
+    "transparent": 852276,
+    "partial": 719733,
+    "nonzeroBorderPixels": 94,
+    "cutoutBorderPixels": 0,
+    "bounds": {
+      "x": 73,
+      "y": 89,
+      "w": 1439,
+      "h": 826
+    }
+  },
+  "edit": true,
+  "reset": true,
+  "download": true,
+  "mobile": true,
+  "quick": true,
+  "errors": []
+}

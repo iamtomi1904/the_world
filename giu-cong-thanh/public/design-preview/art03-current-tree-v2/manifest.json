@@ -1,0 +1,28 @@
+{
+  "revision": "r002",
+  "date": "2026-10-22",
+  "method": "built-in image_gen",
+  "status": "concept-only",
+  "reference": "/design-preview/mmorpg-pixel-v4/styleboard-refined-v4.png",
+  "supersedes": "/design-preview/art03-classes-v1/class-identities-v1.png",
+  "assets": [
+    {
+      "id": "AT-AST-100006",
+      "file": "races-professions__r002.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "292352b8d492dbae1462e38d06bbd1b6f5e375d2a4b5f8d508909ef2f8f5969f",
+      "source": "C:\\Users\\Admin\\.codex\\generated_images\\01a14361-6033-7670-8c0e-846dfa6a69fc\\exec-dab97462-2e85-40c5-b849-730e12534ad8.png",
+      "runtimeReady": false
+    },
+    {
+      "id": "AT-AST-100007",
+      "file": "branches-19__r002.png",
+      "width": 1310,
+      "height": 1200,
+      "sha256": "031b9bdecb9b216d61ff4c36c2972ad15e39831554972925973aff466483fb61",
+      "source": "C:\\Users\\Admin\\.codex\\generated_images\\01a14361-6033-7670-8c0e-846dfa6a69fc\\exec-888e12ca-7bf5-45b3-a518-5fa221fe1687.png",
+      "runtimeReady": false
+    }
+  ]
+}

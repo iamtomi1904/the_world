@@ -1,0 +1,12 @@
+{
+  "date": "2026-10-22",
+  "checks": [
+    "12 unique PNG files and hashes",
+    "all 12 gallery images load",
+    "search, modal, Escape",
+    "deep link to correct NPC profile",
+    "12 NPC cards in visual hub",
+    "390px no horizontal overflow"
+  ],
+  "errors": []
+}

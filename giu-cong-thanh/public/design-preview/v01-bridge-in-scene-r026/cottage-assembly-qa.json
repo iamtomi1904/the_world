@@ -1,0 +1,25 @@
+{
+  "stats": {
+    "body": {
+      "source": [
+        1433,
+        1098
+      ],
+      "solid": 533259,
+      "border": 0
+    },
+    "roof": {
+      "source": [
+        1585,
+        992
+      ],
+      "solid": 671911,
+      "border": 0
+    }
+  },
+  "moved": true,
+  "reset": true,
+  "exported": true,
+  "mobile": true,
+  "errors": []
+}

@@ -1,0 +1,24 @@
+{
+  "tool": "Built-in image_gen",
+  "prompts": [
+    {
+      "key": "grass",
+      "prompt": "Game asset texture: a single perfectly square seamless grass base texture for An Thanh pixel 2.5D RPG, match grass color of reference but much calmer. Entire image filled edge to edge with same plane grass, viewed directly overhead for use on a 3D ground mesh. Muted warm olive green base, restrained tiny deliberate square pixel clusters in 3-4 greens, no large clumps, no flowers, no objects, no shadows, no perspective, no borders, no gradient across tile, no vignette, no text. Very subtle variation, no salt pepper noise. Pixel artwork at logical 64x64 enlarged nearest neighbor, crisp consistent square pixels. Opposite edges must tile seamlessly. This is the base underneath separate tuft sprites, not a photograph of grass."
+    },
+    {
+      "key": "dirt",
+      "prompt": "Game asset texture: a single perfectly square seamless golden earth road base texture for An Thanh pixel 2.5D RPG, warm ochre tan like path in reference, calmer detail. Fill image edge to edge with one uniform road material, directly overhead for 3D mesh. Very sparse small earthen pixel clusters, 4-5 harmonious colors, a few tiny embedded pebbles maximum. No grass edges, no road outline, no objects, no cast shadows, no perspective, no borders, no gradient, no vignette, no labels. Pixel artwork at logical 64x64 enlarged nearest neighbor, crisp square pixel clusters. Opposite edges must tile seamlessly. No photo noise, no dense stippling."
+    },
+    {
+      "key": "bank",
+      "prompt": "Create a pixel art production concept board for modular riverbank pieces matching the attached fantasy pixel scene. Four equal panels arranged 2x2 with clear quiet light cream gutters, no text. Each panel elevated orthographic 3/4 top down same camera. Panel top left: straight grassy soil bank from green turf above through exposed ochre stone and soil vertical lip to teal shallow water below. Top right: convex outer bend in bank. Bottom left: concave inner bend in bank. Bottom right: low gradual pebble shore connecting grass to transparent-looking shallow blue-green water with visible smooth pebbles. ONLY ground, earth lip, small bank rocks and water; no trees, flowers, people, buildings, bridge or furniture. Make geometry legible, moderate detail, coherent pixel clusters, sunny upper left light, low contrast grass, strong distinction solid bank and water. No painterly blur or tiny visual noise. These are shape studies not falsely labeled seamless tiles. Match moderate pixel detail and warm earth/cool water palette of reference. Landscape board."
+    }
+  ],
+  "sources": {
+    "grass": "exec-e01a5551-8d11-47ed-89e4-58a4f774f524.png",
+    "dirt": "exec-7dab28b9-8e80-4488-be6c-9c2126b71016.png",
+    "bank": "exec-9240029f-d558-4261-83dd-35a647864fda.png"
+  },
+  "reference": "../v01-art-upgrade-r009/scene-art-target-r009.png",
+  "status": "Draft sources and bank shape study; not seamless-certified or production autotile"
+}

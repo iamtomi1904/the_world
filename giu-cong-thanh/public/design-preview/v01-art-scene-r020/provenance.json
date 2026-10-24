@@ -1,0 +1,7 @@
+{
+  "tool": "Built-in image_gen",
+  "prompt": "Precise object removal edit. Preserve this exact pixel art scene, composition, colors, lighting, texture, dimensions and every environmental object. Remove ONLY the single small dark-haired human traveler standing on the dirt road in the left-center foreground (approximately x25% y49%). Fill his body and small shadow with matching uninterrupted dirt-road pixels. Do not remove house, bridge, fences, flowers, trees, river, rocks or lamps. Do not redesign or improve anything, do not shift camera or crop. Keep the environment identical. No additional people. This image will be the visual base for an interactive character placed independently.",
+  "editTarget": "../v01-art-upgrade-r009/scene-art-target-r009.png",
+  "source": "exec-a65653ec-4980-4d60-9388-4422dcf88bc8.png",
+  "status": "Art-based interactive preview, not production tile/mesh map"
+}

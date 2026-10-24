@@ -1,0 +1,13 @@
+{
+  "date": "2026-10-22",
+  "checks": [
+    "concept PNG loads",
+    "13 approximate annotation pins",
+    "12 exchange-layout cells",
+    "detail, grid and label toggles",
+    "390px no overflow",
+    "prompt and source hash saved"
+  ],
+  "limits": "Not tilemap/collision/navmesh/greybox test.",
+  "errors": []
+}

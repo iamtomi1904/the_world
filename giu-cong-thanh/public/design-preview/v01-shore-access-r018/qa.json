@@ -1,0 +1,18 @@
+{
+  "checks": {
+    "entered": true,
+    "deepBlocked": true,
+    "sideBlocked": true,
+    "slow": true,
+    "heights": [
+      18,
+      13.5,
+      9,
+      4.5,
+      0
+    ]
+  },
+  "keyMoved": true,
+  "mobile": true,
+  "errors": []
+}

@@ -1,0 +1,59 @@
+{
+  "date": "2026-10-22",
+  "task": "MAP-01",
+  "revision": "r001",
+  "status": "concept-draft-partial",
+  "runtimeReady": false,
+  "method": "built-in image_gen terrain generation plus localized edit; code-native SVG/HTML overlay",
+  "assetId": "AT-AST-100008",
+  "file": "elarion-geography__concept_r001.png",
+  "source": "C:\\Users\\Admin\\.codex\\generated_images\\01a14361-6033-7670-8c0e-846dfa6a69fc\\exec-c2160336-977b-461b-bcb8-ba18060a075c.png",
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "sha256": "19ba56a6f2917ebf5b804dcbd66d05de5b2dcbb65f9341c56f88a26fb6aa0d6a",
+  "reference": "../../design-preview/mmorpg-pixel-v4/styleboard-refined-v4.png",
+  "notVerified": [
+    "exact watershed/elevation",
+    "relative geographic scale",
+    "area budget21x",
+    "navigation/collision",
+    "multiplayer",
+    "combat balance",
+    "pixel native production tiles"
+  ],
+  "captures": [
+    {
+      "file": "a_geography_routes__r001.png",
+      "sha256": "3bb9a51175ebc1e72840ddb57e61ac5f8897cb9a31e3ef70d1a44c8981a1d0ca"
+    },
+    {
+      "file": "b_all_overlays__r001.png",
+      "sha256": "1186f6f4ed51474468451571bd5b1791afdd91ee8e734896d034a3b71d259f85"
+    },
+    {
+      "file": "c_terrain__r001.png",
+      "sha256": "cd21c2ce4300817141e129341683366a31e27e1da88a8547883f56f9e6bef51b"
+    }
+  ],
+  "prototypeQA": [
+    "10towns/6routes; layer toggles; city/resource/keyboard-service selection",
+    "No page horizontal overflow1440/1024/390; narrow screen is preview only, mobilegame unsupported"
+  ],
+  "consoleErrors": [],
+  "overlayFiles": [
+    {
+      "file": "index.html",
+      "sha256": "5f37ee63e119ec5f8cae05ae8ef0d07192cb9d38c0731c268a6b6c6db1641cb8"
+    },
+    {
+      "file": "map-data.json",
+      "sha256": "ab33913112ceb243bb48648b2b0eff655628535c955ceabb71e7572fe3b296a3"
+    },
+    {
+      "file": "prompts.json",
+      "sha256": "a75c601e4821de6106cc2e87905376e3bc1f82b867b6f05577385fa58c3dca5a"
+    }
+  ]
+}

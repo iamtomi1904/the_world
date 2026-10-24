@@ -1,0 +1,12 @@
+{
+  "checks": {
+    "newCharacterUsesLayout6": true,
+    "oldCampMapped": true,
+    "progressPreserved": true,
+    "mappingStored": true,
+    "notMappedTwice": true,
+    "oldDungeonReturnMapped": true,
+    "returnToMovedEntrance": true,
+    "migrations": true
+  }
+}

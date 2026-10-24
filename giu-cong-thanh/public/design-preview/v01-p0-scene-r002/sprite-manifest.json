@@ -1,0 +1,151 @@
+{
+  "version": "draft-r001",
+  "date": "2026-10-23",
+  "status": "Technical resample for scene review; not hand-cleaned pixel production",
+  "source": "human-idle-source__r001.png",
+  "image": "human-idle-atlas__draft.png",
+  "sourceDimensions": {
+    "w": 2172,
+    "h": 724
+  },
+  "transparentRatio": 0.7239381429138305,
+  "alphaBoundsThreshold": 16,
+  "uniformReferenceScale": 0.06700167504187604,
+  "bodyReferenceHeight": 40,
+  "frameSize": 96,
+  "frames": [
+    {
+      "direction": "south",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      "sourceRect": {
+        "direction": "south",
+        "x": 208,
+        "y": 81,
+        "w": 304,
+        "h": 597,
+        "alphaPixels": 113339
+      },
+      "sourceSize": {
+        "w": 96,
+        "h": 96
+      },
+      "pivot": {
+        "x": 48,
+        "y": 80
+      },
+      "targetBody": {
+        "x": 38,
+        "y": 40,
+        "w": 20,
+        "h": 40
+      },
+      "rotation": false
+    },
+    {
+      "direction": "west",
+      "rect": {
+        "x": 96,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      "sourceRect": {
+        "direction": "west",
+        "x": 730,
+        "y": 81,
+        "w": 202,
+        "h": 597,
+        "alphaPixels": 82562
+      },
+      "sourceSize": {
+        "w": 96,
+        "h": 96
+      },
+      "pivot": {
+        "x": 48,
+        "y": 80
+      },
+      "targetBody": {
+        "x": 41,
+        "y": 40,
+        "w": 14,
+        "h": 40
+      },
+      "rotation": false
+    },
+    {
+      "direction": "north",
+      "rect": {
+        "x": 192,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      "sourceRect": {
+        "direction": "north",
+        "x": 1186,
+        "y": 81,
+        "w": 298,
+        "h": 597,
+        "alphaPixels": 113333
+      },
+      "sourceSize": {
+        "w": 96,
+        "h": 96
+      },
+      "pivot": {
+        "x": 48,
+        "y": 80
+      },
+      "targetBody": {
+        "x": 38,
+        "y": 40,
+        "w": 20,
+        "h": 40
+      },
+      "rotation": false
+    },
+    {
+      "direction": "east",
+      "rect": {
+        "x": 288,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      "sourceRect": {
+        "direction": "east",
+        "x": 1742,
+        "y": 81,
+        "w": 210,
+        "h": 597,
+        "alphaPixels": 81219
+      },
+      "sourceSize": {
+        "w": 96,
+        "h": 96
+      },
+      "pivot": {
+        "x": 48,
+        "y": 80
+      },
+      "targetBody": {
+        "x": 41,
+        "y": 40,
+        "w": 14,
+        "h": 40
+      },
+      "rotation": false
+    }
+  ],
+  "limitations": [
+    "No walk cycle, cap layers or manual pixel cleanup",
+    "Common alpha bounds do not establish anatomy-perfect ground sockets",
+    "Quarter-cell layout explicitly requested and checked; source kept intact"
+  ]
+}

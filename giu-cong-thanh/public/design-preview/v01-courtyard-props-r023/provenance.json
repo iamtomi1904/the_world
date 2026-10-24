@@ -1,0 +1,9 @@
+{
+  "tool": "Built-in image_gen",
+  "prompt": "Create a coordinated four-prop sprite sheet for the exact pixel 2.5D RPG art style of attached An Thanh cottage scene. 2x2 equal cells, each cell one isolated object on truly transparent background, no labels or grid lines. TOP LEFT one upright oak barrel with dark iron hoops, wooden lid. TOP RIGHT one small terracotta flowerpot with compact green leaves and white/yellow daisies. BOTTOM LEFT one short low rustic fence section: two square timber posts and two rails joining horizontally, slight elevated orthographic view, not long diagonal isometric fence. BOTTOM RIGHT one wooden lantern post with one small warm amber glass lantern hanging from a short crossarm; pole has simple timber foot, lantern glow contained inside glass, NO external bloom/glow. Match materials, camera and upper-left lighting of objects around cottage in reference. Sharp pixel clusters, moderate detailed mature pixel RPG look, no painterly blur, no huge texture noise. Independent props with clear silhouette, no ground patches, no trees, no people, no cottage, no water. Same pixel feel across all four, ample transparent padding, no object touches cell boundaries. Barrel is plain usable medieval village prop, not treasure chest. Preserve proper perspective, no front-on UI icons. Clean transparent alpha outside actual timber/stone/leaves/flower pixels, no haze or colored specks. This is one coordinated environmental prop kit, each object needs separate alpha bounds.",
+  "reference": "../v01-art-upgrade-r009/scene-art-target-r009.png",
+  "source": "exec-7f93d909-4854-44f8-b7de-ba8d133b38d7.png",
+  "layout": "2x2: barrel,pot,fence,lamp",
+  "display": "Per-cell alpha bounds>=200, cutout128 in memory, proportional fit to configured heights. Original preserved.",
+  "status": "Prop design candidates and placement fixture, not production-approved or main-map replacement"
+}

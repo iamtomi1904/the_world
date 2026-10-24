@@ -1,0 +1,320 @@
+[
+  {
+    "id": "ground",
+    "name": "Nền đất và cỏ",
+    "color": "#a6bc63",
+    "group": "Nền",
+    "polygon": [
+      [
+        0,
+        160
+      ],
+      [
+        430,
+        160
+      ],
+      [
+        430,
+        500
+      ],
+      [
+        0,
+        500
+      ]
+    ],
+    "motion": "Tĩnh",
+    "collision": "Không tự chặn",
+    "brief": "Ô nền lặp và mép chuyển đất/cỏ; giữ vùng giữa đường ít chi tiết.",
+    "priority": "P0 · Vẽ nền và kiểm tra lặp",
+    "status": "Đặc tả; chưa có asset tách theo r009"
+  },
+  {
+    "id": "bank",
+    "name": "Bờ sông và bãi sỏi",
+    "color": "#e0ae67",
+    "group": "Địa hình",
+    "polygon": [
+      [
+        403,
+        0
+      ],
+      [
+        465,
+        0
+      ],
+      [
+        456,
+        170
+      ],
+      [
+        428,
+        234
+      ],
+      [
+        420,
+        318
+      ],
+      [
+        464,
+        500
+      ],
+      [
+        425,
+        500
+      ],
+      [
+        399,
+        350
+      ],
+      [
+        411,
+        200
+      ]
+    ],
+    "motion": "Tĩnh",
+    "collision": "Biên đất/nước riêng",
+    "brief": "Bộ đoạn thẳng, góc lồi/lõm, nối bãi nông và cao độ; không kéo giãn một ảnh.",
+    "priority": "P0 · Bộ mép và nối bờ",
+    "status": "Đặc tả; chưa có asset tách theo r009"
+  },
+  {
+    "id": "water",
+    "name": "Mặt nước và hướng dòng",
+    "color": "#6ccce1",
+    "group": "Nước",
+    "polygon": [
+      [
+        465,
+        0
+      ],
+      [
+        580,
+        0
+      ],
+      [
+        535,
+        160
+      ],
+      [
+        480,
+        230
+      ],
+      [
+        425,
+        230
+      ],
+      [
+        450,
+        150
+      ]
+    ],
+    "motion": "Flow + gợn",
+    "collision": "Sâu chặn; nông theo vùng",
+    "brief": "Mesh mặt nước, flow mask và lớp bọt riêng. Mặt nước tiếp tục dưới cầu; cầu che theo depth.",
+    "priority": "P0 · Nước sau bộ bờ",
+    "status": "Đặc tả; chưa có asset tách theo r009"
+  },
+  {
+    "id": "bridge",
+    "name": "Cầu và đường lên",
+    "color": "#c5b7a0",
+    "group": "Công trình",
+    "polygon": [
+      [
+        401,
+        234
+      ],
+      [
+        645,
+        234
+      ],
+      [
+        651,
+        310
+      ],
+      [
+        402,
+        317
+      ]
+    ],
+    "motion": "Tĩnh",
+    "collision": "Deck + dốc + lan can",
+    "brief": "Mố, vòm, deck và lan can tách. Giữ tim đường nối hai bờ, kiểm tra bước chân trên deck.",
+    "priority": "P0 · Cầu và cao độ",
+    "status": "Đặc tả; chưa có asset tách theo r009"
+  },
+  {
+    "id": "house",
+    "name": "Nhà và mái",
+    "color": "#eb9670",
+    "group": "Công trình",
+    "polygon": [
+      [
+        84,
+        18
+      ],
+      [
+        269,
+        18
+      ],
+      [
+        283,
+        173
+      ],
+      [
+        92,
+        173
+      ]
+    ],
+    "motion": "Mái giảm che",
+    "collision": "Thân nhà chặn",
+    "brief": "Móng/tường/cửa/mái riêng; mái có vùng che và vùng chắn mưa. Chưa mở nội thất.",
+    "priority": "P1 · Nhà sau nền/cầu",
+    "status": "Đặc tả; chưa có asset tách theo r009"
+  },
+  {
+    "id": "trunk",
+    "name": "Gốc và thân cây",
+    "color": "#c89b69",
+    "group": "Cây",
+    "polygon": [
+      [
+        286,
+        107
+      ],
+      [
+        326,
+        107
+      ],
+      [
+        337,
+        177
+      ],
+      [
+        289,
+        177
+      ]
+    ],
+    "motion": "Gốc cố định",
+    "collision": "Collider ở gốc",
+    "brief": "Thân độc lập với tán; pivot chân không đổi khi gió. Rễ không lấn lòng đường.",
+    "priority": "P1 · Thân và anchor",
+    "status": "Đặc tả; chưa có asset tách theo r009"
+  },
+  {
+    "id": "canopy",
+    "name": "Tán cây và điểm phát lá",
+    "color": "#8ed86c",
+    "group": "Cây",
+    "polygon": [
+      [
+        241,
+        32
+      ],
+      [
+        381,
+        32
+      ],
+      [
+        391,
+        123
+      ],
+      [
+        264,
+        136
+      ]
+    ],
+    "motion": "Lay + rung cục bộ",
+    "collision": "Không dùng silhouette tán",
+    "brief": "Vẽ tán riêng có phần bị che đủ, anchor nối thân, mask độ lay. Mỗi loài nguồn lá riêng.",
+    "priority": "P1 · Tán tách theo loài",
+    "status": "Đặc tả; chưa có asset tách theo r009"
+  },
+  {
+    "id": "flora",
+    "name": "Cỏ, hoa, bụi và vật nhỏ",
+    "color": "#f2d86e",
+    "group": "Trang trí",
+    "polygon": [
+      [
+        26,
+        325
+      ],
+      [
+        202,
+        325
+      ],
+      [
+        242,
+        446
+      ],
+      [
+        20,
+        463
+      ]
+    ],
+    "motion": "Ngọn lay nhẹ",
+    "collision": "Chỉ prop lớn mới chặn",
+    "brief": "Cỏ thấp/cao theo vùng; hoa, thùng, hàng rào có mẫu riêng. Cần bóng tiếp đất nhất quán.",
+    "priority": "P2 · Trang trí có mật độ",
+    "status": "Đặc tả; chưa có asset tách theo r009"
+  },
+  {
+    "id": "weather",
+    "name": "Mưa, lá và ánh sáng",
+    "color": "#c6abf4",
+    "group": "Hiệu ứng",
+    "polygon": [
+      [
+        0,
+        0
+      ],
+      [
+        800,
+        0
+      ],
+      [
+        800,
+        500
+      ],
+      [
+        0,
+        500
+      ]
+    ],
+    "motion": "Theo thời tiết",
+    "collision": "Không tự thay combat",
+    "brief": "Mưa kiểm tra mái; lá có pool và tuổi thọ; nắng/mây chuyển liên tục. Không làm méo ảnh toàn cảnh.",
+    "priority": "P2 · Hiệu ứng sau layer",
+    "status": "Đặc tả; chưa có asset tách theo r009"
+  },
+  {
+    "id": "actor",
+    "name": "Nhân vật và vùng rõ lối",
+    "color": "#f3a5b6",
+    "group": "Nhân vật",
+    "polygon": [
+      [
+        182,
+        210
+      ],
+      [
+        220,
+        210
+      ],
+      [
+        223,
+        269
+      ],
+      [
+        182,
+        269
+      ]
+    ],
+    "motion": "Sprite độc lập",
+    "collision": "Body collider riêng",
+    "brief": "Nhân vật không nằm trong ảnh nền. Giữ chân, bóng, depth với cầu và tán; không vẽ một nhân vật ở nền rồi chồng nhân vật mới.",
+    "priority": "P0 · Tỷ lệ và che khuất",
+    "status": "Đặc tả; chưa có asset tách theo r009"
+  }
+]

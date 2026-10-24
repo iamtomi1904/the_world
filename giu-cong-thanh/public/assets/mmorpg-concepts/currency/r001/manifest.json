@@ -1,0 +1,90 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-10-21",
+  "collection": "an_thanh_mmorpg_currency_concepts",
+  "style": "pixel_v4_concept",
+  "tool": "built-in image_gen",
+  "prompts": "prompts.json",
+  "assets": [
+    {
+      "assetId": "AT-AST-100001",
+      "currencyId": "PREMIUM_CRYSTAL",
+      "revision": "r001",
+      "status": "concept",
+      "runtimeReady": false,
+      "native32Ready": false,
+      "filename": "currency_premium_crystal__concept_r001.png",
+      "publicUrl": "/assets/mmorpg-concepts/currency/r001/currency_premium_crystal__concept_r001.png",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "alpha": {
+        "fullyTransparent": 1228582,
+        "fullyOpaque": 1425,
+        "intermediateAlpha": 342509,
+        "centerAlpha": 254
+      },
+      "sha256": "5781feca7b63db57504952c9674b381d5e43e4f7296dc96043e20aff3eb5e79f"
+    },
+    {
+      "assetId": "AT-AST-100002",
+      "currencyId": "BOUND_SEAL",
+      "revision": "r001",
+      "status": "concept",
+      "runtimeReady": false,
+      "native32Ready": false,
+      "filename": "currency_bound_seal__concept_r001.png",
+      "publicUrl": "/assets/mmorpg-concepts/currency/r001/currency_bound_seal__concept_r001.png",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "alpha": {
+        "fullyTransparent": 1081160,
+        "fullyOpaque": 2499,
+        "intermediateAlpha": 488857,
+        "centerAlpha": 254
+      },
+      "sha256": "bc7b00f9d2a7345fa1829453e9313cbb556545294a0f243b6de0b7619707566c"
+    },
+    {
+      "assetId": "AT-AST-100003",
+      "currencyId": "ELARION_COIN",
+      "revision": "r001",
+      "status": "concept",
+      "runtimeReady": false,
+      "native32Ready": false,
+      "filename": "currency_elarion_coin__concept_r001.png",
+      "publicUrl": "/assets/mmorpg-concepts/currency/r001/currency_elarion_coin__concept_r001.png",
+      "width": 1275,
+      "height": 1233,
+      "mode": "RGBA",
+      "alpha": {
+        "fullyTransparent": 1023577,
+        "fullyOpaque": 1592,
+        "intermediateAlpha": 546906,
+        "centerAlpha": 0
+      },
+      "sha256": "64b6773f6576b70a2e00ffb8cc4f34da0c7c663e207c5827c57d669bace701d7"
+    },
+    {
+      "assetId": "AT-AST-100004",
+      "currencyId": null,
+      "revision": "r001",
+      "status": "concept",
+      "runtimeReady": false,
+      "native32Ready": false,
+      "filename": "currency_contact_sheet__concept_r001.png",
+      "publicUrl": "/assets/mmorpg-concepts/currency/r001/currency_contact_sheet__concept_r001.png",
+      "width": 1774,
+      "height": 887,
+      "mode": "RGB",
+      "alpha": null,
+      "sha256": "ca2537a8c405e41f17d8b1398e61b8dd3ba53c8bebf35ccdc6e91cd5b76a153c"
+    }
+  ],
+  "limitations": [
+    "Generated high-resolution concepts; not native 32x32 sprites.",
+    "Needs pixel-grid/palette/alpha cleanup and native-scale validation before runtime.",
+    "Contact sheet is generated visual comparison, not an exact pixel-scale test or functioning UI."
+  ]
+}

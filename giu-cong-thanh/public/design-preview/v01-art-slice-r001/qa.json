@@ -1,0 +1,14 @@
+{
+  "date": "2026-10-23",
+  "checks": [
+    "image decode",
+    "original/fit toggle",
+    "390px layout",
+    "doc221 API",
+    "30 visual cards",
+    "no page errors"
+  ],
+  "limits": [
+    "Concept only, no native tiles or engine scene"
+  ]
+}

@@ -1,0 +1,1 @@
+const fs=require('fs'),p='public/mmorpg/maps/binh-minh.tmj',m=JSON.parse(fs.readFileSync(p)),l=m.layers.find(l=>l.name==='WorldObjects');const o=l.objects.find(o=>o.type==='building'&&o.x===1790&&o.y===1950);o.x=1165;o.y=2100;fs.writeFileSync(p,JSON.stringify(m,null,2)+'\n');

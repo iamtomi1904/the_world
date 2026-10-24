@@ -1,0 +1,13 @@
+{
+  "tool": "image_gen",
+  "date": "2026-10-24",
+  "prompts": [
+    "Production modular pixel art geology atlas for the attached medieval top-down 2.5D game map. Exactly 3 columns by 2 rows, generous truly transparent gutters, isolated modules. Row1: long straight horizontal grass-lipped earth bank exposing roots and dark brown topsoil over grey weathered bedrock with clear horizontal geological seams, continuous tileable left-right; curved convex bank corner of same strata; curved concave bank corner same strata. Row2: small low muddy stream bank with sandy pebble base and grass lip; a sloping gravel ramp joining high ground to low ground (no stairs); a tall craggy layered grey cliff module with moss and rubble at foot. Readable crisp pixel clusters, green natural grass cap, brown thin soil, grey thick fractured rock layers, damp dark mossy foot. Elevated three-quarter camera. No full landscape, no buildings, no characters, no text. Each piece has clean silhouette and must fit entirely inside own grid cell. Match reference detail, avoid rubber-looking vertical stretched pillars.",
+    "Production tile-material atlas for medieval top-down pixel 2.5D map, 3 columns by 2 rows, transparent gutters between six fully opaque SQUARE material swatches, no text. Row1: pale tan rounded river pebbles/sand visible on shallow creek bed, subtle irregular small stones; moist brown silt with tiny gravel and moss; stratified grey weathered bedrock with horizontal cracks and some dark moss. Row2: natural meadow grass with tiny blades and earth specks, restrained texture no noise; turquoise clear shallow water with very subtle transparent-looking ripple lines over pale pebble bed, no swimming-pool caustic net; sparse ivory foam and short flow streaks over deep teal water. Crisp pixel art matching attached map, not photography or painting. Tileable natural surfaces, no props no perspective landscape."
+  ],
+  "files": [
+    "geology-kit-r001.png",
+    "geology-materials-r001.png"
+  ],
+  "usage": "Materials integrated into polygon terrain renderer; module atlas retained for further sprite production."
+}

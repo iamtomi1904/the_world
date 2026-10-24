@@ -1,0 +1,19 @@
+{
+  "checks": {
+    "regions": true,
+    "underground": true,
+    "rooms": true,
+    "validEndpoints": true,
+    "connected": true,
+    "noFlying": true,
+    "images": true,
+    "selection": true,
+    "zoom": true,
+    "grid": true,
+    "plan": true,
+    "download": true,
+    "mobile": true
+  },
+  "errors": [],
+  "scope": "Design viewer and graph only; not navmesh or engine performance"
+}

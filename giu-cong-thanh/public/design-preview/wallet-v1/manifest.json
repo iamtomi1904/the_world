@@ -1,0 +1,155 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-10-22",
+  "taskId": "CUR-08",
+  "packageId": "AT-UI-WALLET-001",
+  "revision": "r001",
+  "status": "design_mockup_reviewed",
+  "source": "index.html",
+  "method": "Standalone HTML/CSS with original currencyPNG; Chrome/Playwright screenshot export, not imagegen",
+  "currencyAssets": "../../assets/mmorpg/currency/r002/manifest.json",
+  "walletBackendImplemented": false,
+  "mockups": [
+    {
+      "scene": "overview",
+      "filename": "a_overview__r001.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "9f77049b760ff7a87e66e06218f2b17f51a2b4ea58194dbc7fc7eba068de87b0",
+      "metrics": {
+        "width": 640,
+        "height": 540,
+        "scroll": 384,
+        "client": 384,
+        "images": [
+          {
+            "loaded": true,
+            "width": 32,
+            "height": 32
+          },
+          {
+            "loaded": true,
+            "width": 32,
+            "height": 32
+          },
+          {
+            "loaded": true,
+            "width": 32,
+            "height": 32
+          }
+        ],
+        "overflow": false
+      }
+    },
+    {
+      "scene": "history",
+      "filename": "b_history_receipt__r001.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "417797483af534e5410ef25e2fed1ae3c6b8589e49d3412235e72b1509a7166b",
+      "metrics": {
+        "width": 640,
+        "height": 540,
+        "scroll": 384,
+        "client": 384,
+        "images": [],
+        "overflow": false
+      }
+    },
+    {
+      "scene": "pending",
+      "filename": "c_held_pending_shortage__r001.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "e102700f4ee1bd4cdfe368189c5efa4d78eb37b94263696de0e688a95467eaaf",
+      "metrics": {
+        "width": 640,
+        "height": 540,
+        "scroll": 384,
+        "client": 384,
+        "images": [],
+        "overflow": false
+      }
+    },
+    {
+      "scene": "scope",
+      "filename": "d_scope_network_error__r001.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "b10aaf90fba077b9a225d9cc9bdf314c939ed6281f299dfb7a8688f0c80419aa",
+      "metrics": {
+        "width": 640,
+        "height": 540,
+        "scroll": 384,
+        "client": 384,
+        "images": [
+          {
+            "loaded": true,
+            "width": 32,
+            "height": 32
+          },
+          {
+            "loaded": true,
+            "width": 32,
+            "height": 32
+          },
+          {
+            "loaded": true,
+            "width": 32,
+            "height": 32
+          }
+        ],
+        "overflow": false
+      }
+    }
+  ],
+  "review": [
+    "Four states: viewport1280x720, panel640x540, no unwanted main scroll, native32pxPNGicons loaded.",
+    "Escape dismisses top modal then wallet; reopen works; shortage payment disabled.",
+    "Tabs switch; receipt search acceptsWASD/numbers as text; no game input handlers.",
+    "Scope failure hides previous-server gameplay balances; retry displays loading, not fakezero.",
+    "Loading, empty, restricted, maximum-balance variants fit without clipped amounts.",
+    "Overview also checked at1024x768.",
+    "Local receipt filtering selects correct record; empty currency filter state; Backquote preserved while text input focused, closes panel outside text input."
+  ],
+  "consoleErrors": [],
+  "notVerified": [
+    "real wallet backend",
+    "server permission enforcement",
+    "transactions",
+    "gameplay input integration",
+    "all monitors and UI scales"
+  ],
+  "sourceSha256": "8659e1b1a7c8888c14aabb708d93ffc4b9016d2c8529517ec3534b130df9dd29",
+  "currencyReferences": [
+    {
+      "assetId": "AT-AST-100001",
+      "revision": "r002",
+      "sha256": "221b2e424d7ecdde6daea738f2aaf64474a698e754bf68da714111bd56ce45a6",
+      "publicUrl": "/assets/mmorpg/currency/r002/currency_premium_crystal_32__r002.png"
+    },
+    {
+      "assetId": "AT-AST-100002",
+      "revision": "r002",
+      "sha256": "cf774889a4b0d4c1ddfedcee13024e8618bb2137aa31003b95dfacf828b6b438",
+      "publicUrl": "/assets/mmorpg/currency/r002/currency_bound_seal_32__r002.png"
+    },
+    {
+      "assetId": "AT-AST-100003",
+      "revision": "r002",
+      "sha256": "1704c5019c4d267ee503e15686a16e398461ab4b9eb6e9bfeff1e1bd4d0cf0ed",
+      "publicUrl": "/assets/mmorpg/currency/r002/currency_elarion_coin_32__r002.png"
+    }
+  ],
+  "visualInspection": {
+    "reviewed": "2026-10-22",
+    "states": [
+      "overview",
+      "history",
+      "pending",
+      "scope"
+    ],
+    "findings": "History changed to two columns to fit the 640x540 panel. Vietnamese labels and amounts checked; no clipping observed at export size.",
+    "scope": "standalone design mockup only"
+  }
+}

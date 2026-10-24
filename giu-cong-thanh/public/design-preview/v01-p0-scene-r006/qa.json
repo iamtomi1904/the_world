@@ -1,0 +1,17 @@
+{
+  "date": "2026-10-23",
+  "checks": [
+    "4 species/8 component textures loaded",
+    "4 choices render withoutGLerror",
+    "wind moves crown, root fixed",
+    "crown fade toggles, root remains blocked",
+    "house remains blocked",
+    "390px scene/library"
+  ],
+  "errors": [],
+  "limits": [
+    "Draft alpha source, not hand-cleaned native",
+    "No full biome map/harvest/interior/AI",
+    "SoftwareGL not GPUperformance"
+  ]
+}

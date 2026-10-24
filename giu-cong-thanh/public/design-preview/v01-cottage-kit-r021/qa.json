@@ -1,0 +1,35 @@
+{
+  "source": {
+    "width": 1942,
+    "height": 809,
+    "frames": [
+      {
+        "part": "body",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "w": 971,
+          "h": 809
+        },
+        "kept": 308785,
+        "removed": 18163
+      },
+      {
+        "part": "roof",
+        "rect": {
+          "x": 971,
+          "y": 0,
+          "w": 971,
+          "h": 809
+        },
+        "kept": 315483,
+        "removed": 21083
+      }
+    ]
+  },
+  "roofOff": true,
+  "faded": true,
+  "filename": "an-thanh-cottage-layers-r021.json",
+  "mobile": true,
+  "errors": []
+}

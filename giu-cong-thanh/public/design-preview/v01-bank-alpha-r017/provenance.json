@@ -1,0 +1,7 @@
+{
+  "tool": "Built-in image_gen",
+  "prompt": "Background extraction / game sprite cutout. Edit only the alpha/background of this exact sheet. Keep every opaque grass, earth and rock pixel unchanged in position, RGB colors, shape, row layout and scale. Remove the large diffuse green and brown halos between and around the three sprites, remove all colored glow and blurred cast shadows. Outside actual hard grass/soil/stone silhouette must be completely transparent alpha=0. This is NOT an artistic relighting request. No colored translucent pixels floating around the silhouettes, no aura. Preserve the small opaque grass blades and rocks. Keep exact 1024x1536 dimensions. Do not draw new objects, do not change curvature, do not add a background. Output true clean transparent hard edged pixel art sprites.",
+  "source": "exec-cb717a92-b97b-40f8-be92-20d017e657f1.png",
+  "editTarget": "../v01-bank-revision-r016/bank-kit-source-r003.png",
+  "display": "Runtime cutout alpha test; original PNG preserved; not production-approved"
+}

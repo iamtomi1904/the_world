@@ -1,0 +1,10 @@
+{
+  "modes": [
+    "grass",
+    "dirt",
+    "scene"
+  ],
+  "images": true,
+  "mobile": true,
+  "errors": []
+}

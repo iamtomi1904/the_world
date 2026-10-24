@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-23",
+  "tool": "image_gen built-in",
+  "reference": "../v01-novices-r001/novices-turnaround__r001.png",
+  "files": [
+    {
+      "file": "novices-body__r002.png",
+      "source": "C:/Users/Admin/.codex/generated_images/01a14361-6033-7670-8c0e-846dfa6a69fc/exec-a46434f2-1b36-49a1-9812-51fe80c477cb.png",
+      "prompt": "Edit target: the supplied twelve-figure novice pixel-art turnaround board. Preserve its exact three identities, adult proportions, dwarf relative shorter height, ivory background, 3rows by4columns composition, row baseline, crisp pixel style, clothes palette and directions (front,left,back,right). Make ONLY the following wardrobe consistency corrections on ALL12figures: completely REMOVE all diagonal chest/shoulder straps, including any trace on sides and backs. REMOVE all hanging external hip pouches/bags on every figure. Keep ONE plain horizontal dark brown belt around waist with a small rectangular dull brass buckle centered FRONT only; back and sides show the same uninterrupted plain belt, no extra back buckles. Keep offwhite rolled-sleeve shirt, open short brown leather waistcoat, darkolive trousers, plain brown boots as original. No new weapons, bags, hats, armor, capes or ornaments. Keep hair, ears and beards in original row identities. Fix obvious vest edge continuity between views without changing outfit design. Hands empty, same idle poses. Whole bodies uncut. No labels or additional views. This is a versioned CONCEPT consistency revision, not a native sprite sheet. Keep crisp square pixel clusters; no smooth painting or blur.\n",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "e672f198331cf90f69feaba23fb34d637f7181fa7c92663af6b7da171b64d820"
+    },
+    {
+      "file": "novice-cap-fit__r001.png",
+      "source": "C:/Users/Admin/.codex/generated_images/01a14361-6033-7670-8c0e-846dfa6a69fc/exec-a815f92d-0531-4cde-b584-8de91e455c6f.png",
+      "prompt": "Use case stylized-concept. New HAT FITTING concept board using supplied novice board ONLY as identity/style reference. Twelve head-and-shoulders pixel-art portraits arranged3rows by4columns on a plain ivory background. Row1 same dark-brown short-haired adult human, row2 same blonde tied-back adult elf with visible pointed ears, row3 same auburn-haired bearded adult dwarf. Four columns front, leftprofile, back, rightprofile. ALL wear the SAME simple novice soft cloth cap design: modest closefitting rounded slightly drooping crown in muted olive-brown cloth, narrow stitched brown band, a small short forward brim only. No tall cone, feather, crest, pointed ears built into cap, emblems, armor, hood or magic. The cap is ONE equipment design adapted to each head size, not three race-exclusive items. Elf ears remain visible BELOW the band at sides, hair tiedback exits below rear cap edge, dwarf hairline and beard clear, cap never floats above head. Corresponding front/side/back shapes match the same short forward brim and rear crown, brim not duplicated at back. Keep heads fully visible, not cropped, same scale across columns of each row. Pixel clusters and mature faces must closely match supplied board, no painterly anti-aliasing. Offwhite shirt collar and plain leather waistcoat shoulders only, NO diagonal shoulder/chest straps or pouches. Portrait board is for conceptual fit only, not isolated transparent overlay, no claim of native-size sprite. No text, no labels, no background props, no extra figures or separate icons.\n",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "cafc8a2aa8461682f35c84970111134f29f3f6118eeedc7adcd6de97b0e96274"
+    }
+  ],
+  "status": "Concepts, not native or aligned overlay",
+  "review": [
+    "Body removes diagonal straps and external pouches across12views",
+    "Hat fitting12views; elf ears visible",
+    "Crown/hair/seams need source consistency cleanup",
+    "No step poses, alpha layers, native frames, sockets or integration"
+  ]
+}

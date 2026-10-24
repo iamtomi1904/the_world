@@ -1,0 +1,20 @@
+{
+  "checks": {
+    "routePoints": 2,
+    "routeSegmentsSafe": true,
+    "routeMs": 175.89999999850988,
+    "waterRejected": true,
+    "bridgeOffDisconnected": true,
+    "interaction": true,
+    "dialog": true,
+    "closed": true,
+    "weather": true,
+    "validSpawn": true,
+    "actorMoving": true,
+    "stop": true,
+    "keyOpen": true,
+    "keyClose": true,
+    "mobile": true
+  },
+  "errors": []
+}

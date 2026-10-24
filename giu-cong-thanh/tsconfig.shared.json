@@ -1,0 +1,5 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {"noEmit": false, "allowJs": false, "declaration": true, "outDir": "public/mmorpg", "rootDir": "src/shared"},
+  "include": ["src/shared/**/*.ts"]
+}

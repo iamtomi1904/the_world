@@ -1,0 +1,87 @@
+{
+  "version": 1,
+  "status": "Complementary render-mask fixture; art and map integration not approved",
+  "source": "../v01-stone-bridge-r024/bridge-layers-source-r002.png",
+  "frame": {
+    "x": 0,
+    "y": 0,
+    "w": 1070,
+    "h": 768
+  },
+  "alphaCutoff": 128,
+  "foregroundBoundary": [
+    [
+      40,
+      315
+    ],
+    [
+      215,
+      315
+    ],
+    [
+      215,
+      395
+    ],
+    [
+      285,
+      392
+    ],
+    [
+      390,
+      383
+    ],
+    [
+      535,
+      380
+    ],
+    [
+      680,
+      383
+    ],
+    [
+      825,
+      395
+    ],
+    [
+      875,
+      395
+    ],
+    [
+      875,
+      315
+    ],
+    [
+      1048,
+      315
+    ],
+    [
+      1070,
+      768
+    ],
+    [
+      0,
+      768
+    ]
+  ],
+  "preview": {
+    "displaySpan": 320,
+    "sourceSpan": 880,
+    "anchorSource": {
+      "x": 535,
+      "y": 340
+    },
+    "anchorScreen": {
+      "x": 400,
+      "y": 220
+    },
+    "walkLeft": 240,
+    "walkRight": 560,
+    "archRise": 12
+  },
+  "renderOrder": [
+    "water",
+    "bridgeRemainder",
+    "actor",
+    "bridgeForeground"
+  ]
+}

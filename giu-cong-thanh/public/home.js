@@ -10,3 +10,6 @@ for(const [id,c]of Object.entries(CLASSES)){
 }
 
 for(const node of document.querySelectorAll('[data-hero-count]'))node.textContent=HEROES.length;for(const node of document.querySelectorAll('[data-class-count]'))node.textContent=Object.keys(CLASSES).length;
+
+import {accountMenu} from './auth-client.js';
+fetch('/api/auth/me',{credentials:'same-origin'}).then(async r=>{if(r.ok)accountMenu((await r.json()).user);else {const a=document.createElement('a');a.href='/login.html';a.textContent='Đăng nhập';a.className='nav-play';document.querySelector('header nav')?.append(a);}}).catch(()=>{});

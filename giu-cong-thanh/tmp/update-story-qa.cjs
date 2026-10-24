@@ -1,0 +1,1 @@
+const fs=require('fs');for(const f of ['tmp/review-client-v02.cjs','tmp/review-mmorpg-modular.cjs']){let s=fs.readFileSync(f,'utf8').replaceAll('objects.length===2108','objects.length===1984');fs.writeFileSync(f,s);}

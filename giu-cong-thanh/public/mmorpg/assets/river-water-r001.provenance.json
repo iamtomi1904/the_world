@@ -1,0 +1,8 @@
+{
+  "date": "2026-10-24",
+  "tool": "image_gen.imagegen built-in",
+  "source": "C:/Users/Admin/.codex/generated_images/01a14361-6033-7670-8c0e-846dfa6a69fc/exec-df3fe96a-f375-4ef0-893c-e5e644013da6.png",
+  "styleReference": "public/design-preview/v01-art-upgrade-r009/scene-art-target-r009.png",
+  "prompt": "Create one seamless tileable river-water material texture for the pixel 2.5D fantasy MMORPG An Thanh. The supplied image is STYLE REFERENCE ONLY: match its crisp painted pixel clusters, blue/teal river palette and classic RPG finish. Output ONLY a square swatch of continuous deep freshwater filling every pixel from edge to edge, no shores, no islands, no objects, no land, no letters, no UI, no grid. Calm medium-dark cobalt and teal water with irregular broad broken ripples and restrained pale cyan glints; small clusters with clearly stepped pixel edges, no smooth gradients or photorealism. No large white foam lines, no sparkles. Uniform density and illumination. Designed to repeat horizontally and vertically with visually continuous edges. Pixel art native-scale appearance around 128 by 128, enlarged cleanly without smoothing. This is a game material, not a complete scene. Opaque background.",
+  "status": "Runtime river material; source preserved; seamlessness not certified"
+}

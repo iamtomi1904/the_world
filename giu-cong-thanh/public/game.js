@@ -1,3 +1,5 @@
+import {requireAccount,accountMenu} from './auth-client.js';
+const account=await requireAccount();accountMenu(account);
 import {WIND} from './wind-config.js';
 import {updateStatusHUD} from './status-hud.js';
 import {UPGRADES,upgradePrice,upgradeRank} from './progression.js';
@@ -33,15 +35,15 @@ const $=id=>document.getElementById(id),held={},entities=new Map(),seenEvents=ne
 let state,myId,game,scene,currentMap=0,showRange=false,hero='knight-1',catalog,noticeUntil=0,bookClass='';
 function readLocal(key,fallback=''){try{return localStorage.getItem(key)||fallback;}catch{return fallback;}}
 function writeLocal(key,value){try{localStorage.setItem(key,value);}catch{}}
-hero=heroById(readLocal('gct-hero','knight-1')).id;$('name').value=readLocal('gct-name','Chỉ huy');
+hero=heroById(account.hero||readLocal('gct-hero','knight-1')).id;$('name').value=account.displayName;
 const catalogReady=fetch('/catalog-v4.json').then(r=>{if(!r.ok)throw Error('Không tải được danh sách asset.');return r.json();}).then(data=>catalog=data);catalogReady.catch(e=>notify(e.message));
 const socket=new WebSocket(`${location.protocol==='https:'?'wss:':'ws:'}//${location.host}`);
 function send(m){if(m.type==='buy')m.requestId=crypto.randomUUID();if(socket.readyState===1)socket.send(JSON.stringify(m));}
 function notify(text){$('error').textContent=text;$('notice').textContent=text;noticeUntil=Date.now()+4000;}
 socket.onopen=()=>{$('connection').textContent='● SERVER SẴN SÀNG';for(const id of ['solo','create','join'])$(id).disabled=false;};
-socket.onclose=()=>{for(const k in held)held[k]=false;$('connection').textContent='● MẤT KẾT NỐI';for(const id of ['solo','create','join','start','next'])$(id).disabled=true;notify('Mất kết nối. Tải lại trang để bắt đầu chiến dịch mới.');if(state)$('status').textContent='Mất kết nối — vui lòng tải lại trang.';};
+socket.onclose=event=>{if(event.code===4001){location.replace('/login.html?next=/defense.html');return;}for(const k in held)held[k]=false;$('connection').textContent='● MẤT KẾT NỐI';for(const id of ['solo','create','join','start','next'])$(id).disabled=true;notify('Mất kết nối. Tải lại trang để bắt đầu chiến dịch mới.');if(state)$('status').textContent='Mất kết nối — vui lòng tải lại trang.';};
 socket.onerror=()=>notify('Không kết nối được server.');
-function join(extra){$('error').textContent='';writeLocal('gct-name',$('name').value);send({type:'join',waitForAssets:true,name:$('name').value,hero,difficulty:$('difficulty').value,token:readLocal('gct-token'),...extra});}
+function join(extra){$('error').textContent='';writeLocal('gct-name',$('name').value);send({type:'join',waitForAssets:true,name:$('name').value,hero,difficulty:$('difficulty').value,...extra});}
 buildInventory(send);
 $('solo').onclick=()=>join({solo:true});$('create').onclick=()=>join({});$('join').onclick=()=>{const code=$('code').value.trim();if(!code){notify('Nhập mã phòng của bạn bè.');return;}join({code});};
 $('start').onclick=()=>send({type:'start'});$('next').onclick=()=>send({type:'next'});$('again').onclick=()=>location.reload();$('range').onclick=()=>{showRange=!showRange;$('range').textContent=showRange?'ẨN TẦM ĐÁNH':'TẦM ĐÁNH';};
@@ -90,7 +92,7 @@ function updateUI(m,p){
 }
 socket.onmessage=async({data})=>{
  const m=JSON.parse(data);if(m.error){notify(m.error);return;}
- if(m.type==='joined'){beginBattleLoading();document.body.classList.add('in-battle');myId=m.id;writeLocal('gct-token',m.token);$('lobby').hidden=true;$('selection').hidden=true;$('arena').hidden=false;$('room').textContent=m.code;$('arena').scrollIntoView({block:'start'});try{await catalogReady;if(!game)boot();}catch(e){notify('Không khởi tạo được hình ảnh: '+e.message);failBattleLoading('Không khởi tạo được hình ảnh. Hãy tải lại để thử lại.');}return;}
+ if(m.type==='joined'){beginBattleLoading();document.body.classList.add('in-battle');myId=m.id;$('lobby').hidden=true;$('selection').hidden=true;$('arena').hidden=false;$('room').textContent=m.code;$('arena').scrollIntoView({block:'start'});try{await catalogReady;if(!game)boot();}catch(e){notify('Không khởi tạo được hình ảnh: '+e.message);failBattleLoading('Không khởi tạo được hình ảnh. Hãy tải lại để thử lại.');}return;}
  if(m.type!=='state')return;const old=state;state=m;const p=m.players.find(p=>p.id===myId);if(!p)return;updateUI(m,p);
  if(scene){if(currentMap!==m.stage)drawMap(scene,MAPS[m.stage-1]);for(const event of m.events.slice(0,90))renderEvent(scene,event,seenEvents);}
  if(old?.phase!==m.phase&&['clear','defeat','victory'].includes(m.phase))history();

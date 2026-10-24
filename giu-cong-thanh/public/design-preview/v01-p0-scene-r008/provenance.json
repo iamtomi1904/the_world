@@ -1,0 +1,20 @@
+{
+  "tool": "Built-in image_gen",
+  "prompts": [
+    {
+      "key": "grass",
+      "prompt": "Create one original PIXEL ART GRASS VARIATION SPRITE SOURCE for a fantasy RPG. Reference only pixel cluster quality, restrained natural greens. Exactly SIX isolated rooted plant clumps in3columns x2rows, read left-to-right then next row: 1short trampled green grass, 2medium meadow grass tuft, 3tall slender green grass, 4dry straw grass tuft, 5wetland reed/sedge tuft with one modest seedhead, 6low clover-like groundcover. NO flowers on any. Genuinely transparent RGBA background, NO soil patches or ground shadows. Roots/bottom of stems fully visible, plant silhouettes separated with generous transparent padding inside equal cells, no border/grid/labels. Distinct silhouettes and natural relative height, do not enlarge low clover to same height as reeds. Crisp stepped pixel art like reference, simple 3to5shade clusters, not smooth brush painting. No rocks, water, trees, pots, characters, particle effects, glow, checkerboard or text. Plants should assemble with terrain later, not a whole grassy scene."
+    },
+    {
+      "key": "flowers",
+      "prompt": "Create one original PIXEL ART WILDFLOWER SPRITE SOURCE for a small fantasy RPG. Reference only grouped pixel style and modest detail. Exactly SIX separate rooted flower clumps in3columns x2rows, left-to-right then bottom: 1tiny white daisy cluster with yellow centers, 2small yellow wildflower cluster, 3small purple woodland flower cluster, 4green unopened buds on stems, 5dry faded wilting wildflower clump, 6very sparse white meadow flowers with shorter grass. All small natural ground plants, not huge bouquets or ornamental pots. True transparent RGBA background, no dirt patch or shadows. Each clump wholly in equal-cell region with generous transparent gap, stems and roots visible and uncut. Modest readable pixel clusters, restrained palette, no smooth painting or soft gradients. No labels/grid/text, butterflies, flying insects, glow, trees, rocks, scenery or characters."
+    },
+    {
+      "key": "leaves",
+      "prompt": "Create one original PIXEL ART LEAF EFFECT SOURCE for a small fantasy RPG. Exactly FOUR isolated items in2columns x2rows: top-left one broad muted green/yellow oak leaf with short stem; top-right one small yellow birch leaf; bottom-left one narrow long muted green willow leaf; bottom-right a low flat loose patch of dry brown fallen leaves suitable as ground decal. Reference only crisp square pixel clusters and natural palette. True transparent RGBA background with NO ground plane, grass, dirt, shadows or checkerboard. All items entirely within equal cells with generous empty spacing, no overlap or cropping; leaf patch larger than individual leaves, do not upscale every individual to equal size. Clearly differentiated leaf silhouettes, limited shades, no glossy realistic illustration, smooth gradients or outlines too fine to read small. No text, labels, grid, trees, whole branches, particles or scenery. Static source shapes to be animated later, not a prepainted wind swirl."
+    }
+  ],
+  "cleanup": "Edit target only: preserve every plant/leaf, its cell layout, shape, colors and pixel detail. REMOVE ALL blurry colored haze, glow, halos and ground shadow outside silhouettes. Require hard cutout alpha: solid opaque plant pixels and truly empty transparent space; no low-opacity colored aura around plants. No new background, no dark or light matte, no checkerboard. Keep separate cells with generous transparent gaps; remove stray outside pixels. Preserve roots/stems and all four/six source items unchanged, don't add grid or labels. Crisp pixel contours, no blur. This is background/alpha cleanup, NOT redesign.",
+  "sourceVersion": "r002",
+  "normalization": "64px nearest-neighbor crop based on alpha>240, preserves alpha within crop. Draft with remaining haze and stray pixels."
+}

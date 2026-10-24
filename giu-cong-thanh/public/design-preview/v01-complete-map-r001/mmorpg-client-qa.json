@@ -1,0 +1,12 @@
+{
+  "checks": {
+    "loginRequired": true,
+    "characterCreationUI": true,
+    "samePhaserGame": true,
+    "rendererIsolated": true,
+    "preferences": true,
+    "packaged": true
+  },
+  "errors": [],
+  "scope": "Packaged Windows client, hidden QA window, real temporary PostgreSQL account removed afterwards"
+}

@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-23",
+  "tool": "image_gen built-in",
+  "source": "C:/Users/Admin/.codex/generated_images/01a14361-6033-7670-8c0e-846dfa6a69fc/exec-89ef8c5f-760d-40f7-a4cb-5916815cb166.png",
+  "width": 2172,
+  "height": 724,
+  "sha256": "9e5cf8e656581764ae1e658f67943f0654da9f654f6aba556ac67ad1e40a7572",
+  "reference": "../v01-p0-scene-r002/human-idle-source__r001.png",
+  "prompts": {
+    "walk-prompt-initial.txt": "Use case stylized-concept / sprite animation source. Input is identity and pixel art style reference: ONLY its rightmost RIGHT-FACING human novice. Generate a NEW transparent RGBA WALK CYCLE sheet, exactly EIGHT fullbody frames in4columns x2rows, chronological left-to-right top row then bottom row, ALL facing RIGHT in the SAME left-side-visible profile. DO NOT include front, back or left-facing figures. Same adult human short darkbrown hair, offwhite rolledsleeve shirt, open short brown vest, plain belt front brass buckle, olive trousers, plain brown boots. No bags, diagonal straps, hats, weapons, shadows or scenery. Natural restrained walk not run. The 8 sequential keyframes are: 1left-foot-front contact, 2weight-down, 3right-foot passing under body, 4rise, 5right-foot-front contact, 6weight-down, 7left-foot passing under body, 8rise returning to1. Arms oppose legs in each frame. Keep identical head size, torso proportions, face, hair, clothing, leg lengths and shared foot-contact baseline per row; pelvis centers aligned to each equal-width cell center. Body bob small. Feet separate in contact and close in passing, not eight copies of one pose. Whole hair/hands/boots inside every cell with generous transparent padding and no overlap across cells. Crisp pixel clusters, restrained shades, mature proportions matching supplied character, no chibi or smooth painted rendering. Truly transparent background including under feet, no drawn shadow or checkerboard. No text, labels, arrows, gridlines, numbers, extra figures, motion blur or trails. Source for technical animation review, not claimed native finished game sprite sheet.\n",
+    "walk-prompt-four-keys.txt": "NEW sprite animation source. Reference is ONLY the rightmost HUMAN IDLE profile in input. Draw EXACTLY FOUR fullbody frames in ONE horizontal row, ALL same adult man facing RIGHT, same proportions/hair/clothes as reference. GENUINE transparent background, absolutely NO painted lighting haze/glow/drop shadows/floor. Maintain pixel clusters, no smooth illustration. Four sequential walking phases MUST be VISIBLY DIFFERENT: FRAME1 CONTACT A: legs open in wide walking stride, near leg forward heel on ground, far leg back toe down; near arm back, far arm forward. FRAME2 PASSING A: near leg is straight VERTICAL under pelvis supporting body, far leg knee bent lifting foot directly beside/past shin, feet CLOSE TOGETHER horizontally; arms nearly vertical at sides. FRAME3 CONTACT B: legs open as frame1 but FAR leg forward, near leg back; near arm forward and far arm back. FRAME4 PASSING B: far leg straight VERTICAL under pelvis, near knee bent lifting near foot beside shin, feet CLOSE TOGETHER horizontally; arms near sides. In frames2and4 do NOT draw legs spread, a lunge or the same contact pose. Near sleeve/leg slightly lighter, far limbs darker to distinguish anatomical phase. No extra accessories. Offwhite rolledsleeve shirt, short brown leather waistcoat, plain horizontal brown belt front buckle, olive trousers, brown boots, empty hands, NO hats, bags, straps or weapons. Whole figures inside four equally sized cells, shared groundbaseline, same head/torso size, hips centered in cells, transparent space allaround. Adult lean silhouette, not chibi. No labels, text, boxes, guides or additional figures. A simple four-keypose WALK loop contact/passing/oppositecontact/oppositepassing, not running or four directions.\n",
+    "walk-prompt-correction.txt": "EDIT TARGET: this four-frame transparent human walking sprite strip. Preserve canvas, transparency, identity, clothes, head sizes, scale and ALL characters facing RIGHT. Leave first two figures unchanged. Change ONLY the THIRD and FOURTH figures to visibly opposite leg-and-arm phases, not duplicates. THIRD: the LIGHT near arm must extend FORWARD toward RIGHT at waist height with bent elbow and hand near x to right of chest, while DARK far arm goes BACK toward LEFT behind waist. LIGHT near trouser leg must extend BACK toward LEFT, near boot heel lifted toe down at left side; DARK far leg extends FORWARD RIGHT, dark far boot heel down at right. Make the near/back leg and near/forward arm unambiguous with overlap silhouette. FOURTH: LIGHT near knee raised forward toward RIGHT, near boot lifted close to right side of supporting DARK far shin; DARK far leg straight vertical under pelvis supporting. LIGHT near arm slightly forward/right, DARK far arm slightly back/left. First two already show near arm back and near leg forward; third/fourth MUST now visibly reverse those so the two halves aren't duplicate poses. Do not change face, add motion trails/shadows or flip direction. Keep all pixels outside bodies genuinely transparent, no background. Same crisp pixel look. No text or guides.\n"
+  },
+  "rejectedSources": [
+    {
+      "path": "C:/Users/Admin/.codex/generated_images/01a14361-6033-7670-8c0e-846dfa6a69fc/exec-7b4c5f16-acc9-49c2-b38d-28254cf64952.png",
+      "reason": "8frames repeat poses; no clear passing"
+    },
+    {
+      "path": "C:/Users/Admin/.codex/generated_images/01a14361-6033-7670-8c0e-846dfa6a69fc/exec-e6d095cc-8c71-462b-96d8-9c0aef9608f5.png",
+      "reason": "second half visually duplicates first"
+    }
+  ],
+  "status": "4-key animation trial, anatomical phase and native cleanup not approved",
+  "review": [
+    "Distinct contact/passing-like poses and arm changes",
+    "High knee in lastkey, near/far leg phase needs manual correction",
+    "West mirror fixture only, north/south not animated"
+  ],
+  "derived": "human-walk-east-atlas__draft.png; build-human-walk-draft.cjs"
+}

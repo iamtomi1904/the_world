@@ -1,0 +1,36 @@
+{
+  "checks": {
+    "descended": true,
+    "ascended": true,
+    "verticalWalkFrames": true,
+    "persisted": true,
+    "noRuntimeErrors": true
+  },
+  "down": {
+    "at": {
+      "x": 2490,
+      "y": 3207.6652567387423
+    },
+    "z": -64,
+    "frames": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "lo": -64,
+    "hi": 64
+  },
+  "up": {
+    "at": {
+      "x": 2490,
+      "y": 2889.0028609290434
+    },
+    "z": 64
+  },
+  "saved": {
+    "position_x": 2490,
+    "position_y": 2889.0028609290434
+  },
+  "errors": []
+}

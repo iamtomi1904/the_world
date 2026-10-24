@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="vi">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#101c18"><title>Roadmap thiết kế · Ẩn Thành</title><link rel="icon" href="/favicon.svg?v=1" type="image/svg+xml"><link rel="stylesheet" href="/roadmap.css?v=20261020-status"></head>
+<body>
+<aside class="sidebar" id="sidebar">
+ <a class="brand" href="/"><img src="/favicon.svg" alt=""><span>ẨN THÀNH<small>DI SẢN NGƯỜI GIỮ CỔNG</small></span></a>
+ <div class="workspace-label"><i></i> KHÔNG GIAN THIẾT KẾ <span>LOCAL</span></div>
+ <nav class="primary-nav" aria-label="Điều hướng roadmap"><button data-view="overview" class="active"><span>◈</span>Tổng quan<span class="nav-arrow">↗</span></button><button data-view="tasks"><span>☷</span>Checklist thiết kế<b id="nav-count">…</b></button><button data-view="docs"><span>▤</span>Thư viện tài liệu</button></nav>
+ <nav class="hub-links" aria-label="Trang chuyên đề"><a href="/story.html">▤ Cốt truyện & Lore ↗</a><a href="/visual-design.html">◈ Thiết kế hình ảnh ↗</a></nav>
+ <div class="sidebar-heading">TÀI LIỆU HỆ THỐNG <span id="design-doc-count"></span></div><nav id="design-nav" class="document-nav" aria-label="Tài liệu hệ thống"></nav>
+ <button id="story-toggle" class="sidebar-heading story-toggle" aria-expanded="false">CỐT TRUYỆN & THẾ GIỚI <span>⌄</span></button><nav id="story-nav" class="document-nav" aria-label="Tài liệu cốt truyện" hidden></nav>
+ <div class="sidebar-bottom"><span class="save-dot"></span><div>Ghi chú cá nhân lưu trên trình duyệt<small>Xuất bản sao để chuyển sang máy khác.</small></div></div>
+</aside>
+<div id="sidebar-shade" hidden></div>
+<div class="workspace">
+ <header class="topbar"><button id="menu-button" aria-label="Mở menu" aria-expanded="false">☰</button><div class="breadcrumb">DỰ ÁN MMORPG <span>/</span> <b id="breadcrumb-current">Tổng quan</b></div><div class="header-actions"><span class="internal-label">NỘI BỘ · V1</span><button id="export-progress" class="quiet-button">↓ Xuất tiến độ</button><button id="import-progress" class="quiet-button">↑ Nhập</button><input type="file" id="import-file" accept="application/json,.json" hidden></div></header>
+ <main id="content"><div class="loading-state">Đang mở thư viện thiết kế…</div></main>
+ <footer class="page-footer"><span>ẨN THÀNH <i>✦</i> DESIGN ATLAS</span><span>Tài liệu thiết kế · Chưa phải tính năng đã triển khai</span><button id="print-page">In / Lưu PDF</button></footer>
+</div>
+<dialog id="task-dialog"><form method="dialog"><div class="dialog-header"><span class="eyebrow" id="task-code"></span><button class="close-button" aria-label="Đóng">×</button></div><h2 id="task-title"></h2><p id="task-origin" class="muted"></p><div id="task-dependencies" class="task-dependencies"></div><div class="dialog-fields"><label>THEO DÕI CÁ NHÂN<select id="task-status"><option value="todo">Chưa bắt đầu</option><option value="doing">Đang thiết kế</option><option value="review">Chờ duyệt</option><option value="done">Đã hoàn thiện thiết kế</option></select></label><label>MỐC ĐỀ XUẤT<select id="task-phase"><option>M0</option><option>M1</option><option>M2</option><option>X</option></select></label></div><label class="field-label">NGƯỜI PHỤ TRÁCH<input id="task-owner" maxlength="80" placeholder="Tên hoặc vai trò"></label><label class="field-label">GHI CHÚ / TÀI LIỆU BÀN GIAO<textarea id="task-note" maxlength="3000" rows="5" placeholder="Quyết định, việc còn thiếu, đường dẫn bản thiết kế…"></textarea></label><div class="dialog-footer"><button type="button" id="task-read" class="quiet-button">Mở phần tài liệu ↗</button><button type="button" id="task-save" class="gold-button">Lưu thay đổi</button></div></form></dialog>
+<div id="toast" role="status" aria-live="polite"></div>
+<noscript>Trang roadmap cần JavaScript để tìm kiếm và đọc tài liệu.</noscript>
+<script type="module" src="/roadmap.js?v=20261020-status2"></script>
+</body></html>

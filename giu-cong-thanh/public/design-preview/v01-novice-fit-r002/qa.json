@@ -1,0 +1,14 @@
+{
+  "date": "2026-10-23",
+  "checks": [
+    "two images decoded",
+    "board toggle/zoom reset",
+    "cap deep link",
+    "390px layout",
+    "34 visual cards"
+  ],
+  "errors": [],
+  "limits": [
+    "Concept only, no native overlays or in-game equipment"
+  ]
+}

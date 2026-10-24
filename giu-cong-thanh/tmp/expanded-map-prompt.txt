@@ -1,0 +1,13 @@
+Edit/expand the supplied pixel fantasy map into a MUCH LARGER WORLD MAP. Keep the recognisable original Elarion continent as the CENTRAL CORE taking approximately x28%–73% and y27%–75% of the new wide canvas. Preserve the original relative arrangement of its ten city motifs, north snow mountains, northwest forest, southwest harbor, central ruined city, east swamp and southern desert. Surround that core with ocean and TEN clearly distinct NEW unexplored land regions with open label space; do not replace the existing six gameplay areas with these new lands. Broad landscape 3:2, consistent crisp square pixel clusters, muted forest green/warm earth/blue water, same medium detail. Geographic concept, not actual tilemap. NO text, NO numbers, NO UI, NO fog or desaturation baked into image; all land in natural colors because a separate UI will gray locked regions.
+EXACT TEN additional OUTER regions, arranged around the central core and separated by navigable-looking sea channels or clear mountains:
+A01 at (14%,12%): frozen blue-glacier peninsula, broken ice and ancient stone monoliths.
+A02 at (40%,11%): high violet-gray plateau with meteor craters, sparse blue crystals, no giant fantasy floating island.
+A03 at (67%,12%): silver-leaf moon forest on a northern island, distinct natural trees and a crescent-shaped lake, no moon UI.
+A04 at (89%,16%): small island GROUP in pale misty teal sea, weathered lighthouse ruins.
+A05 at (11%,40%): broad grassy steppe island, enormous old bones and scattered acacia-like trees, no living huge monsters.
+A06 at (10%,69%): dark-lotus wetland island, dark purple-green reeds and ruined causeways.
+A07 at (90%,44%): amber glass-sand desert island with natural blue-green glass rock formations.
+A08 at (89%,72%): volcanic dark mountain island, restrained lava streams and ash pines.
+A09 at (64%,91%): star-sand basin island, luminous mineral shoreline and pale stone rings, NOT a black void or endgame portal.
+A10 at (35%,91%): lush ancient green island with giant layered canopy and moss-covered ruins, no floating continent.
+Each is a REAL coherent patch of land with a distinct coastline/terrain, not a circular badge, not panels. Keep original central Elarion as the primary familiar landmass. No added obvious towns in the future regions, only small ancient ruins as motifs. Future lands must not alter the central original city history. Ocean rivers/geography flow naturally; no text/roads/route lines. Leave ample breathing room for later editable Vietnamese region names.

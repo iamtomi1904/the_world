@@ -1,0 +1,1 @@
+const fs=require('fs'),p='scripts/recompose-binh-minh-r006.mjs';let s=fs.readFileSync(p,'utf8').replace("if(blocked(x,y)||road(x,y,12)||(x>2530", "if(ground[Math.floor(y/C)*W+Math.floor(x/C)]!==1||road(x,y,12)||(x>2530");fs.writeFileSync(p,s);

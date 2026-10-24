@@ -1,0 +1,38 @@
+{
+  "checks": {
+    "solidJointsAllSpecies": true,
+    "expandedArea": true,
+    "legacySpawn": true,
+    "sixPlantTextures": true,
+    "cameraNotZoomCheat": true,
+    "floraClusters": true
+  },
+  "joints": [
+    {
+      "kind": "oak",
+      "distance": 0,
+      "trunkAlpha": 255,
+      "crownAlpha": 255
+    },
+    {
+      "kind": "birch",
+      "distance": 0,
+      "trunkAlpha": 255,
+      "crownAlpha": 255
+    },
+    {
+      "kind": "willow",
+      "distance": 0,
+      "trunkAlpha": 255,
+      "crownAlpha": 255
+    },
+    {
+      "kind": "orchard",
+      "distance": 0,
+      "trunkAlpha": 255,
+      "crownAlpha": 255
+    }
+  ],
+  "errors": [],
+  "scope": "Actual Phaser scene; temporary PostgreSQL account removed. Full-map overview uses inspection zoom only."
+}

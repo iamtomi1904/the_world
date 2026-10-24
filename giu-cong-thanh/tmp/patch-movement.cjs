@@ -1,0 +1,12 @@
+const fs=require('fs');const p='mmorpg-service.mjs';let s=fs.readFileSync(p,'utf8');s=s.replace("import {MapTraversal}","import {MapTraversal,applyMovement}").replace('size>1024','size>8192');s=s.replace("devTools});","devTools,ack:record.lastInput||0});");s=s.replace('lastTick:clock(),lastSequence:-1','lastTick:clock(),movementCredit:.2,lastInput:0,lastSequence:-1');
+const a=s.indexOf('const before={id:r.model.id');const b=s.indexOf("else if(path.endsWith('/interact'))",a);
+s=s.slice(0,a)+`const steps=body.steps;
+if(steps!==undefined&&(!Array.isArray(steps)||steps.length>32||steps.some((v,i)=>!v||!Number.isSafeInteger(v.id)||v.id<=0||(i&&v.id<=steps[i-1].id)||![v.dx,v.dy,v.dt].every(Number.isFinite)||Math.abs(v.dx)>1||Math.abs(v.dy)>1||v.dt<=0||v.dt>.05)))throw problem(400,'Gói di chuyển không hợp lệ.');
+const fresh=(steps||[]).filter(v=>v.id>r.lastInput),total=fresh.reduce((n,v)=>n+v.dt,0),tick=clock();
+const credit=Math.min(2,r.movementCredit+Math.max(0,(tick-r.lastTick)/1000));
+if(total>credit+.025)throw problem(400,'Di chuyển vượt thời gian máy chủ.');
+const before={id:r.model.id,player:{...r.model.player},back:r.model.returnPoint?[...r.model.returnPoint]:null};
+const elapsed=Math.max(0,Math.min(.15,(tick-r.lastTick)/1000));
+if(steps)for(const step of fresh)applyMovement(r.model,step);
+if(path.endsWith('/input')){if(!steps){const length=Math.hypot(body.dx,body.dy),speed=config.movement.speed*r.model.terrainSpeed();if(length)r.model.move(body.dx/Math.max(1,length)*speed*elapsed,body.dy/Math.max(1,length)*speed*elapsed)}}`+s.slice(b);
+s=s.replace('r.revision=updated.revision;r.lastTick=clock();','r.revision=updated.revision;r.lastTick=tick;r.movementCredit=Math.max(0,credit-(steps?total:elapsed));if(fresh.length)r.lastInput=fresh.at(-1).id;');fs.writeFileSync(p,s);

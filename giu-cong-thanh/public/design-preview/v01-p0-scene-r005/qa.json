@@ -1,0 +1,35 @@
+{
+  "date": "2026-10-23",
+  "checks": [
+    "4 walk frames loaded",
+    "frames advance on actual movement",
+    "Idle phase frozen",
+    "wall blocks and phase stops",
+    "west direction",
+    "GL no error",
+    "390px layout",
+    "2 ground materials",
+    "2 water/stone materials",
+    "bank-art toggle changes output",
+    "bridge crossing and deck1",
+    "deep blocked/shallow speed",
+    "texture toggle changes output",
+    "ground paths and1ground draw"
+  ],
+  "frameSamples": [
+    0,
+    1,
+    2,
+    3,
+    0,
+    0,
+    1,
+    2
+  ],
+  "errors": [],
+  "limits": [
+    "No production phase/foot-sliding approval",
+    "West mirrored fixture, north/south Idle",
+    "Software WebGL, not GPU benchmark"
+  ]
+}
